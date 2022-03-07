@@ -1,0 +1,62 @@
+.products {
+    height: 100%;
+    background-color: pink;
+
+    h2 {
+        font-family: FiraSansExtraLight;
+        padding: 50px 140px;
+        font-size: 44px;
+        letter-spacing: 8px;
+        text-transform: lowercase;
+    }
+
+    .products-container {
+        background-color: red;
+        max-width: 75%;
+        margin: 0 auto;
+        height: 250px;
+
+        p {
+            font-family: FiraSansRegular;
+            text-transform: lowercase;
+            font-size: 24px;
+         
+        }
+
+        .photo-wrapper {
+            background-color: purple;
+            max-width: 80%;
+            margin-left: 200px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .product-photo {
+                width: 200px;
+                height: 160px;
+                background-color: pink;
+            }
+
+            .gummy1 {
+                background-image: url(../../images/cbd-gummies-1.jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: none;
+            }
+
+            .gummy2 {
+                background-image: url(../../images/cbd-gummies-2.jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: none;
+            }
+
+            .gummy3 {
+                background-image: url(../../images/cbd-gummies-3.jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: none;
+            }
+        }
+    }
+}
