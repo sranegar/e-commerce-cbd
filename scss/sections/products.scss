@@ -1,88 +1,129 @@
 .products {
-    height: 100%;
-    // background-color: pink;
+  height: 100%;
+  // background-color: pink;
 
-    h2 {
+  h2 {
+    font-family: FiraSansExtraLight;
+    padding: 50px 140px;
+    font-size: 44px;
+    letter-spacing: 8px;
+    text-transform: lowercase;
+  }
+
+  .products-container {
+    background: linear-gradient(
+      to right,
+      rgba(250, 221, 223, 0.5),
+      rgba(246, 14, 161, 0.2)
+    );
+    max-width: 75%;
+    margin: 0 auto;
+    height: 255px;
+    border-bottom: 4px solid #e20953;
+    margin-bottom: 54px;
+
+    .category {
+      background-color: purple;
+      width: 180px;
+
+      h3 {
         font-family: FiraSansExtraLight;
-        padding: 50px 140px;
-        font-size: 44px;
-        letter-spacing: 8px;
         text-transform: lowercase;
+        font-size: 22px;
+      }
     }
 
-    .products-container {
-        background: linear-gradient(to right, rgba(250, 221, 223, .5), rgba(246, 14, 161, .2));
-        max-width: 75%;
-        margin: 0 auto;
-        height: 255px;
-        border-bottom: 4px solid #E20953;
+    .photo-wrapper {
+      // background-color: purple;
+      max-width: 80%;
+      margin-left: 200px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
 
-        .category {
-            background-color: purple;
-            width: 180px;
+      .product-photo {
+        width: 200px;
+        height: 160px;
+        // background-color: pink;
+        .description-content {
+          margin-top: 162px;
+          text-align: center;
 
-            h3 {
-            
-                font-family: FiraSansExtraLight;
-                text-transform: lowercase;
-                font-size: 22px;
-                
-             
-            }
+          h4 {
+            font-family: FiraSansExtraLight;
+          }
+
+          p {
+            font-family: FiraSansCondensedItalic;
+            font-size: 15px;
+            color: #35ac41;
+            margin-top: -11px;
+          }
         }
-      
+      }
 
-        .photo-wrapper {
-            // background-color: purple;
-            max-width: 80%;
-            margin-left: 200px;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
+      .gummy1 {
+        background-image: url(../../images/cbd-gummies-1.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
 
-            .product-photo {
-                width: 200px;
-                height: 160px;
-                // background-color: pink;
-                .description-content {
-                    margin-top: 162px;
-                    text-align: center;
+      .gummy2 {
+        background-image: url(../../images/cbd-gummies-2.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
 
-                    h4 {
-                        font-family: FiraSansExtraLight;
-                    }
+      .gummy3 {
+        background-image: url(../../images/cbd-gummies-3.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
 
-                    p {
-                        font-family: FiraSansCondensedItalic;
-                        font-size: 15px;
-                        color: #35AC41;
-                        margin-top: -11px;
-                    }
-                }
-              
-            }
+      .oil1 {
+        background-image: url(../../images/cbd-oil-1.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
 
-            .gummy1 {
-                background-image: url(../../images/cbd-gummies-1.jpeg);
-                background-size: cover;
-                background-position: center;
-                background-repeat: none;
+      .oil2 {
+        background-image: url(../../images/cbd-oil-2.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
 
-            }
+      .oil3 {
+        background-image: url(../../images/cbd-oil-3.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
 
-            .gummy2 {
-                background-image: url(../../images/cbd-gummies-2.jpeg);
-                background-size: cover;
-                background-position: center;
-                background-repeat: none;
-            }
+      .topical1 {
+        background-image: url(../../images/cbd-topical-1.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
 
-            .gummy3 {
-                background-image: url(../../images/cbd-gummies-3.jpeg);
-                background-size: cover;
-                background-position: center;
-                background-repeat: none;
-            }
-        }
+      .topical2 {
+        background-image: url(../../images/cbd-topical-2.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
+
+      .topical3 {
+        background-image: url(../../images/cbd-topical-3.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+      }
     }
+  }
 }
