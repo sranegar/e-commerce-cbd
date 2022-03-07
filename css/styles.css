@@ -126,4 +126,10 @@ nav .nav-wrapper .nav-icons i:hover {
   background-repeat: no-repeat;
 }
 
+.first {
+  height: 50%;
+  background: linear-gradient(#ce0828, #df0e65);
+  clip-path: polygon(100% 0, 100% 72%, 50% 100%, 0 72%, 0 0);
+}
+
 /*# sourceMappingURL=styles.css.map */
