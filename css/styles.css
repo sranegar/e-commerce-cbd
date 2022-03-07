@@ -36,19 +36,31 @@ p {
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
 }
 nav {
-  display: flex;
-  align-items: center;
   background-color: #FFF567;
 }
-nav .logo img {
+nav .nav-wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+nav .nav-wrapper .logo img {
   width: 100px;
   height: 80px;
 }
-nav .links a {
+nav .nav-wrapper .links {
+  margin-left: 250px;
+}
+nav .nav-wrapper .links a {
   text-decoration: none;
   text-transform: lowercase;
   font-family: FiraSansLight;
   color: #000;
+  margin-right: 50px;
+}
+nav .nav-wrapper .nav-icons .login {
+  margin-right: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
