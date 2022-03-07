@@ -1,6 +1,6 @@
 .products {
     height: 100%;
-    background-color: pink;
+    // background-color: pink;
 
     h2 {
         font-family: FiraSansExtraLight;
@@ -11,20 +11,29 @@
     }
 
     .products-container {
-        background-color: red;
+        background: linear-gradient(to right, rgba(250, 221, 223, .5), rgba(246, 14, 161, .2));
         max-width: 75%;
         margin: 0 auto;
-        height: 250px;
+        height: 255px;
+        border-bottom: 4px solid #E20953;
 
-        p {
-            font-family: FiraSansRegular;
-            text-transform: lowercase;
-            font-size: 24px;
-         
+        .category {
+            background-color: purple;
+            width: 180px;
+
+            h3 {
+            
+                font-family: FiraSansExtraLight;
+                text-transform: lowercase;
+                font-size: 22px;
+                
+             
+            }
         }
+      
 
         .photo-wrapper {
-            background-color: purple;
+            // background-color: purple;
             max-width: 80%;
             margin-left: 200px;
             display: flex;
@@ -34,7 +43,23 @@
             .product-photo {
                 width: 200px;
                 height: 160px;
-                background-color: pink;
+                // background-color: pink;
+                .description-content {
+                    margin-top: 162px;
+                    text-align: center;
+
+                    h4 {
+                        font-family: FiraSansExtraLight;
+                    }
+
+                    p {
+                        font-family: FiraSansCondensedItalic;
+                        font-size: 15px;
+                        color: #35AC41;
+                        margin-top: -11px;
+                    }
+                }
+              
             }
 
             .gummy1 {
@@ -42,6 +67,7 @@
                 background-size: cover;
                 background-position: center;
                 background-repeat: none;
+
             }
 
             .gummy2 {

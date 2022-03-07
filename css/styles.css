@@ -39,6 +39,10 @@ p {
   font-family: FiraSansCondensedLight;
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
 }
+@font-face {
+  font-family: FiraSansCondensedItalic;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Italic.ttf);
+}
 nav {
   background-color: #fff567;
 }
@@ -163,7 +167,6 @@ nav .nav-wrapper .nav-icons i:hover {
 
 .products {
   height: 100%;
-  background-color: pink;
 }
 .products h2 {
   font-family: FiraSansExtraLight;
@@ -173,18 +176,22 @@ nav .nav-wrapper .nav-icons i:hover {
   text-transform: lowercase;
 }
 .products .products-container {
-  background-color: red;
+  background: linear-gradient(to right, rgba(250, 221, 223, 0.5), rgba(246, 14, 161, 0.2));
   max-width: 75%;
   margin: 0 auto;
-  height: 250px;
+  height: 255px;
+  border-bottom: 4px solid #E20953;
 }
-.products .products-container p {
-  font-family: FiraSansRegular;
+.products .products-container .category {
+  background-color: purple;
+  width: 180px;
+}
+.products .products-container .category h3 {
+  font-family: FiraSansExtraLight;
   text-transform: lowercase;
-  font-size: 24px;
+  font-size: 22px;
 }
 .products .products-container .photo-wrapper {
-  background-color: purple;
   max-width: 80%;
   margin-left: 200px;
   display: flex;
@@ -194,7 +201,19 @@ nav .nav-wrapper .nav-icons i:hover {
 .products .products-container .photo-wrapper .product-photo {
   width: 200px;
   height: 160px;
-  background-color: pink;
+}
+.products .products-container .photo-wrapper .product-photo .description-content {
+  margin-top: 162px;
+  text-align: center;
+}
+.products .products-container .photo-wrapper .product-photo .description-content h4 {
+  font-family: FiraSansExtraLight;
+}
+.products .products-container .photo-wrapper .product-photo .description-content p {
+  font-family: FiraSansCondensedItalic;
+  font-size: 15px;
+  color: #35AC41;
+  margin-top: -11px;
 }
 .products .products-container .photo-wrapper .gummy1 {
   background-image: url(../../images/cbd-gummies-1.jpeg);
