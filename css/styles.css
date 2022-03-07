@@ -165,9 +165,6 @@ nav .nav-wrapper .nav-icons i:hover {
   margin-left: 24px;
 }
 
-.products {
-  height: 100%;
-}
 .products h2 {
   font-family: FiraSansExtraLight;
   padding: 50px 140px;
@@ -184,7 +181,6 @@ nav .nav-wrapper .nav-icons i:hover {
   margin-bottom: 54px;
 }
 .products .products-container .category {
-  background-color: purple;
   width: 180px;
 }
 .products .products-container .category h3 {
@@ -266,6 +262,56 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .products .products-container .photo-wrapper .topical3 {
   background-image: url(../../images/cbd-topical-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.second {
+  height: 50%;
+  background: linear-gradient(to bottom, #35ac41, #ccf4f8);
+}
+.second h2 {
+  font-family: FiraSansExtraLight;
+  padding: 50px 140px;
+  font-size: 44px;
+  letter-spacing: 8px;
+  text-transform: lowercase;
+  color: white;
+}
+.second .top-sellers-wrapper {
+  height: 321px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.second .top-sellers-wrapper .top-seller-photo {
+  background-color: pink;
+  width: 228px;
+  height: 301px;
+}
+.second .top-sellers-wrapper .top-seller-photo h4 {
+  font-family: FiraSansLight;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  padding-top: 260px;
+  text-shadow: -2px 2px #000;
+}
+.second .top-sellers-wrapper .top-seller1 {
+  background-image: url(../../images/top-seller-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+.second .top-sellers-wrapper .top-seller2 {
+  background-image: url(../../images/top-seller-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+.second .top-sellers-wrapper .top-seller3 {
+  background-image: url(../../images/top-seller-3.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
