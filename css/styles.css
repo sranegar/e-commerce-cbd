@@ -36,7 +36,7 @@ p {
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
 }
 nav {
-  background-color: #FFF567;
+  background-color: #fff567;
 }
 nav .nav-wrapper {
   display: flex;
@@ -59,8 +59,30 @@ nav .nav-wrapper .links a {
   color: #000;
   margin-right: 50px;
 }
+nav .nav-wrapper .links a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: #e20f71;
+}
 nav .nav-wrapper .nav-icons .login {
   margin-right: 25px;
+}
+nav .nav-wrapper .nav-icons i:hover {
+  cursor: pointer;
+  color: #e20f71;
+}
+
+.shipping-offer {
+  height: 25px;
+  background-color: #e20f71;
+}
+.shipping-offer p {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: FiraSansLight;
+  padding-top: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,5 @@
 nav {
-  background-color: #FFF567;
+  background-color: #fff567;
 
   .nav-wrapper {
     display: flex;
@@ -9,30 +9,40 @@ nav {
     justify-content: space-between;
 
     .logo {
-     
-        img {
-            width: 100px;
-            height: 80px;
-        }
+      img {
+        width: 100px;
+        height: 80px;
       }
-    
-      .links {
-          margin-left: 250px;
+    }
 
-          a {
-              text-decoration: none;
-              text-transform: lowercase;
-              font-family: FiraSansLight;
-              color: #000;
-              margin-right: 50px;
-          }
+    .links {
+      margin-left: 250px;
+
+      a {
+        text-decoration: none;
+        text-transform: lowercase;
+        font-family: FiraSansLight;
+        color: #000;
+        margin-right: 50px;
       }
 
-      .nav-icons {
-          .login {
-              margin-right: 25px;
-          }
+      a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-color: #e20f71;
       }
+    }
+
+    .nav-icons {
+      .login {
+        margin-right: 25px;
+      }
+
+      i:hover {
+        cursor: pointer;
+        color: #e20f71;
+      }
+    }
   }
-
 }
