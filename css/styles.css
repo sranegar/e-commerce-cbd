@@ -20,6 +20,10 @@ p {
 }
 
 @font-face {
+  font-family: FiraSansExtraLight;
+  src: url(../fonts/FiraSans/FiraSans-ExtraLight.ttf);
+}
+@font-face {
   font-family: FiraSansLight;
   src: url(../fonts/FiraSans/FiraSans-Light.ttf);
 }
@@ -41,7 +45,7 @@ nav {
 nav .nav-wrapper {
   display: flex;
   align-items: center;
-  max-width: 980px;
+  max-width: 75%;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -83,6 +87,43 @@ nav .nav-wrapper .nav-icons i:hover {
   text-align: center;
   font-family: FiraSansLight;
   padding-top: 2px;
+}
+
+.home {
+  height: 100%;
+  background-image: url(../../images/home-background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home .home-wrapper {
+  display: flex;
+  padding-top: 160px;
+}
+.home .home-wrapper .square {
+  height: 200px;
+  max-width: 400px;
+  background-color: black;
+  opacity: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.home .home-wrapper .square h1 {
+  color: #fff567;
+  font-family: FiraSansExtraLight;
+  font-size: 38px;
+}
+.home .home-wrapper .home-image {
+  position: absolute;
+  height: 217px;
+  width: 217px;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 680px;
+  background-image: url(../../images/home-oil.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=styles.css.map */
