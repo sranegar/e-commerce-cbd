@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #FFF567;
+
+  .logo {
+     
+    img {
+        width: 100px;
+        height: 80px;
+    }
+  }
+
+  .links {
+      a {
+          text-decoration: none;
+          text-transform: lowercase;
+          font-family: FiraSansLight;
+          color: #000;
+          
+      }
+  }
+}
