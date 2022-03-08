@@ -57,9 +57,12 @@ nav .nav-wrapper {
   margin: 0 auto;
   justify-content: space-between;
 }
-nav .nav-wrapper .logo img {
+nav .nav-wrapper .logo {
   width: 100px;
-  height: 80px;
+  height: 50px;
+}
+nav .nav-wrapper .logo img {
+  width: 100%;
 }
 nav .nav-wrapper .links {
   margin-left: 250px;
@@ -327,7 +330,6 @@ nav .nav-wrapper .nav-icons i:hover {
 
 .health {
   height: 100%;
-  background-color: #f5eff0;
 }
 .health h2 {
   font-family: FiraSansExtraLight;
@@ -416,7 +418,7 @@ nav .nav-wrapper .nav-icons i:hover {
 
 .about {
   height: 100%;
-  background-image: url(../../images/about-background.jpeg);
+  background-image: url(../../images/about-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -461,6 +463,11 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .about .about-wrapper .shop-description p {
   padding: 25px;
+}
+
+.footer {
+  height: 50%;
+  background-color: #D82658;
 }
 
 /*# sourceMappingURL=styles.css.map */
