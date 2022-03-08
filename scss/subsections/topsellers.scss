@@ -8,16 +8,19 @@
 
     h2 {
         font-family: FiraSansExtraLight;
-        padding: 50px 140px;
-        font-size: 44px;
-        letter-spacing: 8px;
+        // background-color: red;
+        max-width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 32px;
+        letter-spacing: 4px;
         text-transform: lowercase;
         color: white;
+        padding: 40px;
       }
 
       .top-sellers-wrapper {
-
-          height: 321px;
+          
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -25,16 +28,16 @@
 
           .top-seller-photo {
               background-color: pink;
-              width: 208px;
-              height: 280px;
+              width: 140px;
+              height: 180px;
               border-radius: 4%;
 
               h4 {
                   font-family: FiraSansLight;
-                  font-size: 22px;
+                  font-size: 16px;
                   text-align: center;
                   color: white;
-                  padding-top: 230px;
+                  padding-top: 140px;
                   text-shadow: -2px 2px #000;
                   
               }

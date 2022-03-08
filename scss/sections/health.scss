@@ -1,23 +1,25 @@
 .health {
-  background-color: #d0f5f2;
+  height: 100%;
+  // background-color: rgb(245, 239, 240);
 
   h2 {
     font-family: FiraSansExtraLight;
-    padding: 220px 140px;
-    font-size: 48px;
+    padding: 50px 140px;
+    font-size: 36px;
     letter-spacing: 8px;
     text-transform: lowercase;
     color: black;
   }
 
   h3 {
-    margin-top: -200px;
+ 
     margin-left: 140px;
     font-family: FiraSansExtraLight;
-    font-size: 25px;
+    font-size: 16px;
   }
 
   p {
+    font-size: 14px;
       margin-top: 50px;
       max-width: 350px;
       margin-left: 140px;

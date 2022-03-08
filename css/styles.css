@@ -173,7 +173,7 @@ nav .nav-wrapper .nav-icons i:hover {
 .products h2 {
   font-family: FiraSansExtraLight;
   padding: 50px 140px;
-  font-size: 44px;
+  font-size: 36px;
   letter-spacing: 8px;
   text-transform: lowercase;
 }
@@ -278,30 +278,32 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .second h2 {
   font-family: FiraSansExtraLight;
-  padding: 50px 140px;
-  font-size: 44px;
-  letter-spacing: 8px;
+  max-width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  letter-spacing: 4px;
   text-transform: lowercase;
   color: white;
+  padding: 40px;
 }
 .second .top-sellers-wrapper {
-  height: 321px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .second .top-sellers-wrapper .top-seller-photo {
   background-color: pink;
-  width: 208px;
-  height: 280px;
+  width: 140px;
+  height: 180px;
   border-radius: 4%;
 }
 .second .top-sellers-wrapper .top-seller-photo h4 {
   font-family: FiraSansLight;
-  font-size: 22px;
+  font-size: 16px;
   text-align: center;
   color: white;
-  padding-top: 230px;
+  padding-top: 140px;
   text-shadow: -2px 2px #000;
 }
 .second .top-sellers-wrapper .top-seller1 {
@@ -324,23 +326,23 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 
 .health {
-  background-color: #d0f5f2;
+  height: 100%;
 }
 .health h2 {
   font-family: FiraSansExtraLight;
-  padding: 220px 140px;
-  font-size: 48px;
+  padding: 50px 140px;
+  font-size: 36px;
   letter-spacing: 8px;
   text-transform: lowercase;
   color: black;
 }
 .health h3 {
-  margin-top: -200px;
   margin-left: 140px;
   font-family: FiraSansExtraLight;
-  font-size: 25px;
+  font-size: 16px;
 }
 .health p {
+  font-size: 14px;
   margin-top: 50px;
   max-width: 350px;
   margin-left: 140px;
@@ -389,7 +391,7 @@ nav .nav-wrapper .nav-icons i:hover {
 .about h2 {
   font-family: FiraSansExtraLight;
   padding: 15px 140px;
-  font-size: 44px;
+  font-size: 36px;
   letter-spacing: 8px;
   text-transform: lowercase;
 }
@@ -417,6 +419,12 @@ nav .nav-wrapper .nav-icons i:hover {
   padding: 25px;
   font-family: FiraSansCondensedLight;
   font-size: 26px;
+}
+.about .about-wrapper .shop-description h3:after {
+  content: "";
+  display: block;
+  width: 140px;
+  border-bottom: 2px solid #e20f71;
 }
 .about .about-wrapper .shop-description p {
   padding: 25px;
