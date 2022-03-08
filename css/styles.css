@@ -294,7 +294,7 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .second .top-sellers-wrapper .top-seller-photo {
   background-color: pink;
-  width: 140px;
+  width: 280px;
   height: 180px;
   border-radius: 4%;
 }
@@ -338,16 +338,40 @@ nav .nav-wrapper .nav-icons i:hover {
   color: black;
 }
 .health h3 {
-  margin-left: 140px;
+  margin-left: 195px;
   font-family: FiraSansExtraLight;
-  font-size: 16px;
+  font-size: 18px;
 }
-.health p {
+.health h3:after {
+  content: "";
+  display: block;
+  width: 310px;
+  border-bottom: 2px solid #e20f71;
+  margin-top: 13px;
+}
+.health .content-wrapper {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.health .content-wrapper p {
+  font-family: FiraSansRegular;
+  line-height: 1.3;
   font-size: 14px;
-  margin-top: 50px;
+  margin-top: 35px;
   max-width: 350px;
-  margin-left: 140px;
   padding-bottom: 30px;
+}
+.health .content-wrapper .health-image {
+  margin-top: -50px;
+  height: 400px;
+  width: 580px;
+}
+.health .content-wrapper .health-image img {
+  border-radius: 2%;
+  width: 100%;
 }
 
 .reviews {
@@ -373,8 +397,16 @@ nav .nav-wrapper .nav-icons i:hover {
   padding: 15px;
   color: #e20953;
 }
+.reviews .rating-wrapper {
+  max-width: 47%;
+  margin: 0 auto;
+  margin-top: -14px;
+}
+.reviews .rating-wrapper i {
+  color: #FDCE1D;
+}
 .reviews .customer-name {
-  margin-top: -32px;
+  margin-top: -8px;
   color: #e20953;
 }
 .reviews .dots {

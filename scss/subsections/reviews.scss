@@ -1,6 +1,5 @@
 .reviews {
     height: 50%;
- 
 
 
     h2 {
@@ -26,8 +25,17 @@
         padding: 20px;
     }
 
+    .rating-wrapper {
+        max-width: 47%;
+        margin: 0 auto;
+        margin-top: -14px;
+        i {
+            color: #FDCE1D;
+        }
+    }
+
     .customer-name {
-        margin-top: -32px;
+        margin-top: -8px;
         color: #e20953;
     }
 
@@ -36,4 +44,6 @@
         // background-color: red;
         margin-left: 46%;
     }
+
+
 }
