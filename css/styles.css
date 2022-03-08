@@ -20,7 +20,7 @@ p {
 }
 
 @font-face {
-  font-family: FiraSansExtraThin;
+  font-family: FiraSansThin;
   src: url(../fonts/FiraSans/FiraSans-Thin.ttf);
 }
 @font-face {
@@ -125,7 +125,7 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .home .home-wrapper .square h1 {
   color: #fff567;
-  font-family: FiraSansExtraThin;
+  font-family: FiraSansThin;
   font-size: 36px;
   letter-spacing: 2px;
 }
@@ -478,7 +478,6 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .footer .footer-wrapper {
   max-width: 75%;
-  background-color: aqua;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -507,16 +506,39 @@ nav .nav-wrapper .nav-icons i:hover {
 .footer .footer-wrapper .links-wrapper .list ul li i {
   color: white;
   font-size: 25px;
+  margin-top: 4px;
 }
 .footer .footer-wrapper .contact-wrapper h3 {
   font-family: FiraSansRegular;
   font-size: 18px;
   color: white;
+  margin-top: 15px;
 }
 .footer .footer-wrapper .contact-wrapper input {
+  font-family: FiraSansThin;
   width: 500px;
-  margin-top: 18px;
+  margin-top: 14px;
   height: 40px;
+  padding: 10px;
+  border: none;
+}
+.footer .footer-wrapper .contact-wrapper textarea {
+  border: none;
+  font-family: FiraSansThin;
+  padding: 10px;
+  height: 80px;
+  width: 500px;
+  margin-top: 14px;
+}
+.footer .footer-wrapper .contact-wrapper button {
+  width: 60px;
+  height: 25px;
+  border: none;
+  font-family: FiraSansRegular;
+  text-transform: lowercase;
+  color: #D82658;
+  margin-top: 15px;
+  margin-left: 79%;
 }
 
 /*# sourceMappingURL=styles.css.map */

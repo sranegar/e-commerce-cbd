@@ -4,7 +4,7 @@
 
     .footer-wrapper {
         max-width: 75%;
-        background-color: aqua;
+        // background-color: aqua;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -41,6 +41,7 @@
                         i {
                             color: white;
                             font-size: 25px;
+                            margin-top: 4px;
                         }
                     }
                 }
@@ -53,13 +54,40 @@
                 font-family: FiraSansRegular;
                 font-size: 18px;
                 color: white;
+                margin-top: 15px;
                
             }
 
+    
             input {
+                font-family: FiraSansThin;
                 width: 500px;
-                margin-top: 18px;
+                margin-top: 14px;
                 height: 40px;
+                padding: 10px;
+                border: none;
+            }
+
+            textarea {
+                border: none;
+                font-family: FiraSansThin;
+                padding: 10px;
+                height: 80px;
+                width: 500px;
+                margin-top: 14px;
+                 
+            }
+
+            button {
+                width: 60px;
+                height: 25px;
+                border: none;
+                font-family: FiraSansRegular;
+                text-transform: lowercase;
+                color: #D82658;
+                margin-top: 15px;
+                margin-left: 79%;
+       
             }
         }
     }
