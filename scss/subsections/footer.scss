@@ -1,4 +1,66 @@
 .footer {
     height: 50%;
     background-color: #D82658;
+
+    .footer-wrapper {
+        max-width: 75%;
+        background-color: aqua;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .links-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            
+            ul {
+                list-style: none;
+
+                li {
+                    margin-top: 5px;
+                    font-family: FiraSansLight;
+                    margin-right: 100px;
+                    text-transform: lowercase;
+                    color: white;
+                }
+            }
+
+            .list {
+                
+                p {
+                    font-family: FiraSansRegular;
+                    font-size: 17px;
+                    color: white;
+                }
+
+                ul {
+                    li {
+                        i {
+                            color: white;
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact-wrapper {
+            
+            h3 {
+                font-family: FiraSansRegular;
+                font-size: 18px;
+                color: white;
+               
+            }
+
+            input {
+                width: 500px;
+                margin-top: 18px;
+                height: 40px;
+            }
+        }
+    }
 }

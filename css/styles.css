@@ -20,6 +20,10 @@ p {
 }
 
 @font-face {
+  font-family: FiraSansExtraThin;
+  src: url(../fonts/FiraSans/FiraSans-Thin.ttf);
+}
+@font-face {
   font-family: FiraSansExtraLight;
   src: url(../fonts/FiraSans/FiraSans-ExtraLight.ttf);
 }
@@ -121,7 +125,7 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .home .home-wrapper .square h1 {
   color: #fff567;
-  font-family: FiraSansExtraLight;
+  font-family: FiraSansExtraThin;
   font-size: 36px;
   letter-spacing: 2px;
 }
@@ -349,7 +353,7 @@ nav .nav-wrapper .nav-icons i:hover {
   display: block;
   width: 310px;
   border-bottom: 2px solid #e20f71;
-  margin-top: 13px;
+  margin-top: 6px;
 }
 .health .content-wrapper {
   max-width: 75%;
@@ -359,7 +363,7 @@ nav .nav-wrapper .nav-icons i:hover {
   align-items: center;
 }
 .health .content-wrapper p {
-  font-family: FiraSansRegular;
+  font-family: FiraSansLight;
   line-height: 1.3;
   font-size: 14px;
   margin-top: 35px;
@@ -453,21 +457,66 @@ nav .nav-wrapper .nav-icons i:hover {
 .about .about-wrapper .shop-description h3 {
   padding: 25px;
   font-family: FiraSansCondensedLight;
-  font-size: 26px;
+  font-size: 18px;
 }
 .about .about-wrapper .shop-description h3:after {
   content: "";
   display: block;
   width: 140px;
   border-bottom: 2px solid #e20f71;
+  margin-top: 6px;
 }
 .about .about-wrapper .shop-description p {
+  font-family: FiraSansLight;
+  font-size: 13px;
   padding: 25px;
 }
 
 .footer {
   height: 50%;
   background-color: #D82658;
+}
+.footer .footer-wrapper {
+  max-width: 75%;
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-wrapper .links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-wrapper .links-wrapper ul {
+  list-style: none;
+}
+.footer .footer-wrapper .links-wrapper ul li {
+  margin-top: 5px;
+  font-family: FiraSansLight;
+  margin-right: 100px;
+  text-transform: lowercase;
+  color: white;
+}
+.footer .footer-wrapper .links-wrapper .list p {
+  font-family: FiraSansRegular;
+  font-size: 17px;
+  color: white;
+}
+.footer .footer-wrapper .links-wrapper .list ul li i {
+  color: white;
+  font-size: 25px;
+}
+.footer .footer-wrapper .contact-wrapper h3 {
+  font-family: FiraSansRegular;
+  font-size: 18px;
+  color: white;
+}
+.footer .footer-wrapper .contact-wrapper input {
+  width: 500px;
+  margin-top: 18px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
