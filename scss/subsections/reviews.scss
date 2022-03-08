@@ -1,6 +1,8 @@
 .reviews {
     height: 50%;
  
+
+
     h2 {
         font-family: FiraSansExtraLight;
         padding: 15px 140px;
@@ -24,4 +26,14 @@
         padding: 20px;
     }
 
+    .customer-name {
+        margin-top: -32px;
+        color: #e20953;
+    }
+
+    .dots {
+        max-width: 30%;
+        // background-color: red;
+        margin-left: 46%;
+    }
 }

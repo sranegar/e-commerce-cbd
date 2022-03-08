@@ -1,0 +1,51 @@
+.about {
+    height: 100%;
+    background-image: url(../../images/about-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-family: FiraSansExtraLight;
+        padding: 15px 140px;
+        font-size: 44px;
+        letter-spacing: 8px;
+        text-transform: lowercase;
+    }
+
+    .about-wrapper {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        max-width: 60%;
+        // background-color: red;
+
+        .shop-image {
+            background-image: url(../../images/about-image.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 12%;
+            width: 373px;
+            height: 473px;
+         
+        }
+    
+        .shop-description {
+            width: 250px;
+            height: 473px;
+            background-color: rgb(250, 249, 249);
+
+            h3 {
+                padding: 25px;
+                font-family: FiraSansCondensedLight;
+                font-size: 26px;
+            }
+
+            p {
+                padding: 25px;
+            }
+        }
+    }
+
+}

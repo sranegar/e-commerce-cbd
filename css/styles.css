@@ -43,6 +43,10 @@ p {
   font-family: FiraSansCondensedItalic;
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Italic.ttf);
 }
+@font-face {
+  font-family: FiraSansCondensedLight;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
+}
 nav {
   background-color: #fff567;
 }
@@ -115,7 +119,8 @@ nav .nav-wrapper .nav-icons i:hover {
 .home .home-wrapper .square h1 {
   color: #fff567;
   font-family: FiraSansExtraLight;
-  font-size: 38px;
+  font-size: 36px;
+  letter-spacing: 2px;
 }
 .home .home-wrapper .home-image {
   position: absolute;
@@ -364,6 +369,57 @@ nav .nav-wrapper .nav-icons i:hover {
   font-size: 25px;
   padding: 15px;
   color: #e20953;
+}
+.reviews .customer-name {
+  margin-top: -32px;
+  color: #e20953;
+}
+.reviews .dots {
+  max-width: 30%;
+  margin-left: 46%;
+}
+
+.about {
+  height: 100%;
+  background-image: url(../../images/about-background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about h2 {
+  font-family: FiraSansExtraLight;
+  padding: 15px 140px;
+  font-size: 44px;
+  letter-spacing: 8px;
+  text-transform: lowercase;
+}
+.about .about-wrapper {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 60%;
+}
+.about .about-wrapper .shop-image {
+  background-image: url(../../images/about-image.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 12%;
+  width: 373px;
+  height: 473px;
+}
+.about .about-wrapper .shop-description {
+  width: 250px;
+  height: 473px;
+  background-color: #faf9f9;
+}
+.about .about-wrapper .shop-description h3 {
+  padding: 25px;
+  font-family: FiraSansCondensedLight;
+  font-size: 26px;
+}
+.about .about-wrapper .shop-description p {
+  padding: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
