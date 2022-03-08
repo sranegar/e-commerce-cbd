@@ -287,8 +287,8 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .second .top-sellers-wrapper .top-seller-photo {
   background-color: pink;
-  width: 228px;
-  height: 301px;
+  width: 208px;
+  height: 280px;
   border-radius: 4%;
 }
 .second .top-sellers-wrapper .top-seller-photo h4 {
@@ -296,7 +296,7 @@ nav .nav-wrapper .nav-icons i:hover {
   font-size: 22px;
   text-align: center;
   color: white;
-  padding-top: 260px;
+  padding-top: 230px;
   text-shadow: -2px 2px #000;
 }
 .second .top-sellers-wrapper .top-seller1 {
@@ -316,6 +316,54 @@ nav .nav-wrapper .nav-icons i:hover {
   background-size: cover;
   background-position: center;
   background-repeat: none;
+}
+
+.health {
+  background-color: #d0f5f2;
+}
+.health h2 {
+  font-family: FiraSansExtraLight;
+  padding: 220px 140px;
+  font-size: 48px;
+  letter-spacing: 8px;
+  text-transform: lowercase;
+  color: black;
+}
+.health h3 {
+  margin-top: -200px;
+  margin-left: 140px;
+  font-family: FiraSansExtraLight;
+  font-size: 25px;
+}
+.health p {
+  margin-top: 50px;
+  max-width: 350px;
+  margin-left: 140px;
+  padding-bottom: 30px;
+}
+
+.reviews {
+  height: 50%;
+}
+.reviews h2 {
+  font-family: FiraSansExtraLight;
+  padding: 15px 140px;
+  font-size: 44px;
+  letter-spacing: 8px;
+  text-transform: lowercase;
+}
+.reviews p {
+  font-family: FiraSansCondensedItalic;
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px;
+}
+.reviews p i {
+  font-size: 25px;
+  padding: 15px;
+  color: #e20953;
 }
 
 /*# sourceMappingURL=styles.css.map */
