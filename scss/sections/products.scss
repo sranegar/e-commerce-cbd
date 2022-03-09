@@ -21,15 +21,21 @@
     height: 255px;
     border-bottom: 4px solid #e20953;
     margin-bottom: 54px;
+    position: relative;
 
     .category {
     //   background-color: purple;
       width: 180px;
+      position: absolute;
+      bottom: 30px;
+      left: 15px;
 
       h3 {
         font-family: FiraSansExtraLight;
         text-transform: lowercase;
         font-size: 22px;
+      
+     
       }
     }
 
@@ -40,6 +46,7 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+      
 
 
       .product-photo {
@@ -47,6 +54,7 @@
         height: 160px;
         // background-color: pink;
         position: relative;
+        margin-top: 41px;
 
         .add-to-cart {
           position: absolute;
