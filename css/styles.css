@@ -114,7 +114,7 @@ nav .nav-wrapper .nav-icons i:hover {
 
 .home {
   height: 100%;
-  background-image: url(../../images/home-background.jpeg);
+  background-image: url(../images/home-background.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -271,55 +271,55 @@ nav .nav-wrapper .nav-icons i:hover {
   margin-top: -11px;
 }
 .products .products-container .photo-wrapper .gummy1 {
-  background-image: url(../../images/cbd-gummies-1.jpg);
+  background-image: url(../images/cbd-gummies-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .gummy2 {
-  background-image: url(../../images/cbd-gummies-2.jpg);
+  background-image: url(../images/cbd-gummies-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .gummy3 {
-  background-image: url(../../images/cbd-gummies-3.jpg);
+  background-image: url(../images/cbd-gummies-3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .oil1 {
-  background-image: url(../../images/cbd-oil-1.jpg);
+  background-image: url(../images/cbd-oil-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .oil2 {
-  background-image: url(../../images/cbd-oil-2.jpg);
+  background-image: url(../images/cbd-oil-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .oil3 {
-  background-image: url(../../images/cbd-oil-3.jpg);
+  background-image: url(../images/cbd-oil-3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .topical1 {
-  background-image: url(../../images/cbd-topical-1.jpg);
+  background-image: url(../images/cbd-topical-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .topical2 {
-  background-image: url(../../images/cbd-topical-2.jpg);
+  background-image: url(../images/cbd-topical-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .products .products-container .photo-wrapper .topical3 {
-  background-image: url(../../images/cbd-topical-3.jpg);
+  background-image: url(../images/cbd-topical-3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -381,19 +381,19 @@ nav .nav-wrapper .nav-icons i:hover {
   text-transform: uppercase;
 }
 .top-sellers .top-sellers-wrapper .top-seller1 {
-  background-image: url(../../images/top-seller-1.jpeg);
+  background-image: url(../images/top-seller-1.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .top-sellers .top-sellers-wrapper .top-seller2 {
-  background-image: url(../../images/top-seller-2.jpeg);
+  background-image: url(../images/top-seller-2.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 .top-sellers .top-sellers-wrapper .top-seller3 {
-  background-image: url(../../images/top-seller-3.jpeg);
+  background-image: url(../images/top-seller-3.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -452,7 +452,7 @@ nav .nav-wrapper .nav-icons i:hover {
 .health .health-content-wrapper .health-image {
   width: 580px;
   height: 435px;
-  background-image: url(../../images/cbd-benefits.jpg);
+  background-image: url(../images/cbd-benefits.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@ nav .nav-wrapper .nav-icons i:hover {
 
 .about {
   min-height: 100%;
-  background-image: url(../../images/about-background.jpg);
+  background-image: url(../images/about-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -675,7 +675,7 @@ nav .nav-wrapper .nav-icons i:hover {
 
 .pets {
   height: 100%;
-  background-image: url(../../images/pets-section-background.jpg);
+  background-image: url(../images/pets-section-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
