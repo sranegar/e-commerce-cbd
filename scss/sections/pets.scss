@@ -1,0 +1,49 @@
+.pets {
+    height: 100%;
+    background-image: url(../../images/pets-section-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .oval {
+        position: absolute;
+        right: 260px;
+    }
+
+    .pets-text-wrapper {
+        position: absolute;
+        right: 420px;
+        top: 150px;
+        // background-color: pink;
+
+        h2 {
+            color: #e20f71;
+            font-size: 30px;
+            font-family: FiraSansCondensedBoldItalic;
+        }
+    
+        p {
+            font-family: FiraSansLight;
+            width: 300px;
+        }
+    
+        .shop-pets {
+            color: white;
+            background-color: #e20f71;
+            border: none;
+            height: 30px;
+            width: 120px;
+            text-transform: uppercase;
+            padding: 5px;
+            margin-left: 75px;
+            font-family: FiraSansRegular;
+         
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+}
