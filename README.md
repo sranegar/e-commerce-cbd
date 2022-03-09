@@ -1,23 +1,23 @@
 # CBD.Company E-commerce Website
 
-## Assignment given by Todd Shelton
+## NEWM299 Portfolio Assignment
 
-### Website Creation
-- Create a one page website prototype using whatever software, but Adobe XD CC is preferred, you would like having the below listed parameters:  Must have a minimum of five full height sections with content. That includes text and images.  
-- Must have four subsections with content that is appropriate to the website. 
+### Website Creation Requirements
+✔️ Create a one page website prototype using whatever software, but Adobe XD CC is preferred, you would like having the below listed parameters:  Must have a minimum of five full height sections with content. That includes text and images.  
+✔️ Must have four subsections with content that is appropriate to the website. 
 There must be a navigation bar that navigates to the full section. 
-- Must be an eCommerce site and look professional. 
+✔️ Must be an eCommerce site and look professional. 
 
-### HTML & CSS languages
-- You must use an external stylesheet and have correct commenting
-- Your HTML must be properly commented and have the correct coding structure. 
-- Full height sections should be full height but can grow if content overflows. 
-- Sub-sections can be can be a max of 50% height.
-- Your project must be uploaded to the Pages server. 
-- You must show proper use of elements and styling.
-- Your site must be a full replication of your prototype. 
+### HTML & CSS languages Requirements
+✔️ You must use an external stylesheet and have correct commenting
+✔️ Your HTML must be properly commented and have the correct coding structure. 
+✔️ Full height sections should be full height but can grow if content overflows. 
+✔️ Sub-sections can be can be a max of 50% height.
+✔️ Your project must be uploaded to the Pages server. 
+✔️ You must show proper use of elements and styling.
+✔️ Your site must be a full replication of your prototype. 
  
-### Design Understanding 
+## Design Understanding and Justification
 
 I focused my design to be user-friendly and responsive + adaptable. I followed many laws of UX to achieve this design layout for a mock CBD company that solves the problem of creating an online platform to sell their products. 
 
