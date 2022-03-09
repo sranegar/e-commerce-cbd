@@ -231,6 +231,23 @@ nav .nav-wrapper .nav-icons i:hover {
 .products .products-container .photo-wrapper .product-photo {
   width: 200px;
   height: 160px;
+  position: relative;
+}
+.products .products-container .photo-wrapper .product-photo .add-to-cart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  height: 20px;
+  font-family: FiraSansRegular;
+  text-transform: uppercase;
+  background-color: #e20953;
+  opacity: 75%;
+  color: white;
+}
+.products .products-container .photo-wrapper .product-photo .add-to-cart:hover {
+  cursor: pointer;
+  opacity: 100%;
 }
 .products .products-container .photo-wrapper .product-photo .description-content {
   margin-top: 162px;

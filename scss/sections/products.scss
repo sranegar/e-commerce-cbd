@@ -46,9 +46,30 @@
         width: 200px;
         height: 160px;
         // background-color: pink;
+        position: relative;
+
+        .add-to-cart {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          border: none;
+          height: 20px;
+          font-family: FiraSansRegular;
+          text-transform: uppercase;
+          background-color: #e20953;
+          opacity: 75%;
+          color: white;
+
+            &:hover {
+              cursor: pointer;
+              opacity: 100%;
+          }
+        }
+
         .description-content {
           margin-top: 162px;
           text-align: center;
+
 
           h4 {
             font-family: FiraSansExtraLight;
