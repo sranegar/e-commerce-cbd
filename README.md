@@ -3,19 +3,19 @@
 ## NEWM299 Portfolio Assignment
 
 ### Website Creation Requirements
-✔️ Create a one page website prototype using whatever software, but Adobe XD CC is preferred, you would like having the below listed parameters:  Must have a minimum of five full height sections with content. That includes text and images.  
-✔️ Must have four subsections with content that is appropriate to the website. 
-There must be a navigation bar that navigates to the full section. 
-✔️ Must be an eCommerce site and look professional. 
+✔️ Create a one page website prototype using whatever software, but Adobe XD CC is preferred, you would like having the below listed parameters:  Must have a minimum of five full height sections with content. That includes text and images. <br>
+✔️ Must have four subsections with content that is appropriate to the website. <br>
+There must be a navigation bar that navigates to the full section. <br>
+✔️ Must be an eCommerce site and look professional. <br>
 
 ### HTML & CSS languages Requirements
-✔️ You must use an external stylesheet and have correct commenting
-✔️ Your HTML must be properly commented and have the correct coding structure. 
-✔️ Full height sections should be full height but can grow if content overflows. 
-✔️ Sub-sections can be can be a max of 50% height.
-✔️ Your project must be uploaded to the Pages server. 
-✔️ You must show proper use of elements and styling.
-✔️ Your site must be a full replication of your prototype. 
+✔️ You must use an external stylesheet and have correct commenting<br>
+✔️ Your HTML must be properly commented and have the correct coding structure. <br>
+✔️ Full height sections should be full height but can grow if content overflows. <br>
+✔️ Sub-sections can be can be a max of 50% height.<br>
+✔️ Your project must be uploaded to the Pages server. <br>
+✔️ You must show proper use of elements and styling.<br>
+✔️ Your site must be a full replication of your prototype. <br>
  
 ## Design Understanding and Justification
 
