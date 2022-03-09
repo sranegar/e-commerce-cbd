@@ -7,7 +7,7 @@
     font-size: 36px;
     letter-spacing: 8px;
     text-transform: lowercase;
-    color: black;
+    color: $site-black;
   }
 
   h3 {
@@ -20,7 +20,7 @@
     content: "";
     display: block;
     width: 310px;
-    border-bottom: 2px solid #e20f71;
+    border-bottom: 2px solid $site-pink;
     margin-top: 6px;
   }
 

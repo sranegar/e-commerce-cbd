@@ -1,10 +1,10 @@
 .shipping-offer {
     height: 25px;
-    background-color: #e20f71;
+    background-color: $site-pink;
 
 
     p {
-        color: white;
+        color: $site-white;
         text-transform: uppercase;
         text-align: center;
         font-family: FiraSansLight;

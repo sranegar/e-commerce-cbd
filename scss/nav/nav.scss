@@ -1,5 +1,5 @@
 nav {
-  background-color: #fff567;
+  background-color: $site-yellow;
 
   .nav-wrapper {
     display: flex;
@@ -32,7 +32,7 @@ nav {
         cursor: pointer;
         text-decoration: underline;
         text-underline-offset: 5px;
-        text-decoration-color: #e20f71;
+        text-decoration-color: $site-pink;
       }
     }
 
@@ -43,7 +43,7 @@ nav {
 
       i:hover {
         cursor: pointer;
-        color: #e20f71;
+        color: $site-pink;
       }
     }
   }

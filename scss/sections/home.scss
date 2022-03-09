@@ -19,7 +19,7 @@
       padding: 10px;
 
       h1 {
-        color: #fff567;
+        color: $site-yellow;
         font-family: FiraSansThin;
         font-size: 36px;
         letter-spacing: 2px;
@@ -47,7 +47,7 @@
     left: 48.4%;
     font-family: FiraSansCondensedBoldItalic;
     text-transform: uppercase;
-    color: #e20f71;
+    color: $site-pink;
   }
 
   i {
@@ -55,6 +55,6 @@
     font-size: 33px;
     bottom: 80px;
     left: 50%;
-    color: #e20f71;
+    color: $site-pink;
   }
 }

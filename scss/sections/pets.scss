@@ -18,7 +18,7 @@
         // background-color: pink;
 
         h2 {
-            color: #e20f71;
+            color: $site-pink;
             font-size: 30px;
             font-family: FiraSansCondensedBoldItalic;
         }
@@ -29,8 +29,8 @@
         }
     
         .shop-pets {
-            color: white;
-            background-color: #e20f71;
+            color: $site-white;
+            background-color: $site-pink;
             border: none;
             height: 30px;
             width: 120px;

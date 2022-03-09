@@ -19,7 +19,7 @@
     max-width: 75%;
     margin: 0 auto;
     height: 255px;
-    border-bottom: 4px solid #e20953;
+    border-bottom: 4px solid $site-red;
     margin-bottom: 54px;
     position: relative;
 
@@ -64,7 +64,7 @@
           height: 20px;
           font-family: FiraSansRegular;
           text-transform: uppercase;
-          background-color: #e20953;
+          background-color: $site-pink;
           opacity: 75%;
           color: white;
 
@@ -86,7 +86,7 @@
           p {
             font-family: FiraSansCondensedItalic;
             font-size: 15px;
-            color: #35ac41;
+            color: $site-green;
             margin-top: -11px;
           }
         }
