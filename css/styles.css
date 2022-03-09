@@ -48,6 +48,10 @@ p {
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Italic.ttf);
 }
 @font-face {
+  font-family: FiraSansCondensedBoldItalic;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-BoldItalic.ttf);
+}
+@font-face {
   font-family: FiraSansCondensedLight;
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
 }
@@ -110,6 +114,7 @@ nav .nav-wrapper .nav-icons i:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 .home .home-wrapper {
   display: flex;
@@ -140,6 +145,22 @@ nav .nav-wrapper .nav-icons i:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.home .home-cta {
+  position: absolute;
+  font-size: 18px;
+  bottom: 100px;
+  left: 48.4%;
+  font-family: FiraSansCondensedBoldItalic;
+  text-transform: uppercase;
+  color: #e20f71;
+}
+.home i {
+  position: absolute;
+  font-size: 33px;
+  bottom: 80px;
+  left: 50%;
+  color: #e20f71;
 }
 
 .first {
@@ -409,7 +430,7 @@ nav .nav-wrapper .nav-icons i:hover {
   margin-top: -14px;
 }
 .reviews .rating-wrapper i {
-  color: #FDCE1D;
+  color: #fdce1d;
 }
 .reviews .customer-name {
   margin-top: -8px;
@@ -474,7 +495,7 @@ nav .nav-wrapper .nav-icons i:hover {
 
 .footer {
   height: 50%;
-  background-color: #D82658;
+  background-color: #d82658;
 }
 .footer .footer-wrapper {
   max-width: 75%;
@@ -512,7 +533,7 @@ nav .nav-wrapper .nav-icons i:hover {
   font-family: FiraSansRegular;
   font-size: 18px;
   color: white;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .footer .footer-wrapper .contact-wrapper input {
   font-family: FiraSansThin;
@@ -536,9 +557,12 @@ nav .nav-wrapper .nav-icons i:hover {
   border: none;
   font-family: FiraSansRegular;
   text-transform: lowercase;
-  color: #D82658;
+  color: #d82658;
   margin-top: 15px;
   margin-left: 79%;
+}
+.footer .footer-wrapper .contact-wrapper button:hover {
+  cursor: pointer;
 }
 .footer .copyright-wrapper {
   display: flex;

@@ -1,68 +1,64 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    height: 100%;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin-bottom: 16px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
 
-  @font-face {
-    font-family: FiraSansThin;
-    src: url(../fonts/FiraSans/FiraSans-Thin.ttf);
-  }
+@font-face {
+  font-family: FiraSansThin;
+  src: url(../fonts/FiraSans/FiraSans-Thin.ttf);
+}
 
+@font-face {
+  font-family: FiraSansExtraLight;
+  src: url(../fonts/FiraSans/FiraSans-ExtraLight.ttf);
+}
 
-  @font-face {
-    font-family: FiraSansExtraLight;
-    src: url(../fonts/FiraSans/FiraSans-ExtraLight.ttf);
-  }
+@font-face {
+  font-family: FiraSansLight;
+  src: url(../fonts/FiraSans/FiraSans-Light.ttf);
+}
 
-  @font-face {
-    font-family: FiraSansLight;
-    src: url(../fonts/FiraSans/FiraSans-Light.ttf);
-  }
+@font-face {
+  font-family: FiraSansRegular;
+  src: url(../fonts/FiraSans/FiraSans-Regular.ttf);
+}
 
-  @font-face {
-    font-family: FiraSansRegular;
-    src: url(../fonts/FiraSans/FiraSans-Regular.ttf);
-  }
+@font-face {
+  font-family: FiraSansMedium;
+  src: url(../fonts/FiraSans/FiraSans-Medium.ttf);
+}
 
-  
-  @font-face {
-    font-family: FiraSansMedium;
-    src: url(../fonts/FiraSans/FiraSans-Medium.ttf);
-  }
+@font-face {
+  font-family: FiraSansCondensedLight;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
+}
 
-
-  @font-face {
-    font-family: FiraSansCondensedLight;
-    src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
-  }
-
-  
-  @font-face {
-    font-family: FiraSansCondensedItalic;
-    src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Italic.ttf);
-  }
-
-    
-  @font-face {
-    font-family: FiraSansCondensedLight;
-    src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
-  }
+@font-face {
+  font-family: FiraSansCondensedItalic;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Italic.ttf);
+}
 
 
+@font-face {
+  font-family: FiraSansCondensedBoldItalic;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-BoldItalic.ttf);
+}
 
-
-  
+@font-face {
+  font-family: FiraSansCondensedLight;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
+}

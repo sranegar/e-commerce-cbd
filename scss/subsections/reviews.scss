@@ -1,49 +1,46 @@
 .reviews {
-    height: 50%;
+  height: 50%;
 
+  h2 {
+    font-family: FiraSansExtraLight;
+    padding: 15px 140px;
+    font-size: 44px;
+    letter-spacing: 8px;
+    text-transform: lowercase;
+  }
 
-    h2 {
-        font-family: FiraSansExtraLight;
-        padding: 15px 140px;
-        font-size: 44px;
-        letter-spacing: 8px;
-        text-transform: lowercase;
+  p {
+    i {
+      font-size: 25px;
+      padding: 15px;
+      color: #e20953;
     }
 
-    p {
-        i {
-            font-size: 25px;
-            padding: 15px;
-            color: #e20953;
-        }
+    font-family: FiraSansCondensedItalic;
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+  }
 
-        font-family: FiraSansCondensedItalic;
-        max-width: 50%;
-        margin: 0 auto;
-        font-size: 16px;
-        line-height: 1.6;
-        padding: 20px;
+  .rating-wrapper {
+    max-width: 47%;
+    margin: 0 auto;
+    margin-top: -14px;
+    i {
+      color: #fdce1d;
     }
+  }
 
-    .rating-wrapper {
-        max-width: 47%;
-        margin: 0 auto;
-        margin-top: -14px;
-        i {
-            color: #FDCE1D;
-        }
-    }
+  .customer-name {
+    margin-top: -8px;
+    color: #e20953;
+  }
 
-    .customer-name {
-        margin-top: -8px;
-        color: #e20953;
-    }
-
-    .dots {
-        max-width: 30%;
-        // background-color: red;
-        margin-left: 46%;
-    }
-
-
+  .dots {
+    max-width: 30%;
+    // background-color: red;
+    margin-left: 46%;
+  }
 }

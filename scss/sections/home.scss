@@ -1,45 +1,60 @@
 .home {
-    height: 100%;
-    background-image: url(../../images/home-background.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100%;
+  background-image: url(../../images/home-background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 
-    .home-wrapper {
-        display: flex;
-        padding-top: 160px;
+  .home-wrapper {
+    display: flex;
+    padding-top: 160px;
 
-        .square {
-            height: 200px;
-            max-width: 400px;
-            background-color: black;
-            opacity: 90%;
-            margin: 0 auto;
-            padding: 10px;
-            
-    
-            h1 {
-                color: #fff567;
-                font-family: FiraSansThin;
-                font-size: 36px;
-                letter-spacing: 2px;
-            }
-        }
-    
-        .home-image {
-            position: absolute;
-            height: 217px;
-            width: 217px;
-            border-radius: 50%;
-            margin-top: 100px;
-            margin-left: 680px;
-            background-image: url(../../images/home-oil.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-    
-       
-         
-        }
+    .square {
+      height: 200px;
+      max-width: 400px;
+      background-color: black;
+      opacity: 90%;
+      margin: 0 auto;
+      padding: 10px;
+
+      h1 {
+        color: #fff567;
+        font-family: FiraSansThin;
+        font-size: 36px;
+        letter-spacing: 2px;
+      }
     }
+
+    .home-image {
+      position: absolute;
+      height: 217px;
+      width: 217px;
+      border-radius: 50%;
+      margin-top: 100px;
+      margin-left: 680px;
+      background-image: url(../../images/home-oil.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .home-cta {
+    position: absolute;
+    font-size: 18px;
+    bottom: 100px;
+    left: 48.4%;
+    font-family: FiraSansCondensedBoldItalic;
+    text-transform: uppercase;
+    color: #e20f71;
+  }
+
+  i {
+    position: absolute;
+    font-size: 33px;
+    bottom: 80px;
+    left: 50%;
+    color: #e20f71;
+  }
 }
