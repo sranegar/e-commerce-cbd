@@ -55,7 +55,8 @@
       }
 
       input {
-        font-family: FiraSansThin;
+        font-family: FiraSansRegular;
+        color: rgb(119, 119, 119);
         width: 500px;
         margin-top: 14px;
         height: 40px;
@@ -65,7 +66,8 @@
 
       textarea {
         border: none;
-        font-family: FiraSansThin;
+        font-family: FiraSansRegular;
+        color: rgb(119, 119, 119);
         padding: 10px;
         height: 80px;
         width: 500px;
@@ -76,7 +78,7 @@
         width: 60px;
         height: 25px;
         border: none;
-        font-family: FiraSansRegular;
+        font-family: FiraSansMedium;
         text-transform: lowercase;
         color: #d82658;
         margin-top: 15px;
@@ -84,6 +86,8 @@
 
         &:hover {
           cursor: pointer;
+          background-image: linear-gradient(to right, #fff567, #f5eb60);
+        
         }
       }
     }

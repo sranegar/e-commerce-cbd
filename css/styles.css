@@ -545,7 +545,8 @@ nav .nav-wrapper .nav-icons i:hover {
   margin-top: 20px;
 }
 .footer .footer-wrapper .contact-wrapper input {
-  font-family: FiraSansThin;
+  font-family: FiraSansRegular;
+  color: #777777;
   width: 500px;
   margin-top: 14px;
   height: 40px;
@@ -554,7 +555,8 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .footer .footer-wrapper .contact-wrapper textarea {
   border: none;
-  font-family: FiraSansThin;
+  font-family: FiraSansRegular;
+  color: #777777;
   padding: 10px;
   height: 80px;
   width: 500px;
@@ -564,7 +566,7 @@ nav .nav-wrapper .nav-icons i:hover {
   width: 60px;
   height: 25px;
   border: none;
-  font-family: FiraSansRegular;
+  font-family: FiraSansMedium;
   text-transform: lowercase;
   color: #d82658;
   margin-top: 15px;
@@ -572,6 +574,7 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .footer .footer-wrapper .contact-wrapper button:hover {
   cursor: pointer;
+  background-image: linear-gradient(to right, #fff567, #f5eb60);
 }
 .footer .copyright-wrapper {
   display: flex;
@@ -603,7 +606,7 @@ nav .nav-wrapper .nav-icons i:hover {
 .pets .pets-text-wrapper {
   position: absolute;
   right: 420px;
-  top: 150px;
+  top: 165px;
 }
 .pets .pets-text-wrapper h2 {
   color: #e20f71;
