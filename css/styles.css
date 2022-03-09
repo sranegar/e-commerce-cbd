@@ -555,10 +555,16 @@ nav .nav-wrapper .nav-icons i:hover {
   font-size: 17px;
   color: white;
 }
+.footer .footer-wrapper .links-wrapper .list ul a {
+  text-decoration: none;
+}
 .footer .footer-wrapper .links-wrapper .list ul li i {
   color: white;
   font-size: 25px;
   margin-top: 4px;
+}
+.footer .footer-wrapper .links-wrapper .list ul li i:hover {
+  cursor: pointer;
 }
 .footer .footer-wrapper .contact-wrapper h3 {
   font-family: FiraSansRegular;

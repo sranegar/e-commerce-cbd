@@ -16,7 +16,7 @@
   </head>
   <body>
      <!-- Header -->
-    <header>
+    <header id="header">
       <div class="shipping-offer">
         <p>Free shipping on $100+ orders</p>
       </div>
@@ -24,7 +24,7 @@
     <!-- Navigation -->
     <nav>
       <div class="nav-wrapper">
-        <div class="logo">
+        <a href="#header"><div class="logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -119,9 +119,11 @@
               </g>
             </g>
           </svg>
+        </a>
+        
         </div>
         <div class="links">
-          <a href="#">home</a>
+          <a href="#header">home</a>
           <a href="#products">products</a>
           <a href="#health">health</a>
           <a href="#pets">pets</a>
@@ -135,7 +137,7 @@
       </div>
     </nav>
      <!-- Home full section -->
-    <section class="home">
+    <section id="home" class="home">
       <div class="home-wrapper">
         <div class="square">
           <h1>Locally sourced CBD. Trusted by many.</h1>
@@ -161,7 +163,7 @@
     <!-- products full section -->
     <section id="products" class="products">
       <h2>Products</h2>
-      <div class="products-container">
+      <div id="gummies" class="products-container">
         <div class="category"><h3>cbd gummies</h3></div>
         <div class="photo-wrapper">
           <div class="product-photo gummy1">
@@ -187,7 +189,7 @@
           </div>
         </div>
       </div>
-      <div class="products-container">
+      <div id="oil" class="products-container">
         <div class="category"><h3>cbd oil</h3></div>
         <div class="photo-wrapper">
           <div class="product-photo oil1">
@@ -213,7 +215,7 @@
           </div>
         </div>
       </div>
-      <div class="products-container">
+      <div id="topicals" class="products-container">
         <div class="category"><h3>cbd topicals</h3></div>
         <div class="photo-wrapper">
           <div class="product-photo topical1">
@@ -241,7 +243,7 @@
       </div>
     </section>
      <!-- Top sellers subsection -->
-    <section class="second">
+    <section id="top-sellers" class="second">
       <h2>Top Sellers</h2>
       <div class="top-sellers-wrapper">
         <div class="top-seller-photo top-seller1">
@@ -330,19 +332,20 @@
             <div class="list">
                 <p>Company</p>
                 <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Health</li>
-                    <li>About</li>
+                    <a href="#header"><li>Home</li></a>
+                    <a href="#products"><li>Products</li></a>
+                    <a href="#health"><li>Health</li></a>
+                    <a href="#about"><li>About</li></a>
                 </ul>
             </div>
             <div class="list">
                 <p>Products</p>
                 <ul>
-                    <li>Sellers</li>
-                    <li>Gummies</li>
-                    <li>Oil</li>
-                    <li>Topicals</li>
+                  <a href="#top-sellers"><li>Sellers</li></a>
+                  <a href="#gummies"><li>Gummies</li></a>
+                  <a href="#oil"><li>Oil</li></a>
+                  <a href="#topicals"><li>Topicals</li></a>
+                  <a href="#pets"><li>Pets</li></a>
                 </ul>
             </div>
             <div class="list">
