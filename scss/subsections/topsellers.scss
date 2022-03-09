@@ -1,15 +1,10 @@
 .second {
-    height: 50%;
-    // background: linear-gradient(
-    //     to bottom,
-    //     rgb(39, 161, 51),
-    //     rgb(107, 202, 116)
-    //   );
+    min-height: 50%;
 
     h2 {
         font-family: FiraSansCondensedBoldItalic;
         // background-color: red;
-        max-width: 40%;
+        max-width: 20%;
         text-align: center;
         margin: 0 auto;
         font-size: 26px;
@@ -22,7 +17,7 @@
 
       .top-sellers-wrapper {
           // background-color: pink;
-          max-width: 80%;
+          max-width: $medium-width;
           margin: 0 auto;
           margin-top: -40px;
           display: flex;
@@ -31,7 +26,7 @@
        
 
           .top-seller-photo {
-              // background-color: pink;
+        
               width: 210px;
               height: 210px;
               border-radius: 50%;
@@ -70,5 +65,9 @@
           }
       }
 
+}
+
+@media screen and (max-width: 925px) {
+  
 }
 

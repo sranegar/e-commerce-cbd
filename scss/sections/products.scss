@@ -157,3 +157,27 @@
     }
   }
 }
+@media screen and (max-width: 1035px) {
+  .products {
+    .products-container {
+      min-height: 750px;
+      max-width: 420px;
+
+      .category {
+        //   background-color: purple;
+          width: 180px;
+          position: absolute;
+          top: 40px;
+          left: 15px;
+      }
+    }
+    .photo-wrapper {
+      flex-direction: column;
+
+      .product-photo {
+        margin-bottom: 41px;
+      }
+    }
+  }
+}
+

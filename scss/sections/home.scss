@@ -13,7 +13,7 @@
     .square {
       height: 200px;
       max-width: 400px;
-      background-color: rgba(0,0,0,.8);
+      background-color: rgba(0, 0, 0, 0.8);
       margin: 0 auto;
       padding: 10px;
       position: relative;
@@ -31,17 +31,13 @@
         position: absolute;
         bottom: -90px;
         right: -50px;
-    
+
         img {
           width: 100%;
           border-radius: 50%;
         }
+      }
     }
-
-  }
-
- 
-
   }
 
   .home-cta {

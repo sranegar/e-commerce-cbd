@@ -325,12 +325,30 @@ nav .nav-wrapper .nav-icons i:hover {
   background-repeat: none;
 }
 
+@media screen and (max-width: 1035px) {
+  .products .products-container {
+    min-height: 750px;
+    max-width: 420px;
+  }
+  .products .products-container .category {
+    width: 180px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+  }
+  .products .photo-wrapper {
+    flex-direction: column;
+  }
+  .products .photo-wrapper .product-photo {
+    margin-bottom: 41px;
+  }
+}
 .second {
-  height: 50%;
+  min-height: 50%;
 }
 .second h2 {
   font-family: FiraSansCondensedBoldItalic;
-  max-width: 40%;
+  max-width: 20%;
   text-align: center;
   margin: 0 auto;
   font-size: 26px;
@@ -341,7 +359,7 @@ nav .nav-wrapper .nav-icons i:hover {
   margin-bottom: 20px;
 }
 .second .top-sellers-wrapper {
-  max-width: 80%;
+  max-width: 980px;
   margin: 0 auto;
   margin-top: -40px;
   display: flex;
