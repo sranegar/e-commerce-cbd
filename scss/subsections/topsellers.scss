@@ -1,73 +1,78 @@
-.second {
-    min-height: 50%;
+.top-sellers {
+  min-height: 50%;
 
-    h2 {
-        font-family: FiraSansCondensedBoldItalic;
-        // background-color: red;
-        max-width: 20%;
+  h2 {
+    font-family: FiraSansCondensedBoldItalic;
+    // background-color: red;
+    max-width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $site-green;
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+
+  .top-sellers-wrapper {
+    // background-color: pink;
+    max-width: $medium-width;
+    margin: 0 auto;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .top-seller-photo {
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+
+      h4 {
+        font-family: FiraSansCondensedItalic;
+        font-size: 16px;
         text-align: center;
-        margin: 0 auto;
-        font-size: 26px;
-        letter-spacing: 2px;
+        color: white;
+        padding-top: 140px;
+        text-shadow: -2px 2px rgba(37, 37, 37, 0.5);
         text-transform: uppercase;
-        color: $site-green;
-        padding: 40px;
-        margin-bottom: 20px;
       }
+    }
 
-      .top-sellers-wrapper {
-          // background-color: pink;
-          max-width: $medium-width;
-          margin: 0 auto;
-          margin-top: -40px;
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
-       
+    .top-seller1 {
+      background-image: url(../../images/top-seller-1.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: none;
+    }
 
-          .top-seller-photo {
-        
-              width: 210px;
-              height: 210px;
-              border-radius: 50%;
+    .top-seller2 {
+      background-image: url(../../images/top-seller-2.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: none;
+    }
 
-              h4 {
-                  font-family: FiraSansCondensedItalic;
-                  font-size: 16px;
-                  text-align: center;
-                  color: white;
-                  padding-top: 140px;
-                  text-shadow: -2px 2px rgba(37, 37, 37, 0.5);
-                  text-transform: uppercase;
-                  
-              }
-          }
-
-          .top-seller1 {
-            background-image: url(../../images/top-seller-1.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: none;
-          }
-
-          .top-seller2 {
-            background-image: url(../../images/top-seller-2.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: none;
-          }
-
-          .top-seller3 {
-            background-image: url(../../images/top-seller-3.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: none;
-          }
-      }
-
+    .top-seller3 {
+      background-image: url(../../images/top-seller-3.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: none;
+    }
+  }
 }
 
-@media screen and (max-width: 925px) {
-  
-}
+@media screen and (max-width: 875px) {
+  .top-sellers {
+ 
 
+    .top-sellers-wrapper {
+      flex-direction: column;
+
+      .top-seller-photo {
+        margin-bottom: 35px;
+      }
+    }
+  }
+}

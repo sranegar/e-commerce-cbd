@@ -343,12 +343,12 @@ nav .nav-wrapper .nav-icons i:hover {
     margin-bottom: 41px;
   }
 }
-.second {
+.top-sellers {
   min-height: 50%;
 }
-.second h2 {
+.top-sellers h2 {
   font-family: FiraSansCondensedBoldItalic;
-  max-width: 20%;
+  max-width: 30%;
   text-align: center;
   margin: 0 auto;
   font-size: 26px;
@@ -358,7 +358,7 @@ nav .nav-wrapper .nav-icons i:hover {
   padding: 40px;
   margin-bottom: 20px;
 }
-.second .top-sellers-wrapper {
+.top-sellers .top-sellers-wrapper {
   max-width: 980px;
   margin: 0 auto;
   margin-top: -40px;
@@ -366,12 +366,12 @@ nav .nav-wrapper .nav-icons i:hover {
   justify-content: space-evenly;
   align-items: center;
 }
-.second .top-sellers-wrapper .top-seller-photo {
+.top-sellers .top-sellers-wrapper .top-seller-photo {
   width: 210px;
   height: 210px;
   border-radius: 50%;
 }
-.second .top-sellers-wrapper .top-seller-photo h4 {
+.top-sellers .top-sellers-wrapper .top-seller-photo h4 {
   font-family: FiraSansCondensedItalic;
   font-size: 16px;
   text-align: center;
@@ -380,25 +380,33 @@ nav .nav-wrapper .nav-icons i:hover {
   text-shadow: -2px 2px rgba(37, 37, 37, 0.5);
   text-transform: uppercase;
 }
-.second .top-sellers-wrapper .top-seller1 {
+.top-sellers .top-sellers-wrapper .top-seller1 {
   background-image: url(../../images/top-seller-1.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
-.second .top-sellers-wrapper .top-seller2 {
+.top-sellers .top-sellers-wrapper .top-seller2 {
   background-image: url(../../images/top-seller-2.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
-.second .top-sellers-wrapper .top-seller3 {
+.top-sellers .top-sellers-wrapper .top-seller3 {
   background-image: url(../../images/top-seller-3.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
 
+@media screen and (max-width: 875px) {
+  .top-sellers .top-sellers-wrapper {
+    flex-direction: column;
+  }
+  .top-sellers .top-sellers-wrapper .top-seller-photo {
+    margin-bottom: 35px;
+  }
+}
 .health {
   height: 100%;
 }
@@ -656,7 +664,7 @@ nav .nav-wrapper .nav-icons i:hover {
   background-repeat: no-repeat;
   position: relative;
 }
-.pets .oval {
+.pets .pets-svg {
   position: absolute;
   right: 260px;
 }
