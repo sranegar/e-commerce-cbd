@@ -7,14 +7,14 @@
       );
 
     h2 {
-        font-family: FiraSansExtraLight;
+        font-family: FiraSansCondensedBoldItalic;
         // background-color: red;
         max-width: 40%;
         text-align: center;
         margin: 0 auto;
         font-size: 26px;
         letter-spacing: 2px;
-        text-transform: lowercase;
+        text-transform: uppercase;
         color: white;
         padding: 40px;
       }
@@ -33,12 +33,13 @@
               border-radius: 4%;
 
               h4 {
-                  font-family: FiraSansLight;
+                  font-family: FiraSansCondensedItalic;
                   font-size: 16px;
                   text-align: center;
                   color: white;
                   padding-top: 140px;
-                  text-shadow: -2px 2px #000;
+                  text-shadow: -2px 2px rgba(37, 37, 37, 0.5);
+                  text-transform: uppercase;
                   
               }
           }
