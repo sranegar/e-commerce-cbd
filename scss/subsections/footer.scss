@@ -1,5 +1,5 @@
 .footer {
-  height: 50%;
+  max-height: 50%;
   background-color: #d82658;
 
   .footer-wrapper {
@@ -11,6 +11,8 @@
     align-items: center;
 
     .links-wrapper {
+      // background-color: red;
+      max-width: 380px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -29,6 +31,7 @@
 
       .list {
         min-height: 160px;
+       
         p {
           font-family: FiraSansRegular;
           font-size: 17px;
@@ -120,3 +123,4 @@
     }
   }
 }
+

@@ -504,7 +504,6 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 
 .about {
-  height: 100%;
   background-image: url(../../images/about-background.jpg);
   background-size: cover;
   background-position: center;
@@ -521,21 +520,20 @@ nav .nav-wrapper .nav-icons i:hover {
   display: flex;
   margin: 0 auto;
   align-items: center;
-  max-width: 60%;
+  max-width: 760px;
 }
 .about .about-wrapper .shop-image {
   background-image: url(../../images/about-image.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-left: 12%;
-  width: 373px;
-  height: 473px;
+  width: 355px;
+  height: 425px;
 }
 .about .about-wrapper .shop-description {
-  width: 250px;
-  height: 473px;
-  background-color: #faf9f9;
+  width: 405px;
+  height: 425px;
+  background-color: rgba(250, 249, 249, 0.85);
 }
 .about .about-wrapper .shop-description h3 {
   padding: 25px;
@@ -552,11 +550,23 @@ nav .nav-wrapper .nav-icons i:hover {
 .about .about-wrapper .shop-description p {
   font-family: FiraSansLight;
   font-size: 13px;
-  padding: 25px;
+  padding: 15px;
 }
 
+@media screen and (max-width: 800px) {
+  .about .about-wrapper {
+    flex-direction: column;
+  }
+  .about .about-wrapper .shop-image {
+    width: 400px;
+    height: 300px;
+  }
+  .about .about-wrapper .shop-description {
+    width: 400px;
+  }
+}
 .footer {
-  height: 50%;
+  max-height: 50%;
   background-color: #d82658;
 }
 .footer .footer-wrapper {
@@ -567,6 +577,7 @@ nav .nav-wrapper .nav-icons i:hover {
   align-items: center;
 }
 .footer .footer-wrapper .links-wrapper {
+  max-width: 380px;
   display: flex;
   justify-content: space-between;
   align-items: center;

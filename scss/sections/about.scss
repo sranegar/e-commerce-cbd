@@ -1,5 +1,5 @@
 .about {
-    height: 100%;
+    
     background-image: url(../../images/about-background.jpg);
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@
         display: flex;
         margin: 0 auto;
         align-items: center;
-        max-width: 60%;
+        max-width: 760px;
         // background-color: red;
 
         .shop-image {
@@ -25,16 +25,15 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            margin-left: 12%;
-            width: 373px;
-            height: 473px;
+            width: 355px;
+            height: 425px;
          
         }
     
         .shop-description {
-            width: 250px;
-            height: 473px;
-            background-color: rgb(250, 249, 249);
+            width: 405px;
+            height: 425px;
+            background-color: rgb(250, 249, 249, .85);
 
             h3 {
                 padding: 25px;
@@ -53,9 +52,26 @@
             p {
                 font-family: FiraSansLight;
                 font-size: 13px;
-                padding: 25px;
+                padding: 15px;
             }
         }
     }
 
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        .about-wrapper {
+            flex-direction: column;
+            .shop-image {
+                width: 400px;
+                height: 300px;
+            }
+
+            .shop-description {
+                width: 400px;
+            }
+          
+        }
+    }
 }
