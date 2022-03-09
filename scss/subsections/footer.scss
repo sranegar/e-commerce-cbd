@@ -91,4 +91,21 @@
             }
         }
     }
+    .copyright-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        p {
+            margin-bottom: 0;
+            font-family: FiraSansThin;
+            color: white;
+            margin: -5px 5px 0px 5px;
+        }
+
+        .pink-logo {
+            margin-top: -18px;
+
+        }
+      }
 }
