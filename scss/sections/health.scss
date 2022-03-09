@@ -1,9 +1,10 @@
 .health {
   height: 100%;
+  // background-color: pink;
 
   h2 {
     font-family: FiraSansThin;
-    padding: 55px 140px;
+    padding: 25px 140px;
     font-size: 36px;
     letter-spacing: 8px;
     text-transform: lowercase;
@@ -12,8 +13,10 @@
 
   h3 {
     margin-left: 195px;
-    font-family: FiraSansExtraLight;
-    font-size: 18px;
+    font-family: FiraSansCondensedLightItalic;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: $site-green;
   }
 
   h3:after {
@@ -30,7 +33,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
 
     .paragraph-wrapper {
       max-width: 420px;
@@ -45,7 +47,6 @@
     .health-image {
       width: 580px;
       height: 435px;
- 
       background-image: url(../../images/cbd-benefits.jpg);
       background-size: cover;
       background-position: center;

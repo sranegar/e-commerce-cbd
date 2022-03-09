@@ -347,12 +347,12 @@ nav .nav-wrapper .nav-icons i:hover {
   min-height: 50%;
 }
 .top-sellers h2 {
-  font-family: FiraSansCondensedBoldItalic;
+  font-family: FiraSansCondensedLightItalic;
   max-width: 30%;
   text-align: center;
   margin: 0 auto;
   font-size: 26px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #35AC41;
   padding: 40px;
@@ -412,7 +412,7 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .health h2 {
   font-family: FiraSansThin;
-  padding: 55px 140px;
+  padding: 25px 140px;
   font-size: 36px;
   letter-spacing: 8px;
   text-transform: lowercase;
@@ -420,8 +420,10 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .health h3 {
   margin-left: 195px;
-  font-family: FiraSansExtraLight;
-  font-size: 18px;
+  font-family: FiraSansCondensedLightItalic;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #35AC41;
 }
 .health h3:after {
   content: "";
@@ -480,7 +482,7 @@ nav .nav-wrapper .nav-icons i:hover {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.6;
-  padding: 20px;
+  padding: 18px;
 }
 .reviews p i {
   font-size: 25px;
@@ -539,8 +541,10 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .about .about-wrapper .shop-description h3 {
   padding: 25px;
-  font-family: FiraSansCondensedLight;
-  font-size: 31px;
+  font-family: FiraSansCondensedLightItalic;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #35AC41;
 }
 .about .about-wrapper .shop-description h3:after {
   content: "";
