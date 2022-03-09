@@ -202,7 +202,7 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 
 .products h2 {
-  font-family: FiraSansExtraLight;
+  font-family: FiraSansThin;
   padding: 50px 140px;
   font-size: 36px;
   letter-spacing: 8px;
@@ -411,7 +411,7 @@ nav .nav-wrapper .nav-icons i:hover {
   height: 100%;
 }
 .health h2 {
-  font-family: FiraSansExtraLight;
+  font-family: FiraSansThin;
   padding: 55px 140px;
   font-size: 36px;
   letter-spacing: 8px;
@@ -504,13 +504,14 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 
 .about {
+  min-height: 100%;
   background-image: url(../../images/about-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .about h2 {
-  font-family: FiraSansExtraLight;
+  font-family: FiraSansThin;
   padding: 15px 140px;
   font-size: 36px;
   letter-spacing: 8px;
@@ -518,7 +519,7 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .about .about-wrapper {
   display: flex;
-  margin: 0 auto;
+  margin: 50px auto;
   align-items: center;
   max-width: 760px;
 }
@@ -528,22 +529,22 @@ nav .nav-wrapper .nav-icons i:hover {
   background-position: center;
   background-repeat: no-repeat;
   width: 355px;
-  height: 425px;
+  height: 400px;
 }
 .about .about-wrapper .shop-description {
   width: 405px;
-  height: 425px;
+  height: 400px;
   background-color: rgba(250, 249, 249, 0.85);
 }
 .about .about-wrapper .shop-description h3 {
   padding: 25px;
   font-family: FiraSansCondensedLight;
-  font-size: 18px;
+  font-size: 31px;
 }
 .about .about-wrapper .shop-description h3:after {
   content: "";
   display: block;
-  width: 140px;
+  width: 217px;
   border-bottom: 2px solid #E20F71;
   margin-top: 6px;
 }
