@@ -65,7 +65,7 @@ nav {
 nav .nav-wrapper {
   display: flex;
   align-items: center;
-  max-width: 75%;
+  max-width: 1000px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -77,14 +77,14 @@ nav .nav-wrapper .logo img {
   width: 100%;
 }
 nav .nav-wrapper .links {
-  margin-left: 250px;
+  margin-left: 25%;
 }
 nav .nav-wrapper .links a {
   text-decoration: none;
   text-transform: lowercase;
   font-family: FiraSansLight;
   color: #000;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 nav .nav-wrapper .links a:hover {
   cursor: pointer;
@@ -127,10 +127,10 @@ nav .nav-wrapper .nav-icons i:hover {
 .home .home-wrapper .square {
   height: 200px;
   max-width: 400px;
-  background-color: black;
-  opacity: 90%;
+  background-color: rgba(0, 0, 0, 0.8);
   margin: 0 auto;
   padding: 10px;
+  position: relative;
 }
 .home .home-wrapper .square h1 {
   color: #fff567;
@@ -138,17 +138,16 @@ nav .nav-wrapper .nav-icons i:hover {
   font-size: 36px;
   letter-spacing: 2px;
 }
-.home .home-wrapper .home-image {
+.home .home-wrapper .square .home-image {
+  height: 200px;
+  width: 200px;
   position: absolute;
-  height: 217px;
-  width: 217px;
+  bottom: -90px;
+  right: -50px;
+}
+.home .home-wrapper .square .home-image img {
+  width: 100%;
   border-radius: 50%;
-  margin-top: 100px;
-  margin-left: 680px;
-  background-image: url(../../images/home-oil.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .home .home-cta {
   position: absolute;
@@ -467,7 +466,7 @@ nav .nav-wrapper .nav-icons i:hover {
   margin-top: -14px;
 }
 .reviews .rating-wrapper i {
-  color: #fff567;
+  color: #FDCE1D;
 }
 .reviews .customer-name {
   margin-top: -8px;
@@ -535,7 +534,7 @@ nav .nav-wrapper .nav-icons i:hover {
   background-color: #d82658;
 }
 .footer .footer-wrapper {
-  max-width: 75%;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -612,7 +611,9 @@ nav .nav-wrapper .nav-icons i:hover {
 }
 .footer .footer-wrapper .contact-wrapper button:hover {
   cursor: pointer;
-  background-image: linear-gradient(to right, #fff567, #f5eb60);
+  color: #fff;
+  background-color: #d82658;
+  border: solid 2px #fff;
 }
 .footer .copyright-wrapper {
   display: flex;

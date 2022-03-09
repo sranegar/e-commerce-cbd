@@ -3,7 +3,7 @@
   background-color: #d82658;
 
   .footer-wrapper {
-    max-width: 75%;
+    max-width: $content-width;
     // background-color: aqua;
     margin: 0 auto;
     display: flex;
@@ -96,7 +96,9 @@
 
         &:hover {
           cursor: pointer;
-          background-image: linear-gradient(to right, #fff567, #f5eb60);
+          color: $site-white;
+          background-color: #d82658;
+          border: solid 2px $site-white;
         }
       }
     }
