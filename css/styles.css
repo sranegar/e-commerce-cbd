@@ -430,29 +430,30 @@ nav .nav-wrapper .nav-icons i:hover {
   border-bottom: 2px solid #E20F71;
   margin-top: 6px;
 }
-.health .content-wrapper {
-  max-width: 75%;
+.health .health-content-wrapper {
   margin: 0 auto;
+  max-width: 1000px;
+  height: 450px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
-.health .content-wrapper p {
+.health .health-content-wrapper .paragraph-wrapper {
+  max-width: 420px;
+}
+.health .health-content-wrapper .paragraph-wrapper p {
   font-family: FiraSansLight;
   line-height: 1.3;
   font-size: 14px;
-  margin-top: 35px;
   max-width: 350px;
-  padding-bottom: 30px;
 }
-.health .content-wrapper .health-image {
-  margin-top: -50px;
-  height: 400px;
+.health .health-content-wrapper .health-image {
   width: 580px;
-}
-.health .content-wrapper .health-image img {
-  border-radius: 2%;
-  width: 100%;
+  height: 435px;
+  background-image: url(../../images/cbd-benefits.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .reviews {
