@@ -25,8 +25,8 @@
       </div>
     </header>
     <!-- Navigation -->
-    <nav>
-     
+    <nav> 
+      <div class="nav-wrapper">
         <div class="logo">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.426" height="47.135" viewBox="0 0 54.426 47.135">
             <defs>
@@ -49,12 +49,10 @@
                 <path id="Path_16669" data-name="Path 16669" d="M383.22,272.092l1.178,2.23-10.565,18.3,10.62,18.394h.085l-1.318,2.135-11.852-20.529Z" transform="translate(-367.859 -269.053)" fill="#709b3f"/>
               </g>
             </g>
-          </svg>
-          
+          </svg>        
         </div>
         <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle"/>
-   
+        <input type="checkbox" id="toggle"/>  
         <div class="links">
           <a href="#products">products</a>
           <span>|</span>
@@ -67,33 +65,39 @@
           <a href="#contact">contact</a>
           <span>|</span>
           <a href="https://xd.adobe.com/view/8ad69d66-4bf1-4b80-b46b-8ebf8a9b449f-df85/">prototype</a>
-        </div>
-    
-
-     
+        </div> 
+      </div>  
     </nav>
       <div class="home-wrapper">
         <div class="square">
-          <h1>Locally sourced CBD. Trusted by many.</h1>
+          <h1>Locally sourced CBD.<br> Trusted by many.</h1>
           <div class="home-image">
             <img src="images/home-oil.jpg" alt="">
           </div>
         </div>
       </div>
-      <p class="home-cta">Shop CBD</p>
-      <a href="#products" alt="Shop CBD"><i class="fa-solid fa-circle-chevron-down"></i></a>
+      <!--CTA button-->
+      <p class="home-cta">Shop CBD
+        <i class="fa-solid fa-circle-chevron-down"></i>
+      </p>
+   
     </section>
     <!-- Descriptors subsection -->
     <section id="descriptors" class="first">
       <div class="icon-wrapper">
-        <i class="fa-solid fa-leaf"></i>
-        <i class="fa-solid fa-earth-americas"></i>
-        <i class="fa-solid fa-hand-holding-medical"></i>
-      </div>
-      <div class="text-wrapper">
+        <div class="box">
+        <i class="fa-solid fa-leaf">
+        </i>
         <p class="gmo">Non-GMO</p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-earth-americas"></i>
         <p class="local">Locally Sourced</p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-hand-holding-medical"></i>
         <p class="medical">Medically Approved</p>
+      </div>
       </div>
     </section>
     <!-- products full section -->
@@ -301,13 +305,14 @@
                 </ul>
             </div>
         </div>
+        <!-- Contact form -->
         <div class="contact-wrapper">
             <h3>Get in touch!</h3>
             <input type="text" placeholder="name">
             <br>
             <input type="text" placeholder="email">
             <br>
-            <textarea name="message" id="" cols="60" rows="10" placeholder="message..."></textarea>
+            <textarea name="message" id="txtStatInput" cols="60" rows="10" placeholder="message..." onfocus="textFocus()" onblur="textLeave()"></textarea>
             <button>Send</button>
         </div>
     </div>
@@ -338,5 +343,7 @@
     <p>All rights reserved.</p>
   </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="js/app.js"></script>
   </body>
 </html>

@@ -85,7 +85,11 @@
         height: 80px;
         width: 500px;
         margin-top: 14px;
+        animation-name: selectedAnim;
+        animation-duration: .7s;
       }
+
+    
 
       button {
         width: 60px;

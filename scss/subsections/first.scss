@@ -10,32 +10,44 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 90px;
 
-    i {
-      color: $site-white;
-      font-size: 42px;
+    .box {
+      // background-color: pink;
+      text-align: center;
+      min-width: 25%;
+      
+
+      i {
+        color: $site-white;
+        font-size: 45px;
+      }
+
+      p {
+        color: $site-white;
+        font-family: FiraSansRegular;
+        margin-top: 10px;
+    
+      }
     }
+ 
   }
 
-  .text-wrapper {
-    max-width: 48%;
-    margin: 0 auto;
-    padding-left: 25px;
-    // background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 18px;
+ 
+  
+}
 
-    p {
-      color: $site-white;
-      font-family: FiraSansLight;
-      font-size: 14px;
-    }
+@media screen and (max-width: 800px) {
+  .first {
+    height: 70vh;
 
-    .local {
-      margin-left: 24px;
+    .icon-wrapper {
+      flex-direction: column;
+      padding-top: 30px;
+
+      .box {
+        margin-bottom: 40px;
+      }
     }
   }
 }

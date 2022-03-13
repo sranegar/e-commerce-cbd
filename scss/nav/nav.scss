@@ -1,5 +1,8 @@
 nav {
   background-color: $site-yellow;
+  width: 100%;
+  
+.nav-wrapper {
   max-width: $medium-width;
   height: 55px;
   display: flex;
@@ -56,15 +59,20 @@ nav {
     span {
       color: $site-pink;
       margin: 0 19.5px;
+
     }
   }
+}
 }
 
 //media query for responsive navigation
 @media screen and (max-width: 990px) {
   nav {
+  .nav-wrapper {
     margin: 0 10px 0 10px;
+    height: 75px;
   }
+}
 }
 
 @media screen and (max-width: 670px) {
