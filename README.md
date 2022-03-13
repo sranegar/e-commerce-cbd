@@ -1,6 +1,6 @@
 # CBD.Company E-commerce Website
 
-## NEWM299 Portfolio Assignment
+## NEWM299 Portfolio Assignment PHASE TWO
 
 ### Website Creation Requirements
 ✔️ Create a one page website prototype using whatever software, but Adobe XD CC is preferred, you would like having the below listed parameters:  Must have a minimum of five full height sections with content. That includes text and images. <br>

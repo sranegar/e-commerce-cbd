@@ -61,48 +61,98 @@ p {
 }
 nav {
   background-color: #fff567;
-}
-nav .nav-wrapper {
+  max-width: 980px;
+  height: 55px;
   display: flex;
   align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
   justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  margin: 0 auto;
 }
-nav .nav-wrapper .logo {
-  width: 100px;
+nav .logo {
+  width: 60px;
   height: 50px;
+  background-image: url(../svg/green-logo);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-nav .nav-wrapper .logo img {
-  width: 100%;
+nav label {
+  display: none;
+  position: absolute;
+  right: 20px;
+  font-size: 35px;
+  line-height: 50px;
 }
-nav .nav-wrapper .links {
-  margin-left: 25%;
+nav #toggle {
+  display: none;
+  position: absolute;
+  right: 0;
 }
-nav .nav-wrapper .links a {
+nav .links a {
   text-decoration: none;
   text-transform: lowercase;
   font-family: FiraSansLight;
   color: #000;
-  margin-right: 40px;
 }
-nav .nav-wrapper .links a:hover {
+nav .links a:hover {
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 5px;
   text-decoration-color: #E20F71;
 }
-nav .nav-wrapper .nav-icons .login {
-  margin-right: 25px;
-}
-nav .nav-wrapper .nav-icons i:hover {
-  cursor: pointer;
+nav .links span {
   color: #E20F71;
+  margin: 0 19.5px;
 }
 
+@media screen and (max-width: 990px) {
+  nav {
+    margin: 0 10px 0 10px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .home nav label {
+    display: block;
+    cursor: pointer;
+  }
+  .home nav .mobile-menu {
+    display: block;
+    cursor: pointer;
+  }
+  .home nav #toggle:checked + .links {
+    display: block;
+  }
+  .home nav .links {
+    margin-top: 350px;
+    margin-right: 0px;
+    text-align: center;
+    display: none;
+    width: 100%;
+    height: 400px;
+    background-color: #CE0828;
+  }
+  .home nav .links a {
+    vertical-align: middle;
+    text-align: center;
+    font-family: FiraSansLight;
+    display: block;
+    border-bottom: 0.5px solid #fdf9b8;
+    line-height: 65px;
+    color: #fdf9b8;
+  }
+  .home nav .links a:hover {
+    text-decoration: none;
+  }
+  .home nav .links span {
+    display: none;
+  }
+}
 .shipping-offer {
+  width: 100vw;
   height: 25px;
-  background-color: #E20F71;
+  background-color: #CE0828;
 }
 .shipping-offer p {
   color: #fff;
