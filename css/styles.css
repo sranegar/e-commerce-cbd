@@ -234,18 +234,6 @@ nav .nav-wrapper .links span {
   .home .home-wrapper .square .home-image {
     display: none;
   }
-  .home .home-cta {
-    text-align: center;
-    max-width: 150px;
-    font-size: 30px;
-    margin: 350px auto;
-    font-family: FiraSansCondensedBoldItalic;
-    text-transform: uppercase;
-    color: #E20F71;
-  }
-  .home i {
-    font-size: 50px;
-  }
 }
 .first {
   height: 50%;
@@ -294,28 +282,25 @@ nav .nav-wrapper .links span {
   text-transform: lowercase;
 }
 .products .products-container {
+  background-color: red;
   background: linear-gradient(to right, rgba(250, 221, 223, 0.5), rgba(246, 14, 161, 0.2));
   max-width: 75%;
   margin: 0 auto;
-  height: 255px;
+  height: 275px;
   border-bottom: 4px solid #CE0828;
   margin-bottom: 54px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.products .products-container .category {
-  width: 180px;
-  position: absolute;
-  bottom: 30px;
-  left: 15px;
-}
-.products .products-container .category h3 {
+.products .products-container h3 {
   font-family: FiraSansExtraLight;
   text-transform: lowercase;
   font-size: 22px;
+  margin-top: 155px;
 }
 .products .products-container .photo-wrapper {
-  max-width: 80%;
-  margin-left: 200px;
+  width: 750px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -324,7 +309,6 @@ nav .nav-wrapper .links span {
   width: 200px;
   height: 160px;
   position: relative;
-  margin-top: 41px;
 }
 .products .products-container .photo-wrapper .product-photo .add-to-cart {
   position: absolute;
@@ -343,7 +327,7 @@ nav .nav-wrapper .links span {
   opacity: 100%;
 }
 .products .products-container .photo-wrapper .product-photo .description-content {
-  margin-top: 162px;
+  margin-top: 165px;
   text-align: center;
 }
 .products .products-container .photo-wrapper .product-photo .description-content h4 {
@@ -353,7 +337,7 @@ nav .nav-wrapper .links span {
   font-family: FiraSansCondensedItalic;
   font-size: 15px;
   color: #35AC41;
-  margin-top: -11px;
+  margin-top: -8px;
 }
 .products .products-container .photo-wrapper .gummy1 {
   background-image: url(../images/cbd-gummies-1.jpg);

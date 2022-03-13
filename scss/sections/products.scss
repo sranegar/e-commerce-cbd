@@ -11,6 +11,7 @@
   }
 
   .products-container {
+    background-color: red;
     background: linear-gradient(
       to right,
       rgba(250, 221, 223, 0.5),
@@ -18,31 +19,27 @@
     );
     max-width: 75%;
     margin: 0 auto;
-    height: 255px;
+    height: 275px;
     border-bottom: 4px solid $site-red;
     margin-bottom: 54px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-    .category {
-    //   background-color: purple;
-      width: 180px;
-      position: absolute;
-      bottom: 30px;
-      left: 15px;
 
       h3 {
         font-family: FiraSansExtraLight;
         text-transform: lowercase;
         font-size: 22px;
-      
-     
+        // background-color: antiquewhite;
+        margin-top: 155px;
+
       }
-    }
+    
 
     .photo-wrapper {
       // background-color: purple;
-      max-width: 80%;
-      margin-left: 200px;
+      width: 750px;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -54,8 +51,7 @@
         height: 160px;
         // background-color: pink;
         position: relative;
-        margin-top: 41px;
-
+    
         .add-to-cart {
           position: absolute;
           bottom: 0;
@@ -75,19 +71,21 @@
         }
 
         .description-content {
-          margin-top: 162px;
+          margin-top: 165px;
           text-align: center;
 
 
           h4 {
             font-family: FiraSansExtraLight;
+           
           }
 
           p {
             font-family: FiraSansCondensedItalic;
             font-size: 15px;
             color: $site-green;
-            margin-top: -11px;
+            margin-top: -8px;
+          
           }
         }
       }
