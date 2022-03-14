@@ -745,7 +745,7 @@ nav .nav-wrapper .links span {
   width: 25%;
 }
 .footer .footer-wrapper .links-wrapper .list p {
-  font-family: FiraSansRegular;
+  font-family: FiraSansMedium;
   font-size: 17px;
   color: white;
 }
@@ -798,14 +798,17 @@ nav .nav-wrapper .links span {
   text-transform: lowercase;
   color: #d82658;
   margin-top: 8px;
+  margin-bottom: 10px;
   float: right;
   background-color: #fff;
+  border: solid 1px #E20F71;
+  border-radius: 5px;
 }
 .footer .footer-wrapper .contact-wrapper button:hover {
   cursor: pointer;
   color: #fff;
   background-color: #d82658;
-  border: solid 2px #fff;
+  border: solid 1px #fff;
 }
 .footer .copyright-wrapper {
   display: flex;
@@ -816,7 +819,7 @@ nav .nav-wrapper .links span {
   margin-bottom: 0;
   font-family: FiraSansThin;
   color: #fff;
-  margin: -11px 5px 0px 5px;
+  margin: -8px 5px 0px 5px;
   font-size: 14px;
 }
 .footer .copyright-wrapper .pink-logo {
@@ -848,6 +851,13 @@ nav .nav-wrapper .links span {
     margin: 30px auto 20px auto;
     text-align: center;
   }
+  .footer .copyright-wrapper {
+    margin-top: 15px;
+    padding-bottom: 8px;
+  }
+  .footer .copyright-wrapper p {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 600px) {
   .footer .footer-wrapper .links-wrapper {
@@ -873,9 +883,18 @@ nav .nav-wrapper .links span {
     margin-bottom: 20px;
   }
   .footer .footer-wrapper .contact-wrapper button {
-    margin-top: 20px auto 0 auto;
     float: none;
     width: 100%;
+    color: #fff;
+    margin-top: 15px;
+    background-color: transparent;
+    border: solid 1px #fff;
+  }
+  .footer .footer-wrapper .contact-wrapper button:hover {
+    cursor: pointer;
+    color: #E20F71;
+    background-color: #fff;
+    border: solid 1px #E20F71;
   }
 
   .copyright-wrapper {
@@ -934,6 +953,7 @@ nav .nav-wrapper .links span {
 }
 .pets .pets-bubble-container .pets-bubble .pets-text-wrapper .shop-pets:hover {
   cursor: pointer;
+  background-color: teal;
 }
 
 @media screen and (max-width: 900px) {

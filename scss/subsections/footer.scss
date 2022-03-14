@@ -35,7 +35,7 @@
         width: 25%;
 
         p {
-          font-family: FiraSansRegular;
+          font-family: FiraSansMedium;
           font-size: 17px;
           color: white;
         }
@@ -46,6 +46,7 @@
           }
 
           li {
+           
             i {
               color: white;
               font-size: 25px;
@@ -102,14 +103,17 @@
         text-transform: lowercase;
         color: #d82658;
         margin-top: 8px;
+        margin-bottom: 10px;
         float: right;
         background-color: $site-white;
+        border: solid 1px $site-pink;
+        border-radius: 5px;
 
         &:hover {
           cursor: pointer;
           color: $site-white;
           background-color: #d82658;
-          border: solid 2px $site-white;
+          border: solid 1px $site-white;
         }
       }
     }
@@ -124,7 +128,7 @@
       margin-bottom: 0;
       font-family: FiraSansThin;
       color: $site-white;
-      margin: -11px 5px 0px 5px;
+      margin: -8px 5px 0px 5px;
       font-size: 14px;
     }
 
@@ -166,6 +170,15 @@
         }
       }
     }
+    .copyright-wrapper {
+      margin-top: 15px;
+      padding-bottom: 8px;
+     
+      p {
+        font-size: 13px;
+      }
+    }
+    
   }
 }
 
@@ -204,10 +217,20 @@
           margin-bottom: 20px;
         }
         button {
-          margin-top: 20px auto 0 auto;
           float: none;
           width: 100%;
-     
+          color: $site-white;
+          margin-top: 15px;
+          background-color: transparent;
+          border: solid 1px $site-white;
+
+          
+        &:hover {
+          cursor: pointer;
+          color: $site-pink;
+          background-color: $site-white;
+          border: solid 1px $site-pink;
+        }
         }
       }
     }
