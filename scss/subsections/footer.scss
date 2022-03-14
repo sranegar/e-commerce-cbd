@@ -198,6 +198,9 @@
         }
       }
       .contact-wrapper {
+        h3 {
+          margin-bottom: 20px;
+        }
         button {
           margin-top: 8px;
         }
@@ -205,8 +208,9 @@
     }
   }
   .copyright-wrapper {
-    margin-top: 40px;
+    margin-top: 30px;
     padding-bottom: 8px;
+   
     p {
       font-size: 13px;
     }
