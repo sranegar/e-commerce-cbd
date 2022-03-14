@@ -7,7 +7,7 @@
 
     h2 {
         font-family: FiraSansThin;
-        padding: 15px 140px;
+        margin: 50px 0 50px 140px;
         font-size: 36px;
         letter-spacing: 8px;
         text-transform: lowercase;
@@ -77,3 +77,16 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .about {
+        background-image: none;
+      h2 {
+        text-align: center;
+        margin: 50px auto;
+        width: 200px;
+        // background-color: red;
+        white-space: nowrap;
+      }
+    }
+  }
