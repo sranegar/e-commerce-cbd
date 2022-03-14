@@ -497,9 +497,6 @@ nav .nav-wrapper .links span {
     padding-top: 90px;
   }
 }
-.health {
-  background-color: pink;
-}
 .health h2 {
   font-family: FiraSansThin;
   margin: 50px 0 50px 140px;
@@ -529,18 +526,15 @@ nav .nav-wrapper .links span {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: red;
 }
 .health .health-content-wrapper .paragraph-wrapper {
   max-width: 400px;
-  background-color: purple;
 }
 .health .health-content-wrapper .paragraph-wrapper p {
   font-family: FiraSansLight;
   line-height: 1.3;
   font-size: 14px;
   width: 100%;
-  background-color: bisque;
 }
 .health .health-content-wrapper .health-image {
   max-width: 580px;
@@ -560,12 +554,8 @@ nav .nav-wrapper .links span {
   }
   .health .health-content-wrapper {
     flex-direction: column-reverse;
-    background-color: #061de9;
     height: 1000px;
     max-width: 500px;
-  }
-  .health .health-content-wrapper .paragraph-wrapper {
-    background-color: #424b4b;
   }
   .health .health-content-wrapper .health-image {
     margin-top: 0px;
@@ -808,24 +798,29 @@ nav .nav-wrapper .links span {
   position: relative;
 }
 .pets .pets-svg {
-  position: absolute;
-  right: 260px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  max-width: 500px;
+  height: 350px;
+  border-radius: 0% 50%;
+  padding: 75px;
 }
-.pets .pets-text-wrapper {
-  position: absolute;
-  right: 420px;
-  top: 165px;
+.pets .pets-svg .pets-text-wrapper {
+  width: 330px;
+  margin: 30px auto;
+  text-align: center;
 }
-.pets .pets-text-wrapper h2 {
+.pets .pets-svg .pets-text-wrapper h2 {
   color: #E20F71;
   font-size: 30px;
   font-family: FiraSansCondensedBoldItalic;
 }
-.pets .pets-text-wrapper p {
+.pets .pets-svg .pets-text-wrapper p {
   font-family: FiraSansLight;
   width: 300px;
 }
-.pets .pets-text-wrapper .shop-pets {
+.pets .pets-svg .pets-text-wrapper .shop-pets {
   color: #fff;
   background-color: #E20F71;
   border: none;
@@ -833,10 +828,10 @@ nav .nav-wrapper .links span {
   width: 120px;
   text-transform: uppercase;
   padding: 5px;
-  margin-left: 75px;
   font-family: FiraSansRegular;
+  border-radius: 5px;
 }
-.pets .pets-text-wrapper .shop-pets:hover {
+.pets .pets-svg .pets-text-wrapper .shop-pets:hover {
   cursor: pointer;
 }
 
