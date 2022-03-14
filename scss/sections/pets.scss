@@ -6,49 +6,105 @@
   background-repeat: no-repeat;
   position: relative;
 
-  .pets-svg {
-    margin: 0 auto;
-    background-color: $site-white;
-    border: 1px solid $site-black;
+  .pets-bubble-container {
+    // background-color: teal;
     max-width: 500px;
-    height: 350px;
-    border-radius: 0% 50%;
-    padding: 75px;
-    
-    .pets-text-wrapper {
+    margin: 0 auto;
+    padding: 18px;
+
+    .pets-bubble {
+      margin: 0 auto;
+      background-color: $site-white;
+      border: 1px solid $site-black;
+      max-width: 100%;
+      height: 350px;
+      border-radius: 0% 50%;
+      padding: 75px;
+
+      .pets-text-wrapper {
         // background-color: purple;
-        width: 330px;
+        max-width: 630px;
         margin: 30px auto;
         text-align: center;
 
         h2 {
-            color: $site-pink;
-            font-size: 30px;
-            font-family: FiraSansCondensedBoldItalic;
-            
-          }
-      
-          p {
-            font-family: FiraSansLight;
-            width: 300px;
-          }
-      
-          .shop-pets {
-            color: $site-white;
-            background-color: $site-pink;
-            border: none;
-            height: 30px;
-            width: 120px;
-            text-transform: uppercase;
-            padding: 5px;
-            font-family: FiraSansRegular;
-            border-radius: 5px;
+          color: $site-pink;
+          font-size: 30px;
+          font-family: FiraSansCondensedBoldItalic;
+        }
 
-            &:hover {
-              cursor: pointer;
-            }
+        p {
+          font-family: FiraSansLight;
+        }
+
+        .shop-pets {
+          color: $site-white;
+          background-color: $site-pink;
+          border: none;
+          height: 30px;
+          width: 120px;
+          text-transform: uppercase;
+          padding: 5px;
+          font-family: FiraSansRegular;
+          border-radius: 5px;
+
+          &:hover {
+            cursor: pointer;
           }
+        }
+      }
     }
+  }
+}
 
+@media screen and (max-width: 900px) {
+  .pets {
+    background-position: 25% 75%;
+
+    .pets-bubble-container {
+      margin-left: 245px;
+
+      .pets-text-wrapper {
+        // background-color: teal;
+        h2 {
+        }
+      }
+    }
+  }
+}
+
+//Media query for mobile device
+@media screen and (max-width: 727px) {
+  .pets {
+    .pets-bubble-container {
+      .pets-bubble {
+        .pets-text-wrapper {
+          margin-top: -15px;
+          height: 230px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pets {
+    padding: 25px 0;
+
+    .pets-bubble-container {
+      margin: 0 auto 0 36px;
+
+      .pets-bubble {
+        border-radius: 0%;
+        width: auto;
+        height: auto;
+        padding: 30px 15px 0px 15px;
+
+        .pets-text-wrapper {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
   }
 }

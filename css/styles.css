@@ -797,30 +797,34 @@ nav .nav-wrapper .links span {
   background-repeat: no-repeat;
   position: relative;
 }
-.pets .pets-svg {
+.pets .pets-bubble-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 18px;
+}
+.pets .pets-bubble-container .pets-bubble {
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid #000;
-  max-width: 500px;
+  max-width: 100%;
   height: 350px;
   border-radius: 0% 50%;
   padding: 75px;
 }
-.pets .pets-svg .pets-text-wrapper {
-  width: 330px;
+.pets .pets-bubble-container .pets-bubble .pets-text-wrapper {
+  max-width: 630px;
   margin: 30px auto;
   text-align: center;
 }
-.pets .pets-svg .pets-text-wrapper h2 {
+.pets .pets-bubble-container .pets-bubble .pets-text-wrapper h2 {
   color: #E20F71;
   font-size: 30px;
   font-family: FiraSansCondensedBoldItalic;
 }
-.pets .pets-svg .pets-text-wrapper p {
+.pets .pets-bubble-container .pets-bubble .pets-text-wrapper p {
   font-family: FiraSansLight;
-  width: 300px;
 }
-.pets .pets-svg .pets-text-wrapper .shop-pets {
+.pets .pets-bubble-container .pets-bubble .pets-text-wrapper .shop-pets {
   color: #fff;
   background-color: #E20F71;
   border: none;
@@ -831,8 +835,41 @@ nav .nav-wrapper .links span {
   font-family: FiraSansRegular;
   border-radius: 5px;
 }
-.pets .pets-svg .pets-text-wrapper .shop-pets:hover {
+.pets .pets-bubble-container .pets-bubble .pets-text-wrapper .shop-pets:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .pets {
+    background-position: 25% 75%;
+  }
+  .pets .pets-bubble-container {
+    margin-left: 245px;
+  }
+}
+@media screen and (max-width: 727px) {
+  .pets .pets-bubble-container .pets-bubble .pets-text-wrapper {
+    margin-top: -15px;
+    height: 230px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pets {
+    padding: 25px 0;
+  }
+  .pets .pets-bubble-container {
+    margin: 0 auto 0 36px;
+  }
+  .pets .pets-bubble-container .pets-bubble {
+    border-radius: 0%;
+    width: auto;
+    height: auto;
+    padding: 30px 15px 0px 15px;
+  }
+  .pets .pets-bubble-container .pets-bubble .pets-text-wrapper {
+    width: auto;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
