@@ -13,7 +13,7 @@
 
     .links-wrapper {
       // background-color: red;
-      width: 500px;
+      max-width: 500px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -32,7 +32,8 @@
 
       .list {
         min-height: 160px;
-
+        width: 25%;
+        
         p {
           font-family: FiraSansRegular;
           font-size: 17px;
@@ -60,7 +61,7 @@
     }
 
     .contact-wrapper {
-      width: 500px;
+      max-width: 500px;
       h3 {
         font-family: FiraSansCondensedLight;
         
@@ -73,7 +74,7 @@
       input {
         font-family: FiraSansRegular;
         color: rgb(119, 119, 119);
-        width: 500px;
+        width: 100%;
         margin-top: 14px;
         height: 40px;
         padding: 10px;
@@ -86,7 +87,7 @@
         color: rgb(119, 119, 119);
         padding: 10px;
         height: 80px;
-        width: 500px;
+        width: 100%;
         margin-top: 14px;
         animation-name: selectedAnim;
         animation-duration: 0.7s;
@@ -161,6 +162,39 @@
       
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer {
+    .footer-wrapper {
+ 
+      .links-wrapper {
+        justify-content: center;
+        width: 450px;
+        .list {
+          margin: 0 20px;
+       
+
+          p {
+            font-size: 15px;
+          }
+          ul {
+            a {
+              li {
+                font-size: 14px;
+              }
+              i {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+     
+        
+      
     }
   }
 }
