@@ -429,7 +429,7 @@ nav .nav-wrapper .links span {
 }
 .top-sellers h2 {
   font-family: FiraSansCondensedLightItalic;
-  max-width: 30%;
+  max-width: 300px;
   height: 80px;
   text-align: center;
   margin: 0 auto;
@@ -484,13 +484,17 @@ nav .nav-wrapper .links span {
   .top-sellers {
     height: 100vh;
   }
+  .top-sellers h2 {
+    white-space: nowrap;
+    margin-top: 0px;
+  }
   .top-sellers .top-sellers-wrapper {
     flex-direction: column;
     height: 100vh;
   }
   .top-sellers .top-sellers-wrapper .top-seller-photo {
-    width: 175px;
-    height: 175px;
+    width: 180px;
+    height: 180px;
   }
   .top-sellers .top-sellers-wrapper .top-seller-photo h4 {
     padding-top: 90px;
@@ -869,7 +873,7 @@ nav .nav-wrapper .links span {
     padding: 25px 0;
   }
   .pets .pets-bubble-container {
-    margin: 0 auto 0 36px;
+    margin: 0 auto;
   }
   .pets .pets-bubble-container .pets-bubble {
     border-radius: 0%;
