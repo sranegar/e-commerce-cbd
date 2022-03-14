@@ -843,7 +843,7 @@ nav .nav-wrapper .links span {
     text-align: center;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .footer .footer-wrapper .links-wrapper {
     justify-content: center;
     width: 450px;
@@ -859,6 +859,13 @@ nav .nav-wrapper .links span {
   }
   .footer .footer-wrapper .links-wrapper .list ul a i {
     font-size: 20px;
+  }
+
+  .copyright-wrapper {
+    padding-bottom: 8px;
+  }
+  .copyright-wrapper p {
+    font-size: 13px;
   }
 }
 .pets {

@@ -33,7 +33,7 @@
       .list {
         min-height: 160px;
         width: 25%;
-        
+
         p {
           font-family: FiraSansRegular;
           font-size: 17px;
@@ -64,7 +64,7 @@
       max-width: 500px;
       h3 {
         font-family: FiraSansCondensedLight;
-        
+
         font-size: 22px;
         color: white;
         margin-top: 20px;
@@ -159,23 +159,20 @@
           width: 250px;
           margin: 30px auto 5px auto;
           text-align: center;
-      
         }
       }
     }
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .footer {
     .footer-wrapper {
- 
       .links-wrapper {
         justify-content: center;
         width: 450px;
         .list {
           margin: 0 20px;
-       
 
           p {
             font-size: 15px;
@@ -192,9 +189,12 @@
           }
         }
       }
-     
-        
-      
+    }
+  }
+  .copyright-wrapper {
+    padding-bottom: 8px;
+    p {
+      font-size: 13px;
     }
   }
 }
