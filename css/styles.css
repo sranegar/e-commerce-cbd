@@ -799,6 +799,7 @@ nav .nav-wrapper .links span {
   color: #d82658;
   margin-top: 8px;
   float: right;
+  background-color: #fff;
 }
 .footer .footer-wrapper .contact-wrapper button:hover {
   cursor: pointer;
@@ -844,7 +845,7 @@ nav .nav-wrapper .links span {
   }
   .footer .footer-wrapper .contact-wrapper h3 {
     width: 250px;
-    margin: 30px auto 5px auto;
+    margin: 30px auto 20px auto;
     text-align: center;
   }
 }
@@ -865,11 +866,16 @@ nav .nav-wrapper .links span {
   .footer .footer-wrapper .links-wrapper .list ul a li i {
     font-size: 20px;
   }
+  .footer .footer-wrapper .contact-wrapper {
+    text-align: center;
+  }
   .footer .footer-wrapper .contact-wrapper h3 {
     margin-bottom: 20px;
   }
   .footer .footer-wrapper .contact-wrapper button {
-    margin-top: 8px;
+    margin-top: 20px auto 0 auto;
+    float: none;
+    width: 100%;
   }
 
   .copyright-wrapper {

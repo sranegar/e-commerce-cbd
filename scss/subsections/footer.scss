@@ -103,6 +103,7 @@
         color: #d82658;
         margin-top: 8px;
         float: right;
+        background-color: $site-white;
 
         &:hover {
           cursor: pointer;
@@ -160,7 +161,7 @@
       .contact-wrapper {
         h3 {
           width: 250px;
-          margin: 30px auto 5px auto;
+          margin: 30px auto 20px auto;
           text-align: center;
         }
       }
@@ -198,11 +199,15 @@
         }
       }
       .contact-wrapper {
+        text-align: center;
         h3 {
           margin-bottom: 20px;
         }
         button {
-          margin-top: 8px;
+          margin-top: 20px auto 0 auto;
+          float: none;
+          width: 100%;
+     
         }
       }
     }
