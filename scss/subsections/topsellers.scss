@@ -1,28 +1,29 @@
 .top-sellers {
   min-height: 50%;
+  // background-color: pink;
 
   h2 {
     font-family: FiraSansCondensedLightItalic;
     // background-color: red;
     max-width: 30%;
+    height: 80px;
     text-align: center;
     margin: 0 auto;
-    font-size: 26px;
+    font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: $site-green;
-    padding: 40px;
-    margin-bottom: 20px;
   }
 
   .top-sellers-wrapper {
-    // background-color: pink;
+    // background-color: purple;
     max-width: $medium-width;
     margin: 0 auto;
     margin-top: -40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 250px;
 
     .top-seller-photo {
       width: 210px;
@@ -65,13 +66,19 @@
 
 @media screen and (max-width: 875px) {
   .top-sellers {
- 
+    height: 100vh;
 
     .top-sellers-wrapper {
-      flex-direction: column;
-
+      flex-direction: column;      height: 100vh;
+    
       .top-seller-photo {
-        margin-bottom: 35px;
+        width: 175px;
+        height: 175px;
+
+        h4 {
+          // background-color: pink;
+          padding-top: 90px;
+        }
       }
     }
   }
