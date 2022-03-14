@@ -572,28 +572,28 @@ nav .nav-wrapper .links span {
   position: absolute;
   right: 0;
 }
-.reviews p {
+.reviews .reviews-wrapper p {
   font-family: FiraSansCondensedItalic;
-  max-width: 50%;
+  max-width: 750px;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.6;
-  padding: 60px 60px;
+  padding: 60px;
   position: relative;
 }
-.reviews p i {
+.reviews .reviews-wrapper p i {
   font-size: 25px;
   padding: 15px;
   color: #E20F71;
   position: absolute;
 }
-.reviews p .left-quote {
+.reviews .reviews-wrapper p .left-quote {
   left: 10px;
   top: 40px;
 }
-.reviews p .right-quote {
+.reviews .reviews-wrapper p .right-quote {
   bottom: 50px;
-  right: 10px;
+  right: 15px;
 }
 .reviews .rating-wrapper {
   max-width: 150px;
@@ -603,12 +603,6 @@ nav .nav-wrapper .links span {
 .reviews .rating-wrapper i {
   color: #FDCE1D;
 }
-.reviews .customer-name {
-  margin-top: -100px;
-  height: 10px;
-  color: #E20F71;
-  font-size: 30px;
-}
 .reviews .dots-wrapper {
   width: 150px;
   margin: 20px auto;
@@ -616,8 +610,26 @@ nav .nav-wrapper .links span {
 }
 
 @media screen and (max-width: 900px) {
+  .reviews .reviews-wrapper p {
+    font-size: 14px;
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
   .reviews {
-    height: 100vh;
+    width: auto;
+    height: auto;
+  }
+  .reviews .left-tri {
+    display: none;
+  }
+  .reviews .right-tri {
+    display: none;
+  }
+  .reviews .reviews-wrapper p {
+    font-size: 14px;
+    height: auto;
+    width: 350px;
   }
 }
 .about {
