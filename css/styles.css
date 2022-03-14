@@ -113,7 +113,6 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 990px) {
   nav .nav-wrapper {
     margin: 0 10px 0 10px;
-    height: 75px;
   }
 }
 @media screen and (max-width: 670px) {
