@@ -148,15 +148,17 @@
         text-align: center;
         border-bottom: 1px solid $site-yellow;
         height: 200px;
+        background-color: teal;
+        padding: 0 80px;
+
         .list {
-          width: 22%;
-          padding: 0 40px;
+          width: 22%;     
           ul {
             display: inline-block;
            ;
             li {
               i {
-                margin-left: 7px;
+                margin-left: 22px;
               }
             }
           }
@@ -187,26 +189,15 @@
     .footer-wrapper {
       .links-wrapper {
         justify-content: space-around;
-        width: 415px;
-        // background-color: purple;
-        .list {
-          padding: 10px 20px;
-  
-          p {
-            font-size: 15px;
-            // background-color: red;
-          }
-          ul {
-             
+        .list { 
+          ul {     
             a {
               li {
                 font-size: 14px;
                 i {
-                  font-size: 20px;
-                  
+                  font-size: 20px;  
                 }
               }
-            
             }
           }
         }
