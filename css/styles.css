@@ -582,43 +582,54 @@ nav .nav-wrapper .links span {
   position: absolute;
   right: 0;
 }
-.reviews h2 {
-  font-family: FiraSansExtraLight;
-  padding: 15px 140px;
-  font-size: 44px;
-  letter-spacing: 8px;
-  text-transform: lowercase;
-}
 .reviews p {
   font-family: FiraSansCondensedItalic;
   max-width: 50%;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.6;
-  padding: 18px;
+  padding: 60px 60px;
+  position: relative;
 }
 .reviews p i {
   font-size: 25px;
   padding: 15px;
   color: #E20F71;
+  position: absolute;
+}
+.reviews p .left-quote {
+  left: 10px;
+  top: 40px;
+}
+.reviews p .right-quote {
+  bottom: 50px;
+  right: 10px;
 }
 .reviews .rating-wrapper {
-  max-width: 47%;
+  max-width: 150px;
   margin: 0 auto;
-  margin-top: -14px;
+  background-color: violet;
 }
 .reviews .rating-wrapper i {
   color: #FDCE1D;
 }
 .reviews .customer-name {
-  margin-top: -8px;
+  margin-top: -100px;
+  height: 10px;
   color: #E20F71;
+  font-size: 30px;
 }
-.reviews .dots {
-  max-width: 30%;
-  margin-left: 46%;
+.reviews .dots-wrapper {
+  width: 150px;
+  margin: 20px auto;
+  text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+  .reviews {
+    height: 100vh;
+  }
+}
 .about {
   min-height: 100%;
   background-image: url(../images/about-background.jpg);
