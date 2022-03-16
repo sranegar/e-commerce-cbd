@@ -518,46 +518,50 @@ nav .nav-wrapper .links span {
 .health .health-content-wrapper {
   margin: 0 auto;
   max-width: 1000px;
-  height: 450px;
+  height: auto;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  background-color: red;
 }
 .health .health-content-wrapper .paragraph-wrapper {
-  max-width: 350px;
-  margin: 0px 10px;
+  background-color: purple;
+  margin: 10px 10px;
 }
 .health .health-content-wrapper .paragraph-wrapper p {
-  width: 100%;
   font-family: FiraSansLight;
   line-height: 1.3;
   font-size: 14px;
-}
-.health .health-content-wrapper .health-image {
-  max-width: auto;
-  height: auto;
-  margin: 0px 10px;
+  background-color: bisque;
 }
 .health .health-content-wrapper .health-image img {
-  width: 100%;
+  width: 600px;
+  height: 480px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 875px) {
   .health h2 {
     text-align: center;
     margin: 50px auto;
     width: 200px;
+    display: none;
   }
   .health .health-content-wrapper {
     flex-direction: column-reverse;
     height: auto;
   }
   .health .health-content-wrapper .paragraph-wrapper {
-    margin-top: 15px;
-    max-width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
   }
   .health .health-content-wrapper .health-image {
-    margin-top: 0px;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+    background-color: #19194b;
+  }
+  .health .health-content-wrapper .health-image img {
+    width: 100%;
+    height: auto;
   }
 }
 .reviews {
