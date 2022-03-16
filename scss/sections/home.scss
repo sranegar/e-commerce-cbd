@@ -55,10 +55,15 @@
     text-shadow: 0px 0px 1px $site-black;
   }
 
-  i {
-    font-size: 30px;
-    padding: 5px;
+  a {
+    text-decoration: none;
+    i {
+      font-size: 30px;
+      padding: 5px;
+      color: $site-green;
+    }
   }
+
 }
 
 
