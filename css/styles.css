@@ -276,13 +276,12 @@ nav .nav-wrapper .links span {
 }
 .products h2 {
   font-family: FiraSansThin;
-  margin: 50px 0 50px 140px;
+  margin: 10px 0px -10px 134px;
   font-size: 36px;
   letter-spacing: 8px;
   text-transform: lowercase;
 }
 .products .products-container {
-  background-color: red;
   background: linear-gradient(to right, rgba(250, 221, 223, 0.5), rgba(246, 14, 161, 0.2));
   max-width: 75%;
   margin: 0 auto;
@@ -294,9 +293,10 @@ nav .nav-wrapper .links span {
   justify-content: space-around;
 }
 .products .products-container h3 {
-  font-family: FiraSansExtraLight;
-  text-transform: lowercase;
-  font-size: 22px;
+  font-family: FiraSansCondensedLightItalic;
+  text-transform: uppercase;
+  color: #35AC41;
+  font-size: 20px;
   margin-top: 155px;
 }
 .products .products-container .photo-wrapper {
@@ -319,7 +319,7 @@ nav .nav-wrapper .links span {
   font-family: FiraSansRegular;
   text-transform: uppercase;
   background-color: #E20F71;
-  opacity: 75%;
+  opacity: 65%;
   color: white;
 }
 .products .products-container .photo-wrapper .product-photo .add-to-cart:hover {
@@ -394,14 +394,13 @@ nav .nav-wrapper .links span {
   background-repeat: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1035px) {
   .products h2 {
     text-align: center;
-    margin: 50px auto;
-    width: 200px;
+    width: 195px;
+    margin: 10px auto;
+    white-space: nowrap;
   }
-}
-@media screen and (max-width: 1035px) {
   .products .products-container {
     background: none;
     border: none;
@@ -410,19 +409,20 @@ nav .nav-wrapper .links span {
     flex-direction: column;
   }
   .products .products-container h3 {
-    margin-top: 20px;
+    margin-top: 15px;
+    font-size: 23px;
   }
   .products .products-container .photo-wrapper {
     flex-direction: column;
     width: 100%;
     height: 95%;
+    justify-content: space-around;
   }
   .products .products-container .photo-wrapper .product-photo {
-    margin-top: 50px;
-    width: 90%;
+    width: 100%;
   }
   .products .products-container .photo-wrapper .product-photo .add-to-cart {
-    height: 30px;
+    height: 20px;
   }
 }
 .top-sellers {
@@ -440,7 +440,6 @@ nav .nav-wrapper .links span {
   color: #35AC41;
 }
 .top-sellers .top-sellers-wrapper {
-  background-color: purple;
   max-width: 980px;
   margin: 0 auto;
   margin-top: -40px;
@@ -644,7 +643,7 @@ nav .nav-wrapper .links span {
 }
 .about h2 {
   font-family: FiraSansThin;
-  margin: 50px 0 50px 140px;
+  margin: 50px 0 50px 134px;
   font-size: 36px;
   letter-spacing: 8px;
   text-transform: lowercase;
