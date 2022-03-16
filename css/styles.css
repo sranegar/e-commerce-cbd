@@ -730,39 +730,33 @@ nav .nav-wrapper .links span {
   padding: 0 5px;
 }
 .footer .footer-wrapper .links-wrapper {
-  max-width: 500px;
+  width: 400px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-.footer .footer-wrapper .links-wrapper ul {
-  list-style: none;
-}
-.footer .footer-wrapper .links-wrapper ul li {
-  margin-top: 5px;
-  font-family: FiraSansLight;
-  margin-right: 100px;
-  text-transform: lowercase;
-  color: white;
 }
 .footer .footer-wrapper .links-wrapper .list {
   min-height: 160px;
-  width: 25%;
+  width: 115px;
+  text-align: center;
 }
-.footer .footer-wrapper .links-wrapper .list p {
-  font-family: FiraSansMedium;
+.footer .footer-wrapper .links-wrapper .list h4 {
+  font-family: FiraSansRegular;
   font-size: 17px;
   color: white;
 }
-.footer .footer-wrapper .links-wrapper .list ul a {
+.footer .footer-wrapper .links-wrapper .list a {
   text-decoration: none;
 }
-.footer .footer-wrapper .links-wrapper .list ul li i {
+.footer .footer-wrapper .links-wrapper .list a p {
+  color: #fff;
+  font-family: FiraSansThin;
+}
+.footer .footer-wrapper .links-wrapper .list i {
   color: white;
   font-size: 25px;
   margin-top: 4px;
 }
-.footer .footer-wrapper .links-wrapper .list ul li i:hover {
+.footer .footer-wrapper .links-wrapper .list i:hover {
   cursor: pointer;
 }
 .footer .footer-wrapper .contact-wrapper {
@@ -839,9 +833,9 @@ nav .nav-wrapper .links span {
   .footer .footer-wrapper .links-wrapper {
     text-align: center;
     border-bottom: 1px solid #fff567;
-    height: 200px;
-    background-color: teal;
+    height: 220px;
     padding: 0 40px;
+    width: 100%;
   }
   .footer .footer-wrapper .links-wrapper .list {
     width: 22%;
@@ -866,10 +860,6 @@ nav .nav-wrapper .links span {
   }
 }
 @media screen and (max-width: 600px) {
-  .footer .footer-wrapper .links-wrapper {
-    justify-content: space-around;
-    width: 100%;
-  }
   .footer .footer-wrapper .links-wrapper .list p {
     font-size: 15px;
   }
