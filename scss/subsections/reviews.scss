@@ -1,7 +1,7 @@
 .reviews {
   min-height: 50%;
   position: relative;
-  
+
   .left-tri {
     position: absolute;
   }
@@ -24,6 +24,7 @@
     .quote-wrapper {
       max-width: 750px;
       margin: 0 auto;
+      // background-color: aquamarine;
 
       p {
         font-family: FiraSansCondensedLightItalic;
@@ -33,6 +34,7 @@
         line-height: 1.6;
         padding: 60px;
         position: relative;
+        // background-color: rebeccapurple;
         
         i {
           font-size: 25px;
@@ -52,6 +54,23 @@
         }
       }
     }
+    .reviews-star-rating {
+      max-width: 680px;
+      margin: 0 auto;
+      color: $site-yellow;
+      // background-color: mediumturquoise;
+      padding: 0px 60px 15px 65px;
+    }
+
+    .customer-name {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 60px;
+      // background-color: pink;
+      font-family: SmithenScript;
+      font-size: 32px;
+      color: $site-pink;
+    }
   }
 
 
@@ -65,10 +84,16 @@
   }
   
   .dots-wrapper {
-    width: 150px;
+    max-width: 150px;
+    height: auto;
     // background-color: red;
     margin: 20px auto;
     text-align: center;
+    
+    .dots {
+      // background-color: beige;
+      width: 100%;
+    }
   }
 }
 

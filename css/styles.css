@@ -609,6 +609,20 @@ nav .nav-wrapper .links span {
   bottom: 50px;
   right: 15px;
 }
+.reviews .reviews-wrapper .reviews-star-rating {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #fff567;
+  padding: 0px 60px 15px 65px;
+}
+.reviews .reviews-wrapper .customer-name {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 60px;
+  font-family: SmithenScript;
+  font-size: 32px;
+  color: #E20F71;
+}
 .reviews .rating-wrapper {
   max-width: 150px;
   margin: 0 auto;
@@ -618,9 +632,13 @@ nav .nav-wrapper .links span {
   color: #FDCE1D;
 }
 .reviews .dots-wrapper {
-  width: 150px;
+  max-width: 150px;
+  height: auto;
   margin: 20px auto;
   text-align: center;
+}
+.reviews .dots-wrapper .dots {
+  width: 100%;
 }
 
 @media screen and (max-width: 900px) {
