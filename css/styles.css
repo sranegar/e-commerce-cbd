@@ -178,19 +178,19 @@ nav .nav-wrapper .links span {
   width: 450px;
   margin: 120px auto;
   display: flex;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .home .home-wrapper .square {
   height: 200px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
   margin: 0 auto;
-  padding: 15px;
   position: relative;
 }
 .home .home-wrapper .square h1 {
   color: #fff567;
   font-family: FiraSansThin;
-  font-size: 36px;
+  font-size: 35px;
   letter-spacing: 2px;
   line-height: 50px;
 }
@@ -225,11 +225,11 @@ nav .nav-wrapper .links span {
   }
   .home .home-wrapper .square {
     text-align: center;
-    height: 100%;
-    padding: 10px;
+    height: auto;
   }
   .home .home-wrapper .square h1 {
     white-space: nowrap;
+    font-size: 30px;
   }
   .home .home-wrapper .square .home-image {
     display: none;
@@ -566,7 +566,7 @@ nav .nav-wrapper .links span {
   }
 }
 .reviews {
-  height: 50%;
+  min-height: 50%;
   position: relative;
 }
 .reviews .left-tri {
@@ -657,17 +657,15 @@ nav .nav-wrapper .links span {
   max-width: 760px;
 }
 .about .about-wrapper .shop-image {
-  background-image: url(../images/about-image.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 355px;
   height: 400px;
 }
+.about .about-wrapper .shop-image img {
+  width: 100%;
+}
 .about .about-wrapper .shop-description {
   width: 405px;
-  height: 400px;
-  background-color: rgba(250, 249, 249, 0.85);
+  height: auto;
 }
 .about .about-wrapper .shop-description h3 {
   padding: 25px;
@@ -675,11 +673,12 @@ nav .nav-wrapper .links span {
   font-size: 25px;
   text-transform: uppercase;
   color: #35AC41;
+  max-width: 100%;
 }
 .about .about-wrapper .shop-description h3:after {
   content: "";
   display: block;
-  width: 217px;
+  max-width: 217px;
   border-bottom: 2px solid #E20F71;
   margin-top: 6px;
 }
@@ -687,20 +686,9 @@ nav .nav-wrapper .links span {
   font-family: FiraSansLight;
   font-size: 13px;
   padding: 15px;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-  .about .about-wrapper {
-    flex-direction: column;
-  }
-  .about .about-wrapper .shop-image {
-    width: 400px;
-    height: 300px;
-  }
-  .about .about-wrapper .shop-description {
-    width: 400px;
-  }
-}
 @media screen and (max-width: 800px) {
   .about {
     background-image: none;
@@ -710,6 +698,23 @@ nav .nav-wrapper .links span {
     margin: 50px auto;
     width: 200px;
     white-space: nowrap;
+  }
+  .about .about-wrapper {
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+  }
+  .about .about-wrapper .shop-image {
+    width: auto;
+    height: auto;
+  }
+  .about .about-wrapper .shop-description {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about .about-wrapper {
+    width: 300px;
   }
 }
 .footer {
@@ -836,7 +841,7 @@ nav .nav-wrapper .links span {
     border-bottom: 1px solid #fff567;
     height: 200px;
     background-color: teal;
-    padding: 0 80px;
+    padding: 0 40px;
   }
   .footer .footer-wrapper .links-wrapper .list {
     width: 22%;
@@ -845,7 +850,7 @@ nav .nav-wrapper .links span {
     display: inline-block;
   }
   .footer .footer-wrapper .links-wrapper .list ul li i {
-    margin-left: 22px;
+    margin-left: 7px;
   }
   .footer .footer-wrapper .contact-wrapper h3 {
     width: 250px;
@@ -863,6 +868,10 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 600px) {
   .footer .footer-wrapper .links-wrapper {
     justify-content: space-around;
+    width: 100%;
+  }
+  .footer .footer-wrapper .links-wrapper .list p {
+    font-size: 15px;
   }
   .footer .footer-wrapper .links-wrapper .list ul a li {
     font-size: 14px;

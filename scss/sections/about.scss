@@ -21,19 +21,18 @@
         // background-color: red;
 
         .shop-image {
-            background-image: url(../images/about-image.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
             width: 355px;
             height: 400px;
-         
+           
+            img {
+                width: 100%;
+            }
         }
     
         .shop-description {
             width: 405px;
-            height: 400px;
-            background-color: rgb(250, 249, 249, .85);
+            height: auto;
+            // background-color: rgb(250, 249, 249, .85);
 
             h3 {
                 padding: 25px;
@@ -41,12 +40,13 @@
                 font-size: 25px;
                 text-transform: uppercase;
                 color: $site-green;
+                max-width: 100%;
             }
 
             h3:after {
                 content: "";
                 display: block;
-                width: 217px;
+                max-width: 217px;
                 border-bottom: 2px solid $site-pink;
                 margin-top: 6px;
             }
@@ -55,6 +55,7 @@
                 font-family: FiraSansLight;
                 font-size: 13px;
                 padding: 15px;
+                max-width: 100%;
             }
         }
     }
@@ -63,30 +64,42 @@
 
 @media screen and (max-width: 800px) {
     .about {
+        background-image: none;
+        h2 {
+            text-align: center;
+            margin: 50px auto;
+            width: 200px;
+            // background-color: red;
+            white-space: nowrap;
+
+          }
         .about-wrapper {
             flex-direction: column;
+            width: 400px;
+            height: auto;
+
             .shop-image {
-                width: 400px;
-                height: 300px;
+                width: auto;
+                height: auto;
+               
             }
 
             .shop-description {
-                width: 400px;
+                width: 95%;
+        
             }
           
         }
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .about {
-        background-image: none;
-      h2 {
-        text-align: center;
-        margin: 50px auto;
-        width: 200px;
-        // background-color: red;
-        white-space: nowrap;
-      }
+        .about-wrapper {
+            width: 300px;
+
+           
+        }
     }
-  }
+}
+
