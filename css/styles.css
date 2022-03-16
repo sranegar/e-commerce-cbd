@@ -289,7 +289,6 @@ nav .nav-wrapper .links span {
   text-transform: lowercase;
 }
 .products .products-container {
-  background: linear-gradient(to right, rgba(250, 221, 223, 0.5), rgba(246, 14, 161, 0.2));
   max-width: 75%;
   margin: 0 auto;
   height: 275px;
@@ -509,12 +508,13 @@ nav .nav-wrapper .links span {
   min-height: 100%;
 }
 .health h2 {
-  font-family: FiraSansThin;
-  margin: 50px 0 50px 134px;
-  font-size: 36px;
-  letter-spacing: 8px;
-  text-transform: lowercase;
-  color: #000;
+  font-family: FiraSansCondensedLightItalic;
+  margin: 0 auto;
+  font-size: 48px;
+  width: 1000px;
+  padding: 80px 10px 30px 10px;
+  color: #E20F71;
+  text-transform: uppercase;
 }
 .health .health-content-wrapper {
   margin: 0 auto;
@@ -524,7 +524,7 @@ nav .nav-wrapper .links span {
   justify-content: space-around;
 }
 .health .health-content-wrapper .paragraph-wrapper {
-  margin: 10px 10px;
+  margin: 40px 10px;
 }
 .health .health-content-wrapper .paragraph-wrapper p {
   font-family: FiraSansLight;

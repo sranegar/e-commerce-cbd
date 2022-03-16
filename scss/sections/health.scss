@@ -4,12 +4,14 @@
 
 
   h2 {
-    font-family: FiraSansThin;
-    margin: 50px 0 50px 134px;
-    font-size: 36px;
-    letter-spacing: 8px;
-    text-transform: lowercase;
-    color: $site-black;
+    font-family: FiraSansCondensedLightItalic;
+    margin: 0 auto;
+    font-size: 48px;
+    width: 1000px;
+    padding: 80px 10px 30px 10px;
+    color: $site-pink;
+    text-transform: uppercase;
+
   }
 
   .health-content-wrapper {
@@ -18,10 +20,9 @@
     height: auto;
     display: flex;
     justify-content: space-around;
-    
 
     .paragraph-wrapper {
-      margin: 10px 10px;
+      margin: 40px 10px;
     
       p {
         font-family: FiraSansLight;
