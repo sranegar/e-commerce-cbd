@@ -576,6 +576,12 @@ nav .nav-wrapper .links span {
   position: absolute;
   right: 0;
 }
+.reviews .top-tri {
+  display: none;
+}
+.reviews .bottom-tri {
+  display: none;
+}
 .reviews .reviews-wrapper .quote-wrapper {
   max-width: 750px;
   margin: 0 auto;
@@ -632,6 +638,18 @@ nav .nav-wrapper .links span {
   }
   .reviews .right-tri {
     display: none;
+  }
+  .reviews .top-tri {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .reviews .bottom-tri {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
   }
   .reviews .reviews-wrapper .quote-wrapper p {
     font-size: 14px;
