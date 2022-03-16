@@ -655,11 +655,14 @@ nav .nav-wrapper .links span {
   display: flex;
   margin: 50px auto;
   align-items: center;
-  max-width: 760px;
+  max-width: 980px;
+  height: auto;
+  padding: 0 20px;
 }
 .about .about-wrapper .shop-image {
-  width: 355px;
-  height: 400px;
+  width: 500px;
+  height: 340px;
+  background-color: aqua;
 }
 .about .about-wrapper .shop-image img {
   width: 100%;
@@ -690,34 +693,6 @@ nav .nav-wrapper .links span {
   max-width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-  .about {
-    background-image: none;
-  }
-  .about h2 {
-    text-align: center;
-    margin: 50px auto;
-    width: 200px;
-    white-space: nowrap;
-  }
-  .about .about-wrapper {
-    flex-direction: column;
-    width: 400px;
-    height: auto;
-  }
-  .about .about-wrapper .shop-image {
-    width: auto;
-    height: auto;
-  }
-  .about .about-wrapper .shop-description {
-    width: 95%;
-  }
-}
-@media screen and (max-width: 500px) {
-  .about .about-wrapper {
-    width: 300px;
-  }
-}
 .footer {
   min-height: 50%;
   background-color: #d82658;

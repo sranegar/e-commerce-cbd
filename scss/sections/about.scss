@@ -18,15 +18,18 @@
         display: flex;
         margin: 50px auto;
         align-items: center;
-        max-width: 760px;
-        // background-color: red;
+        max-width: $medium-width;
+        height: auto;
+        // background-color: rgb(148, 133, 133);
+        padding: 0 20px;
 
         .shop-image {
-            width: 355px;
-            height: 400px;
-           
+            width: 500px;
+            height: 340px;
+            background-color: aqua;
             img {
                 width: 100%;
+                
             }
         }
     
@@ -63,42 +66,4 @@
 
 }
 
-@media screen and (max-width: 800px) {
-    .about {
-        background-image: none;
-        h2 {
-            text-align: center;
-            margin: 50px auto;
-            width: 200px;
-            // background-color: red;
-            white-space: nowrap;
-
-          }
-        .about-wrapper {
-            flex-direction: column;
-            width: 400px;
-            height: auto;
-
-            .shop-image {
-                width: auto;
-                height: auto;
-               
-            }
-
-            .shop-description {
-                width: 95%;
-        
-            }
-          
-        }
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .about {
-        .about-wrapper {
-            width: 300px;       
-        }
-    }
-}
 
