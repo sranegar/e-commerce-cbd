@@ -440,6 +440,7 @@ nav .nav-wrapper .links span {
   color: #35AC41;
 }
 .top-sellers .top-sellers-wrapper {
+  background-color: purple;
   max-width: 980px;
   margin: 0 auto;
   margin-top: -40px;
@@ -576,26 +577,30 @@ nav .nav-wrapper .links span {
   position: absolute;
   right: 0;
 }
-.reviews .reviews-wrapper p {
-  font-family: FiraSansCondensedItalic;
+.reviews .reviews-wrapper .quote-wrapper {
   max-width: 750px;
   margin: 0 auto;
-  font-size: 16px;
+}
+.reviews .reviews-wrapper .quote-wrapper p {
+  font-family: FiraSansCondensedItalic;
+  width: 100%;
+  margin: 30px auto;
+  font-size: 18px;
   line-height: 1.6;
   padding: 60px;
   position: relative;
 }
-.reviews .reviews-wrapper p i {
+.reviews .reviews-wrapper .quote-wrapper p i {
   font-size: 25px;
   padding: 15px;
   color: #E20F71;
   position: absolute;
 }
-.reviews .reviews-wrapper p .left-quote {
+.reviews .reviews-wrapper .quote-wrapper p .left-quote {
   left: 10px;
   top: 40px;
 }
-.reviews .reviews-wrapper p .right-quote {
+.reviews .reviews-wrapper .quote-wrapper p .right-quote {
   bottom: 50px;
   right: 15px;
 }
@@ -614,9 +619,8 @@ nav .nav-wrapper .links span {
 }
 
 @media screen and (max-width: 900px) {
-  .reviews .reviews-wrapper p {
-    font-size: 14px;
-    max-width: 500px;
+  .reviews .reviews-wrapper .quote-wrapper p {
+    width: 86%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -629,11 +633,6 @@ nav .nav-wrapper .links span {
   }
   .reviews .right-tri {
     display: none;
-  }
-  .reviews .reviews-wrapper p {
-    font-size: 14px;
-    height: auto;
-    width: 350px;
   }
 }
 .about {

@@ -16,7 +16,7 @@
   }
 
   .top-sellers-wrapper {
-    // background-color: purple;
+    background-color: purple;
     max-width: $medium-width;
     margin: 0 auto;
     margin-top: -40px;
@@ -29,6 +29,7 @@
       width: 210px;
       height: 210px;
       border-radius: 50%;
+
 
       h4 {
         font-family: FiraSansCondensedItalic;
@@ -78,10 +79,10 @@
       .top-seller-photo {
         width: 180px;
         height: 180px;
-
         h4 {
           // background-color: pink;
           padding-top: 90px;
+
         }
       }
     }
