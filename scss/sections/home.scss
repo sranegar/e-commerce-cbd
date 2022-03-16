@@ -11,13 +11,14 @@
     margin: 120px auto;
     display: flex;
     padding: 20px;
-    // background-color: red;
     background-color: rgba(0, 0, 0, 0.8);
-    
+ 
     .square {
       height: 200px;
       width: 100%;
       margin: 0 auto;
+      padding: 5px;
+    
 
       h1 {
         color: $site-yellow;
@@ -25,6 +26,7 @@
         font-size: 35px;
         letter-spacing: 2px;
         line-height: 50px;
+        width: 100%;
         
       }
 
@@ -71,7 +73,7 @@
 
         
         h1 {
-          white-space: nowrap;
+  
           font-size: 32px;
         }
   
