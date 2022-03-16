@@ -485,9 +485,6 @@ nav .nav-wrapper .links span {
 }
 
 @media screen and (max-width: 875px) {
-  .top-sellers {
-    background-color: purple;
-  }
   .top-sellers h2 {
     white-space: nowrap;
     margin-top: 0px;
@@ -522,17 +519,14 @@ nav .nav-wrapper .links span {
   height: auto;
   display: flex;
   justify-content: space-around;
-  background-color: red;
 }
 .health .health-content-wrapper .paragraph-wrapper {
-  background-color: purple;
   margin: 10px 10px;
 }
 .health .health-content-wrapper .paragraph-wrapper p {
   font-family: FiraSansLight;
   line-height: 1.3;
   font-size: 14px;
-  background-color: bisque;
 }
 .health .health-content-wrapper .health-image img {
   width: 600px;
@@ -551,14 +545,18 @@ nav .nav-wrapper .links span {
     height: auto;
   }
   .health .health-content-wrapper .paragraph-wrapper {
-    max-width: 95%;
-    margin: 0 auto;
+    max-width: 85%;
+    margin: 20px auto;
+    text-align: left;
+  }
+  .health .health-content-wrapper .paragraph-wrapper p {
+    line-height: 1.6;
+    width: 90%;
   }
   .health .health-content-wrapper .health-image {
     margin: 0 auto;
-    width: 95%;
+    width: 97%;
     height: auto;
-    background-color: #19194b;
   }
   .health .health-content-wrapper .health-image img {
     width: 100%;
