@@ -66,22 +66,25 @@
 
 @media screen and (max-width: 875px) {
   .top-sellers {
-    height: 100vh;
+    background-color: purple;
     h2 {
       white-space: nowrap;
       margin-top: 0px;
       // background-color: pink;
     }
     .top-sellers-wrapper {
-      flex-direction: column;      height: 100vh;
+      flex-direction: column;       
+      height: auto;
+      padding-bottom: 40px;
+  
     
       .top-seller-photo {
-        width: 180px;
-        height: 180px;
+   
+        margin: 40px 0px 40px 0px;
         h4 {
           // background-color: pink;
-          padding-top: 90px;
-
+          padding-top: 95px;
+          font-size: 20px;
         }
       }
     }
