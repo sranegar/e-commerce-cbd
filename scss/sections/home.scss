@@ -51,7 +51,8 @@
     margin: 110px auto;
     font-family: FiraSansCondensedBoldItalic;
     text-transform: uppercase;
-    color: $site-pink;
+    color: $site-green;
+    text-shadow: 0px 0px 1px $site-black;
   }
 
   i {
@@ -73,8 +74,8 @@
 
         
         h1 {
-  
-          font-size: 32px;
+          white-space: nowrap;
+          font-size: 28px;
         }
   
         .home-image {

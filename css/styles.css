@@ -211,7 +211,8 @@ nav .nav-wrapper .links span {
   margin: 110px auto;
   font-family: FiraSansCondensedBoldItalic;
   text-transform: uppercase;
-  color: #E20F71;
+  color: #35AC41;
+  text-shadow: 0px 0px 1px #000;
 }
 .home i {
   font-size: 30px;
@@ -226,7 +227,8 @@ nav .nav-wrapper .links span {
     text-align: center;
   }
   .home .home-wrapper .square h1 {
-    font-size: 32px;
+    white-space: nowrap;
+    font-size: 28px;
   }
   .home .home-wrapper .square .home-image {
     margin: 0 auto;
