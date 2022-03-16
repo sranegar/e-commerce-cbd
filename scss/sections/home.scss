@@ -13,10 +13,10 @@
     padding: 20px;
     // background-color: red;
     background-color: rgba(0, 0, 0, 0.8);
+    
     .square {
       height: 200px;
       width: 100%;
-  
       margin: 0 auto;
       position: relative;
 
@@ -33,7 +33,7 @@
         height: 200px;
         width: 200px;
         position: absolute;
-        bottom: -90px;
+        bottom: -100px;
         right: -50px;
 
         img {
@@ -70,7 +70,7 @@
 
       .square {
         text-align: center;
-        height: auto;
+   
 
         
         h1 {
@@ -79,7 +79,7 @@
         }
   
         .home-image {
-          display: none;
+          margin-right: 100px;     
         }
       }
       

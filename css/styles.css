@@ -198,7 +198,7 @@ nav .nav-wrapper .links span {
   height: 200px;
   width: 200px;
   position: absolute;
-  bottom: -90px;
+  bottom: -100px;
   right: -50px;
 }
 .home .home-wrapper .square .home-image img {
@@ -225,14 +225,13 @@ nav .nav-wrapper .links span {
   }
   .home .home-wrapper .square {
     text-align: center;
-    height: auto;
   }
   .home .home-wrapper .square h1 {
     white-space: nowrap;
     font-size: 30px;
   }
   .home .home-wrapper .square .home-image {
-    display: none;
+    margin-right: 100px;
   }
 }
 .first {
