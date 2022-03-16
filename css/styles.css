@@ -636,6 +636,9 @@ nav .nav-wrapper .links span {
   .reviews .right-tri {
     display: none;
   }
+  .reviews .reviews-wrapper .quote-wrapper p {
+    font-size: 14px;
+  }
 }
 .about {
   min-height: 100%;
@@ -836,7 +839,7 @@ nav .nav-wrapper .links span {
   }
   .footer .footer-wrapper .links-wrapper {
     text-align: center;
-    border-bottom: 1px solid #fff567;
+    border-bottom: 1px solid #fff;
     height: 220px;
     padding: 0 40px;
     width: 100%;

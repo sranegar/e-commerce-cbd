@@ -86,7 +86,13 @@
     .right-tri {
       display: none;
     }
- 
+    .reviews-wrapper {
+      .quote-wrapper {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
    
   }
 }
