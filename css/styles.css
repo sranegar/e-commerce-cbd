@@ -512,7 +512,7 @@ nav .nav-wrapper .links span {
   margin: 0 auto;
   font-size: 48px;
   width: 1000px;
-  padding: 80px 10px 30px 10px;
+  padding: 80px 10px 30px 20px;
   color: #E20F71;
   text-transform: uppercase;
 }
@@ -524,7 +524,7 @@ nav .nav-wrapper .links span {
   justify-content: space-around;
 }
 .health .health-content-wrapper .paragraph-wrapper {
-  margin: 40px 10px;
+  margin: 40px 20px;
 }
 .health .health-content-wrapper .paragraph-wrapper p {
   font-family: FiraSansLight;
