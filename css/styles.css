@@ -60,6 +60,10 @@ p {
   font-family: FiraSansCondensedLight;
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
 }
+@font-face {
+  font-family: SmithenScript;
+  src: url(../fonts/SmithenScript/Smithen\ Script.ttf);
+}
 nav {
   background-color: #fff567;
   width: 100%;
@@ -208,10 +212,11 @@ nav .nav-wrapper .links span {
   text-align: center;
   max-width: 100px;
   font-size: 18px;
+  background-color: purple;
   margin: 110px auto;
   font-family: FiraSansCondensedBoldItalic;
   text-transform: uppercase;
-  color: #35AC41;
+  color: #33A033;
   text-shadow: 0px 0px 1px #000;
 }
 .home a {
@@ -220,7 +225,7 @@ nav .nav-wrapper .links span {
 .home a i {
   font-size: 30px;
   padding: 5px;
-  color: #35AC41;
+  color: #33A033;
 }
 
 @media screen and (max-width: 670px) {
@@ -298,7 +303,7 @@ nav .nav-wrapper .links span {
 .products .products-container h3 {
   font-family: FiraSansCondensedLightItalic;
   text-transform: uppercase;
-  color: #35AC41;
+  color: #33A033;
   font-size: 20px;
   margin-top: 155px;
 }
@@ -339,7 +344,7 @@ nav .nav-wrapper .links span {
 .products .products-container .photo-wrapper .product-photo .description-content p {
   font-family: FiraSansCondensedItalic;
   font-size: 15px;
-  color: #35AC41;
+  color: #33A033;
   margin-top: -8px;
 }
 .products .products-container .photo-wrapper .gummy1 {
@@ -432,15 +437,14 @@ nav .nav-wrapper .links span {
   min-height: 50%;
 }
 .top-sellers h2 {
-  font-family: FiraSansCondensedLightItalic;
+  font-family: SmithenScript;
   max-width: 300px;
   height: 80px;
   text-align: center;
-  margin: 0 auto;
-  font-size: 30px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #35AC41;
+  margin: 20px auto;
+  font-size: 52px;
+  letter-spacing: 5px;
+  color: #33A033;
 }
 .top-sellers .top-sellers-wrapper {
   max-width: 980px;
@@ -545,13 +549,12 @@ nav .nav-wrapper .links span {
     height: auto;
   }
   .health .health-content-wrapper .paragraph-wrapper {
-    max-width: 85%;
+    max-width: 80%;
     margin: 20px auto;
-    text-align: left;
   }
   .health .health-content-wrapper .paragraph-wrapper p {
     line-height: 1.6;
-    width: 90%;
+    width: 85%;
   }
   .health .health-content-wrapper .health-image {
     margin: 0 auto;
@@ -678,7 +681,7 @@ nav .nav-wrapper .links span {
   font-family: FiraSansCondensedLightItalic;
   font-size: 25px;
   text-transform: uppercase;
-  color: #35AC41;
+  color: #33A033;
   max-width: 100%;
 }
 .about .about-wrapper .shop-description h3:after {
@@ -929,8 +932,10 @@ nav .nav-wrapper .links span {
 }
 .pets .pets-bubble-container .pets-bubble .pets-text-wrapper h2 {
   color: #E20F71;
-  font-size: 30px;
-  font-family: FiraSansCondensedBoldItalic;
+  font-size: 50px;
+  letter-spacing: 0.3px;
+  line-height: 0.7;
+  font-family: SmithenScript;
 }
 .pets .pets-bubble-container .pets-bubble .pets-text-wrapper p {
   font-family: FiraSansLight;
