@@ -613,12 +613,12 @@ nav .nav-wrapper .links span {
   max-width: 680px;
   margin: 0 auto;
   color: #fff567;
-  padding: 0px 60px 15px 65px;
+  padding: 0px 60px 10px 30px;
 }
 .reviews .reviews-wrapper .customer-name {
   max-width: 680px;
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0 60px 15px 30px;
   font-family: SmithenScript;
   font-size: 32px;
   color: #E20F71;
@@ -643,6 +643,12 @@ nav .nav-wrapper .links span {
 
 @media screen and (max-width: 900px) {
   .reviews .reviews-wrapper .quote-wrapper p {
+    width: 86%;
+  }
+  .reviews .reviews-wrapper .reviews-star-rating {
+    width: 86%;
+  }
+  .reviews .reviews-wrapper .customer-name {
     width: 86%;
   }
 }

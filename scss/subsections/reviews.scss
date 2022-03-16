@@ -35,7 +35,7 @@
         padding: 60px;
         position: relative;
         // background-color: rebeccapurple;
-        
+
         i {
           font-size: 25px;
           padding: 15px;
@@ -59,13 +59,13 @@
       margin: 0 auto;
       color: $site-yellow;
       // background-color: mediumturquoise;
-      padding: 0px 60px 15px 65px;
+      padding: 0px 60px 10px 30px;
     }
 
     .customer-name {
       max-width: 680px;
       margin: 0 auto;
-      padding: 0 60px;
+      padding: 0 60px 15px 30px;
       // background-color: pink;
       font-family: SmithenScript;
       font-size: 32px;
@@ -104,6 +104,12 @@
         p {
           width: 86%;
         }
+      }
+      .reviews-star-rating {
+        width: 86%;
+      }
+      .customer-name {
+        width: 86%;
       }
     }
   }
