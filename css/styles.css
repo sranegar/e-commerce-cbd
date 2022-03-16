@@ -185,7 +185,6 @@ nav .nav-wrapper .links span {
   height: 200px;
   width: 100%;
   margin: 0 auto;
-  position: relative;
 }
 .home .home-wrapper .square h1 {
   color: #fff567;
@@ -197,9 +196,7 @@ nav .nav-wrapper .links span {
 .home .home-wrapper .square .home-image {
   height: 200px;
   width: 200px;
-  position: absolute;
-  bottom: -100px;
-  right: -50px;
+  margin-left: 255px;
 }
 .home .home-wrapper .square .home-image img {
   max-width: 100%;
@@ -228,10 +225,10 @@ nav .nav-wrapper .links span {
   }
   .home .home-wrapper .square h1 {
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 32px;
   }
   .home .home-wrapper .square .home-image {
-    margin-right: 100px;
+    margin: 0 auto;
   }
 }
 .first {
