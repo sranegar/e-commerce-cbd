@@ -554,7 +554,7 @@ nav .nav-wrapper .links span {
 .top-sellers .top-sellers-wrapper .top-seller-photo:hover {
   width: 219.5px;
   height: 219.5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .top-sellers .top-sellers-wrapper .top-seller-photo button {
   width: 100%;
@@ -672,7 +672,30 @@ nav .nav-wrapper .links span {
   }
 }
 .health {
+  background-color: pink;
   min-height: 100%;
+}
+.health .about-cbd {
+  max-width: 1000px;
+  height: auto;
+  background-color: mediumorchid;
+  margin: 0 auto;
+  padding: 60px 0px 60px 20px;
+}
+.health .about-cbd img {
+  height: 200x;
+  width: 50%;
+}
+.health .about-cbd-image {
+  background-color: mediumslateblue;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.health .about-cbd-image img {
+  height: 400x;
+  width: 80%;
+  margin-top: -200px;
+  margin-left: 140px;
 }
 .health h2 {
   font-family: FiraSansCondensedLightItalic;
@@ -1020,24 +1043,51 @@ nav .nav-wrapper .links span {
   animation-duration: 0.7s;
 }
 .footer .footer-wrapper .contact-wrapper button {
+  display: inline-block;
   width: 60px;
   height: 25px;
-  border: none;
   font-family: FiraSansMedium;
   text-transform: lowercase;
-  color: #d82658;
+  color: #E20F71;
   margin-top: 8px;
   margin-bottom: 10px;
   float: right;
-  background-color: #fff;
-  border: solid 1px #E20F71;
   border-radius: 5px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.footer .footer-wrapper .contact-wrapper button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: -2;
+}
+.footer .footer-wrapper .contact-wrapper button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f34a99;
+  transition: all 0.3s;
+  border-radius: 5px;
+  z-index: -1;
 }
 .footer .footer-wrapper .contact-wrapper button:hover {
   cursor: pointer;
   color: #fff;
-  background-color: #d82658;
-  border: solid 1px #fff;
+}
+.footer .footer-wrapper .contact-wrapper button:hover:before {
+  width: 100%;
 }
 .footer .copyright-wrapper {
   display: flex;

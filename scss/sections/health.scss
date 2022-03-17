@@ -1,7 +1,32 @@
 .health {
-  // background-color: pink;
+  background-color: pink;
   min-height: 100%;
 
+  .about-cbd {
+    max-width: $content-width;
+    height: auto;
+    background-color: mediumorchid;
+    margin: 0 auto;
+    padding: 60px 0px 60px 20px;
+    img {
+      height: 200x;
+      width: 50%;
+    }
+    
+  }
+  .about-cbd-image {
+    background-color: mediumslateblue;
+    max-width: 800px;
+    margin: 0 auto;
+
+    img {
+      // background-color: mediumvioletred;
+      height: 400x;
+      width: 80%;
+      margin-top: -200px;
+      margin-left: 140px;
+    }
+  }
 
   h2 {
     font-family: FiraSansCondensedLightItalic;
