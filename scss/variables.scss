@@ -2,13 +2,13 @@
 $site-green: #33A033;
 $site-pink: #e20f71;
 $site-yellow: #fff567;
-$site-second-yellow: #fdf9b8;
+$site-second-yellow: #fffdd1;
 $star-yellow: #FDCE1D;
-$site-red: #CE0828;
+$site-red: rgb(206, 8, 40);
 $product-price: #0000006e;
 $site-black: #000;
 $site-white: #fff;
-$transparent-black: rgba(0,0,0,.35);
+$transparent-black: rgba(0, 0, 0, 0.705);
 $transparent-white: rgba(255, 255, 255, 0.897);
 
 //site dimensions 
@@ -19,3 +19,7 @@ $average-width: 780px;
 
 //linear-gradient 
 $linear-gradient:  linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+
+$clr-primary: #f7cfc8;
+$clr-secondary: #4d84c8;
+$clr-wht: #fffcf6;

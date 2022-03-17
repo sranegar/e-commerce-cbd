@@ -78,7 +78,7 @@
     .pets-bubble-container {
       margin: 0 auto;
       max-width: 100%;
-      height: 250px;
+      height: 300px;
       padding-right: 0px;
 
       .pets-bubble {
@@ -91,11 +91,11 @@
         border-radius: 60%;
         h2 {
           font-size: 46px;
-          
+
         }
         p {
           max-width: 65%;
-          padding: 5px 0px;
+          padding: 0;
         }
       }
     }

@@ -1,37 +1,48 @@
 .home {
   height: 100%;
-  background-image: url(../images/home-background.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.22)),url(../images/home-background.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
+  // background-color: #121212;
+
+  
 
   .home-wrapper {
-    width: 450px;
-    margin: 120px auto;
+    width: 100%;
+    margin: 35px auto 0px auto;
     display: flex;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
+    
 
     .square {
-      height: 200px;
+      text-align: center;
+      height: auto;
       width: 100%;
       margin: 0 auto;
-      padding: 5px;
+      padding: 10px;
+      // background-color: mediumspringgreen;
 
       h1 {
-        color: $site-yellow;
-        font-family: FiraSansThin;
-        font-size: 35px;
-        letter-spacing: 2px;
-        line-height: 50px;
+        font-family: SmithenScript;
+        font-size: 100px;
+        letter-spacing: 10px;
+        line-height: 110px;
         width: 100%;
+        font-weight: bold;
+        margin-top: 15px;
+        color: rgb(119, 255, 126);
+        text-shadow: -2px 6px 6px rgba(0, 0, 0, 0.705);
+    
+
+       
       }
 
       .home-image {
         height: 200px;
         width: 200px;
         margin-left: 255px;
+        
 
         img {
           max-width: 100%;
@@ -46,7 +57,7 @@
     max-width: 100px;
     font-size: 18px;
     margin: 110px auto;
-    font-family: FiraSansCondensedBoldItalic;
+    font-family: SmithenScript;
     text-transform: uppercase;
     color: $site-green;
     text-shadow: 0px 0px 1px $site-black;
@@ -54,7 +65,7 @@
 
   a {
     text-decoration: none;
- 
+
     .down-arrow {
       font-size: 30px;
       padding: 5px;
@@ -70,10 +81,11 @@
 
       .square {
         text-align: center;
+   
 
         h1 {
-          white-space: nowrap;
-          font-size: 28px;
+          font-size: 60px;
+          line-height: 69px;
         }
 
         .home-image {

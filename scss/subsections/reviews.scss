@@ -55,7 +55,7 @@
     }
     .reviews-star-rating {
       max-width: 680px;
-      margin: -40px auto 0 auto;
+      margin: -60px auto 0 auto;
       color: $site-yellow;
       // background-color: mediumturquoise;
       padding: 10px 60px 15px 40px;
@@ -81,12 +81,14 @@
   .dots-wrapper {
     max-width: 150px;
     height: auto;
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: center;
+    padding-bottom: 25px;
 
     .dots {
       // background-color: beige;
       width: 100%;
+      
     }
   }
 }
@@ -96,14 +98,14 @@
     .reviews-wrapper {
       .quote-wrapper {
         p {
-          width: 86%;
+          width: 90%;
         }
       }
       .reviews-star-rating {
-        width: 86%;
+        width: 90%;
       }
       .customer-name {
-        width: 86%;
+        width: 90%;
       }
     }
   }
@@ -134,7 +136,7 @@
     .reviews-wrapper {
       .quote-wrapper {
         p {
-          font-size: 14px;
+          font-size: 15px;
         }
       }
     }
