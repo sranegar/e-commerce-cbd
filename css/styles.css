@@ -1015,36 +1015,36 @@ nav .nav-wrapper .links span {
   position: relative;
 }
 .pets .pets-bubble-container {
-  max-width: 550px;
-  margin: 0 auto 0 510px;
-  padding: 18px;
+  max-width: 775px;
+  margin: 0 auto 0 350px;
+  padding-right: 60px;
 }
 .pets .pets-bubble-container .pets-bubble {
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.89);
+  background-color: rgba(255, 255, 255, 0.938);
   border: 1px solid #000;
-  max-width: 100%;
-  height: 350px;
+  width: 100%;
+  min-height: 370px;
   border-radius: 0% 50%;
   padding: 75px;
 }
-.pets .pets-bubble-container .pets-bubble .pets-text-wrapper {
-  max-width: 630px;
-  margin: 30px auto;
-  text-align: center;
-  padding-top: 20px;
-}
-.pets .pets-bubble-container .pets-bubble .pets-text-wrapper h2 {
+.pets .pets-bubble-container .pets-bubble h2 {
+  margin-top: 30px;
   color: #E20F71;
-  font-size: 46px;
+  font-size: 52px;
   letter-spacing: 1px;
   line-height: 0.7;
   font-family: SmithenScript;
+  text-align: center;
 }
-.pets .pets-bubble-container .pets-bubble .pets-text-wrapper p {
+.pets .pets-bubble-container .pets-bubble p {
   font-family: FiraSansLight;
+  text-align: center;
+  max-width: 65%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
-.pets .pets-bubble-container .pets-bubble .pets-text-wrapper .shop-pets {
+.pets .pets-bubble-container .pets-bubble .shop-pets {
   color: #fff;
   background-color: #E20F71;
   border: none;
@@ -1056,8 +1056,10 @@ nav .nav-wrapper .links span {
   border-radius: 8px;
   font-size: 18px;
   letter-spacing: 0.8px;
+  display: block;
+  margin: 0 auto;
 }
-.pets .pets-bubble-container .pets-bubble .pets-text-wrapper .shop-pets:hover {
+.pets .pets-bubble-container .pets-bubble .shop-pets:hover {
   cursor: pointer;
   background-color: teal;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -1071,28 +1073,21 @@ nav .nav-wrapper .links span {
     margin-left: 245px;
   }
 }
-@media screen and (max-width: 727px) {
-  .pets .pets-bubble-container .pets-bubble .pets-text-wrapper {
-    margin-top: -15px;
-    height: 230px;
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .pets {
-    padding: 25px 0;
+    padding: 25px 10px;
   }
   .pets .pets-bubble-container {
     margin: 0 auto;
+    max-width: 540px;
+    padding-right: 0px;
   }
   .pets .pets-bubble-container .pets-bubble {
+    margin: 0 auto;
     border-radius: 0%;
-    width: auto;
-    height: auto;
-    padding: 30px 15px 0px 15px;
-  }
-  .pets .pets-bubble-container .pets-bubble .pets-text-wrapper {
-    width: auto;
-    height: auto;
+    width: 100%;
+    padding: 15px;
+    min-height: 200px;
   }
 }
 

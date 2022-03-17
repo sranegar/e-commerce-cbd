@@ -7,59 +7,60 @@
   position: relative;
 
   .pets-bubble-container {
+    max-width: 775px;
+    // margin: 0 20px 0 470px;
+    margin: 0 auto 0 350px;
+    padding-right: 60px;
+     
     // background-color: teal;
-    max-width: 550px;
-    margin: 0 auto 0 510px;
-    padding: 18px;
-    
 
     .pets-bubble {
       margin: 0 auto;
-      background-color: rgba(255, 255, 255, 0.89);
+      background-color: rgba(255, 255, 255, 0.938);
       border: 1px solid $site-black;
-      max-width: 100%;
-      height: 350px;
+      width: 100%;
+      min-height: 370px;
       border-radius: 0% 50%;
       padding: 75px;
 
-      .pets-text-wrapper {
-        // background-color: purple;
-        max-width: 630px;
-        margin: 30px auto;
+      h2 {
+        margin-top: 30px;
+        color: $site-pink;
+        font-size: 52px;
+        letter-spacing: 1px;
+        line-height: 0.7;
+        font-family: SmithenScript;
         text-align: center;
-        padding-top: 20px;
+      }
 
-        h2 {
-          // background-color: pink;
-          color: $site-pink;
-          font-size: 46px;
-          letter-spacing: 1px;
-          line-height: .7;
-          font-family: SmithenScript;
-        }
+      p {
+        font-family: FiraSansLight;
+        text-align: center;
+        max-width: 65%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+      }
 
-        p {
-          font-family: FiraSansLight;
-        }
+      .shop-pets {
+        
+        color: $site-white;
+        background-color: $site-pink;
+        border: none;
+        height: 45px;
+        width: 150px;
+        text-transform: uppercase;
+        padding: 5px;
+        font-family: FiraSansCondensedMed;
+        border-radius: 8px;
+        font-size: 18px;
+        letter-spacing: 0.8px;
+        display: block;
+        margin: 0 auto;
 
-        .shop-pets {
-          color: $site-white;
-          background-color: $site-pink;
-          border: none;
-          height: 45px;
-          width: 150px;
-          text-transform: uppercase;
-          padding: 5px;
-          font-family: FiraSansCondensedMed;
-          border-radius: 8px;
-          font-size: 18px;
-          letter-spacing: .8px;
-
-          &:hover {
-            cursor: pointer;
-            background-color: teal;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-          }
+        &:hover {
+          cursor: pointer;
+          background-color: teal;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
       }
     }
@@ -72,47 +73,25 @@
 
     .pets-bubble-container {
       margin-left: 245px;
-
-      .pets-text-wrapper {
-        // background-color: teal;
-        h2 {
-        }
-      }
     }
   }
 }
 
-//Media query for mobile device
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 700px) {
   .pets {
-    .pets-bubble-container {
-      .pets-bubble {
-        .pets-text-wrapper {
-          margin-top: -15px;
-          height: 230px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .pets {
-    padding: 25px 0;
+    padding: 25px 10px;
 
     .pets-bubble-container {
       margin: 0 auto;
+      max-width: 540px;
+      padding-right: 0px;
 
       .pets-bubble {
+        margin: 0 auto;
         border-radius: 0%;
-        width: auto;
-        height: auto;
-        padding: 30px 15px 0px 15px;
-
-        .pets-text-wrapper {
-          width: auto;
-          height: auto;
-        }
+        width: 100%;
+        padding: 15px;
+        min-height: 200px;
       }
     }
   }
