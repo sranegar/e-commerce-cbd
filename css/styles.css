@@ -732,6 +732,9 @@ nav .nav-wrapper .links span {
   color: #fff567;
   padding: 0px 60px 10px 40px;
 }
+.reviews .reviews-wrapper .reviews-star-rating i {
+  color: #FDCE1D;
+}
 .reviews .reviews-wrapper .customer-name {
   max-width: 680px;
   margin: -2.5px auto 0 auto;
@@ -739,14 +742,6 @@ nav .nav-wrapper .links span {
   font-family: SmithenScript;
   font-size: 32px;
   color: #E20F71;
-}
-.reviews .rating-wrapper {
-  max-width: 150px;
-  margin: 0 auto;
-  background-color: violet;
-}
-.reviews .rating-wrapper i {
-  color: #FDCE1D;
 }
 .reviews .dots-wrapper {
   max-width: 150px;

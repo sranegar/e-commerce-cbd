@@ -60,7 +60,13 @@
       color: $site-yellow;
       // background-color: mediumturquoise;
       padding: 0px 60px 10px 40px;
+
+      i {
+        color: $star-yellow;
+      }
     }
+
+    
 
     .customer-name {
       max-width: 680px;
@@ -73,16 +79,6 @@
     }
   }
 
-
-  .rating-wrapper {
-    max-width: 150px;
-    margin: 0 auto;
-    background-color: violet;
-    i {
-      color: #FDCE1D;
-    }
-  }
-  
   .dots-wrapper {
     max-width: 150px;
     height: auto;
