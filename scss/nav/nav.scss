@@ -1,5 +1,5 @@
 nav {
-  background-color: $site-yellow;
+  background-color: rgb(255, 245, 103, .94);
   width: 100%;
 
 .nav-wrapper {
@@ -46,7 +46,8 @@ nav {
       text-decoration: none;
       text-transform: lowercase;
       font-family: FiraSansLight;
-      color: #000;
+      color: $site-black;
+      transition: .1s ease-in, .1s ease-out;
       
       &:hover {
         cursor: pointer;
