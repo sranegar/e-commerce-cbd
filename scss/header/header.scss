@@ -1,14 +1,14 @@
 .shipping-offer {
     width: 100%;
     height: 25px;
-    background-color: $site-red;
+    @include linear-gradient-animation();
 
-
+    
     p {
         color: $site-white;
         text-transform: uppercase;
         text-align: center;
         font-family: FiraSansLight;
         padding-top: 2px;
-    }
+    }  
 }

@@ -1,7 +1,7 @@
 nav {
   background-color: $site-yellow;
   width: 100%;
-  
+
 .nav-wrapper {
   max-width: $medium-width;
   height: 55px;
@@ -11,6 +11,7 @@ nav {
   position: relative;
   z-index: 99;
   margin: 0 auto;
+  
 
   .logo {
     width: 60px;
@@ -46,15 +47,15 @@ nav {
       text-transform: lowercase;
       font-family: FiraSansLight;
       color: #000;
-      // margin-right: 40px;
+      
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-color: $site-pink;
+      }
     }
 
-    a:hover {
-      cursor: pointer;
-      text-decoration: underline;
-      text-underline-offset: 5px;
-      text-decoration-color: $site-pink;
-    }
 
     span {
       color: $site-pink;

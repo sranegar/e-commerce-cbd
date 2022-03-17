@@ -1,6 +1,6 @@
 .footer {
   min-height: 50%;
-  background-color: #d82658;
+  background-color: #3a0e1a;
 
   .footer-wrapper {
     max-width: $content-width;
@@ -16,15 +16,12 @@
       display: flex;
       justify-content: space-between;
 
-      
-
       .list {
         min-height: 160px;
         width: 115px;
         // background-color: rgb(204, 197, 100);
         text-align: center;
 
-       
         h4 {
           font-family: FiraSansRegular;
           font-size: 17px;
@@ -37,7 +34,6 @@
           p {
             color: $site-white;
             font-family: FiraSansLight;
-            
           }
         }
 
@@ -45,8 +41,6 @@
           color: white;
           font-size: 25px;
           margin-top: 4px;
-     
-
 
           &:hover {
             cursor: pointer;
@@ -64,7 +58,13 @@
         letter-spacing: 2px;
         color: white;
         margin-top: 20px;
-        // background-color: green;
+        @include linear-gradient-animation(15s);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
       }
 
       input {
@@ -186,7 +186,7 @@
             font-size: 15px;
             // background-color: red;
           }
-          
+
           ul {
             a {
               li {

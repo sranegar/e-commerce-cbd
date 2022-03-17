@@ -160,7 +160,21 @@ nav .nav-wrapper .links span {
 .shipping-offer {
   width: 100%;
   height: 25px;
-  background-color: #CE0828;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation: slidebg 5s linear infinite alternate;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+.shipping-offer .follow {
+  margin-top: 40px;
+}
+.shipping-offer .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 .shipping-offer p {
   color: #fff;
@@ -341,17 +355,17 @@ nav .nav-wrapper .links span {
   cursor: pointer;
   opacity: 100%;
   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-  animation: slidebg 5s linear infinite;
+  animation: slidebg 8s linear infinite alternate;
 }
 @keyframes slidebg {
   to {
-    background-position: 20vw;
+    background-position: 80vw;
   }
 }
-.products .products-container .product-images-wrapper .product-container .product-img .follow {
+.products .products-container .product-images-wrapper .product-container .product-img button:hover .follow {
   margin-top: 40px;
 }
-.products .products-container .product-images-wrapper .product-container .product-img .follow a {
+.products .products-container .product-images-wrapper .product-container .product-img button:hover .follow a {
   color: black;
   padding: 8px 16px;
   text-decoration: none;
@@ -604,10 +618,6 @@ nav .nav-wrapper .links span {
   }
   .top-sellers .top-sellers-wrapper .top-seller-photo {
     margin: 40px 0px 40px 0px;
-  }
-  .top-sellers .top-sellers-wrapper .top-seller-photo h4 {
-    padding-top: 95px;
-    font-size: 20px;
   }
 }
 .health {
@@ -871,7 +881,7 @@ nav .nav-wrapper .links span {
 }
 .footer {
   min-height: 50%;
-  background-color: #d82658;
+  background-color: #3a0e1a;
 }
 .footer .footer-wrapper {
   max-width: 1000px;
@@ -920,6 +930,27 @@ nav .nav-wrapper .links span {
   letter-spacing: 2px;
   color: white;
   margin-top: 20px;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation: slidebg 15s linear infinite alternate;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+.footer .footer-wrapper .contact-wrapper h3 .follow {
+  margin-top: 40px;
+}
+.footer .footer-wrapper .contact-wrapper h3 .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 .footer .footer-wrapper .contact-wrapper input {
   font-family: FiraSansRegular;
