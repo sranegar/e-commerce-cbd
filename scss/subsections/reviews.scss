@@ -20,7 +20,6 @@
   }
 
   .reviews-wrapper {
-
     .quote-wrapper {
       max-width: 750px;
       margin: 0 auto;
@@ -42,12 +41,12 @@
           color: $site-pink;
           position: absolute;
         }
-    
+
         .left-quote {
           left: 10px;
           top: 40px;
         }
-    
+
         .right-quote {
           bottom: 50px;
           right: 15px;
@@ -59,33 +58,32 @@
       margin: -40px auto 0 auto;
       color: $site-yellow;
       // background-color: mediumturquoise;
-      padding: 0px 60px 10px 40px;
+      padding: 10px 60px 15px 40px;
 
       i {
         color: $star-yellow;
+        font-size: 13px;
       }
     }
-
-    
 
     .customer-name {
       max-width: 680px;
       margin: -2.5px auto 0 auto;
       padding: 0 60px 15px 32px;
       // background-color: pink;
-      font-family: SmithenScript;
-      font-size: 32px;
-      color: $site-pink;
+      font-family: FiraSansCondensedLightItalic;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: $site-black;
     }
   }
 
   .dots-wrapper {
     max-width: 150px;
     height: auto;
-    // background-color: red;
     margin: 20px auto;
     text-align: center;
-    
+
     .dots {
       // background-color: beige;
       width: 100%;
@@ -140,7 +138,5 @@
         }
       }
     }
-   
   }
 }
-

@@ -318,6 +318,7 @@ nav .nav-wrapper .links span {
   letter-spacing: 1px;
   white-space: nowrap;
   font-weight: lighter;
+  width: 200px;
 }
 .products .products-container .product-images-wrapper {
   width: 780px;
@@ -692,14 +693,14 @@ nav .nav-wrapper .links span {
   margin: 0 auto;
 }
 .health .about-cbd-content .about-cbd-image {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .health .about-cbd-content .about-cbd-image img {
-  width: 80%;
+  width: 69%;
   margin-top: -600px;
-  margin-left: 200px;
-  padding: 0px 40px 0px 20px;
+  margin-left: 210px;
+  padding: 0px 10px;
 }
 .health .about-cbd-content .about-text-wrapper {
   max-width: 980px;
@@ -755,11 +756,9 @@ nav .nav-wrapper .links span {
 
 @media screen and (max-width: 675px) {
   .health .about-cbd {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 20px 20px;
   }
   .health .about-cbd img {
-    height: 150px;
     width: 100%;
   }
   .health .about-cbd-content {
@@ -800,26 +799,28 @@ nav .nav-wrapper .links span {
   }
   .health .cbd-benefits .svg-title-1 {
     display: block;
-    padding: 20px 0;
+    padding: 20px;
   }
   .health .cbd-benefits .svg-content-1 {
+    margin: 0 auto;
     display: block;
-    width: 83%;
-    padding: 40px;
+    width: 75%;
+    padding: 40px 10px;
   }
   .health .cbd-benefits .svg-oil {
     display: block;
-    padding: 50px;
-    margin-top: -80px;
+    padding: 40px;
+    margin-top: -70px;
   }
   .health .cbd-benefits .svg-title-2 {
     display: block;
-    padding: 20px 0;
+    padding: 20px;
   }
   .health .cbd-benefits .svg-content-2 {
+    margin: 0 auto;
     display: block;
-    width: 83%;
-    padding: 40px;
+    width: 75%;
+    padding: 40px 10px;
     padding-bottom: 80px;
   }
 }
@@ -871,18 +872,20 @@ nav .nav-wrapper .links span {
   max-width: 680px;
   margin: -40px auto 0 auto;
   color: #fff567;
-  padding: 0px 60px 10px 40px;
+  padding: 10px 60px 15px 40px;
 }
 .reviews .reviews-wrapper .reviews-star-rating i {
   color: #FDCE1D;
+  font-size: 13px;
 }
 .reviews .reviews-wrapper .customer-name {
   max-width: 680px;
   margin: -2.5px auto 0 auto;
   padding: 0 60px 15px 32px;
-  font-family: SmithenScript;
-  font-size: 32px;
-  color: #E20F71;
+  font-family: FiraSansCondensedLightItalic;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #000;
 }
 .reviews .dots-wrapper {
   max-width: 150px;

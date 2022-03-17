@@ -20,14 +20,15 @@
     margin: 0 auto;
 
     .about-cbd-image {
-      max-width: 900px;
+      max-width: 800px;
       margin: 0 auto;
 
       img {
-        width: 80%;
+        width: 69%;
         margin-top: -600px;
-        margin-left: 200px;
-        padding: 0px 40px 0px 20px;
+        margin-left: 210px;
+        padding: 0px 10px;
+        
       }
     }
 
@@ -99,11 +100,10 @@
 @media screen and (max-width: 675px) {
   .health {
     .about-cbd {
-      padding-top: 0;
-      padding-bottom: 0;
+      padding: 20px 20px;
 
       img {
-        height: 150px;
+  
         width: 100%;
       }
     }
@@ -151,38 +151,37 @@
       .svg-web {
         display: none;
       }
-
-      .svg-mobile {
-      }
-
+      
       .svg-title-1 {
         display: block;
-        padding: 20px 0;
+        padding: 20px;
       }
 
       .svg-content-1 {
+        margin: 0 auto;
         display: block;
-        width: 83%;
-        padding: 40px;
+        width: 75%;
+        padding: 40px 10px;
       }
 
       .svg-oil {
         display: block;
-        padding: 50px;
-        margin-top: -80px;
+        padding: 40px;
+        margin-top: -70px;
         img {
         }
       }
 
       .svg-title-2 {
         display: block;
-        padding: 20px 0;
+        padding: 20px;
       }
 
       .svg-content-2 {
+        margin: 0 auto;
         display: block;
-        width: 83%;
-        padding: 40px;
+        width: 75%;
+        padding: 40px 10px;
         padding-bottom: 80px;
       }
     }
