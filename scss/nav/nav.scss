@@ -14,13 +14,13 @@ nav {
   
 
   .logo {
-    width: 60px;
-    height: 50px;
-    // background-color: red;
+    width: auto;
+    height: 55px;
     background-image: url(../svg/green-logo);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 5px 15px 5px 5px;
   }
 
   label {
@@ -108,9 +108,9 @@ nav {
           text-align: center;
           font-family: FiraSansLight;
           display: block;
-          border-bottom: .5px solid $site-second-yellow;
+          border-bottom: .5px solid $transparent-white;
           line-height: 65px;
-          color: $site-second-yellow;
+          color: $transparent-white;
 
           &:hover {
             text-decoration: none;
