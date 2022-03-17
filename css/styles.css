@@ -672,46 +672,37 @@ nav .nav-wrapper .links span {
   }
 }
 .health {
-  background-color: pink;
   min-height: 100%;
   position: relative;
 }
 .health .about-cbd {
   max-width: 1340px;
   height: auto;
-  background-color: mediumorchid;
   margin: 0 auto;
-  padding: 100px 0px 60px 8px;
+  padding: 100px 0px 45px 8px;
   position: relative;
 }
 .health .about-cbd img {
-  height: 200x;
+  height: 150px;
   width: 50%;
 }
-.health .about-cbd-content {
-  background-color: maroon;
-}
 .health .about-cbd-content .about-cbd-image {
-  background-color: mediumslateblue;
   max-width: 800px;
   margin: 0 auto;
-  position: relative;
 }
 .health .about-cbd-content .about-cbd-image img {
-  height: 350x;
   width: 80%;
   margin-top: -550px;
-  margin-left: 130px;
+  margin-left: 200px;
+  padding-right: 40px;
 }
 .health .about-cbd-content .about-text-wrapper {
-  background-color: aqua;
   max-width: 980px;
   margin: 0 auto;
   padding-left: 20px;
 }
 .health .about-cbd-content .about-text-wrapper p {
-  width: 50%;
-  background-color: mediumturquoise;
+  width: 58%;
   font-family: FiraSansLight;
   line-height: 1.3;
   font-size: 14px;
@@ -723,14 +714,12 @@ nav .nav-wrapper .links span {
   width: auto;
   padding-top: 40px;
   color: #33A033;
-  background-color: peachpuff;
   text-align: center;
   font-weight: lighter;
 }
 .health h2 .page-break-line {
   max-width: 1000px;
   margin: 30px auto;
-  background-color: mediumturquoise;
   padding-left: 40px;
 }
 .health h2 .page-break-line img {
@@ -746,15 +735,84 @@ nav .nav-wrapper .links span {
 }
 .health .cbd-benefits {
   max-width: 900px;
-  margin: 0 auto;
+  margin: -110px auto 0 auto;
 }
 .health .cbd-benefits img {
   width: 100%;
   height: auto;
-  margin-bottom: 30px;
-  margin-top: -85px;
+  padding: 0px 10px;
+}
+.health .cbd-benefits .svg-mobile {
+  display: none;
 }
 
+@media screen and (max-width: 675px) {
+  .health .about-cbd {
+    padding: 25px 0px 45px 0px;
+  }
+  .health .about-cbd img {
+    height: 150px;
+    width: 100%;
+  }
+  .health .about-cbd-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 410px;
+    margin: 0 auto;
+  }
+  .health .about-cbd-content .about-text-wrapper {
+    padding: 16px;
+    max-width: 90%;
+    height: auto;
+  }
+  .health .about-cbd-content .about-text-wrapper p {
+    width: 100%;
+  }
+  .health .about-cbd-content .about-cbd-image {
+    margin: 0 auto;
+  }
+  .health .about-cbd-content .about-cbd-image img {
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    margin-top: -70px;
+  }
+  .health h2 {
+    line-height: 1.1;
+    padding: 22px;
+    font-size: 62px;
+    width: auto;
+  }
+  .health h2 .page-break-line {
+    height: 100px;
+    margin-top: -10px;
+  }
+  .health .cbd-benefits .svg-web {
+    display: none;
+  }
+  .health .cbd-benefits .svg-title-1 {
+    display: block;
+  }
+  .health .cbd-benefits .svg-content-1 {
+    display: block;
+    width: 80%;
+    padding: 40px;
+  }
+  .health .cbd-benefits .svg-oil {
+    display: block;
+    padding: 0px 40px 50px 40px;
+    margin-top: -70px;
+  }
+  .health .cbd-benefits .svg-title-2 {
+    display: block;
+  }
+  .health .cbd-benefits .svg-content-2 {
+    display: block;
+    width: 80%;
+    padding: 40px;
+    padding-bottom: 80px;
+  }
+}
 .reviews {
   min-height: 50%;
   position: relative;
