@@ -1156,14 +1156,11 @@ nav .nav-wrapper .links span {
   justify-content: center;
 }
 .footer .copyright-wrapper p {
-  margin-bottom: 0;
   font-family: FiraSansThin;
-  color: #fff;
-  margin: -8px 5px 0px 5px;
+  color: rgba(255, 255, 255, 0.63);
   font-size: 14px;
-}
-.footer .copyright-wrapper .pink-logo {
-  margin-top: -15px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 910px) {
@@ -1220,16 +1217,14 @@ nav .nav-wrapper .links span {
   .footer .footer-wrapper .contact-wrapper button {
     float: none;
     width: 100%;
-    color: #fff;
+    color: #E20F71;
     margin-top: 15px;
     background-color: transparent;
-    border: solid 1px #fff;
   }
   .footer .footer-wrapper .contact-wrapper button:hover {
     cursor: pointer;
-    color: #E20F71;
+    color: #fff;
     background-color: #fff;
-    border: solid 1px #E20F71;
   }
 
   .copyright-wrapper {
