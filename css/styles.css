@@ -236,7 +236,7 @@ nav .nav-wrapper .links span {
 .home a {
   text-decoration: none;
 }
-.home a i {
+.home a .down-arrow {
   font-size: 30px;
   padding: 5px;
   color: #33A033;
@@ -544,35 +544,91 @@ nav .nav-wrapper .links span {
   height: 250px;
 }
 .top-sellers .top-sellers-wrapper .top-seller-photo {
-  width: 210px;
-  height: 210px;
-  border-radius: 50%;
-  background-image: url(../images/top-seller-1.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  transition: 0.2s ease-in, 0.2s ease-out;
-}
-.top-sellers .top-sellers-wrapper .top-seller-photo:hover {
-  cursor: pointer;
-  width: 215px;
-  height: 215px;
-}
-.top-sellers .top-sellers-wrapper .top-seller-photo:hover h4 {
-  font-size: 20px;
-}
-.top-sellers .top-sellers-wrapper .top-seller-photo h4 {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
   font-family: FiraSansCondensedItalic;
-  font-size: 18px;
-  text-align: center;
-  color: white;
-  margin: 100px auto;
-  text-shadow: -2px 2px rgba(37, 37, 37, 0.5);
-  text-transform: uppercase;
-  transition: 0.2s ease-in, 0.2s ease-out;
+  transition: 0.5s;
+  border-radius: 50%;
 }
-.top-sellers .top-sellers-wrapper .top-seller1 {
+.top-sellers .top-sellers-wrapper .top-seller-photo button {
+  width: 101%;
+  height: 100%;
+  font-family: FiraSansCondensedItalic;
+  font-weight: 300;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.45);
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+}
+.top-sellers .top-sellers-wrapper .top-seller-photo button:hover {
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+.top-sellers .top-sellers-wrapper .top-seller-photo span {
+  font-family: FiraSansCondensedItalic;
+  font-size: 22px;
+  margin: 97px auto;
+  text-transform: uppercase;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  overflow: hidden;
+  width: 101%;
+  font-weight: 300;
+  font-weight: bold;
+}
+@-webkit-keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+@keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+@-webkit-keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+@keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+.top-sellers .top-seller1 {
   width: 210px;
   height: 210px;
   border-radius: 50%;
@@ -583,7 +639,7 @@ nav .nav-wrapper .links span {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
-.top-sellers .top-sellers-wrapper .top-seller2 {
+.top-sellers .top-seller2 {
   width: 210px;
   height: 210px;
   border-radius: 50%;
@@ -594,7 +650,7 @@ nav .nav-wrapper .links span {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
-.top-sellers .top-sellers-wrapper .top-seller3 {
+.top-sellers .top-seller3 {
   width: 210px;
   height: 210px;
   border-radius: 50%;
@@ -877,7 +933,7 @@ nav .nav-wrapper .links span {
 }
 .footer {
   min-height: 50%;
-  background-color: #3a0e1a;
+  background: linear-gradient(360deg, #ce0828, #ce0840);
 }
 .footer .footer-wrapper {
   max-width: 1000px;
@@ -927,7 +983,7 @@ nav .nav-wrapper .links span {
   color: white;
   margin-top: 20px;
   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-  animation: slidebg 30s linear infinite alternate;
+  animation: slidebg 60s linear infinite alternate;
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;

@@ -1,6 +1,6 @@
 .footer {
   min-height: 50%;
-  background-color: #3a0e1a;
+  background: linear-gradient(360deg, rgba(206, 8, 40), rgb(206, 8, 64));
 
   .footer-wrapper {
     max-width: $content-width;
@@ -58,7 +58,8 @@
         letter-spacing: 2px;
         color: white;
         margin-top: 20px;
-        @include linear-gradient-animation();
+
+        @include linear-gradient-animation(60s);
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;

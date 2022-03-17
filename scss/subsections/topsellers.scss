@@ -1,7 +1,7 @@
 .top-sellers {
   min-height: 50%;
   // background-color: pink;
-  
+
   h2 {
     font-family: SmithenScript;
     max-width: 300px;
@@ -25,63 +25,95 @@
     // background-color: mediumturquoise;
 
     .top-seller-photo {
-      @include top-seller-photo();
+      position: relative;
+      width: 220px;
+      height: 220px;
+      overflow: hidden;
+      font-family: FiraSansCondensedItalic;
+      transition: 0.5s;
+      border-radius: 50%;
 
-      &:hover {
+      button {
+        width: 101%;
+        height: 100%;
+        font-family: FiraSansCondensedItalic;
+        font-weight: 300;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        @include mask-button(
+          $transparent-black,
+          "https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png",
+          3000%,
+          100%,
+          none,
+          $site-white
+        );
+
         cursor: pointer;
-        width: 215px;
-        height: 215px;
+        -webkit-animation: ani2 0.7s steps(29) forwards;
+        animation: ani2 0.7s steps(29) forwards;
 
-        h4 {
-          font-size: 20px;
+        &:hover {
+          -webkit-animation: ani 0.7s steps(29) forwards;
+          animation: ani 0.7s steps(29) forwards;
         }
       }
 
-      h4 {
+      span {
         font-family: FiraSansCondensedItalic;
-        font-size: 18px;
-        text-align: center;
-        color: white;
-        margin: 100px auto;
-        text-shadow: -2px 2px rgba(37, 37, 37, 0.5);
+        font-size: 22px;
+        margin: 97px auto;
         text-transform: uppercase;
-        transition: .2s ease-in, .2s ease-out;
-
-    
+        position: absolute;
+        color: $site-black;
+        text-align: center;
+        overflow: hidden;
+        width: 101%;
+        font-weight: 300;
+        font-weight: bold;
       }
-
-
     }
 
-    .top-seller1 {
-      @include top-seller-photo();
-    }
+    @include mask-button-animation();
 
-    .top-seller2 {
-     @include top-seller-photo(url(../images/top-seller-2.jpeg));
-    }
+    // &:hover {
+    //   cursor: pointer;
+    //   width: 215px;
+    //   height: 215px;
 
-    .top-seller3 {
-      @include top-seller-photo(url(../images/top-seller-3.jpeg));
-    }
+    //   h4 {
+    //     font-size: 20px;
+    //   }
+    // }
+  }
+
+  .top-seller1 {
+    @include top-seller-photo();
+  }
+
+  .top-seller2 {
+    @include top-seller-photo(url(../images/top-seller-2.jpeg));
+  }
+
+  .top-seller3 {
+    @include top-seller-photo(url(../images/top-seller-3.jpeg));
   }
 }
 
 @media screen and (max-width: 875px) {
   .top-sellers {
-    
     h2 {
       white-space: nowrap;
       margin-top: 0px;
       font-size: 60px;
-  
     }
     .top-sellers-wrapper {
-      flex-direction: column;       
+      flex-direction: column;
       height: auto;
       padding-bottom: 40px;
-  
-    
+
       .top-seller-photo {
         margin: 40px 0px 40px 0px;
         h4 {
