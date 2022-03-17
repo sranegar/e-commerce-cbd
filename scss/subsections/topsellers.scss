@@ -8,9 +8,11 @@
     height: auto;
     text-align: center;
     margin: 0 auto;
-    font-size: 52px;
+    font-size: 54px;
     letter-spacing: 5px;
     color: $site-green;
+    padding: 10px;
+    // background-color: magenta;
   }
 
   .top-sellers-wrapper {
@@ -68,7 +70,7 @@
     h2 {
       white-space: nowrap;
       margin-top: 0px;
-      // background-color: pink;
+      font-size: 60px;
   
     }
     .top-sellers-wrapper {

@@ -499,9 +499,10 @@ nav .nav-wrapper .links span {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  font-size: 52px;
+  font-size: 54px;
   letter-spacing: 5px;
   color: #33A033;
+  padding: 10px;
 }
 .top-sellers .top-sellers-wrapper {
   max-width: 980px;
@@ -548,6 +549,7 @@ nav .nav-wrapper .links span {
   .top-sellers h2 {
     white-space: nowrap;
     margin-top: 0px;
+    font-size: 60px;
   }
   .top-sellers .top-sellers-wrapper {
     flex-direction: column;
