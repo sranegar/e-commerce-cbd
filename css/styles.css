@@ -793,23 +793,25 @@ nav .nav-wrapper .links span {
   }
   .health .cbd-benefits .svg-title-1 {
     display: block;
+    padding: 20px 0;
   }
   .health .cbd-benefits .svg-content-1 {
     display: block;
-    width: 80%;
+    width: 83%;
     padding: 40px;
   }
   .health .cbd-benefits .svg-oil {
     display: block;
-    padding: 0px 40px 50px 40px;
-    margin-top: -70px;
+    padding: 50px;
+    margin-top: -80px;
   }
   .health .cbd-benefits .svg-title-2 {
     display: block;
+    padding: 20px 0;
   }
   .health .cbd-benefits .svg-content-2 {
     display: block;
-    width: 80%;
+    width: 83%;
     padding: 40px;
     padding-bottom: 80px;
   }
