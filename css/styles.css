@@ -1021,7 +1021,7 @@ nav .nav-wrapper .links span {
 }
 .pets .pets-bubble-container .pets-bubble {
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.938);
+  background-color: rgba(255, 255, 255, 0.87);
   border: 1px solid #000;
   width: 100%;
   min-height: 370px;
@@ -1086,8 +1086,11 @@ nav .nav-wrapper .links span {
     margin: 0 auto;
     border-radius: 0%;
     width: 100%;
-    padding: 15px;
+    padding: 15px 5px 25px 5px;
     min-height: 200px;
+  }
+  .pets .pets-bubble-container .pets-bubble p {
+    max-width: 90%;
   }
 }
 

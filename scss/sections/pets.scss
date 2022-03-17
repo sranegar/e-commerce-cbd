@@ -16,7 +16,7 @@
 
     .pets-bubble {
       margin: 0 auto;
-      background-color: rgba(255, 255, 255, 0.938);
+      background-color: rgba(255, 255, 255, 0.87);
       border: 1px solid $site-black;
       width: 100%;
       min-height: 370px;
@@ -90,8 +90,12 @@
         margin: 0 auto;
         border-radius: 0%;
         width: 100%;
-        padding: 15px;
+        padding: 15px 5px 25px 5px;
         min-height: 200px;
+
+        p {
+          max-width: 90%;
+        }
       }
     }
   }
