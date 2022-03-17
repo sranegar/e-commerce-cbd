@@ -335,10 +335,26 @@ nav .nav-wrapper .links span {
   background-color: #E20F71;
   opacity: 65%;
   color: white;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 .products .products-container .product-images-wrapper .product-container .product-img button:hover {
   cursor: pointer;
   opacity: 100%;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation: slidebg 5s linear infinite;
+}
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+.products .products-container .product-images-wrapper .product-container .product-img .follow {
+  margin-top: 40px;
+}
+.products .products-container .product-images-wrapper .product-container .product-img .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 .products .products-container .product-images-wrapper .product-container .gummy2 {
   background-image: url(../images/cbd-gummies-2.jpg);
@@ -1088,11 +1104,26 @@ nav .nav-wrapper .links span {
   letter-spacing: 0.8px;
   display: block;
   margin: 0 auto;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 .pets .pets-bubble-container .pets-bubble .shop-pets:hover {
   cursor: pointer;
-  background-color: teal;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation: slidebg 5s linear infinite;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+.pets .pets-bubble-container .pets-bubble .shop-pets .follow {
+  margin-top: 40px;
+}
+.pets .pets-bubble-container .pets-bubble .shop-pets .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {

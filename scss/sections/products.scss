@@ -52,12 +52,33 @@
             background-color: $site-pink;
             opacity: 65%;
             color: white;
+            transition: .2s ease-in, .2s ease-out;
+          
 
             &:hover {
               cursor: pointer;
               opacity: 100%;
+              background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+              animation: slidebg 5s linear infinite;
             }
           }
+          
+          @keyframes slidebg {
+            to {
+              background-position:20vw;
+            }
+          }
+          
+          .follow{
+            margin-top: 40px;
+          }
+          
+          .follow a{
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+          }
+          
         }
 
         .gummy2 {
