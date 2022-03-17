@@ -283,7 +283,7 @@ nav .nav-wrapper .links span {
 }
 .products {
   min-height: 100%;
-  padding-bottom: 80px;
+  padding-bottom: 65px;
 }
 .products .products-container {
   max-width: 980px;
@@ -422,14 +422,16 @@ nav .nav-wrapper .links span {
   height: 60px;
 }
 .products .products-container .product-images-wrapper .product-container .description-content h4 {
-  font-family: FiraSansExtraLight;
-  font-size: 15px;
-}
-.products .products-container .product-images-wrapper .product-container .description-content p {
   font-family: FiraSansCondensedItalic;
   font-size: 18px;
   color: #33A033;
+}
+.products .products-container .product-images-wrapper .product-container .description-content p {
+  font-family: FiraSansCondensedItalic;
+  text-transform: uppercase;
+  font-size: 16px;
   margin-top: -8px;
+  color: #0000006e;
 }
 .products .topical-container {
   border-bottom: none;

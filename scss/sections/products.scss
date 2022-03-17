@@ -1,7 +1,7 @@
 .products {
   min-height: 100%;
   // background-color: mediumpurple;
-  padding-bottom: 80px;
+  padding-bottom: 65px;
 
   .products-container {
     // background-color: mediumturquoise;
@@ -104,17 +104,19 @@
           width: 230px;
           height: 60px;
           
-
           h4 {
-            font-family: FiraSansExtraLight;
-            font-size: 15px;
-          }
-
-          p {
             font-family: FiraSansCondensedItalic;
             font-size: 18px;
             color: $site-green;
+          
+          }
+          
+          p {
+            font-family: FiraSansCondensedItalic;
+            text-transform: uppercase;
+            font-size: 16px;
             margin-top: -8px;
+            color: $product-price;
           }
         }
       }
