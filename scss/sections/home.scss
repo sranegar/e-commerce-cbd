@@ -1,6 +1,6 @@
 .home {
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.22)),url(../images/home-background.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.18)),url(../images/home-background.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@
         width: 100%;
         font-weight: bold;
         margin-top: 15px;
-        color: rgb(119, 255, 126);
+        color: $site-yellow;
         text-shadow: -2px 6px 6px rgba(0, 0, 0, 0.705);
     
 
