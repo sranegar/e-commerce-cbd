@@ -57,8 +57,8 @@ p {
   src: url(../fonts/FiraSansCondensed/FiraSansCondensed-BoldItalic.ttf);
 }
 @font-face {
-  font-family: FiraSansCondensedLight;
-  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Light.ttf);
+  font-family: FiraSansCondensedMed;
+  src: url(../fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf);
 }
 @font-face {
   font-family: SmithenScript;
@@ -677,7 +677,7 @@ nav .nav-wrapper .links span {
 }
 .reviews .reviews-wrapper .customer-name {
   max-width: 680px;
-  margin: -5px auto 0 auto;
+  margin: -2.5px auto 0 auto;
   padding: 0 60px 15px 32px;
   font-family: SmithenScript;
   font-size: 32px;
@@ -869,8 +869,9 @@ nav .nav-wrapper .links span {
   max-width: 500px;
 }
 .footer .footer-wrapper .contact-wrapper h3 {
-  font-family: FiraSansCondensedLight;
-  font-size: 22px;
+  font-family: SmithenScript;
+  font-size: 44px;
+  letter-spacing: 2px;
   color: white;
   margin-top: 20px;
 }
@@ -956,6 +957,7 @@ nav .nav-wrapper .links span {
     width: 250px;
     margin: 30px auto 20px auto;
     text-align: center;
+    font-size: 48px;
   }
   .footer .copyright-wrapper {
     margin-top: 15px;
@@ -1013,13 +1015,13 @@ nav .nav-wrapper .links span {
   position: relative;
 }
 .pets .pets-bubble-container {
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 550px;
+  margin: 0 auto 0 510px;
   padding: 18px;
 }
 .pets .pets-bubble-container .pets-bubble {
   margin: 0 auto;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.89);
   border: 1px solid #000;
   max-width: 100%;
   height: 350px;
@@ -1030,6 +1032,7 @@ nav .nav-wrapper .links span {
   max-width: 630px;
   margin: 30px auto;
   text-align: center;
+  padding-top: 20px;
 }
 .pets .pets-bubble-container .pets-bubble .pets-text-wrapper h2 {
   color: #E20F71;
@@ -1045,16 +1048,19 @@ nav .nav-wrapper .links span {
   color: #fff;
   background-color: #E20F71;
   border: none;
-  height: 30px;
-  width: 120px;
+  height: 45px;
+  width: 150px;
   text-transform: uppercase;
   padding: 5px;
-  font-family: FiraSansRegular;
-  border-radius: 5px;
+  font-family: FiraSansCondensedMed;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 0.8px;
 }
 .pets .pets-bubble-container .pets-bubble .pets-text-wrapper .shop-pets:hover {
   cursor: pointer;
   background-color: teal;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media screen and (max-width: 900px) {

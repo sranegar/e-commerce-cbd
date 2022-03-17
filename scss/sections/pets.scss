@@ -8,13 +8,14 @@
 
   .pets-bubble-container {
     // background-color: teal;
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 550px;
+    margin: 0 auto 0 510px;
     padding: 18px;
+    
 
     .pets-bubble {
       margin: 0 auto;
-      background-color: $site-white;
+      background-color: rgba(255, 255, 255, 0.89);
       border: 1px solid $site-black;
       max-width: 100%;
       height: 350px;
@@ -26,6 +27,7 @@
         max-width: 630px;
         margin: 30px auto;
         text-align: center;
+        padding-top: 20px;
 
         h2 {
           // background-color: pink;
@@ -44,16 +46,19 @@
           color: $site-white;
           background-color: $site-pink;
           border: none;
-          height: 30px;
-          width: 120px;
+          height: 45px;
+          width: 150px;
           text-transform: uppercase;
           padding: 5px;
-          font-family: FiraSansRegular;
-          border-radius: 5px;
+          font-family: FiraSansCondensedMed;
+          border-radius: 8px;
+          font-size: 18px;
+          letter-spacing: .8px;
 
           &:hover {
             cursor: pointer;
             background-color: teal;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           }
         }
       }
