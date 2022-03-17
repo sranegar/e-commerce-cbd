@@ -161,7 +161,7 @@ nav .nav-wrapper .links span {
   width: 100%;
   height: 25px;
   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-  animation: slidebg 5s linear infinite alternate;
+  animation: slidebg 30s linear infinite alternate;
 }
 @keyframes slidebg {
   to {
@@ -355,7 +355,7 @@ nav .nav-wrapper .links span {
   cursor: pointer;
   opacity: 100%;
   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-  animation: slidebg 8s linear infinite alternate;
+  animation: slidebg 30s linear infinite alternate;
 }
 @keyframes slidebg {
   to {
@@ -931,7 +931,7 @@ nav .nav-wrapper .links span {
   color: white;
   margin-top: 20px;
   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-  animation: slidebg 15s linear infinite alternate;
+  animation: slidebg 30s linear infinite alternate;
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -1140,18 +1140,18 @@ nav .nav-wrapper .links span {
 .pets .pets-bubble-container .pets-bubble .shop-pets:hover {
   cursor: pointer;
   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-  animation: slidebg 5s linear infinite;
+  animation: slidebg 30s linear infinite alternate;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 @keyframes slidebg {
   to {
-    background-position: 20vw;
+    background-position: 80vw;
   }
 }
-.pets .pets-bubble-container .pets-bubble .shop-pets .follow {
+.pets .pets-bubble-container .pets-bubble .shop-pets:hover .follow {
   margin-top: 40px;
 }
-.pets .pets-bubble-container .pets-bubble .shop-pets .follow a {
+.pets .pets-bubble-container .pets-bubble .shop-pets:hover .follow a {
   color: black;
   padding: 8px 16px;
   text-decoration: none;

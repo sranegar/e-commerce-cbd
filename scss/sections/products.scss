@@ -58,7 +58,7 @@
             &:hover {
               cursor: pointer;
               opacity: 100%;
-              @include linear-gradient-animation(8s);
+              @include linear-gradient-animation();
             }
           }
           

@@ -58,7 +58,7 @@
         letter-spacing: 2px;
         color: white;
         margin-top: 20px;
-        @include linear-gradient-animation(15s);
+        @include linear-gradient-animation();
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
