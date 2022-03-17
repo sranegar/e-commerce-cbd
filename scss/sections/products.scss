@@ -17,14 +17,15 @@
     h3 {
       font-family: SmithenScript;
       color: $site-green;
-      font-size: 36px;
+      font-size: 44px;
       margin-top: 155px;
       letter-spacing: 1px;
       white-space: nowrap;
+      font-weight: lighter;
     }
 
     .product-images-wrapper {
-      width: 780px;
+      width: $average-width;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -46,7 +47,7 @@
             bottom: 0;
             width: 100%;
             border: none;
-            height: 25px;
+            height: 30px;
             font-family: FiraSansRegular;
             text-transform: uppercase;
             background-color: $site-pink;

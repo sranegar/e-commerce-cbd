@@ -12,8 +12,10 @@ $transparent-black: rgba(0,0,0,.35);
 $transparent-white: rgba(255, 255, 255, 0.63);
 
 //site dimensions 
+$max-width: 1240px;
 $content-width: 1000px;
 $medium-width: 980px;
+$average-width: 780px;
 
 //linear-gradient 
 $linear-gradient:  linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
