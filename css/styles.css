@@ -283,7 +283,7 @@ nav .nav-wrapper .links span {
 }
 .products {
   min-height: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 80px;
 }
 .products .products-container {
   max-width: 980px;
@@ -292,7 +292,8 @@ nav .nav-wrapper .links span {
   border-bottom: 4px solid #CE0828;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  position: relative;
 }
 .products .products-container h3 {
   font-family: SmithenScript;
@@ -301,99 +302,134 @@ nav .nav-wrapper .links span {
   margin-top: 155px;
   letter-spacing: 1px;
 }
-.products .products-container .photo-wrapper {
-  width: 750px;
+.products .products-container .product-images-wrapper {
+  width: 780px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
-.products .products-container .photo-wrapper .product-photo {
-  width: 200px;
-  height: 160px;
-  position: relative;
+.products .products-container .product-images-wrapper .product-container {
+  width: 230px;
+  height: 190px;
+  background-color: mediumpurple;
+  display: flex;
+  flex-direction: column;
 }
-.products .products-container .photo-wrapper .product-photo .add-to-cart {
+.products .products-container .product-images-wrapper .product-container .product-img {
+  background-image: url(../images/cbd-gummies-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.products .products-container .product-images-wrapper .product-container .product-img button {
   position: absolute;
   bottom: 0;
   width: 100%;
   border: none;
-  height: 20px;
+  height: 25px;
   font-family: FiraSansRegular;
   text-transform: uppercase;
   background-color: #E20F71;
   opacity: 65%;
   color: white;
 }
-.products .products-container .photo-wrapper .product-photo .add-to-cart:hover {
+.products .products-container .product-images-wrapper .product-container .product-img button:hover {
   cursor: pointer;
   opacity: 100%;
 }
-.products .products-container .photo-wrapper .product-photo .description-content {
-  margin-top: 165px;
-  text-align: center;
-}
-.products .products-container .photo-wrapper .product-photo .description-content h4 {
-  font-family: FiraSansExtraLight;
-}
-.products .products-container .photo-wrapper .product-photo .description-content p {
-  font-family: FiraSansCondensedItalic;
-  font-size: 15px;
-  color: #33A033;
-  margin-top: -8px;
-}
-.products .products-container .photo-wrapper .gummy1 {
-  background-image: url(../images/cbd-gummies-1.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
-}
-.products .products-container .photo-wrapper .gummy2 {
+.products .products-container .product-images-wrapper .product-container .gummy2 {
   background-image: url(../images/cbd-gummies-2.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.products .products-container .photo-wrapper .gummy3 {
+.products .products-container .product-images-wrapper .product-container .gummy3 {
   background-image: url(../images/cbd-gummies-3.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.products .products-container .photo-wrapper .oil1 {
+.products .products-container .product-images-wrapper .product-container .oil1 {
   background-image: url(../images/cbd-oil-1.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.products .products-container .photo-wrapper .oil2 {
+.products .products-container .product-images-wrapper .product-container .oil2 {
   background-image: url(../images/cbd-oil-2.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.products .products-container .photo-wrapper .oil3 {
+.products .products-container .product-images-wrapper .product-container .oil3 {
   background-image: url(../images/cbd-oil-3.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.products .products-container .photo-wrapper .topical1 {
+.products .products-container .product-images-wrapper .product-container .topical1 {
   background-image: url(../images/cbd-topical-1.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.products .products-container .photo-wrapper .topical2 {
+.products .products-container .product-images-wrapper .product-container .topical2 {
   background-image: url(../images/cbd-topical-2.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.products .products-container .photo-wrapper .topical3 {
+.products .products-container .product-images-wrapper .product-container .topical3 {
   background-image: url(../images/cbd-topical-3.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.products .products-container .product-images-wrapper .product-container .description-content {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  width: 230px;
+  height: 60px;
+}
+.products .products-container .product-images-wrapper .product-container .description-content h4 {
+  font-family: FiraSansExtraLight;
+  font-size: 15px;
+}
+.products .products-container .product-images-wrapper .product-container .description-content p {
+  font-family: FiraSansCondensedItalic;
+  font-size: 18px;
+  color: #33A033;
+  margin-top: -8px;
 }
 .products .topical-container {
   border-bottom: none;
@@ -402,6 +438,7 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 1035px) {
   .products {
     padding-top: 50px;
+    padding-bottom: 20px;
   }
   .products h2 {
     text-align: center;
@@ -415,6 +452,7 @@ nav .nav-wrapper .links span {
     min-height: 850px;
     max-width: 420px;
     flex-direction: column;
+    background-color: mediumorchid;
   }
   .products .products-container h3 {
     margin-top: 15px;
@@ -423,14 +461,29 @@ nav .nav-wrapper .links span {
   .products .products-container .photo-wrapper {
     flex-direction: column;
     width: 100%;
-    height: 95%;
+    height: 5000px;
     justify-content: space-around;
+    position: relative;
   }
   .products .products-container .photo-wrapper .product-photo {
     width: 100%;
+    height: 100%;
   }
   .products .products-container .photo-wrapper .product-photo .add-to-cart {
-    height: 20px;
+    height: 35px;
+  }
+  .products .products-container .photo-wrapper .description-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    height: auto;
+    margin-top: 0px;
+  }
+  .products .products-container .photo-wrapper .description-content h4 {
+    color: #fff;
+  }
+  .products .products-container .photo-wrapper .description-content p {
+    color: #fff567;
   }
 }
 .top-sellers {

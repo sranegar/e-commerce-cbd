@@ -1,3 +1,14 @@
-@mixin sample() {
+@mixin product-img($productImg: url(../images/cbd-gummies-1.jpg)) {
+    background-image: $productImg;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+@mixin product-description() {
     
 }
