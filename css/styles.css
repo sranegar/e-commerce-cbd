@@ -654,7 +654,6 @@ nav .nav-wrapper .links span {
   line-height: 1.6;
   padding: 60px;
   position: relative;
-  background-color: rebeccapurple;
 }
 .reviews .reviews-wrapper .quote-wrapper p i {
   font-size: 25px;
@@ -672,14 +671,14 @@ nav .nav-wrapper .links span {
 }
 .reviews .reviews-wrapper .reviews-star-rating {
   max-width: 680px;
-  margin: 0 auto;
+  margin: -40px auto 0 auto;
   color: #fff567;
-  padding: 0px 60px 10px 30px;
+  padding: 0px 60px 10px 40px;
 }
 .reviews .reviews-wrapper .customer-name {
   max-width: 680px;
-  margin: 0 auto;
-  padding: 0 60px 15px 30px;
+  margin: -5px auto 0 auto;
+  padding: 0 60px 15px 32px;
   font-family: SmithenScript;
   font-size: 32px;
   color: #E20F71;

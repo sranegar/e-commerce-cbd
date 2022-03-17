@@ -34,7 +34,7 @@
         line-height: 1.6;
         padding: 60px;
         position: relative;
-        background-color: rebeccapurple;
+        // background-color: rebeccapurple;
 
         i {
           font-size: 25px;
@@ -56,16 +56,16 @@
     }
     .reviews-star-rating {
       max-width: 680px;
-      margin: 0 auto;
+      margin: -40px auto 0 auto;
       color: $site-yellow;
       // background-color: mediumturquoise;
-      padding: 0px 60px 10px 30px;
+      padding: 0px 60px 10px 40px;
     }
 
     .customer-name {
       max-width: 680px;
-      margin: 0 auto;
-      padding: 0 60px 15px 30px;
+      margin: -5px auto 0 auto;
+      padding: 0 60px 15px 32px;
       // background-color: pink;
       font-family: SmithenScript;
       font-size: 32px;
