@@ -6,7 +6,7 @@
   .products-container {
     // background-color: mediumturquoise;
     max-width: $medium-width;
-    margin: 0 auto;
+    margin: 0 15px;
     height: 375px;
     border-bottom: 4px solid $site-red;
     display: flex;
@@ -20,6 +20,7 @@
       font-size: 36px;
       margin-top: 155px;
       letter-spacing: 1px;
+      white-space: nowrap;
     }
 
     .product-images-wrapper {
@@ -28,14 +29,14 @@
       justify-content: space-around;
       align-items: center;
       // background-color: mediumseagreen;
+  
 
       .product-container {
         width: 230px;
         height: 190px;
-        background-color: mediumpurple;
+        // background-color: mediumpurple;
         display: flex;
         flex-direction: column;
-        
 
         .product-img {
           @include product-img();
@@ -122,14 +123,16 @@
   }
 }
 
-@media screen and (max-width: 1035px) {
+@media screen and (max-width: 892px) {
   .products {
-    padding: 50px 20px 20px 20px;
+    padding: 50px 20px 50px 20px;
 
     h3 {
+      font-size: 44px;
       text-align: center;
       width: auto;
-      margin: 25px auto;
+      margin: 65px auto;
+      padding-top: 20px;
       white-space: nowrap;
     }
 
@@ -139,8 +142,8 @@
       height: 100%;
       max-width: 480px;
       flex-direction: column;
-      background-color: mediumorchid;
-      margin: 0px 30px;
+      // background-color: mediumorchid;
+      margin: 0px auto;
 
       h3 {
         margin-top: 25px;
@@ -149,30 +152,42 @@
 
       .product-images-wrapper {
         flex-direction: column;
-        background-color: rgb(26, 80, 78);
-        max-width: 460px;
-    
+        // background-color: rgb(26, 80, 78);
+        max-width: 100%;
+        margin: 0 auto;
+
         .product-container {
-          width: 460px;
+          width: 100%;
           height: 380px;
-          margin: 30px 20px;
-          background-color: midnightblue;
+          margin: 10px auto;
+          // background-color: midnightblue;
 
           .product-img {
-            
+            height: 100%;
+
             button {
               height: 50px;
               font-size: 18px;
+              margin: 0 auto;
             }
 
           }
 
           .description-content {
             position: relative;
-            background-color: yellow;
+            // background-color: yellow;
             width: auto;
-            margin-top: 18px;
-            padding: 0 20px;
+            margin-top: 40px;
+        
+
+            h4 {
+              font-size: 20px;
+            }
+
+            p {
+              margin-top: 15px;
+              font-size: 18px;
+            }
           }
         
         }
