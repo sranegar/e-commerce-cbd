@@ -3,11 +3,11 @@
   min-height: 100%;
   position: relative;
   .about-cbd {
-    max-width: 1100px;
+    max-width: 1340px;
     height: auto;
     background-color: mediumorchid;
     margin: 0 auto;
-    padding: 60px 0px 60px 8px;
+    padding: 100px 0px 60px 8px;
     position: relative;
     img {
       height: 200x;
@@ -55,7 +55,7 @@
     margin: 0 auto;
     font-size: 72px;
     width: auto;
-    padding: 40px 0px;
+    padding-top: 40px;
     color: $site-green;
     background-color: peachpuff;
     text-align: center;
@@ -63,13 +63,13 @@
 
     .page-break-line {
       max-width: 1000px;
-      margin: -10px auto;
+      margin: 30px auto;
       background-color: mediumturquoise;
       padding-left: 40px;
       
       img {
         width: 100%;
-        height: auto;
+       
       }
     }
 
@@ -79,56 +79,29 @@
  
       img {
         width: 100%;
-        height: auto;
-        margin: -290px auto 0 auto; 
+        margin: -450px auto 0 auto; 
       }
     }
+
   }
 
- 
+  .cbd-benefits {
+    max-width: 900px;
+    margin: 0 auto;
+    
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+      margin-top: -85px;
+    }
+  }
  
 }
 
 //Media Queries
 
 @media screen and (max-width: 875px) {
- .health {
-
-   h2 {
-    text-align: center;
-    margin: 50px auto;
-    width: 200px;
-    display: none;
-   }
-   .health-content-wrapper {
-     flex-direction: column-reverse;
-    //  background-color: rgb(6, 29, 233);
-     height: auto;
  
-
-     .paragraph-wrapper {
-      max-width: 80%;
-      margin: 20px auto;
- 
-
-      p {
-        line-height: 1.6;
-        width: 85%;
-      }
-     }
-
-     .health-image {
-      margin: 0 auto;
-      width: 97%;
-      height: auto;
-      // background-color: rgb(25, 25, 75);
-      img {
-        width: 100%;
-        height: auto;
-       
-      }
-     }
-   }
- }
 }
 
