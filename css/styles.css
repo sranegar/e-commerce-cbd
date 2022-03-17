@@ -705,7 +705,7 @@ nav .nav-wrapper .links span {
   width: 58%;
   font-family: FiraSansLight;
   line-height: 1.3;
-  font-size: 14px;
+  font-size: 15px;
 }
 .health h2 {
   font-family: SmithenScript;
@@ -748,7 +748,8 @@ nav .nav-wrapper .links span {
 
 @media screen and (max-width: 675px) {
   .health .about-cbd {
-    padding: 25px 0px 45px 0px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .health .about-cbd img {
     height: 150px;
@@ -775,7 +776,7 @@ nav .nav-wrapper .links span {
     margin: 0 auto;
     width: 100%;
     height: 50%;
-    margin-top: -70px;
+    margin-top: -60px;
   }
   .health h2 {
     line-height: 1.1;
