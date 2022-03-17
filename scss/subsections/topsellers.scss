@@ -49,12 +49,12 @@
         font-weight: bold;
 
         @include mask-button(
-          $transparent-black,
+          $linear-gradient,
           "https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png",
           3000%,
           100%,
           none,
-          $site-white
+          $site-pink
         );
 
         cursor: pointer;

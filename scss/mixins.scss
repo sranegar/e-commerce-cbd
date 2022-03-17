@@ -21,7 +21,7 @@
 
 //Animated linear gradient
 @mixin linear-gradient-animation($animTimer: 30s) {
-    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    background-image: linear-gradient(90deg, #ce0828,#fff567,  #45dbd6, #6e57f3, #ce0828);
     animation: slidebg $animTimer linear infinite alternate;
     
 
@@ -44,7 +44,7 @@
 
 //Linear gradient 
 @mixin linear-gradient() {
-    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    background-image: linear-gradient(90deg, #ce0828, #fff567,  #45dbd6, #6e57f3, #ce0828);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -67,6 +67,52 @@ $col) {
  mask-size: $x1 $y1;
  border: $bor;
  color: $col;
+}
+
+//Footer animation hover 
+@mixin footer-gradient-animation($animTimer: 60s) {
+    background-image: linear-gradient(75deg, #25c060,#fff453, #45dbd6, #25c060);
+    animation: slidebg $animTimer linear infinite alternate;
+    
+
+    @keyframes slidebg {
+        to {
+          background-position: 80vw;
+        }
+      }
+
+      .follow {
+        margin-top: 40px;
+      }
+
+      .follow a {
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+}
+
+//Navigation animation hover
+@mixin nav-gradient-animation($animTimer: 30s) {
+    background-image: linear-gradient(125deg, #e20f71,#45dbd6, #6e57f3, #e20f71);
+    animation: slidebg $animTimer linear infinite alternate;
+    
+
+    @keyframes slidebg {
+        to {
+          background-position: 80vw;
+        }
+      }
+
+      .follow {
+        margin-top: 40px;
+      }
+
+      .follow a {
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
 }
 
 //Top sellers mask animation
@@ -120,26 +166,4 @@ $col) {
     }
    }
    
-}
-
-@mixin linear-gradient2-animation($animTimer2: 30s) {
-    background-image: linear-gradient(90deg, #c836db 0%, #f800a5 49%, #ff1736 80%, #c836db 100%);
-    animation: slidebg $animTimer2 linear infinite alternate;
-    
-
-    @keyframes slidebg {
-        to {
-          background-position: 80vw;
-        }
-      }
-
-      .follow {
-        margin-top: 40px;
-      }
-
-      .follow a {
-        color: black;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
 }

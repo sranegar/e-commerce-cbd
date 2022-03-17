@@ -1,16 +1,18 @@
 //brand colors
+$site-blue: #45dbd6;
 $site-green: #33A033;
 $site-pink: #e20f71;
-$site-yellow: #fff567;
+$site-yellow: #fff453;
+$site-red: #ce0828;
+$site-purple: #6e57f3;
 $nav-yellow: #fbf165;
 $site-second-yellow: #fffdd1;
 $star-yellow: #FDCE1D;
-$site-red: rgb(206, 8, 40);
 $product-price: #0000006e;
 $site-black: #000;
 $site-white: #fff;
-$transparent-black: rgba(0, 0, 0, 0.603);
-$transparent-white: rgba(255, 255, 255, 0.897);
+$transparent-black: #0000009a;
+$transparent-white: #ffffffe5;
 
 
 //site dimensions 
@@ -20,8 +22,5 @@ $medium-width: 980px;
 $average-width: 780px;
 
 //linear-gradient 
-$linear-gradient:  linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+$linear-gradient:  linear-gradient(135deg, $site-pink 0%, $site-yellow 45%, $site-blue 75%, $site-purple 140%);
 
-$clr-primary: #f7cfc8;
-$clr-secondary: #4d84c8;
-$clr-wht: #fffcf6;

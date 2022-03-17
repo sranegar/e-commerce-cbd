@@ -1,6 +1,6 @@
 .footer {
   min-height: 50%;
-  background: linear-gradient(360deg, #33A033, #2c852c);
+  background: linear-gradient(360deg, #c50a48, #e20f71, #f5137c);
 
   .footer-wrapper {
     max-width: $content-width;
@@ -17,7 +17,7 @@
       padding-top: 103px;
       display: flex;
       justify-content: space-around;
-      // background-color: purple;
+      // background-color: #45dbd6;
 
       .list {
         min-height: 140px;
@@ -27,7 +27,7 @@
         h4 {
           font-family: FiraSansCondensedLight;
           font-size: 17px;
-          color: white;
+          color: $site-white;
           text-transform: uppercase;
         }
 
@@ -38,10 +38,12 @@
             font-size: 14px;
             color: $site-white;
             font-family: FiraSansLight;
+            transition: .2s ease-in, .2s ease-out;
+
             &:hover {
               cursor: pointer;
-              font-family: FiraSansMedium;
-              @include linear-gradient-animation(60s);
+              font-family: FiraSansBold;
+              @include footer-gradient-animation(120s);
               background-size: 100%;
               background-repeat: repeat;
               -webkit-background-clip: text;
@@ -56,11 +58,13 @@
           color: white;
           font-size: 22px;
           margin-top: 6px;
+          transition: .2s ease-in, .2s ease-out;
 
           &:hover {
             cursor: pointer;
             font-weight: bolder;
-            @include linear-gradient-animation(60s);
+            @include footer-gradient-animation(120s);
+            font-size: 23px;
             background-size: 100%;
             background-repeat: repeat;
             -webkit-background-clip: text;
@@ -74,6 +78,7 @@
 
     .contact-wrapper {
       max-width: 480px;
+    
 
       h3 {
         font-family: SmithenScript;
@@ -83,7 +88,7 @@
         margin-top: 10px;
         white-space: nowrap;
 
-        @include linear-gradient-animation(60s);
+        @include footer-gradient-animation();
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
@@ -101,6 +106,7 @@
         height: 40px;
         padding: 10px;
         border: none;
+     
       }
 
       textarea {
