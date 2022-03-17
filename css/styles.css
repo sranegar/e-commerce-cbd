@@ -674,56 +674,77 @@ nav .nav-wrapper .links span {
 .health {
   background-color: pink;
   min-height: 100%;
+  position: relative;
 }
 .health .about-cbd {
-  max-width: 1000px;
+  max-width: 1100px;
   height: auto;
   background-color: mediumorchid;
   margin: 0 auto;
-  padding: 60px 0px 60px 20px;
+  padding: 60px 0px 60px 8px;
+  position: relative;
 }
 .health .about-cbd img {
   height: 200x;
   width: 50%;
 }
-.health .about-cbd-image {
+.health .about-cbd-content {
+  background-color: maroon;
+}
+.health .about-cbd-content .about-cbd-image {
   background-color: mediumslateblue;
   max-width: 800px;
   margin: 0 auto;
+  position: relative;
 }
-.health .about-cbd-image img {
-  height: 400x;
+.health .about-cbd-content .about-cbd-image img {
+  height: 350x;
   width: 80%;
-  margin-top: -200px;
-  margin-left: 140px;
+  margin-top: -550px;
+  margin-left: 130px;
 }
-.health h2 {
-  font-family: FiraSansCondensedLightItalic;
+.health .about-cbd-content .about-text-wrapper {
+  background-color: aqua;
+  max-width: 980px;
   margin: 0 auto;
-  font-size: 48px;
-  width: 1000px;
-  padding: 80px 10px 30px 20px;
-  color: #E20F71;
-  text-transform: uppercase;
+  padding-left: 20px;
 }
-.health .health-content-wrapper {
-  margin: 0 auto;
-  max-width: 1000px;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-}
-.health .health-content-wrapper .paragraph-wrapper {
-  margin: 40px 20px;
-}
-.health .health-content-wrapper .paragraph-wrapper p {
+.health .about-cbd-content .about-text-wrapper p {
+  width: 50%;
+  background-color: mediumturquoise;
   font-family: FiraSansLight;
   line-height: 1.3;
   font-size: 14px;
 }
-.health .health-content-wrapper .health-image img {
-  width: 600px;
-  height: 480px;
+.health h2 {
+  font-family: SmithenScript;
+  margin: 0 auto;
+  font-size: 72px;
+  width: auto;
+  padding: 40px 0px;
+  color: #33A033;
+  background-color: peachpuff;
+  text-align: center;
+  font-weight: lighter;
+}
+.health h2 .page-break-line {
+  max-width: 1000px;
+  margin: -10px auto;
+  background-color: mediumturquoise;
+  padding-left: 40px;
+}
+.health h2 .page-break-line img {
+  width: 100%;
+  height: auto;
+}
+.health h2 .page-break-image {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+.health h2 .page-break-image img {
+  width: 100%;
+  height: auto;
+  margin: -290px auto 0 auto;
 }
 
 @media screen and (max-width: 875px) {
