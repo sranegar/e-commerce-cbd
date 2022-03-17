@@ -521,12 +521,15 @@ nav .nav-wrapper .links span {
   background-position: center;
   background-repeat: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 .top-sellers .top-sellers-wrapper .top-seller-photo:hover {
   cursor: pointer;
   width: 215px;
   height: 215px;
-  transition: 0.2s ease-in-out;
+}
+.top-sellers .top-sellers-wrapper .top-seller-photo:hover h4 {
+  font-size: 20px;
 }
 .top-sellers .top-sellers-wrapper .top-seller-photo h4 {
   font-family: FiraSansCondensedItalic;
@@ -536,6 +539,7 @@ nav .nav-wrapper .links span {
   margin: 100px auto;
   text-shadow: -2px 2px rgba(37, 37, 37, 0.5);
   text-transform: uppercase;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 .top-sellers .top-sellers-wrapper .top-seller1 {
   width: 210px;
@@ -546,6 +550,7 @@ nav .nav-wrapper .links span {
   background-position: center;
   background-repeat: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 .top-sellers .top-sellers-wrapper .top-seller2 {
   width: 210px;
@@ -556,6 +561,7 @@ nav .nav-wrapper .links span {
   background-position: center;
   background-repeat: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 .top-sellers .top-sellers-wrapper .top-seller3 {
   width: 210px;
@@ -566,6 +572,7 @@ nav .nav-wrapper .links span {
   background-position: center;
   background-repeat: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 
 @media screen and (max-width: 875px) {
