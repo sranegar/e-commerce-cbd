@@ -19,7 +19,7 @@
     max-width: $medium-width;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 250px;
     // background-color: mediumturquoise;
@@ -30,14 +30,18 @@
       height: 220px;
       overflow: hidden;
       font-family: FiraSansCondensedItalic;
-      transition: 0.5s;
       border-radius: 50%;
 
+      &:hover {
+        width: 219.5px;
+        height: 219.5px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      }
+
       button {
-        width: 101%;
+        width: 100%;
         height: 100%;
         font-family: FiraSansCondensedItalic;
-        font-weight: 300;
         font-size: 22px;
         text-transform: uppercase;
         font-weight: bold;
@@ -52,12 +56,14 @@
         );
 
         cursor: pointer;
-        -webkit-animation: ani2 0.7s steps(29) forwards;
-        animation: ani2 0.7s steps(29) forwards;
+        -webkit-animation: ani2 0.9s steps(29) forwards;
+        animation: ani2 0.9s steps(29) forwards;
 
         &:hover {
-          -webkit-animation: ani 0.7s steps(29) forwards;
-          animation: ani 0.7s steps(29) forwards;
+          -webkit-animation: ani 0.9s steps(29) forwards;
+          animation: ani 0.9s steps(29) forwards;
+
+         
         }
       }
 

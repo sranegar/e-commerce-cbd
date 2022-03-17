@@ -539,7 +539,7 @@ nav .nav-wrapper .links span {
   max-width: 980px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 250px;
 }
@@ -549,18 +549,21 @@ nav .nav-wrapper .links span {
   height: 220px;
   overflow: hidden;
   font-family: FiraSansCondensedItalic;
-  transition: 0.5s;
   border-radius: 50%;
 }
+.top-sellers .top-sellers-wrapper .top-seller-photo:hover {
+  width: 219.5px;
+  height: 219.5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
 .top-sellers .top-sellers-wrapper .top-seller-photo button {
-  width: 101%;
+  width: 100%;
   height: 100%;
   font-family: FiraSansCondensedItalic;
-  font-weight: 300;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.35);
   -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   -webkit-mask-size: 3000% 100%;
@@ -568,12 +571,12 @@ nav .nav-wrapper .links span {
   border: none;
   color: #fff;
   cursor: pointer;
-  -webkit-animation: ani2 0.7s steps(29) forwards;
-  animation: ani2 0.7s steps(29) forwards;
+  -webkit-animation: ani2 0.9s steps(29) forwards;
+  animation: ani2 0.9s steps(29) forwards;
 }
 .top-sellers .top-sellers-wrapper .top-seller-photo button:hover {
-  -webkit-animation: ani 0.7s steps(29) forwards;
-  animation: ani 0.7s steps(29) forwards;
+  -webkit-animation: ani 0.9s steps(29) forwards;
+  animation: ani 0.9s steps(29) forwards;
 }
 .top-sellers .top-sellers-wrapper .top-seller-photo span {
   font-family: FiraSansCondensedItalic;
@@ -629,37 +632,28 @@ nav .nav-wrapper .links span {
   }
 }
 .top-sellers .top-seller1 {
-  width: 210px;
-  height: 210px;
-  border-radius: 50%;
   background-image: url(../images/top-seller-1.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  transition: 0.2s ease-in, 0.2s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.3s ease-in, 0.3s ease-out;
 }
 .top-sellers .top-seller2 {
-  width: 210px;
-  height: 210px;
-  border-radius: 50%;
   background-image: url(../images/top-seller-2.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  transition: 0.2s ease-in, 0.2s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.3s ease-in, 0.3s ease-out;
 }
 .top-sellers .top-seller3 {
-  width: 210px;
-  height: 210px;
-  border-radius: 50%;
   background-image: url(../images/top-seller-3.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  transition: 0.2s ease-in, 0.2s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.3s ease-in, 0.3s ease-out;
 }
 
 @media screen and (max-width: 875px) {

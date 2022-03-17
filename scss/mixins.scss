@@ -9,18 +9,17 @@
     
 }
 
+//Top Seller photo
 @mixin top-seller-photo($topSellerImg: url(../images/top-seller-1.jpeg)) {
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
     background-image: $topSellerImg;
     background-size: cover;
     background-position: center;
     background-repeat: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    transition: .2s ease-in, .2s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: .3s ease-in, .3s ease-out;
 }
 
+//Animated linear gradient
 @mixin linear-gradient-animation($animTimer: 30s) {
     background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
     animation: slidebg $animTimer linear infinite alternate;
@@ -42,6 +41,7 @@
       }
 }
 
+//Linear gradient 
 @mixin linear-gradient() {
     background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
     background-size: 100%;
@@ -52,6 +52,7 @@
     -moz-text-fill-color: transparent;
 }
 
+//Top sellers mask button
 @mixin mask-button($bcolor,
 $url,
 $x1,
@@ -67,6 +68,7 @@ $col) {
  color: $col;
 }
 
+//Top sellers mask animation
 @mixin mask-button-animation() {
     
 @-webkit-keyframes ani {
@@ -118,3 +120,4 @@ $col) {
    }
    
 }
+
