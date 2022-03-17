@@ -1,14 +1,13 @@
 .top-sellers {
   min-height: 50%;
   // background-color: pink;
-
+  
   h2 {
     font-family: SmithenScript;
-    // background-color: red;
     max-width: 300px;
-    height: 80px;
+    height: auto;
     text-align: center;
-    margin: 20px auto;
+    margin: 0 auto;
     font-size: 52px;
     letter-spacing: 5px;
     color: $site-green;
@@ -17,11 +16,11 @@
   .top-sellers-wrapper {
     max-width: $medium-width;
     margin: 0 auto;
-    margin-top: -40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 250px;
+    // background-color: mediumturquoise;
 
     .top-seller-photo {
       width: 210px;
