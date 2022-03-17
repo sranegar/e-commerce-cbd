@@ -110,10 +110,10 @@ nav .nav-wrapper .links a:hover {
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 5px;
-  text-decoration-color: #E20F71;
+  text-decoration-color: #e20f71;
 }
 nav .nav-wrapper .links span {
-  color: #E20F71;
+  color: #e20f71;
   margin: 0 19.5px;
 }
 
@@ -350,7 +350,7 @@ nav .nav-wrapper .links span {
   height: 30px;
   font-family: FiraSansRegular;
   text-transform: uppercase;
-  background-color: #E20F71;
+  background-color: #e20f71;
   opacity: 65%;
   color: white;
   transition: 0.2s ease-in, 0.2s ease-out;
@@ -858,7 +858,7 @@ nav .nav-wrapper .links span {
 .reviews .reviews-wrapper .quote-wrapper p i {
   font-size: 25px;
   padding: 15px;
-  color: #E20F71;
+  color: #e20f71;
   position: absolute;
 }
 .reviews .reviews-wrapper .quote-wrapper p .left-quote {
@@ -986,7 +986,7 @@ nav .nav-wrapper .links span {
   content: "";
   display: block;
   max-width: 217px;
-  border-bottom: 2px solid #E20F71;
+  border-bottom: 2px solid #e20f71;
   margin-top: 6px;
 }
 .about .about-wrapper .shop-description p {
@@ -1172,7 +1172,7 @@ nav .nav-wrapper .links span {
   font-family: FiraSansMedium;
   text-transform: lowercase;
   font-size: 15px;
-  color: #E20F71;
+  color: #e20f71;
   margin-top: 8px;
   margin-bottom: 10px;
   float: right;
@@ -1269,46 +1269,47 @@ nav .nav-wrapper .links span {
   position: relative;
 }
 .pets .pets-bubble-container {
-  max-width: 775px;
+  max-width: 900px;
   margin: 0 auto 0 350px;
   padding-right: 60px;
 }
 .pets .pets-bubble-container .pets-bubble {
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.87);
-  border: 1px solid #000;
-  width: 100%;
-  min-height: 370px;
-  border-radius: 0% 50%;
-  padding: 75px;
+  background-color: rgba(255, 255, 255, 0.952);
+  width: 90%;
+  min-height: 395px;
+  border-radius: 50%;
+  padding: 65px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 .pets .pets-bubble-container .pets-bubble h2 {
-  margin-top: 30px;
-  color: #E20F71;
-  font-size: 52px;
+  margin-top: 50px;
+  color: #e20f71;
+  font-size: 56px;
   letter-spacing: 1px;
-  line-height: 0.7;
+  line-height: 0.8;
   font-family: SmithenScript;
   text-align: center;
 }
 .pets .pets-bubble-container .pets-bubble p {
   font-family: FiraSansLight;
   text-align: center;
-  max-width: 65%;
-  margin: 0 auto;
-  padding-bottom: 20px;
+  max-width: 68%;
+  margin: 0 auto 15px auto;
+  padding: 20px 0px;
+  font-size: 16px;
 }
 .pets .pets-bubble-container .pets-bubble .shop-pets {
   color: #fff;
-  background-color: #E20F71;
+  background-color: #e20f71;
   border: none;
-  height: 45px;
+  height: 35px;
   width: 150px;
   text-transform: uppercase;
-  padding: 5px;
-  font-family: FiraSansCondensedMed;
+  padding: 10px;
+  font-family: FiraSansCondensedItalic;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.8px;
   display: block;
   margin: 0 auto;
@@ -1337,29 +1338,29 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 900px) {
   .pets {
     background-position: 25% 75%;
-  }
-  .pets .pets-bubble-container {
-    margin-left: 245px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .pets {
     padding: 25px 10px;
   }
   .pets .pets-bubble-container {
     margin: 0 auto;
-    max-width: 540px;
+    max-width: 100%;
+    height: 250px;
     padding-right: 0px;
   }
   .pets .pets-bubble-container .pets-bubble {
+    height: 100%;
+    border: none;
     margin: 0 auto;
-    border-radius: 0%;
     width: 100%;
-    padding: 15px 5px 25px 5px;
+    padding: 8px;
     min-height: 200px;
+    border-radius: 60%;
+  }
+  .pets .pets-bubble-container .pets-bubble h2 {
+    font-size: 46px;
   }
   .pets .pets-bubble-container .pets-bubble p {
-    max-width: 90%;
+    max-width: 65%;
+    padding: 5px 0px;
   }
 }
 
