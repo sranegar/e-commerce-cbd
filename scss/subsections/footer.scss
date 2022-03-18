@@ -27,6 +27,7 @@
         h4 {
           font-family: FiraSansCondensedLight;
           font-size: 17px;
+          font-weight: bolder;
           color: $site-white;
           text-transform: uppercase;
         }
@@ -87,6 +88,7 @@
         color: white;
         margin-top: 10px;
         white-space: nowrap;
+        font-weight: bolder;
 
         @include footer-gradient-animation();
         background-size: 100%;

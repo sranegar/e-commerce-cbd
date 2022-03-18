@@ -1,6 +1,7 @@
 .home {
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.14)),url(../images/home-background.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.14)),
+    url(../images/home-background.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,14 +15,15 @@
     justify-content: center;
     padding: 20px;
 
-   
+    
+
     .square {
       text-align: left;
       height: 520px;
       max-width: $max-width;
       padding: 20px;
       // background-color: mediumturquoise;
-   
+
       .home-page-photo-wrapper {
         display: flex;
         max-width: 100%;
@@ -63,45 +65,9 @@
           font-weight: lighter;
           color: $site-yellow;
           text-align: center;
-          
-        }
-
-       
-      }
-
-      button {
-        color: $site-white;
-        background: $lr-pink-gradient;
-        border: none;
-        height: auto;
-        width: 300px;
-        text-transform: uppercase;
-        padding: 10px;
-        font-family: FiraSansCondensedItalic;
-        border-radius: 8px;
-        font-size: 22px;
-        letter-spacing: 0.8px;
-        display: block;
-        margin: 0 auto;
-        transition: 0.4s ease-in, 0.4s ease-out;
-        
-        i {
-          padding: 8px;
-          font-size: 20px;
-          color: $site-white;
-        }
-
-        &:hover {
-          cursor: pointer;
-          // @include linear-gradient-animation();
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-          transition: 0.2s ease-in, 0.2s ease-out;
         }
       }
- 
     }
-    
-    
   }
 
   .home-cta {
@@ -133,7 +99,6 @@
 
       .square {
         text-align: center;
-   
 
         h1 {
           font-size: 60px;
