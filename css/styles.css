@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -378,11 +379,30 @@ nav .nav-wrapper .links span {
   min-height: 100%;
   padding-bottom: 55px;
 }
+.products .products-divider {
+  height: 2.5px;
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  animation: slidebg 100s linear infinite alternate;
+  max-width: 980px;
+  margin: 60px auto 0 auto;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+.products .products-divider .follow {
+  margin-top: 40px;
+}
+.products .products-divider .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 .products .products-container {
   max-width: 980px;
   margin: 0 auto;
-  height: 375px;
-  border-bottom: 4px solid #ce0828;
+  height: 380px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -536,10 +556,14 @@ nav .nav-wrapper .links span {
 }
 .products .products-container .product-images-wrapper .product-container .description-content p {
   font-family: FiraSansCondensedItalic;
-  text-transform: uppercase;
   font-size: 16px;
-  margin-top: -8px;
   color: #0000006e;
+  padding: 5px;
+}
+.products .products-container .product-images-wrapper .product-container .description-content span {
+  font-family: FiraSansExtraCondensed;
+  color: #0000006e;
+  font-size: 15px;
 }
 .products .topical-container {
   border-bottom: none;
@@ -548,6 +572,9 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 892px) {
   .products {
     padding: 50px 20px 50px 20px;
+  }
+  .products .products-divider {
+    display: none;
   }
   .products .products-container {
     background: none;
@@ -599,12 +626,12 @@ nav .nav-wrapper .links span {
   min-height: 50%;
 }
 .weekly-deals h2 {
-  font-family: SmithenScript;
+  font-family: FiraSansExtraCondensed;
   max-width: 600px;
   height: auto;
   text-align: center;
   margin: 0 auto;
-  font-size: 52px;
+  font-size: 32px;
   letter-spacing: 5px;
   color: #33A033;
   padding: 10px;
@@ -784,14 +811,14 @@ nav .nav-wrapper .links span {
   list-style: none;
 }
 .health .row .col ul li {
-  font-family: SmithenScript;
+  font-family: FiraSansExtraCondensed;
   color: #000;
-  font-size: 32px;
+  font-size: 18px;
   letter-spacing: 1px;
   text-align: left;
 }
 .health .row .col ul li:before {
-  content: "*";
+  content: "•";
   background-size: contain;
   display: inline-block;
   width: 1em;

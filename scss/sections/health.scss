@@ -41,14 +41,14 @@
         list-style: none;
         
         li {
-          font-family: SmithenScript;
+          font-family: FiraSansExtraCondensed;
           color: $site-black;
-          font-size: 32px;
+          font-size: 18px;
           letter-spacing: 1px;
           text-align: left;
 
           &:before {
-            content: "*";
+            content: "•";
             // background-image: url(../svg/bulliet.svg);
             background-size: contain;
             display: inline-block;
