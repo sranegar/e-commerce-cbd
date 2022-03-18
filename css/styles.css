@@ -229,7 +229,6 @@ nav .nav-wrapper .links span {
   text-transform: uppercase;
   text-align: center;
   font-family: FiraSansLight;
-  padding-top: 2px;
 }
 
 .home {
@@ -381,7 +380,7 @@ nav .nav-wrapper .links span {
   justify-content: space-between;
   position: relative;
 }
-.products .products-container h4 {
+.products .products-container h3 {
   font-family: SmithenScript;
   color: #33A033;
   font-size: 44px;
@@ -403,7 +402,7 @@ nav .nav-wrapper .links span {
   flex-direction: column;
 }
 .products .products-container .product-images-wrapper .product-container .product-img {
-  background-image: url(../images/cbd-gummies-1.jpg);
+  background-image: url(../images/cbd-edibles-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -443,8 +442,8 @@ nav .nav-wrapper .links span {
   padding: 8px 16px;
   text-decoration: none;
 }
-.products .products-container .product-images-wrapper .product-container .gummy2 {
-  background-image: url(../images/cbd-gummies-2.jpg);
+.products .products-container .product-images-wrapper .product-container .edibles2 {
+  background-image: url(../images/cbd-edibles-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -452,8 +451,8 @@ nav .nav-wrapper .links span {
   max-width: 100%;
   height: 100%;
 }
-.products .products-container .product-images-wrapper .product-container .gummy3 {
-  background-image: url(../images/cbd-gummies-3.jpg);
+.products .products-container .product-images-wrapper .product-container .edibles3 {
+  background-image: url(../images/cbd-edibles-3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -462,7 +461,7 @@ nav .nav-wrapper .links span {
   height: 100%;
 }
 .products .products-container .product-images-wrapper .product-container .oil1 {
-  background-image: url(../images/cbd-oil-1.jpg);
+  background-image: url(../images/cbd-oil-5.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -471,7 +470,7 @@ nav .nav-wrapper .links span {
   height: 100%;
 }
 .products .products-container .product-images-wrapper .product-container .oil2 {
-  background-image: url(../images/cbd-oil-2.jpg);
+  background-image: url(../images/cbd-oil-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -480,7 +479,7 @@ nav .nav-wrapper .links span {
   height: 100%;
 }
 .products .products-container .product-images-wrapper .product-container .oil3 {
-  background-image: url(../images/cbd-oil-3.jpg);
+  background-image: url(../images/cbd-oil-4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -488,8 +487,8 @@ nav .nav-wrapper .links span {
   max-width: 100%;
   height: 100%;
 }
-.products .products-container .product-images-wrapper .product-container .topical1 {
-  background-image: url(../images/cbd-topical-1.jpg);
+.products .products-container .product-images-wrapper .product-container .bath-bombs1 {
+  background-image: url(../images/cbd-bb-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -497,8 +496,8 @@ nav .nav-wrapper .links span {
   max-width: 100%;
   height: 100%;
 }
-.products .products-container .product-images-wrapper .product-container .topical2 {
-  background-image: url(../images/cbd-topical-2.jpg);
+.products .products-container .product-images-wrapper .product-container .bath-bombs2 {
+  background-image: url(../images/cbd-bb-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -506,8 +505,8 @@ nav .nav-wrapper .links span {
   max-width: 100%;
   height: 100%;
 }
-.products .products-container .product-images-wrapper .product-container .topical3 {
-  background-image: url(../images/cbd-topical-3.jpg);
+.products .products-container .product-images-wrapper .product-container .bath-bombs3 {
+  background-image: url(../images/cbd-bb-3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -550,7 +549,7 @@ nav .nav-wrapper .links span {
     flex-direction: column;
     margin: 0px auto;
   }
-  .products .products-container h4 {
+  .products .products-container h3 {
     font-size: 54px;
     text-align: center;
     width: auto;
@@ -620,15 +619,14 @@ nav .nav-wrapper .links span {
   border-radius: 50%;
 }
 .weekly-deals .weekly-deals-wrapper .weekly-deals-photo:hover {
-  width: 219.5px;
-  height: 219.5px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .weekly-deals .weekly-deals-wrapper .weekly-deals-photo button {
+  padding: 20px;
   width: 100%;
   height: 100%;
   font-family: FiraSansCondensedItalic;
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: bold;
   background: linear-gradient(135deg, #e20f71, #fff453, #45dbd6, #6e57f3);
@@ -648,8 +646,8 @@ nav .nav-wrapper .links span {
 }
 .weekly-deals .weekly-deals-wrapper .weekly-deals-photo span {
   font-family: FiraSansCondensedItalic;
-  font-size: 40px;
-  margin: 82px auto;
+  font-size: 28px;
+  margin: 87px auto;
   text-transform: uppercase;
   position: absolute;
   color: #fff;
@@ -701,7 +699,7 @@ nav .nav-wrapper .links span {
   }
 }
 .weekly-deals .weekly-deals1 {
-  background-image: url(../images/top-seller-1.jpeg);
+  background-image: url(../images/weekly-deals-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -709,7 +707,7 @@ nav .nav-wrapper .links span {
   transition: 0.3s ease-in, 0.3s ease-out;
 }
 .weekly-deals .weekly-deals2 {
-  background-image: url(../images/top-seller-2.jpeg);
+  background-image: url(../images/weekly-deals-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -717,7 +715,7 @@ nav .nav-wrapper .links span {
   transition: 0.3s ease-in, 0.3s ease-out;
 }
 .weekly-deals .weekly-deals3 {
-  background-image: url(../images/top-seller-3.jpeg);
+  background-image: url(../images/weekly-deals-3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -744,151 +742,62 @@ nav .nav-wrapper .links span {
   min-height: 100%;
   position: relative;
 }
-.health .about-cbd {
-  max-width: 780px;
-  height: auto;
-  padding: 120px 0px 60px 5px;
-  position: relative;
-  margin-left: 5px;
-}
-.health .about-cbd img {
-  height: 134px;
-  width: 100%;
-}
-.health .about-cbd-content {
-  max-width: 1240px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.health .about-cbd-content .about-cbd-image {
-  max-width: 550px;
-  margin: 0 auto;
-}
-.health .about-cbd-content .about-cbd-image img {
-  width: 86%;
-  height: 86%;
-  margin-top: -600px;
-  margin-left: 190px;
-}
-.health .about-cbd-content .about-text-wrapper {
-  max-width: 980px;
-  margin: 6px auto;
-  padding-left: 5px;
-}
-.health .about-cbd-content .about-text-wrapper p {
-  width: 57%;
-  font-family: FiraSansLight;
-  line-height: 1.3;
-  font-size: 15px;
-  padding: 10px;
-  padding-left: 20px;
+.health img {
+  height: 500px;
+  width: 500px;
+  bottom: 0;
+  right: 80px;
+  position: absolute;
+  opacity: 70%;
+  padding: 20px;
 }
 .health h2 {
   font-family: SmithenScript;
-  margin: 0 auto;
-  font-size: 72px;
-  width: auto;
-  padding-top: 40px;
-  color: #33A033;
-  text-align: center;
-  font-weight: lighter;
+  font-size: 62px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  max-width: 1240px;
+  margin: 20px auto 0 auto;
+  padding: 0 50px;
+  color: #e20f71;
 }
-.health h2 .page-break-line {
+.health .row {
   max-width: 1000px;
-  margin: 30px auto 80px auto;
-  padding-left: 40px;
-}
-.health h2 .page-break-line img {
-  width: 100%;
-}
-.health h2 .page-break-image {
-  max-width: 1350px;
   margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
 }
-.health h2 .page-break-image img {
-  width: 100%;
-  margin: -450px auto 0 auto;
+.health .row .col {
+  z-index: 9;
+  padding-top: 20px;
 }
-.health .cbd-benefits {
-  max-width: 900px;
-  margin: -110px auto 0 auto;
+.health .row .col ul {
+  max-width: 85%;
+  margin: 0 auto;
+  list-style: none;
 }
-.health .cbd-benefits img {
-  width: 100%;
-  height: auto;
-  padding: 0px 10px;
+.health .row .col ul li {
+  font-family: SmithenScript;
+  color: #000;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-align: left;
 }
-.health .cbd-benefits .svg-mobile {
-  display: none;
+.health .row .col ul li:before {
+  content: "*";
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
 }
 
 @media screen and (max-width: 600px) {
-  .health .about-cbd {
-    padding: 20px 20px;
-  }
-  .health .about-cbd img {
-    width: 100%;
-  }
-  .health .about-cbd-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 410px;
-    margin: 0 auto;
-  }
-  .health .about-cbd-content .about-text-wrapper {
-    padding: 16px;
-    max-width: 90%;
-    height: auto;
-  }
-  .health .about-cbd-content .about-text-wrapper p {
-    width: 100%;
-  }
-  .health .about-cbd-content .about-cbd-image {
-    margin: 0 auto;
-  }
-  .health .about-cbd-content .about-cbd-image img {
-    margin: 0 auto;
-    width: 100%;
-    height: 50%;
-    margin-top: -60px;
-  }
   .health h2 {
-    line-height: 1.1;
-    padding: 22px;
-    font-size: 62px;
-    width: auto;
-  }
-  .health h2 .page-break-line {
-    height: 100px;
-  }
-  .health .cbd-benefits .svg-web {
-    display: none;
-  }
-  .health .cbd-benefits .svg-title-1 {
-    display: block;
-    padding: 50px;
-  }
-  .health .cbd-benefits .svg-content-1 {
-    margin: 0 auto;
-    display: block;
-    width: 75%;
-    padding: 45px 30px;
-  }
-  .health .cbd-benefits .svg-oil {
-    display: block;
-    padding: 40px;
-    margin-top: -70px;
-  }
-  .health .cbd-benefits .svg-title-2 {
-    display: block;
-    padding: 50px;
-  }
-  .health .cbd-benefits .svg-content-2 {
-    margin: 0 auto;
-    display: block;
-    width: 75%;
-    padding: 45px 30px;
-    padding-bottom: 80px;
+    text-align: center;
+    line-height: 52px;
   }
 }
 .reviews {
@@ -1259,7 +1168,7 @@ nav .nav-wrapper .links span {
   display: inline-block;
   width: 80px;
   height: 30px;
-  font-family: FiraSansRegular;
+  font-family: FiraSansMedium;
   text-transform: lowercase;
   font-size: 13px;
   color: #e20f71;

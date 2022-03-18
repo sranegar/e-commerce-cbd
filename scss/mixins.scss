@@ -1,169 +1,180 @@
-@mixin product-img($productImg: url(../images/cbd-gummies-1.jpg)) {
-    background-image: $productImg;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    max-width: 100%;
-    height: 100%;
-    
+@mixin product-img($productImg: url(../images/cbd-edibles-1.jpg)) {
+  background-image: $productImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
 }
 
 //Top Seller photo
-@mixin weekly-deals-photo($topSellerImg: url(../images/top-seller-1.jpeg)) {
-    background-image: $topSellerImg;
-    background-size: cover;
-    background-position: center;
-    background-repeat: none;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    transition: .3s ease-in, .3s ease-out;
+@mixin weekly-deals-photo($topSellerImg: url(../images/weekly-deals-1.jpg)) {
+  background-image: $topSellerImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.3s ease-in, 0.3s ease-out;
 }
 
 //Animated linear gradient
 @mixin linear-gradient-animation($animTimer: 65s) {
-    background-image: linear-gradient(-90deg, #ce0828,#fff453, #45dbd6, #6e57f3, #ce0828);
-    animation: slidebg $animTimer linear infinite alternate;
-    
+  background-image: linear-gradient(
+    -90deg,
+    #ce0828,
+    #fff453,
+    #45dbd6,
+    #6e57f3,
+    #ce0828
+  );
+  animation: slidebg $animTimer linear infinite alternate;
 
-    @keyframes slidebg {
-        to {
-          background-position: 80vw;
-        }
-      }
+  @keyframes slidebg {
+    to {
+      background-position: 80vw;
+    }
+  }
 
-      .follow {
-        margin-top: 40px;
-      }
+  .follow {
+    margin-top: 40px;
+  }
 
-      .follow a {
-        color: black;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
+  .follow a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
 }
 
-//Linear gradient 
+//Linear gradient
 @mixin linear-gradient() {
-    background-image: linear-gradient(90deg, #ce0828, #fff567,  #45dbd6, #6e57f3, #ce0828);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    #ce0828,
+    #fff567,
+    #45dbd6,
+    #6e57f3,
+    #ce0828
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 //Weekly Deals mask button
-@mixin mask-button($bcolor,
-$url,
-$x1,
-$y1,
-$bor,
-$col) {
- background: $bcolor;
- -webkit-mask: url($url);
- mask: url($url);
- -webkit-mask-size: $x1 $y1;
- mask-size: $x1 $y1;
- border: $bor;
- color: $col;
+@mixin mask-button($bcolor, $url, $x1, $y1, $bor, $col) {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  font-family: FiraSansCondensedItalic;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: $bcolor;
+  -webkit-mask: url($url);
+  mask: url($url);
+  -webkit-mask-size: $x1 $y1;
+  mask-size: $x1 $y1;
+  border: $bor;
+  color: $col;
 }
 
-//Footer animation hover 
+//Footer animation hover
 @mixin footer-gradient-animation($animTimer: 60s) {
-    background-image: linear-gradient(75deg, #25c060,#fff453, #45dbd6, #25c060);
-    animation: slidebg $animTimer linear infinite alternate;
-    
+  background-image: linear-gradient(75deg, #25c060, #fff453, #45dbd6, #25c060);
+  animation: slidebg $animTimer linear infinite alternate;
 
-    @keyframes slidebg {
-        to {
-          background-position: 80vw;
-        }
-      }
+  @keyframes slidebg {
+    to {
+      background-position: 80vw;
+    }
+  }
 
-      .follow {
-        margin-top: 40px;
-      }
+  .follow {
+    margin-top: 40px;
+  }
 
-      .follow a {
-        color: black;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
+  .follow a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
 }
 
 //Navigation animation hover
 @mixin nav-gradient-animation($deg: 45deg, $animTimer: 6s) {
-    background-image: linear-gradient($deg, #e20f71,#45dbd6, #6e57f3, #e20f71);
-    animation: slidebg $animTimer linear infinite alternate;
-    
+  background-image: linear-gradient($deg, #e20f71, #45dbd6, #6e57f3, #e20f71);
+  animation: slidebg $animTimer linear infinite alternate;
 
-    @keyframes slidebg {
-        to {
-          background-position: 80vw;
-        }
-      }
+  @keyframes slidebg {
+    to {
+      background-position: 80vw;
+    }
+  }
 
-      .follow {
-        margin-top: 40px;
-      }
+  .follow {
+    margin-top: 40px;
+  }
 
-      .follow a {
-        color: black;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
+  .follow a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
 }
 
 //Weekly Deals mask animation keyframes
 @mixin mask-button-animation() {
-    
-@-webkit-keyframes ani {
+  @-webkit-keyframes ani {
     from {
-     -webkit-mask-position: 0 0;
-     mask-position: 0 0;
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
     }
-   
+
     to {
-     -webkit-mask-position: 100% 0;
-     mask-position: 100% 0;
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
     }
-   }
-   
-   @keyframes ani {
+  }
+
+  @keyframes ani {
     from {
-     -webkit-mask-position: 0 0;
-     mask-position: 0 0;
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
     }
-   
+
     to {
-     -webkit-mask-position: 100% 0;
-     mask-position: 100% 0;
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
     }
-   }
-   
-   @-webkit-keyframes ani2 {
+  }
+
+  @-webkit-keyframes ani2 {
     from {
-     -webkit-mask-position: 100% 0;
-     mask-position: 100% 0;
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
     }
-   
+
     to {
-     -webkit-mask-position: 0 0;
-     mask-position: 0 0;
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
     }
-   }
-   
-   @keyframes ani2 {
+  }
+
+  @keyframes ani2 {
     from {
-     -webkit-mask-position: 100% 0;
-     mask-position: 100% 0;
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
     }
-   
+
     to {
-     -webkit-mask-position: 0 0;
-     mask-position: 0 0;
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
     }
-   }
-   
+  }
 }

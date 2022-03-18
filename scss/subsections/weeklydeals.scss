@@ -34,20 +34,11 @@
       border-radius: 50%;
 
       &:hover {
-        width: 219.5px;
-        height: 219.5px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
           rgba(0, 0, 0, 0.23) 0px 6px 6px;
       }
 
       button {
-        width: 100%;
-        height: 100%;
-        font-family: FiraSansCondensedItalic;
-        font-size: 22px;
-        text-transform: uppercase;
-        font-weight: bold;
-
         @include mask-button(
           $linear-gradient,
           "https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png",
@@ -69,8 +60,8 @@
 
       span {
         font-family: FiraSansCondensedItalic;
-        font-size: 40px;
-        margin: 82px auto;
+        font-size: 28px;
+        margin: 87px auto;
         text-transform: uppercase;
         position: absolute;
         color: $site-white;
@@ -91,11 +82,11 @@
   }
 
   .weekly-deals2 {
-    @include weekly-deals-photo(url(../images/top-seller-2.jpeg));
+    @include weekly-deals-photo(url(../images/weekly-deals-2.jpg));
   }
 
   .weekly-deals3 {
-    @include weekly-deals-photo(url(../images/top-seller-3.jpeg));
+    @include weekly-deals-photo(url(../images/weekly-deals-3.jpg));
   }
 }
 

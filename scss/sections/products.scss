@@ -14,7 +14,7 @@
     justify-content: space-between;
     position: relative;
 
-    h4 {
+    h3 {
       font-family: SmithenScript;
       color: $site-green;
       font-size: 44px;
@@ -65,36 +65,36 @@
           
         }
 
-        .gummy2 {
-          @include product-img(url(../images/cbd-gummies-2.jpg));
+        .edibles2 {
+          @include product-img(url(../images/cbd-edibles-2.jpg));
         }
 
-        .gummy3 {
-          @include product-img(url(../images/cbd-gummies-3.jpg));
+        .edibles3 {
+          @include product-img(url(../images/cbd-edibles-3.jpg));
         }
 
         .oil1 {
-          @include product-img(url(../images/cbd-oil-1.jpg));
+          @include product-img(url(../images/cbd-oil-5.jpg));
         }
 
         .oil2 {
-          @include product-img(url(../images/cbd-oil-2.jpg));
+          @include product-img(url(../images/cbd-oil-1.jpg));
         }
 
         .oil3 {
-          @include product-img(url(../images/cbd-oil-3.jpg));
+          @include product-img(url(../images/cbd-oil-4.jpg));
         }
 
-        .topical1 {
-          @include product-img(url(../images/cbd-topical-1.jpg));
+        .bath-bombs1 {
+          @include product-img(url(../images/cbd-bb-1.jpg));
         }
 
-        .topical2 {
-          @include product-img(url(../images/cbd-topical-2.jpg));
+        .bath-bombs2 {
+          @include product-img(url(../images/cbd-bb-2.jpg));
         }
 
-        .topical3 {
-          @include product-img(url(../images/cbd-topical-3.jpg));
+        .bath-bombs3 {
+          @include product-img(url(../images/cbd-bb-3.jpg));
         }
 
         .description-content {
@@ -143,7 +143,7 @@
       // background-color: mediumorchid;
       margin: 0px auto;
 
-      h4 {
+      h3 {
         font-size: 54px;
         text-align: center;
         width: auto;
