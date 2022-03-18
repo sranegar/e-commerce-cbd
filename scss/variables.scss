@@ -31,3 +31,5 @@ $reverse-pink-gradient: linear-gradient(360deg, $site-red, $site-pink);
 $lr-pink-gradient: linear-gradient(90deg, $site-red, $site-pink);
 
 $product-gradient: linear-gradient(0deg, $site-blue, $site-purple, $site-pink);
+
+$mask-gradient: radial-gradient(rgba(0,0,0),rgba(0,0,0, .8));

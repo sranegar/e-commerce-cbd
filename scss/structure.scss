@@ -76,6 +76,17 @@ p {
 
 
 @font-face {
+  font-family: FiraSansExtraCondensed;
+  src: url(../fonts/FiraSansExtraCondensed/FiraSansExtraCondensed-Light.ttf);
+}
+
+@font-face {
+  font-family: FiraSansExtraCondensedMed;
+  src: url(../fonts/FiraSansExtraCondensed/FiraSansExtraCondensed-Medium.ttf);
+}
+
+
+@font-face {
   font-family: SmithenScript;
   src: url(../fonts/SmithenScript/Smithen\ Script.ttf);
 }
