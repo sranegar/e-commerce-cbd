@@ -20,8 +20,8 @@
 }
 
 //Animated linear gradient
-@mixin linear-gradient-animation($animTimer: 70s) {
-    background-image: linear-gradient(90deg, #ce0828,#fff453, #45dbd6, #6e57f3, #ce0828);
+@mixin linear-gradient-animation($animTimer: 65s) {
+    background-image: linear-gradient(-90deg, #ce0828,#fff453, #45dbd6, #6e57f3, #ce0828);
     animation: slidebg $animTimer linear infinite alternate;
     
 

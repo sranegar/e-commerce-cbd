@@ -19,6 +19,17 @@
     display: none;
   }
 
+  h2 {
+    font-family: SmithenScript;
+    font-size: 62px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-color: pink;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
   .reviews-wrapper {
     .quote-wrapper {
       max-width: 750px;
@@ -62,7 +73,7 @@
 
       i {
         color: $star-yellow;
-        font-size: 13px;
+        font-size: 14px;
       }
     }
 
@@ -71,10 +82,9 @@
       margin: -2.5px auto 0 auto;
       padding: 0 60px 15px 32px;
       // background-color: pink;
-      font-family: FiraSansCondensedLightItalic;
-      text-transform: uppercase;
-      font-size: 18px;
-      color: $site-black;
+      font-family: SmithenScript;
+      font-size: 28px;
+      color: $site-green;
     }
   }
 

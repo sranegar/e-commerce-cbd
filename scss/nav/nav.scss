@@ -14,13 +14,10 @@ nav {
   
 
   .logo {
-    width: auto;
+    width: 60px;
     height: 55px;
-    background-image: url(../svg/green-logo);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 5px 15px 5px 5px;
+    
+ 
   }
 
   label {
@@ -39,18 +36,17 @@ nav {
   }
 
   .links {
-    // background-color: rgb(170, 157, 170);
-    
 
     a {
       text-decoration: none;
       text-transform: lowercase;
       font-family: FiraSansLight;
       color: $site-black;
-      transition: .1s ease-in, .1s ease-out;
+      transition: .2s ease-in, .2s ease-out;
       
       &:hover {
         cursor: pointer;
+        transition: .2s ease-in, .2s ease-out;
         font-family: FiraSansMedium;
         @include nav-gradient-animation($deg: 225deg, $animTimer: 90s);
         background-size: 100%;
@@ -119,7 +115,8 @@ nav {
           border-bottom: .5px solid $transparent-black;
           line-height: 65px;
           color: transparent-black;
-
+          transition: 0.4s ease-in, 0.4s ease-out;
+          
           &:hover {
             text-decoration: none;
             cursor: pointer;

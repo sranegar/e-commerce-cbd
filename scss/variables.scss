@@ -22,5 +22,12 @@ $medium-width: 980px;
 $average-width: 780px;
 
 //linear-gradient 
-$linear-gradient:  linear-gradient(135deg, $site-pink 0%, $site-yellow 45%, $site-blue 75%, $site-purple 140%);
+$linear-gradient:  linear-gradient(135deg, $site-pink, $site-yellow, $site-blue, $site-purple);
 
+$pink-gradient: linear-gradient(180deg, $site-red, $site-pink);
+
+$reverse-pink-gradient: linear-gradient(360deg, $site-red, $site-pink);
+
+$lr-pink-gradient: linear-gradient(90deg, $site-red, $site-pink);
+
+$product-gradient: linear-gradient(0deg, $site-blue, $site-purple, $site-pink);

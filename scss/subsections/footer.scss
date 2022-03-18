@@ -1,6 +1,6 @@
 .footer {
   min-height: 50%;
-  background: linear-gradient(360deg, #c50a48, #e20f71, #f5137c);
+  background: $reverse-pink-gradient;
 
   .footer-wrapper {
     max-width: $content-width;

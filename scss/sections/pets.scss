@@ -44,9 +44,9 @@
 
       .shop-pets {
         color: $site-white;
-        background-color: $site-pink;
+        background: $lr-pink-gradient;
         border: none;
-        height: 35px;
+        height: 40px;
         width: 150px;
         text-transform: uppercase;
         padding: 10px;
@@ -56,12 +56,13 @@
         letter-spacing: 0.8px;
         display: block;
         margin: 0 auto;
-        transition: 0.2s ease-in, 0.2s ease-out;
+        transition: 0.4s ease-in, 0.4s ease-out;
 
         &:hover {
           cursor: pointer;
           @include linear-gradient-animation();
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          transition: 0.2s ease-in, 0.2s ease-out;
         }
       }
     }

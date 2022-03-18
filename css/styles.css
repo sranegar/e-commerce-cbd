@@ -83,13 +83,8 @@ nav .nav-wrapper {
   margin: 0 auto;
 }
 nav .nav-wrapper .logo {
-  width: auto;
+  width: 60px;
   height: 55px;
-  background-image: url(../svg/green-logo);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 5px 15px 5px 5px;
 }
 nav .nav-wrapper label {
   display: none;
@@ -108,10 +103,11 @@ nav .nav-wrapper .links a {
   text-transform: lowercase;
   font-family: FiraSansLight;
   color: #000;
-  transition: 0.1s ease-in, 0.1s ease-out;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 nav .nav-wrapper .links a:hover {
   cursor: pointer;
+  transition: 0.2s ease-in, 0.2s ease-out;
   font-family: FiraSansMedium;
   background-image: linear-gradient(225deg, #e20f71, #45dbd6, #6e57f3, #e20f71);
   animation: slidebg 90s linear infinite alternate;
@@ -176,6 +172,7 @@ nav .nav-wrapper .links span {
     border-bottom: 0.5px solid #0000009a;
     line-height: 65px;
     color: transparent-black;
+    transition: 0.4s ease-in, 0.4s ease-out;
   }
   .home nav .links a:hover {
     text-decoration: none;
@@ -210,7 +207,7 @@ nav .nav-wrapper .links span {
 .shipping-offer {
   width: 100%;
   height: 25px;
-  background-image: linear-gradient(90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
   animation: slidebg 50s linear infinite alternate;
 }
 @keyframes slidebg {
@@ -240,39 +237,87 @@ nav .nav-wrapper .links span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 .home .home-wrapper {
   width: 100%;
-  margin: 35px auto 0px auto;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
 }
 .home .home-wrapper .square {
-  text-align: center;
-  height: auto;
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px;
+  text-align: left;
+  height: 520px;
+  max-width: 1240px;
+  padding: 20px;
 }
-.home .home-wrapper .square h1 {
+.home .home-wrapper .square .home-page-photo-wrapper {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .home-wrapper .square .home-page-photo-wrapper .home-photo {
+  width: 23%;
+  height: 200px;
+  background: linear-gradient(0deg, #45dbd6, #6e57f3, #e20f71);
+}
+.home .home-wrapper .square .home-header {
+  text-align: left;
+  background-color: #e20f71b0;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 45px;
+}
+.home .home-wrapper .square .home-header h1 {
   font-family: SmithenScript;
-  font-size: 100px;
-  letter-spacing: 10px;
+  font-size: 88px;
+  letter-spacing: 8px;
   line-height: 110px;
   width: 100%;
   font-weight: bold;
-  margin-top: 15px;
   color: #fff453;
   text-shadow: -2px 6px 6px rgba(0, 0, 0, 0.705);
+  font-weight: 500;
 }
-.home .home-wrapper .square .home-image {
-  height: 200px;
-  width: 200px;
-  margin-left: 255px;
+.home .home-wrapper .square .home-header h2 {
+  font-family: SmithenScript;
+  font-size: 66px;
+  letter-spacing: 2px;
+  line-height: 110px;
+  width: 100%;
+  font-weight: lighter;
+  color: #fff453;
+  text-align: center;
 }
-.home .home-wrapper .square .home-image img {
-  max-width: 100%;
-  border-radius: 50%;
+.home .home-wrapper .square button {
+  color: #fff;
+  background: linear-gradient(90deg, #ce0828, #e20f71);
+  border: none;
+  height: auto;
+  width: 300px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: FiraSansCondensedItalic;
+  border-radius: 8px;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.4s ease-in, 0.4s ease-out;
+}
+.home .home-wrapper .square button i {
+  padding: 8px;
+  font-size: 20px;
+  color: #fff;
+}
+.home .home-wrapper .square button:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 .home .home-cta {
   text-align: center;
@@ -310,7 +355,7 @@ nav .nav-wrapper .links span {
 }
 .first {
   height: 50%;
-  background: linear-gradient(#ce0828, #df0e65);
+  background: linear-gradient(180deg, #ce0828, #e20f71);
   clip-path: polygon(100% 0, 100% 72%, 50% 100%, 0 72%, 0 0);
 }
 .first .icon-wrapper {
@@ -400,7 +445,7 @@ nav .nav-wrapper .links span {
   height: 30px;
   font-family: FiraSansRegular;
   text-transform: uppercase;
-  background-color: #e20f71;
+  background: linear-gradient(90deg, #ce0828, #e20f71);
   opacity: 65%;
   color: white;
   transition: 0.2s ease-in, 0.2s ease-out;
@@ -408,8 +453,8 @@ nav .nav-wrapper .links span {
 .products .products-container .product-images-wrapper .product-container .product-img button:hover {
   cursor: pointer;
   opacity: 100%;
-  background-image: linear-gradient(90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
-  animation: slidebg 70s linear infinite alternate;
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  animation: slidebg 65s linear infinite alternate;
 }
 @keyframes slidebg {
   to {
@@ -579,7 +624,7 @@ nav .nav-wrapper .links span {
 }
 .top-sellers h2 {
   font-family: SmithenScript;
-  max-width: 300px;
+  max-width: 600px;
   height: auto;
   text-align: center;
   margin: 0 auto;
@@ -617,7 +662,7 @@ nav .nav-wrapper .links span {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: bold;
-  background: linear-gradient(135deg, #e20f71 0%, #fff453 45%, #45dbd6 75%, #6e57f3 140%);
+  background: linear-gradient(135deg, #e20f71, #fff453, #45dbd6, #6e57f3);
   -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   -webkit-mask-size: 3000% 100%;
@@ -634,16 +679,17 @@ nav .nav-wrapper .links span {
 }
 .top-sellers .top-sellers-wrapper .top-seller-photo span {
   font-family: FiraSansCondensedItalic;
-  font-size: 22px;
-  margin: 97px auto;
+  font-size: 40px;
+  margin: 82px auto;
   text-transform: uppercase;
   position: absolute;
-  color: #000;
+  color: #fff;
   text-align: center;
   overflow: hidden;
   width: 101%;
   font-weight: 300;
   font-weight: bold;
+  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.835);
 }
 @-webkit-keyframes ani {
   from {
@@ -892,6 +938,16 @@ nav .nav-wrapper .links span {
 .reviews .bottom-tri {
   display: none;
 }
+.reviews h2 {
+  font-family: SmithenScript;
+  font-size: 62px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  background-color: pink;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
 .reviews .reviews-wrapper .quote-wrapper {
   max-width: 750px;
   margin: 0 auto;
@@ -927,16 +983,15 @@ nav .nav-wrapper .links span {
 }
 .reviews .reviews-wrapper .reviews-star-rating i {
   color: #FDCE1D;
-  font-size: 13px;
+  font-size: 14px;
 }
 .reviews .reviews-wrapper .customer-name {
   max-width: 680px;
   margin: -2.5px auto 0 auto;
   padding: 0 60px 15px 32px;
-  font-family: FiraSansCondensedLightItalic;
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #000;
+  font-family: SmithenScript;
+  font-size: 28px;
+  color: #33A033;
 }
 .reviews .dots-wrapper {
   max-width: 150px;
@@ -1073,7 +1128,7 @@ nav .nav-wrapper .links span {
 }
 .footer {
   min-height: 50%;
-  background: linear-gradient(360deg, #c50a48, #e20f71, #f5137c);
+  background: linear-gradient(360deg, #ce0828, #e20f71);
 }
 .footer .footer-wrapper {
   max-width: 1000px;
@@ -1355,9 +1410,9 @@ nav .nav-wrapper .links span {
 }
 .pets .pets-bubble-container .pets-bubble .shop-pets {
   color: #fff;
-  background-color: #e20f71;
+  background: linear-gradient(90deg, #ce0828, #e20f71);
   border: none;
-  height: 35px;
+  height: 40px;
   width: 150px;
   text-transform: uppercase;
   padding: 10px;
@@ -1367,13 +1422,14 @@ nav .nav-wrapper .links span {
   letter-spacing: 0.8px;
   display: block;
   margin: 0 auto;
-  transition: 0.2s ease-in, 0.2s ease-out;
+  transition: 0.4s ease-in, 0.4s ease-out;
 }
 .pets .pets-bubble-container .pets-bubble .shop-pets:hover {
   cursor: pointer;
-  background-image: linear-gradient(90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
-  animation: slidebg 70s linear infinite alternate;
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  animation: slidebg 65s linear infinite alternate;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.2s ease-in, 0.2s ease-out;
 }
 @keyframes slidebg {
   to {

@@ -4,7 +4,7 @@
 
   h2 {
     font-family: SmithenScript;
-    max-width: 300px;
+    max-width: 600px;
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -69,16 +69,17 @@
 
       span {
         font-family: FiraSansCondensedItalic;
-        font-size: 22px;
-        margin: 97px auto;
+        font-size: 40px;
+        margin: 82px auto;
         text-transform: uppercase;
         position: absolute;
-        color: $site-black;
+        color: $site-white;
         text-align: center;
         overflow: hidden;
         width: 101%;
         font-weight: 300;
         font-weight: bold;
+        text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.835);
       }
     }
 
