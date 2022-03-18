@@ -629,13 +629,13 @@ nav .nav-wrapper .links span {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: bold;
-  background: linear-gradient(135deg, #e20f71, #fff453, #45dbd6, #6e57f3);
+  background: linear-gradient(180deg, #ce0828, #e20f71);
   -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   -webkit-mask-size: 3000% 100%;
   mask-size: 3000% 100%;
   border: none;
-  color: #e20f71;
+  color: #fff;
   cursor: pointer;
   -webkit-animation: ani2 0.9s steps(29) forwards;
   animation: ani2 0.9s steps(29) forwards;
@@ -647,7 +647,7 @@ nav .nav-wrapper .links span {
 .weekly-deals .weekly-deals-wrapper .weekly-deals-photo span {
   font-family: FiraSansCondensedItalic;
   font-size: 28px;
-  margin: 87px auto;
+  margin: 88px auto;
   text-transform: uppercase;
   position: absolute;
   color: #fff;
