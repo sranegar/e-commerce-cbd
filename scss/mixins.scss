@@ -10,7 +10,7 @@
 }
 
 //Top Seller photo
-@mixin top-seller-photo($topSellerImg: url(../images/top-seller-1.jpeg)) {
+@mixin weekly-deals-photo($topSellerImg: url(../images/top-seller-1.jpeg)) {
     background-image: $topSellerImg;
     background-size: cover;
     background-position: center;
@@ -53,7 +53,7 @@
     -moz-text-fill-color: transparent;
 }
 
-//Top sellers mask button
+//Weekly Deals mask button
 @mixin mask-button($bcolor,
 $url,
 $x1,
@@ -115,7 +115,7 @@ $col) {
       }
 }
 
-//Top sellers mask animation
+//Weekly Deals mask animation keyframes
 @mixin mask-button-animation() {
     
 @-webkit-keyframes ani {
