@@ -381,7 +381,7 @@ nav .nav-wrapper .links span {
   justify-content: space-between;
   position: relative;
 }
-.products .products-container h3 {
+.products .products-container h4 {
   font-family: SmithenScript;
   color: #33A033;
   font-size: 44px;
@@ -523,7 +523,7 @@ nav .nav-wrapper .links span {
   width: 230px;
   height: 60px;
 }
-.products .products-container .product-images-wrapper .product-container .description-content h4 {
+.products .products-container .product-images-wrapper .product-container .description-content h5 {
   font-family: FiraSansCondensedItalic;
   font-size: 18px;
   color: #33A033;
@@ -603,7 +603,7 @@ nav .nav-wrapper .links span {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  font-size: 72px;
+  font-size: 52px;
   letter-spacing: 5px;
   color: #33A033;
   padding: 10px;
@@ -918,14 +918,14 @@ nav .nav-wrapper .links span {
   font-size: 62px;
   letter-spacing: 2px;
   font-weight: 500;
-  background-color: pink;
-  width: 1000px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 20px auto 0 auto;
   padding: 0 50px;
+  color: #e20f71;
 }
 .reviews .reviews-wrapper .quote-wrapper {
   max-width: 750px;
-  margin: -25px auto 0px auto;
+  margin: -30px auto 0px auto;
 }
 .reviews .reviews-wrapper .quote-wrapper p {
   font-family: FiraSansCondensedLightItalic;
@@ -1143,6 +1143,7 @@ nav .nav-wrapper .links span {
 .footer .footer-wrapper .links-wrapper .list a p:hover {
   cursor: pointer;
   font-family: FiraSansBold;
+  font-size: 14.5px;
   background-image: linear-gradient(75deg, #25c060, #fff453, #45dbd6, #25c060);
   animation: slidebg 120s linear infinite alternate;
   background-size: 100%;
@@ -1200,7 +1201,7 @@ nav .nav-wrapper .links span {
 .footer .footer-wrapper .contact-wrapper {
   max-width: 480px;
 }
-.footer .footer-wrapper .contact-wrapper h3 {
+.footer .footer-wrapper .contact-wrapper h2 {
   font-family: SmithenScript;
   font-size: 62px;
   letter-spacing: 2px;
@@ -1222,16 +1223,17 @@ nav .nav-wrapper .links span {
     background-position: 80vw;
   }
 }
-.footer .footer-wrapper .contact-wrapper h3 .follow {
+.footer .footer-wrapper .contact-wrapper h2 .follow {
   margin-top: 40px;
 }
-.footer .footer-wrapper .contact-wrapper h3 .follow a {
+.footer .footer-wrapper .contact-wrapper h2 .follow a {
   color: black;
   padding: 8px 16px;
   text-decoration: none;
 }
 .footer .footer-wrapper .contact-wrapper input {
-  font-family: FiraSansRegular;
+  font-family: FiraSansLight;
+  font-size: 12px;
   color: #777777;
   width: 100%;
   margin-top: -5px;
@@ -1242,7 +1244,8 @@ nav .nav-wrapper .links span {
 }
 .footer .footer-wrapper .contact-wrapper textarea {
   border: none;
-  font-family: FiraSansRegular;
+  font-family: FiraSansLight;
+  font-size: 12px;
   color: #777777;
   padding: 10px;
   height: 80px;
@@ -1255,9 +1258,9 @@ nav .nav-wrapper .links span {
   display: inline-block;
   width: 80px;
   height: 30px;
-  font-family: FiraSansMedium;
+  font-family: FiraSansRegular;
   text-transform: lowercase;
-  font-size: 15px;
+  font-size: 13px;
   color: #e20f71;
   margin-top: 8px;
   margin-bottom: 10px;
@@ -1307,7 +1310,7 @@ nav .nav-wrapper .links span {
 .footer .copyright-wrapper p {
   font-family: FiraSansExtraLight;
   color: #ffffffe5;
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 0;
   padding-bottom: 15px;
 }
@@ -1369,7 +1372,7 @@ nav .nav-wrapper .links span {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 .pets .pets-bubble-container .pets-bubble h2 {
-  margin-top: 50px;
+  margin-top: 52px;
   color: #e20f71;
   font-size: 56px;
   letter-spacing: 1px;

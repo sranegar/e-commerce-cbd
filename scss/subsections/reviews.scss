@@ -24,16 +24,16 @@
     font-size: 62px;
     letter-spacing: 2px;
     font-weight: 500;
-    background-color: pink;
-    width: 1000px;
-    margin: 0 auto;
+    max-width: $content-width;
+    margin: 20px auto 0 auto;
     padding: 0 50px;
+    color: $site-pink;
   }
 
   .reviews-wrapper {
     .quote-wrapper {
       max-width: 750px;
-      margin: -25px auto 0px auto;
+      margin: -30px auto 0px auto;
       // background-color: aquamarine;
 
       p {

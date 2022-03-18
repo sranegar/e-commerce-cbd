@@ -44,6 +44,7 @@
             &:hover {
               cursor: pointer;
               font-family: FiraSansBold;
+              font-size: 14.5px;
               @include footer-gradient-animation(120s);
               background-size: 100%;
               background-repeat: repeat;
@@ -81,7 +82,7 @@
       max-width: 480px;
     
 
-      h3 {
+      h2 {
         font-family: SmithenScript;
         font-size: 62px;
         letter-spacing: 2px;
@@ -100,7 +101,8 @@
       }
 
       input {
-        font-family: FiraSansRegular;
+        font-family: FiraSansLight;
+        font-size: 12px;
         color: rgb(119, 119, 119);
         width: 100%;
         margin-top: -5px;
@@ -113,7 +115,8 @@
 
       textarea {
         border: none;
-        font-family: FiraSansRegular;
+        font-family: FiraSansLight;
+        font-size: 12px;
         color: rgb(119, 119, 119);
         padding: 10px;
         height: 80px;
@@ -127,9 +130,9 @@
         display: inline-block;
         width: 80px;
         height: 30px;
-        font-family: FiraSansMedium;
+        font-family: FiraSansRegular;
         text-transform: lowercase;
-        font-size: 15px;
+        font-size: 13px;
         color: $site-pink;
         margin-top: 8px;
         margin-bottom: 10px;
@@ -183,7 +186,7 @@
     p {
       font-family: FiraSansExtraLight;
       color: $transparent-white;
-      font-size: 14px;
+      font-size: 13px;
       margin-bottom: 0;
       padding-bottom: 15px;
     }
