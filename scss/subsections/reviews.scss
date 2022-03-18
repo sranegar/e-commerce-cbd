@@ -105,6 +105,9 @@
 
 @media screen and (max-width: 900px) {
   .reviews {
+    h2 {
+      text-align: center;
+    }
     .reviews-wrapper {
       .quote-wrapper {
         p {
@@ -125,6 +128,10 @@
   .reviews {
     width: auto;
     height: auto;
+
+    .h2 {
+      font-size: 52px;
+    }
     .left-tri {
       display: none;
     }

@@ -388,7 +388,6 @@ nav .nav-wrapper .links span {
   margin-top: 155px;
   letter-spacing: 1px;
   white-space: nowrap;
-  font-weight: lighter;
   width: 200px;
 }
 .products .products-container .product-images-wrapper {
@@ -543,14 +542,6 @@ nav .nav-wrapper .links span {
   .products {
     padding: 50px 20px 50px 20px;
   }
-  .products h3 {
-    font-size: 44px;
-    text-align: center;
-    width: auto;
-    margin: 65px auto;
-    padding-top: 20px;
-    white-space: nowrap;
-  }
   .products .products-container {
     background: none;
     border: none;
@@ -559,9 +550,13 @@ nav .nav-wrapper .links span {
     flex-direction: column;
     margin: 0px auto;
   }
-  .products .products-container h3 {
-    margin-top: 25px;
-    font-size: 52px;
+  .products .products-container h4 {
+    font-size: 54px;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding: 60px;
+    white-space: nowrap;
   }
   .products .products-container .product-images-wrapper {
     flex-direction: column;
@@ -584,13 +579,12 @@ nav .nav-wrapper .links span {
   .products .products-container .product-images-wrapper .product-container .description-content {
     position: relative;
     width: auto;
-    margin-top: 40px;
+    margin-top: 35px;
   }
-  .products .products-container .product-images-wrapper .product-container .description-content h4 {
-    font-size: 20px;
+  .products .products-container .product-images-wrapper .product-container .description-content h5 {
+    font-size: 22px;
   }
   .products .products-container .product-images-wrapper .product-container .description-content p {
-    margin-top: 15px;
     font-size: 18px;
   }
 }
@@ -735,6 +729,7 @@ nav .nav-wrapper .links span {
   .top-sellers h2 {
     white-space: nowrap;
     margin-top: 0px;
+    font-size: 52px;
   }
   .top-sellers .top-sellers-wrapper {
     flex-direction: column;
@@ -980,6 +975,9 @@ nav .nav-wrapper .links span {
 }
 
 @media screen and (max-width: 900px) {
+  .reviews h2 {
+    text-align: center;
+  }
   .reviews .reviews-wrapper .quote-wrapper p {
     width: 90%;
   }
@@ -994,6 +992,9 @@ nav .nav-wrapper .links span {
   .reviews {
     width: auto;
     height: auto;
+  }
+  .reviews .h2 {
+    font-size: 52px;
   }
   .reviews .left-tri {
     display: none;
@@ -1124,7 +1125,7 @@ nav .nav-wrapper .links span {
   max-width: 200px;
   text-align: center;
 }
-.footer .footer-wrapper .links-wrapper .list h4 {
+.footer .footer-wrapper .links-wrapper .list h5 {
   font-family: FiraSansCondensedLight;
   font-size: 17px;
   font-weight: bolder;
