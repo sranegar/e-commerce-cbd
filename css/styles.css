@@ -78,12 +78,13 @@ p {
   src: url(../fonts/SmithenScript/Smithen\ Script.ttf);
 }
 nav {
-  background-color: #fbf165;
+  border-bottom: 1px solid #291515;
   width: 100%;
+  background-color: #fff;
 }
 nav .nav-wrapper {
   max-width: 980px;
-  height: 55px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,13 +145,13 @@ nav .nav-wrapper .links span {
     display: block;
   }
   .home nav .links {
-    margin-top: 350px;
+    margin-top: 400px;
     margin-right: 0px;
     text-align: center;
     display: none;
     width: 100%;
-    height: 400px;
-    background: #fbf165;
+    height: 450px;
+    background: #FDCE1D;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   }
   .home nav .links a {
@@ -159,7 +160,7 @@ nav .nav-wrapper .links span {
     font-family: FiraSansLight;
     display: block;
     border-bottom: 0.5px solid #0000009a;
-    line-height: 55px;
+    line-height: 63px;
     color: transparent-black;
     width: 100%;
   }
@@ -170,7 +171,21 @@ nav .nav-wrapper .links span {
 .shipping-offer {
   width: 100%;
   height: 35px;
-  background-color: #291515;
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  animation: slidebg 50s linear infinite alternate;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+.shipping-offer .follow {
+  margin-top: 40px;
+}
+.shipping-offer .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 .shipping-offer p {
   color: #fff;
@@ -182,11 +197,7 @@ nav .nav-wrapper .links span {
 
 .home {
   height: 100%;
-  background-image: linear-gradient(rgba(2, 0, 0, 0.05), rgba(0, 0, 0, 0.14)), url(../images/home-background.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
+  background-color: rgba(0, 0, 0, 0.02);
 }
 .home .home-wrapper {
   width: 100%;
@@ -206,21 +217,25 @@ nav .nav-wrapper .links span {
   text-align: center;
   align-items: center;
   width: 100%;
-  padding: 40px;
+  padding: 85px;
 }
 .home .home-wrapper .square .home-header h1 {
   white-space: nowrap;
-  font-family: SmithenScript;
-  font-size: 92px;
-  letter-spacing: 6px;
+  font-family: FiraSansLight;
+  font-size: 72px;
   line-height: 110px;
   width: 100%;
   color: #1d1c1c;
-  text-shadow: -2px 2px 8px rgba(197, 187, 45, 0.705);
   font-weight: 600;
 }
+.home .home-wrapper .square .home-header h1 span {
+  font-family: SmithenScript;
+  font-size: 108px;
+  letter-spacing: 3px;
+  color: #FDCE1D;
+}
 .home .home-wrapper .square .home-header button {
-  color: #fff;
+  color: #ce0828;
   width: 150px;
   height: 40px;
   font-family: FiraSansLight;
@@ -229,7 +244,7 @@ nav .nav-wrapper .links span {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  border: none;
+  border: 1px solid #ce0828;
   margin-top: 20px;
 }
 .home .home-wrapper .square .home-header button:after {
@@ -239,8 +254,7 @@ nav .nav-wrapper .links span {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ce0828;
-  border-radius: 5px;
+  background-color: #fff;
   z-index: -2;
 }
 .home .home-wrapper .square .home-header button:before {
@@ -252,7 +266,6 @@ nav .nav-wrapper .links span {
   height: 100%;
   background-color: #f72c4d;
   transition: all 0.3s;
-  border-radius: 5px;
   z-index: -1;
 }
 .home .home-wrapper .square .home-header button:hover {
@@ -266,11 +279,17 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 700px) {
   .home .home-wrapper .square .home-header {
     padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .home .home-wrapper .square .home-header h1 {
-    font-size: 60px;
-    line-height: 62px;
+    font-size: 50px;
+    line-height: 75px;
     white-space: normal;
+  }
+  .home .home-wrapper .square .home-header h1 span {
+    font-family: SmithenScript;
+    font-size: 85px;
   }
 }
 .first {
@@ -848,7 +867,7 @@ nav .nav-wrapper .links span {
 .reviews .reviews-wrapper .reviews-star-rating {
   max-width: 680px;
   margin: -60px auto 0 auto;
-  color: #fff453;
+  color: #FDCE1D;
   padding: 10px 60px 15px 40px;
 }
 .reviews .reviews-wrapper .reviews-star-rating i {

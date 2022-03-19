@@ -1,11 +1,12 @@
 .home {
   height: 100%;
-  background-image: linear-gradient(rgba(2, 0, 0, 0.05), rgba(0, 0, 0, 0.14)),
-    url(../images/home-background.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
+  // background-image: linear-gradient(rgba(2, 0, 0, 0.05), rgba(0, 0, 0, 0.14)),
+  //   url(../images/home-background.jpeg);
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // position: relative;
+  background-color: rgba(0, 0, 0, 0.02);
 
   .home-wrapper {
     width: 100%;
@@ -27,21 +28,28 @@
         // background-color: #e20f71b0;
         align-items: center;
         width: 100%;
-        padding: 40px;
+        padding: 85px;
 
         h1 {
           white-space: nowrap;
-          font-family: SmithenScript;
-          font-size: 92px;
-          letter-spacing: 6px;
+          font-family: FiraSansLight;
+          font-size: 72px;
           line-height: 110px;
           width: 100%;
           color: rgb(29, 28, 28);
-          text-shadow: -2px 2px 8px rgba(197, 187, 45, 0.705);
           font-weight: 600;
+
+          span {
+            font-family: SmithenScript;
+            font-size: 108px;
+            letter-spacing: 3px;
+            color: $site-yellow;
+          }
         }
+
+
         button {
-          color: $site-white;
+          color: $site-red;
           width: 150px;
           height: 40px;
           font-family: FiraSansLight;
@@ -50,7 +58,7 @@
           position: relative;
           overflow: hidden;
           z-index: 1;
-          border: none;
+          border: 1px solid $site-red;
           margin-top: 20px;
 
           &:after {
@@ -60,8 +68,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: $site-red;
-            border-radius: 5px;
+            background-color: $site-white;
             z-index: -2;
           }
           &:before {
@@ -73,7 +80,6 @@
             height: 100%;
             background-color: lighten($site-red, 15%);
             transition: all 0.3s;
-            border-radius: 5px;
             z-index: -1;
           }
           &:hover {
@@ -98,11 +104,18 @@
 
         .home-header {
           padding-top: 25px;
+          padding-left: 20px;
+          padding-right: 20px;
           h1 {
-            font-size: 60px;
-            line-height: 62px;
+            font-size: 50px;
+            line-height: 75px;
             white-space: normal;
+            span {
+              font-family: SmithenScript;
+              font-size: 85px;
+            }
           }
+       
         }
       
       }

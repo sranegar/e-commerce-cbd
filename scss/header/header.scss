@@ -1,8 +1,8 @@
 .shipping-offer {
     width: 100%;
     height: 35px;
-    // @include linear-gradient-animation(50s);
-    background-color: $site-black;
+    @include linear-gradient-animation(50s);
+
     
     p {
         color: $site-white;

@@ -1,10 +1,11 @@
 nav {
-  background-color: $nav-yellow;
+  border-bottom: 1px solid $site-black;
   width: 100%;
+  background-color: $site-white;
 
   .nav-wrapper {
     max-width: $medium-width;
-    height: 55px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,13 +84,13 @@ nav {
       }
 
       .links {
-        margin-top: 350px;
+        margin-top: 400px;
         margin-right: 0px;
         text-align: center;
         display: none;
         width: 100%;
-        height: 400px;
-        background: $nav-yellow;
+        height: 450px;
+        background: $site-yellow;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
           rgba(17, 17, 26, 0.05) 0px 8px 32px;
 
@@ -99,7 +100,7 @@ nav {
           font-family: FiraSansLight;
           display: block;
           border-bottom: 0.5px solid $transparent-black;
-          line-height: 55px;
+          line-height: 63px;
           color: transparent-black;
           width: 100%;
         }
