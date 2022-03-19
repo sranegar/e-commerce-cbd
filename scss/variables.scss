@@ -2,14 +2,14 @@
 $site-blue: #45dbd6;
 $site-green: #33A033;
 $site-pink: #e20f71;
-$site-yellow: #fff453;
+$site-yellow: rgb(255, 244, 83);
 $site-red: #ce0828;
 $site-purple: #6e57f3;
 $nav-yellow: #fbf165;
 $site-second-yellow: #fffdd1;
 $star-yellow: #FDCE1D;
 $product-price: #0000006e;
-$site-black: #000;
+$site-black: rgb(24, 12, 12);
 $site-white: #fff;
 $transparent-black: #0000009a;
 $transparent-white: #ffffffe5;
@@ -32,4 +32,4 @@ $lr-pink-gradient: linear-gradient(90deg, $site-red, $site-pink);
 
 $product-gradient: linear-gradient(0deg, $site-blue, $site-purple, $site-pink);
 
-$mask-gradient: radial-gradient(rgba(0,0,0),rgba(0,0,0, .8));
+$mask-gradient: radial-gradient(rgba(29, 14, 14, .97) 30%, rgba(29, 14, 14, .91) 70%, rgba(29, 14, 14, .1) 80%);

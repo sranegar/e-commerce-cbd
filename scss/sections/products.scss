@@ -24,7 +24,7 @@
 
     h3 {
       font-family: SmithenScript;
-      color: $site-green;
+      color: $site-black;
       font-size: 44px;
       margin-top: 155px;
       letter-spacing: 1px;
@@ -44,7 +44,7 @@
       .product-container {
         width: 230px;
         height: 190px;
-        // background-color: mediumpurple;
+        background-color: mediumpurple;
         display: flex;
         flex-direction: column;
 
@@ -59,8 +59,8 @@
             height: 30px;
             font-family: FiraSansRegular;
             text-transform: uppercase;
-            background: $lr-pink-gradient;
-            opacity: 65%;
+            background: $site-black;
+            opacity: 75%;
             color: white;
             transition: .2s ease-in, .2s ease-out;
           

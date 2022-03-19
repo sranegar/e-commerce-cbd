@@ -155,7 +155,7 @@ nav .nav-wrapper .links span {
   .home nav label {
     display: block;
     cursor: pointer;
-    color: #000;
+    color: #180c0c;
   }
   .home nav .mobile-menu {
     display: block;
@@ -217,21 +217,7 @@ nav .nav-wrapper .links span {
 .shipping-offer {
   width: 100%;
   height: 25px;
-  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
-  animation: slidebg 50s linear infinite alternate;
-}
-@keyframes slidebg {
-  to {
-    background-position: 80vw;
-  }
-}
-.shipping-offer .follow {
-  margin-top: 40px;
-}
-.shipping-offer .follow a {
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
+  background-color: #180c0c;
 }
 .shipping-offer p {
   color: #fff;
@@ -242,7 +228,7 @@ nav .nav-wrapper .links span {
 
 .home {
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.14)), url(../images/home-background.jpeg);
+  background-image: linear-gradient(rgba(2, 0, 0, 0.05), rgba(0, 0, 0, 0.14)), url(../images/home-background.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -262,35 +248,21 @@ nav .nav-wrapper .links span {
   max-width: 1240px;
   padding: 20px;
 }
-.home .home-wrapper .square .home-page-photo-wrapper {
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-.home .home-wrapper .square .home-page-photo-wrapper .home-photo {
-  width: 23%;
-  height: 200px;
-  background: linear-gradient(0deg, #45dbd6, #6e57f3, #e20f71);
-}
 .home .home-wrapper .square .home-header {
   text-align: left;
-  background-color: #e20f71b0;
   align-items: center;
   width: 100%;
   padding: 20px;
-  padding-bottom: 45px;
 }
 .home .home-wrapper .square .home-header h1 {
   font-family: SmithenScript;
-  font-size: 88px;
+  font-size: 72px;
   letter-spacing: 8px;
   line-height: 110px;
   width: 100%;
-  font-weight: bold;
   color: #fff453;
   text-shadow: -2px 6px 6px rgba(0, 0, 0, 0.705);
-  font-weight: 500;
+  font-weight: 600;
 }
 .home .home-wrapper .square .home-header h2 {
   font-family: SmithenScript;
@@ -301,24 +273,6 @@ nav .nav-wrapper .links span {
   font-weight: lighter;
   color: #fff453;
   text-align: center;
-}
-.home .home-cta {
-  text-align: center;
-  max-width: 100px;
-  font-size: 18px;
-  margin: 110px auto;
-  font-family: SmithenScript;
-  text-transform: uppercase;
-  color: #33A033;
-  text-shadow: 0px 0px 1px #000;
-}
-.home a {
-  text-decoration: none;
-}
-.home a .down-arrow {
-  font-size: 30px;
-  padding: 5px;
-  color: #33A033;
 }
 
 @media screen and (max-width: 670px) {
@@ -410,7 +364,7 @@ nav .nav-wrapper .links span {
 }
 .products .products-container h3 {
   font-family: SmithenScript;
-  color: #33A033;
+  color: #180c0c;
   font-size: 44px;
   margin-top: 155px;
   letter-spacing: 1px;
@@ -426,6 +380,7 @@ nav .nav-wrapper .links span {
 .products .products-container .product-images-wrapper .product-container {
   width: 230px;
   height: 190px;
+  background-color: mediumpurple;
   display: flex;
   flex-direction: column;
 }
@@ -446,8 +401,8 @@ nav .nav-wrapper .links span {
   height: 30px;
   font-family: FiraSansRegular;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #ce0828, #e20f71);
-  opacity: 65%;
+  background: #180c0c;
+  opacity: 75%;
   color: white;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
@@ -624,6 +579,11 @@ nav .nav-wrapper .links span {
 }
 .weekly-deals {
   min-height: 50%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.609)), url(../images/lemons-img.jpeg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
 }
 .weekly-deals h2 {
   font-family: FiraSansExtraCondensed;
@@ -633,7 +593,7 @@ nav .nav-wrapper .links span {
   margin: 0 auto;
   font-size: 32px;
   letter-spacing: 5px;
-  color: #33A033;
+  color: #180c0c;
   padding: 10px;
   font-weight: lighter;
 }
@@ -663,7 +623,7 @@ nav .nav-wrapper .links span {
   font-family: FiraSansExtraCondensed;
   font-size: 22px;
   text-transform: uppercase;
-  background: radial-gradient(black, rgba(0, 0, 0, 0.8));
+  background: radial-gradient(rgba(29, 14, 14, 0.97) 30%, rgba(29, 14, 14, 0.91) 70%, rgba(29, 14, 14, 0.1) 80%);
   -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   -webkit-mask-size: 3000% 100%;
@@ -681,7 +641,7 @@ nav .nav-wrapper .links span {
 .weekly-deals .weekly-deals-wrapper .weekly-deals-photo span {
   font-family: FiraSansExtraCondensedMed;
   font-size: 28px;
-  margin: 88px auto;
+  margin: 90px auto;
   text-transform: uppercase;
   position: absolute;
   color: #fff;
@@ -793,7 +753,7 @@ nav .nav-wrapper .links span {
   max-width: 1240px;
   margin: 20px auto 0 auto;
   padding: 0 50px;
-  color: #e20f71;
+  color: #180c0c;
 }
 .health .row {
   max-width: 1000px;
@@ -812,7 +772,7 @@ nav .nav-wrapper .links span {
 }
 .health .row .col ul li {
   font-family: FiraSansExtraCondensed;
-  color: #000;
+  color: #180c0c;
   font-size: 18px;
   letter-spacing: 1px;
   text-align: left;
@@ -859,7 +819,7 @@ nav .nav-wrapper .links span {
   max-width: 1000px;
   margin: 20px auto 0 auto;
   padding: 0 50px;
-  color: #e20f71;
+  color: #180c0c;
 }
 .reviews .reviews-wrapper .quote-wrapper {
   max-width: 750px;
@@ -904,7 +864,7 @@ nav .nav-wrapper .links span {
   padding: 0 60px 15px 32px;
   font-family: SmithenScript;
   font-size: 28px;
-  color: #33A033;
+  color: #180c0c;
 }
 .reviews .dots-wrapper {
   max-width: 150px;

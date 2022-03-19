@@ -1,6 +1,12 @@
 .weekly-deals {
   min-height: 50%;
   // background-color: pink;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.609)),
+  url(../images/lemons-img.jpeg);
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+position: relative;
 
   h2 {
     font-family: FiraSansExtraCondensed;
@@ -10,7 +16,7 @@
     margin: 0 auto;
     font-size: 32px;
     letter-spacing: 5px;
-    color: $site-green;
+    color: $site-black;
     padding: 10px;
     font-weight: lighter;
     // background-color: magenta;
@@ -32,6 +38,7 @@
       overflow: hidden;
       font-family: FiraSansCondensedItalic;
       border-radius: 50%;
+
 
       &:hover {
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
@@ -58,10 +65,11 @@
         }
       }
 
+
       span {
         font-family: FiraSansExtraCondensedMed;
         font-size: 28px;
-        margin: 88px auto;
+        margin: 90px auto;
         text-transform: uppercase;
         position: absolute;
         color: $site-white;
