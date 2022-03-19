@@ -1,6 +1,6 @@
 .footer {
   min-height: 50%;
-  background: $reverse-pink-gradient;
+  background: $site-black;
 
   .footer-wrapper {
     max-width: $content-width;
@@ -43,8 +43,7 @@
 
             &:hover {
               cursor: pointer;
-              font-family: FiraSansBold;
-              font-size: 14.5px;
+              transform: scale(1.5);
               @include footer-gradient-animation(120s);
               background-size: 100%;
               background-repeat: repeat;
@@ -64,9 +63,8 @@
 
           &:hover {
             cursor: pointer;
-            font-weight: bolder;
             @include footer-gradient-animation(120s);
-            font-size: 23px;
+            transform: scale(1.5);
             background-size: 100%;
             background-repeat: repeat;
             -webkit-background-clip: text;

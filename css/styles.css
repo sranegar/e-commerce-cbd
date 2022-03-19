@@ -155,7 +155,7 @@ nav .nav-wrapper .links span {
   .home nav label {
     display: block;
     cursor: pointer;
-    color: #180c0c;
+    color: #291515;
   }
   .home nav .mobile-menu {
     display: block;
@@ -216,14 +216,15 @@ nav .nav-wrapper .links span {
 }
 .shipping-offer {
   width: 100%;
-  height: 25px;
-  background-color: #180c0c;
+  height: 35px;
+  background-color: #291515;
 }
 .shipping-offer p {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-family: FiraSansLight;
+  padding: 6px;
 }
 
 .home {
@@ -364,7 +365,7 @@ nav .nav-wrapper .links span {
 }
 .products .products-container h3 {
   font-family: SmithenScript;
-  color: #180c0c;
+  color: #291515;
   font-size: 44px;
   margin-top: 155px;
   letter-spacing: 1px;
@@ -380,7 +381,6 @@ nav .nav-wrapper .links span {
 .products .products-container .product-images-wrapper .product-container {
   width: 230px;
   height: 190px;
-  background-color: mediumpurple;
   display: flex;
   flex-direction: column;
 }
@@ -401,7 +401,7 @@ nav .nav-wrapper .links span {
   height: 30px;
   font-family: FiraSansRegular;
   text-transform: uppercase;
-  background: #180c0c;
+  background: #291515;
   opacity: 75%;
   color: white;
   transition: 0.2s ease-in, 0.2s ease-out;
@@ -579,7 +579,7 @@ nav .nav-wrapper .links span {
 }
 .weekly-deals {
   min-height: 50%;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.609)), url(../images/lemons-img.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.78)), url(../images/lemons-img.jpeg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -593,7 +593,7 @@ nav .nav-wrapper .links span {
   margin: 0 auto;
   font-size: 32px;
   letter-spacing: 5px;
-  color: #180c0c;
+  color: #291515;
   padding: 10px;
   font-weight: lighter;
 }
@@ -623,7 +623,7 @@ nav .nav-wrapper .links span {
   font-family: FiraSansExtraCondensed;
   font-size: 22px;
   text-transform: uppercase;
-  background: radial-gradient(rgba(29, 14, 14, 0.97) 30%, rgba(29, 14, 14, 0.91) 70%, rgba(29, 14, 14, 0.1) 80%);
+  background: radial-gradient(rgba(29, 14, 14, 0.97) 0%, rgba(29, 14, 14, 0.88) 80%, rgba(29, 14, 14, 0.65) 100%);
   -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   -webkit-mask-size: 3000% 100%;
@@ -753,7 +753,7 @@ nav .nav-wrapper .links span {
   max-width: 1240px;
   margin: 20px auto 0 auto;
   padding: 0 50px;
-  color: #180c0c;
+  color: #291515;
 }
 .health .row {
   max-width: 1000px;
@@ -772,7 +772,7 @@ nav .nav-wrapper .links span {
 }
 .health .row .col ul li {
   font-family: FiraSansExtraCondensed;
-  color: #180c0c;
+  color: #291515;
   font-size: 18px;
   letter-spacing: 1px;
   text-align: left;
@@ -797,19 +797,10 @@ nav .nav-wrapper .links span {
 .reviews {
   min-height: 50%;
   position: relative;
-}
-.reviews .left-tri {
-  position: absolute;
-}
-.reviews .right-tri {
-  position: absolute;
-  right: 0;
-}
-.reviews .top-tri {
-  display: none;
-}
-.reviews .bottom-tri {
-  display: none;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.78)), url(../images/blueberry-img.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .reviews h2 {
   font-family: SmithenScript;
@@ -819,7 +810,7 @@ nav .nav-wrapper .links span {
   max-width: 1000px;
   margin: 20px auto 0 auto;
   padding: 0 50px;
-  color: #180c0c;
+  color: #291515;
 }
 .reviews .reviews-wrapper .quote-wrapper {
   max-width: 750px;
@@ -864,7 +855,7 @@ nav .nav-wrapper .links span {
   padding: 0 60px 15px 32px;
   font-family: SmithenScript;
   font-size: 28px;
-  color: #180c0c;
+  color: #291515;
 }
 .reviews .dots-wrapper {
   max-width: 150px;
@@ -899,115 +890,18 @@ nav .nav-wrapper .links span {
   .reviews .h2 {
     font-size: 52px;
   }
-  .reviews .left-tri {
-    display: none;
-  }
-  .reviews .right-tri {
-    display: none;
-  }
-  .reviews .top-tri {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  .reviews .bottom-tri {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-  }
   .reviews .reviews-wrapper .quote-wrapper p {
     font-size: 15px;
   }
 }
 .about {
   min-height: 100%;
-  background-image: url(../images/about-background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.about h2 {
-  font-family: FiraSansThin;
-  margin: 50px 0 50px 134px;
-  font-size: 36px;
-  letter-spacing: 8px;
-  text-transform: lowercase;
-}
-.about .about-wrapper {
-  display: flex;
-  margin: 50px auto;
-  align-items: center;
-  justify-content: space-evenly;
-  max-width: 880px;
-  height: auto;
-  padding: 0 15px;
-  background-color: #fff;
-  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.16);
-  border-radius: 10px;
-}
-.about .about-wrapper .shop-image {
-  width: 500px;
-  height: 340px;
-  overflow: hidden;
-}
-.about .about-wrapper .shop-image img {
-  width: 100%;
-}
-.about .about-wrapper .shop-description {
-  width: 405px;
-  height: auto;
-}
-.about .about-wrapper .shop-description h3 {
-  padding: 25px;
-  font-family: SmithenScript;
-  font-size: 42px;
-  letter-spacing: 1px;
-  color: #33A033;
-  max-width: 100%;
-}
-.about .about-wrapper .shop-description h3:after {
-  content: "";
-  display: block;
-  max-width: 217px;
-  border-bottom: 2px solid #e20f71;
-  margin-top: 6px;
-}
-.about .about-wrapper .shop-description p {
-  font-family: FiraSansLight;
-  font-size: 13px;
-  padding: 15px;
-  max-width: 100%;
+  background-color: #291515;
 }
 
-@media screen and (max-width: 600px) {
-  .about {
-    background-image: none;
-  }
-  .about h2 {
-    margin: 40px auto 30px auto;
-    width: 200px;
-    text-align: center;
-    white-space: nowrap;
-  }
-  .about .about-wrapper {
-    flex-direction: column;
-    margin: 20px;
-  }
-  .about .about-wrapper .shop-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
-  .about .about-wrapper .shop-description {
-    max-width: 100%;
-    height: auto;
-  }
-}
 .footer {
   min-height: 50%;
-  background: linear-gradient(360deg, #ce0828, #e20f71);
+  background: #291515;
 }
 .footer .footer-wrapper {
   max-width: 1000px;
@@ -1046,8 +940,7 @@ nav .nav-wrapper .links span {
 }
 .footer .footer-wrapper .links-wrapper .list a p:hover {
   cursor: pointer;
-  font-family: FiraSansBold;
-  font-size: 14.5px;
+  transform: scale(1.5);
   background-image: linear-gradient(75deg, #25c060, #fff453, #45dbd6, #25c060);
   animation: slidebg 120s linear infinite alternate;
   background-size: 100%;
@@ -1078,10 +971,9 @@ nav .nav-wrapper .links span {
 }
 .footer .footer-wrapper .links-wrapper .list i:hover {
   cursor: pointer;
-  font-weight: bolder;
   background-image: linear-gradient(75deg, #25c060, #fff453, #45dbd6, #25c060);
   animation: slidebg 120s linear infinite alternate;
-  font-size: 23px;
+  transform: scale(1.5);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -1254,79 +1146,63 @@ nav .nav-wrapper .links span {
   }
 }
 .pets {
-  height: 100%;
-  background-image: url(../images/pets-section-background.jpg);
+  min-height: 100%;
+  position: relative;
+  padding: 50px;
+  background-color: #f6f6ef;
+}
+.pets .pet-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.pets .pet-container .pet-wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95%;
+  background-image: linear-gradient(rgba(2, 0, 0, 0.82), rgba(0, 0, 0, 0.92)), url(../images/paw-print-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+.pets .pet-container .pet-wrapper .pet-content {
+  height: 95%;
+  width: 40%;
+  padding: 75px 40px 20px 40px;
+  color: #fff;
+}
+.pets .pet-container .pet-wrapper .pet-content h2 {
+  font-family: SmithenScript;
+  font-size: 62px;
+  line-height: 54px;
+}
+.pets .pet-container .pet-wrapper .pet-content p {
+  font-family: FiraSansLight;
+  font-size: 15px;
+}
+.pets .pet-container .pet-wrapper .pet-product-container {
+  width: 55%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.pets .pet-container .pet-wrapper .pet-product-container .pet-product-img {
+  width: 100%;
+  height: 95%;
+  background-color: mediumturquoise;
+  background-image: url(../images/pets.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-}
-.pets .pets-bubble-container {
-  max-width: 900px;
-  margin: 0 auto 0 350px;
-  padding-right: 60px;
-}
-.pets .pets-bubble-container .pets-bubble {
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.952);
-  width: 90%;
-  min-height: 395px;
-  border-radius: 50%;
-  padding: 65px;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
-}
-.pets .pets-bubble-container .pets-bubble h2 {
-  margin-top: 52px;
-  color: #e20f71;
-  font-size: 56px;
-  letter-spacing: 1px;
-  line-height: 0.8;
-  font-family: SmithenScript;
-  text-align: center;
-}
-.pets .pets-bubble-container .pets-bubble p {
-  font-family: FiraSansLight;
-  text-align: center;
-  max-width: 68%;
-  margin: 0 auto 15px auto;
-  padding: 20px 0px;
-  font-size: 16px;
-}
-.pets .pets-bubble-container .pets-bubble .shop-pets {
-  color: #fff;
-  background: linear-gradient(90deg, #ce0828, #e20f71);
-  border: none;
-  height: 40px;
-  width: 150px;
-  text-transform: uppercase;
-  padding: 10px;
-  font-family: FiraSansCondensedItalic;
-  border-radius: 8px;
-  font-size: 16px;
-  letter-spacing: 0.8px;
-  display: block;
-  margin: 0 auto;
-  transition: 0.4s ease-in, 0.4s ease-out;
-}
-.pets .pets-bubble-container .pets-bubble .shop-pets:hover {
-  cursor: pointer;
-  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
-  animation: slidebg 65s linear infinite alternate;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: 0.2s ease-in, 0.2s ease-out;
-}
-@keyframes slidebg {
-  to {
-    background-position: 80vw;
-  }
-}
-.pets .pets-bubble-container .pets-bubble .shop-pets:hover .follow {
-  margin-top: 40px;
-}
-.pets .pets-bubble-container .pets-bubble .shop-pets:hover .follow a {
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {

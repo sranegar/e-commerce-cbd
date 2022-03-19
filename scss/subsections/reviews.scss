@@ -1,23 +1,10 @@
 .reviews {
   min-height: 50%;
   position: relative;
-
-  .left-tri {
-    position: absolute;
-  }
-
-  .right-tri {
-    position: absolute;
-    right: 0;
-  }
-
-  .top-tri {
-    display: none;
-  }
-
-  .bottom-tri {
-    display: none;
-  }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.78)),url(../images/blueberry-img.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   h2 {
     font-family: SmithenScript;
@@ -96,7 +83,6 @@
     padding-bottom: 25px;
 
     .dots {
-      // background-color: beige;
       width: 100%;
       
     }
@@ -132,24 +118,7 @@
     .h2 {
       font-size: 52px;
     }
-    .left-tri {
-      display: none;
-    }
-    .right-tri {
-      display: none;
-    }
-    .top-tri {
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-    .bottom-tri {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      position: absolute;
-      bottom: 0;
-    }
+  
     .reviews-wrapper {
       .quote-wrapper {
         p {

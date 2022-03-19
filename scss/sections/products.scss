@@ -12,7 +12,6 @@
   }
 
   .products-container {
-    // background-color: mediumturquoise;
     max-width: $medium-width;
     margin: 0 auto;
     height: 380px;
@@ -44,7 +43,7 @@
       .product-container {
         width: 230px;
         height: 190px;
-        background-color: mediumpurple;
+        // background-color: mediumpurple;
         display: flex;
         flex-direction: column;
 
