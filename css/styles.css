@@ -203,45 +203,71 @@ nav .nav-wrapper .links span {
   padding: 20px;
 }
 .home .home-wrapper .square .home-header {
-  text-align: left;
+  text-align: center;
   align-items: center;
   width: 100%;
-  padding: 20px;
+  padding: 40px;
 }
 .home .home-wrapper .square .home-header h1 {
+  white-space: nowrap;
   font-family: SmithenScript;
-  font-size: 72px;
+  font-size: 76px;
   letter-spacing: 8px;
   line-height: 110px;
   width: 100%;
-  color: #fff453;
-  text-shadow: -2px 6px 6px rgba(0, 0, 0, 0.705);
+  color: #1d1c1c;
+  text-shadow: -2px 2px 8px rgba(197, 187, 45, 0.705);
   font-weight: 600;
 }
-.home .home-wrapper .square .home-header h2 {
-  font-family: SmithenScript;
-  font-size: 66px;
-  letter-spacing: 2px;
-  line-height: 110px;
+.home .home-wrapper .square .home-header button {
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  font-family: FiraSansLight;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  margin-top: 20px;
+}
+.home .home-wrapper .square .home-header button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  font-weight: lighter;
-  color: #fff453;
-  text-align: center;
+  height: 100%;
+  background-color: #ce0828;
+  border-radius: 5px;
+  z-index: -2;
+}
+.home .home-wrapper .square .home-header button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f72c4d;
+  transition: all 0.3s;
+  border-radius: 5px;
+  z-index: -1;
+}
+.home .home-wrapper .square .home-header button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.home .home-wrapper .square .home-header button:hover:before {
+  width: 100%;
 }
 
-@media screen and (max-width: 670px) {
-  .home .home-wrapper {
-    width: 100%;
-  }
-  .home .home-wrapper .square {
-    text-align: center;
-  }
-  .home .home-wrapper .square h1 {
-    font-size: 60px;
-    line-height: 69px;
-  }
-  .home .home-wrapper .square .home-image {
-    margin: 0 auto;
+@media screen and (max-width: 700px) {
+  .home .home-wrapper .square .home-header h1 {
+    font-size: 50px;
+    line-height: 62px;
+    white-space: normal;
   }
 }
 .first {
