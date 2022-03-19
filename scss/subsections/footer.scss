@@ -58,7 +58,7 @@
 
           &:hover {
             cursor: pointer;
-            @include footer-gradient-animation(120s);
+            @include linear-gradient-animation(120s);
             transform: scale(1.5);
             background-size: 100%;
             background-repeat: repeat;
@@ -84,7 +84,7 @@
         white-space: nowrap;
         font-weight: bolder;
 
-        @include footer-gradient-animation();
+        @include linear-gradient-animation();
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
@@ -117,6 +117,7 @@
         margin-top: -5px;
         animation-name: selectedAnim;
         animation-duration: 0.7s;
+        
       }
 
       button {
@@ -128,7 +129,7 @@
         letter-spacing: .5px;
         text-transform: uppercase;
         font-size: 12px;
-        color: $site-pink;
+        color: none;
         margin-top: 8px;
         margin-bottom: 10px;
         float: right;
@@ -138,6 +139,7 @@
         overflow: hidden;
         z-index: 1;
         border: none;
+        
 
         &:after {
           content: "";
@@ -157,7 +159,7 @@
           left: 0;
           width: 0%;
           height: 100%;
-          background-color: lighten($site-pink, 15%);
+          background-color: lighten($site-red, 15%);
           transition: all 0.3s;
           border-radius: 5px;
           z-index: -1;

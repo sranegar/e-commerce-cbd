@@ -1,5 +1,5 @@
 //brand colors
-$site-blue: #45dbd6;
+$site-blue: #55B8BD;
 $site-green: #33A033;
 $site-pink: #e20f71;
 $site-yellow: #FDCE1D;
@@ -9,7 +9,7 @@ $nav-yellow: #fbf165;
 $site-second-yellow: #fffdd1;
 $star-yellow: #FDCE1D;
 $product-price: #0000006e;
-$site-black: #291515;
+$site-black: rgb(18, 17, 17);
 $site-white: #fff;
 $transparent-black: #0000009a;
 $transparent-white: #ffffffe5;
@@ -24,12 +24,14 @@ $average-width: 780px;
 //linear-gradient 
 $linear-gradient:  linear-gradient(135deg, $site-pink, $site-yellow, $site-blue, $site-purple);
 
-$pink-gradient: linear-gradient(180deg, $site-red, $site-pink);
+$pink-gradient: linear-gradient(180deg, $site-red, #e91437);
 
-$reverse-pink-gradient: linear-gradient(360deg, $site-red, $site-pink);
+$reverse-pink-gradient: linear-gradient(360deg, #131212, #242323);
 
 $lr-pink-gradient: linear-gradient(90deg, $site-red, $site-pink);
 
+$featured-btn-gradient: linear-gradient(90deg, $site-blue, $site-purple);
+
 $product-gradient: linear-gradient(0deg, $site-blue, $site-purple, $site-pink);
 
-$mask-gradient: radial-gradient(rgba(29, 14, 14, .97) 0%, rgba(29, 14, 14, .88) 80%, rgba(29, 14, 14, .65) 100%);
+$mask-gradient: radial-gradient(rgba(18, 17, 17, .97) 0%, rgba(18, 17, 17, .88) 80%, rgba(18, 17, 17, .65) 100%);

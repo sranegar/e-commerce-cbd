@@ -78,7 +78,7 @@ p {
   src: url(../fonts/SmithenScript/Smithen\ Script.ttf);
 }
 nav {
-  border-bottom: 1px solid #291515;
+  border-bottom: 1px solid #121111;
   width: 100%;
   background-color: #fff;
 }
@@ -135,7 +135,7 @@ nav .nav-wrapper .links span {
   .home nav label {
     display: block;
     cursor: pointer;
-    color: #291515;
+    color: #121111;
   }
   .home nav .mobile-menu {
     display: block;
@@ -294,7 +294,7 @@ nav .nav-wrapper .links span {
 }
 .first {
   min-height: 50%;
-  background: linear-gradient(180deg, #ce0828, #e20f71);
+  background: linear-gradient(180deg, #ce0828, #e91437);
   clip-path: polygon(100% 0, 100% 72%, 50% 100%, 0 72%, 0 0);
 }
 .first .icon-wrapper {
@@ -364,7 +364,7 @@ nav .nav-wrapper .links span {
 }
 .products .products-container h3 {
   font-family: SmithenScript;
-  color: #291515;
+  color: #121111;
   font-size: 44px;
   margin-top: 155px;
   letter-spacing: 1px;
@@ -400,7 +400,7 @@ nav .nav-wrapper .links span {
   height: 30px;
   font-family: FiraSansRegular;
   text-transform: uppercase;
-  background: #291515;
+  background: #121111;
   opacity: 75%;
   color: white;
   transition: 0.2s ease-in, 0.2s ease-out;
@@ -504,9 +504,7 @@ nav .nav-wrapper .links span {
   height: 60px;
 }
 .products .products-container .product-images-wrapper .product-container .description-content h5 {
-  font-family: FiraSansCondensedItalic;
-  font-size: 20px;
-  color: #33A033;
+  font-family: FiraSansRegular;
 }
 .products .products-container .product-images-wrapper .product-container .description-content p {
   font-family: FiraSansCondensedItalic;
@@ -592,7 +590,7 @@ nav .nav-wrapper .links span {
   margin: 0 auto;
   font-size: 32px;
   letter-spacing: 5px;
-  color: #291515;
+  color: #121111;
   padding: 10px;
   font-weight: lighter;
 }
@@ -622,7 +620,7 @@ nav .nav-wrapper .links span {
   font-family: FiraSansExtraCondensed;
   font-size: 22px;
   text-transform: uppercase;
-  background: radial-gradient(rgba(29, 14, 14, 0.97) 0%, rgba(29, 14, 14, 0.88) 80%, rgba(29, 14, 14, 0.65) 100%);
+  background: radial-gradient(rgba(18, 17, 17, 0.97) 0%, rgba(18, 17, 17, 0.88) 80%, rgba(18, 17, 17, 0.65) 100%);
   -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   -webkit-mask-size: 3000% 100%;
@@ -782,7 +780,7 @@ nav .nav-wrapper .links span {
   max-width: 1240px;
   margin: 20px auto 0 auto;
   padding: 0 50px;
-  color: #291515;
+  color: #121111;
 }
 .health .row {
   max-width: 1000px;
@@ -801,7 +799,7 @@ nav .nav-wrapper .links span {
 }
 .health .row .col ul li {
   font-family: FiraSansExtraCondensed;
-  color: #291515;
+  color: #121111;
   font-size: 18px;
   letter-spacing: 1px;
   text-align: left;
@@ -835,7 +833,7 @@ nav .nav-wrapper .links span {
   max-width: 1000px;
   margin: 20px auto 0 auto;
   padding: 0 50px;
-  color: #291515;
+  color: #121111;
 }
 .reviews .reviews-wrapper .quote-wrapper {
   max-width: 750px;
@@ -880,7 +878,7 @@ nav .nav-wrapper .links span {
   padding: 0 60px 15px 32px;
   font-family: SmithenScript;
   font-size: 28px;
-  color: #291515;
+  color: #121111;
 }
 .reviews .dots-wrapper {
   max-width: 150px;
@@ -909,14 +907,95 @@ nav .nav-wrapper .links span {
     font-size: 25px;
   }
 }
-.about {
+.featured {
   min-height: 100%;
-  background-color: #291515;
+  background-image: url(../images/featured-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.featured .featured-container {
+  max-width: 100%;
+  height: 800px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 120px;
+}
+.featured .featured-container .content-container {
+  width: 500px;
+  height: 100%;
+  text-align: center;
+}
+.featured .featured-container .content-container h2 {
+  font-family: SmithenScript;
+  font-size: 75px;
+  white-space: nowrap;
+}
+.featured .featured-container .content-container .featured-photo {
+  max-width: 500px;
+  height: auto;
+  background-color: beige;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.featured .featured-container .content-container .featured-photo img {
+  width: 100%;
+  max-height: 100%;
+}
+.featured .featured-container .content-container h4 {
+  font-family: FiraSansRegular;
+  padding: 15px;
+}
+.featured .featured-container .content-container p {
+  padding: 0 20px;
+  font-family: FiraSansRegular;
+}
+.featured .featured-container .content-container button {
+  color: #121111;
+  width: 150px;
+  height: 40px;
+  font-family: FiraSansLight;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 1px solid #121111;
+  margin-top: 20px;
+}
+.featured .featured-container .content-container button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -2;
+}
+.featured .featured-container .content-container button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #ac9ef8;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.featured .featured-container .content-container button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.featured .featured-container .content-container button:hover:before {
+  width: 100%;
 }
 
 .footer {
   min-height: 50%;
-  background: linear-gradient(360deg, #ce0828, #e20f71);
+  background: linear-gradient(360deg, #131212, #242323);
 }
 .footer .footer-wrapper {
   max-width: 1000px;
@@ -967,7 +1046,7 @@ nav .nav-wrapper .links span {
 }
 .footer .footer-wrapper .links-wrapper .list i:hover {
   cursor: pointer;
-  background-image: linear-gradient(75deg, #25c060, #fff453, #45dbd6, #25c060);
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
   animation: slidebg 120s linear infinite alternate;
   transform: scale(1.5);
   background-size: 100%;
@@ -1001,8 +1080,8 @@ nav .nav-wrapper .links span {
   margin-top: 10px;
   white-space: nowrap;
   font-weight: bolder;
-  background-image: linear-gradient(75deg, #25c060, #fff453, #45dbd6, #25c060);
-  animation: slidebg 60s linear infinite alternate;
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  animation: slidebg 65s linear infinite alternate;
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -1055,7 +1134,7 @@ nav .nav-wrapper .links span {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   font-size: 12px;
-  color: #e20f71;
+  color: none;
   margin-top: 8px;
   margin-bottom: 10px;
   float: right;
@@ -1084,7 +1163,7 @@ nav .nav-wrapper .links span {
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: #f34a99;
+  background-color: #f72c4d;
   transition: all 0.3s;
   border-radius: 5px;
   z-index: -1;
@@ -1256,7 +1335,7 @@ nav .nav-wrapper .links span {
   padding: 10px;
   z-index: 1000;
   bottom: -20%;
-  color: #291515;
+  color: #121111;
   font-weight: 300;
   font-size: 15px;
   width: 100%;

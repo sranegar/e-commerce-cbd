@@ -8,6 +8,15 @@
   height: 100%;
 }
 
+@mixin featured-img($productImg: url(../images/featured-photo-1.jpeg)) {
+  background-image: $productImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100%;
+}
+
 @mixin pet-product-img($productImg: url(../images/pets.jpg)) {
     background-image: $productImg;
     background-size: cover;
