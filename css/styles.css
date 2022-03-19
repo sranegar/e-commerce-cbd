@@ -639,7 +639,7 @@ nav .nav-wrapper .links span {
   display: none;
 }
 .weekly-deals .weekly-deals-wrapper .weekly-deals-photo span {
-  font-family: FiraSansExtraCondensedMed;
+  font-family: FiraSansRegular;
   font-size: 28px;
   margin: 90px auto;
   text-transform: uppercase;
@@ -735,8 +735,8 @@ nav .nav-wrapper .links span {
     margin: 50px 0px;
   }
   .weekly-deals .weekly-deals-wrapper .weekly-deals-photo h5 {
-    font-family: FiraSansExtraCondensedMed;
-    font-size: 32px;
+    font-family: FiraSansRegular;
+    font-size: 28px;
     margin: 74px auto;
     text-transform: uppercase;
     position: absolute;
@@ -1223,138 +1223,75 @@ nav .nav-wrapper .links span {
   }
 }
 .pets {
-  min-height: 100%;
-  position: relative;
-  padding: 50px;
+  height: 100%;
 }
 .pets .pet-container {
-  max-width: 1240px;
-  margin: 0 auto;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  background-color: red;
-}
-.pets .pet-container .pet-wrapper {
-  margin: 0 auto;
-  width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1b3f2b;
-  height: 95%;
+  background-color: bisque;
+  max-width: 1077px;
+  margin: 0 auto;
 }
-.pets .pet-container .pet-wrapper button {
-  border: 3px solid #e20f71;
-  width: 200px;
+.pets .pet-container .text-content {
+  background-color: mediumpurple;
+  max-width: 300px;
+  height: 400px;
+  padding: 10px;
+}
+.pets .pet-container .text-content p {
+  font-family: FiraSansRegular;
+}
+.pets .pet-container .text-content button {
+  color: #121111;
+  width: 150px;
   height: 40px;
   font-family: FiraSansLight;
   text-transform: uppercase;
-  background-color: #fff;
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  border: none;
+  border: 1px solid #121111;
+  margin-top: 20px;
 }
-.pets .pet-container .pet-wrapper button:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  border-radius: 5px;
-  z-index: -2;
+.pets .pet-container .pet-product-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 781px;
+  height: 400px;
+  background-color: pink;
 }
-.pets .pet-container .pet-wrapper button:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background-color: #f34a99;
-  transition: all 0.3s;
-  border-radius: 5px;
-  z-index: -1;
+.pets .pet-container .pet-product-wrapper .pet-product-container {
+  width: 300px;
+  background-color: mediumturquoise;
 }
-.pets .pet-container .pet-wrapper button:hover {
-  cursor: pointer;
-  color: #fff;
-}
-.pets .pet-container .pet-wrapper button:hover:before {
-  width: 100%;
-}
-.pets .pet-container .pet-image-container {
-  width: 60%;
-  height: 90%;
+.pets .pet-container .pet-product-wrapper .pet-product-container .pet-product-img {
+  background-color: rgba(18, 14, 255, 0.719);
   margin: 0 auto;
-  padding: 20px 40px;
-  background-color: red;
+  height: 248px;
+  max-width: 225px;
 }
-.pets .pet-container .pet-image-container .pet-product-img {
-  width: 100%;
-  height: 80%;
-  background-image: url(../images/pets.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
-  position: relative;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: 0.2s ease-in, 0.2s ease-out;
-}
-.pets .pet-container .pet-image-container .pet-product-img:hover {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  transition: 0.2s ease-in, 0.2s ease-out;
-}
-.pets .pet-container .pet-image-container .pet-product-img .overlay {
-  background-color: rgba(19, 30, 33, 0);
-  position: absolute;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transition: 0.2s ease-in, 0.2s ease-out;
-}
-.pets .pet-container .pet-image-container .pet-product-img:hover .overlay {
-  transition: 0.2s ease-in, 0.2s ease-out;
-  cursor: pointer;
-  background-color: rgba(16, 23, 41, 0.3);
-}
-.pets .pet-container .pet-image-container .pet-product-img .content-right {
+.pets .pet-container .pet-product-wrapper .pet-product-container .product-description {
+  margin: 0 auto;
   text-align: center;
-  position: absolute;
+  width: 230px;
+  height: 60px;
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .product-description h5 {
   font-family: FiraSansRegular;
-  padding: 10px;
-  z-index: 1000;
-  bottom: -20%;
-  color: #121111;
-  font-weight: 300;
-  font-size: 15px;
-  width: 100%;
-  -webkit-transition: all 0.7s;
-  -moz-transition: all 0.7s;
-  -ms-transition: all 0.7s;
-  transition: all 0.4s;
 }
-.pets .pet-container .pet-image-container .pet-product-img .content-right h4 {
+.pets .pet-container .pet-product-wrapper .pet-product-container .product-description h5 p {
+  font-family: FiraSansCondensedItalic;
+  font-size: 16px;
+  color: #0000006e;
+  padding: 5px;
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .product-description h5 span {
   font-family: FiraSansExtraCondensed;
-  text-transform: uppercase;
-}
-.pets .pet-container .pet-image-container .pet-product-img .content-right p {
-  font-family: FiraSansLight;
-}
-.pets .pet-container .pet-image-container .pet-product-img:hover .content-right {
-  background-color: #fff;
-  bottom: 0px;
-  transition: 0.4s ease-in, 0.4s ease-out;
+  color: #0000006e;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
