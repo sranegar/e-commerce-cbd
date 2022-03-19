@@ -2,120 +2,167 @@
   min-height: 100%;
   position: relative;
   padding: 50px;
-  background-color: rgb(246, 246, 239);
 
-.pet-container {
-  max-width: $max-width;
-  margin: 0 auto;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  // background-color: red;
-
-
-  .pet-wrapper {
+  .pet-container {
+    max-width: $max-width;
     margin: 0 auto;
-    width: $content-width;
+    height: 600px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    // background-color: rgb(27, 63, 43);
-    height: 95%;
-    background-image: linear-gradient(rgba(2, 0, 0, 0.82), rgba(0, 0, 0, 0.92)),url(../images/paw-print-bg.jpeg);
-    background-size: cover;
-  background-position: center;
-  background-repeat: none;
+    justify-content: space-between;
+    position: relative;
+    // background-color: red;
 
-    .pet-content {
-      height: 95%;
-      width: 40%;
-      padding: 75px 40px 20px 40px;
-      color: $site-white;
-
-      h2 {
-        font-family: SmithenScript;
-        font-size: 62px;
-        line-height: 54px;
-      }
-      p {
-        font-family: FiraSansLight;
-        font-size: 15px;
-      }
-    }
-
-    .pet-product-container {
-      width: 55%;
-      height: 95%;
-      // background-color: rgba(185, 32, 32, 0.815);
-      display: flex;
-      flex-direction: column;
-      padding: 10px;
-    
-
-      .pet-product-img {
-          width: 100%;
-          height: 95%;
-          background-color: mediumturquoise;
-           @include pet-product-img();
-      }
-    
-    }
-  }
-}
-    // .shop-pets {
-    //   color: $site-white;
-    //   background: $lr-pink-gradient;
-    //   border: none;
-    //   height: 40px;
-    //   width: 150px;
-    //   text-transform: uppercase;
-    //   padding: 10px;
-    //   font-family: FiraSansCondensedItalic;
-    //   border-radius: 8px;
-    //   font-size: 16px;
-    //   letter-spacing: 0.8px;
-    //   display: block;
-    //   margin: 0 auto;
-    //   transition: 0.4s ease-in, 0.4s ease-out;
-
-    //   &:hover {
-    //     cursor: pointer;
-    //     @include linear-gradient-animation();
-    //     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    //     transition: 0.2s ease-in, 0.2s ease-out;
-   
-}
-
-@media screen and (max-width: 900px) {
-  .pets {
-    background-position: 25% 75%;
-    padding: 25px 10px;
-
-    .pets-bubble-container {
+    .pet-wrapper {
       margin: 0 auto;
-      max-width: 100%;
-      height: 300px;
-      padding-right: 0px;
+      width: $content-width;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // background-color: rgb(27, 63, 43);
+      height: 95%;
 
-      .pets-bubble {
-        height: 100%;
-        border: none;
-        margin: 0 auto;
-        width: 100%;
-        padding: 8px;
-        min-height: 200px;
-        border-radius: 60%;
-
+      .pet-content {
+        height: 95%;
+        width: 40%;
+        padding: 75px 40px 20px 40px;
+        color: $site-black;
+        // background-color: red;
         h2 {
-          font-size: 52px;
+          font-family: SmithenScript;
+          font-size: 62px;
+          line-height: 54px;
         }
         p {
-          max-width: 65%;
-          padding: 0;
+          font-family: FiraSansLight;
+          font-size: 15px;
+        }
+        button {
+          border: 1px solid $site-pink;
+          width: 200px;
+          height: 40px;
+          font-family: FiraSansLight;
+          text-transform: uppercase;
+          background-color: $site-white;
+          transition: all 0.3s;
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          border: none;
+
+          &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $site-white;
+            border-radius: 5px;
+            z-index: -2;
+          }
+          &:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: lighten($site-pink, 15%);
+            transition: all 0.3s;
+            border-radius: 5px;
+            z-index: -1;
+          }
+          &:hover {
+            cursor: pointer;
+            color: $site-white;
+  
+            &:before {
+              width: 100%;
+            }
+          }
+        }
+        i {
+          font-size: 60px;
+          margin-left: 55px;
+          transform: rotate(30deg);
+        }
+      }
+    }
+
+    .pet-image-container {
+      width: 60%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 40px;
+
+
+      .pet-product-img {
+        width: 100%;
+        height: 80%;
+        @include pet-product-img();
+        overflow: hidden;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: 0.2s ease-in, 0.2s ease-out;
+
+
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          transition: 0.2s ease-in, 0.2s ease-out;
+        }
+
+        .overlay {
+          background-color: rgba(19, 30, 33, 0.0);
+          position: absolute;
+          z-index: 1000;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          transition: 0.2s ease-in, 0.2s ease-out;
+        }
+
+        &:hover .overlay {
+          transition: 0.2s ease-in, 0.2s ease-out;
+          cursor: pointer;
+          background-color: rgba(16, 23, 41, .3);
+        
+     
+        
+  
+        }
+
+
+      
+
+        .content-right {
+          text-align: center;
+          position: absolute;
+          text-transform: uppercase;
+          font-family: FiraSansRegular;
+          padding: 10px;
+          z-index: 1000;
+          bottom: -13%;
+          color: #ffffff;
+          font-weight: 300;
+          font-size: 15px;
+          width: 100%;
+          -webkit-transition: all 0.7s;
+          -moz-transition: all 0.7s;
+          -ms-transition: all 0.7s;
+          transition: all 0.4s;
+        }
+
+        &:hover .content-right {
+          @include linear-gradient-animation(120s);
+          bottom:0px;
+          transition: 0.4s ease-in, 0.4s ease-out;
         }
       }
     }
   }
 }
+
+

@@ -16,6 +16,14 @@
     position: relative;
   }
 
+  @mixin pet-cbd-img($productImg: url(../images/pet-cbd-1.jpeg)) {
+    background-image: $productImg;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
 //Top Seller photo
 @mixin weekly-deals-photo($topSellerImg: url(../images/weekly-deals-1.jpg)) {
   background-image: $topSellerImg;
