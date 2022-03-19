@@ -235,7 +235,7 @@ nav .nav-wrapper .links span {
   color: #FDCE1D;
 }
 .home .home-wrapper .square .home-header button {
-  color: #ce0828;
+  color: #121111;
   width: 150px;
   height: 40px;
   font-family: FiraSansLight;
@@ -244,7 +244,7 @@ nav .nav-wrapper .links span {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  border: 1px solid #ce0828;
+  border: 1px solid #121111;
   margin-top: 20px;
 }
 .home .home-wrapper .square .home-header button:after {
@@ -402,7 +402,7 @@ nav .nav-wrapper .links span {
   text-transform: uppercase;
   background: #121111;
   opacity: 75%;
-  color: white;
+  color: #fff;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
 .products .products-container .product-images-wrapper .product-container .product-img button:hover {
@@ -1159,7 +1159,6 @@ nav .nav-wrapper .links span {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border-radius: 5px;
   z-index: -2;
 }
 .footer .footer-wrapper .contact-wrapper button:before {
@@ -1171,7 +1170,6 @@ nav .nav-wrapper .links span {
   height: 100%;
   background-color: #f72c4d;
   transition: all 0.3s;
-  border-radius: 5px;
   z-index: -1;
 }
 .footer .footer-wrapper .contact-wrapper button:hover {
@@ -1327,7 +1325,7 @@ nav .nav-wrapper .links span {
   text-transform: uppercase;
   background: #121111;
   opacity: 75%;
-  color: white;
+  color: #fff;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
 .pets .pet-container .pet-product-wrapper .pet-product-container .pet-product-img button:hover {

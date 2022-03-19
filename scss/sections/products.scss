@@ -47,23 +47,7 @@
           @include product-img();
 
           button {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            border: none;
-            height: 30px;
-            font-family: FiraSansRegular;
-            text-transform: uppercase;
-            background: $site-black;
-            opacity: 75%;
-            color: white;
-            transition: 0.2s ease-in, 0.2s ease-out;
-
-            &:hover {
-              cursor: pointer;
-              opacity: 100%;
-              @include linear-gradient-animation();
-            }
+          @include add-to-cart-btn();     
           }
         }
 

@@ -48,46 +48,8 @@
       }
 
       button {
-        color: $site-black;
-        width: 150px;
-        height: 40px;
-        font-family: FiraSansLight;
-        text-transform: uppercase;
-        transition: all 0.3s;
-        position: relative;
-        overflow: hidden;
-        z-index: 1;
-        border: 1px solid $site-black;
-        margin-top: 20px;
-        &:after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: $site-white;
-          z-index: -2;
-        }
-        &:before {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 0%;
-          height: 100%;
-          background-color: lighten($site-purple, 15%);
-          transition: all 0.3s;
-          z-index: -1;
-        }
-        &:hover {
-          cursor: pointer;
-          color: $site-white;
-
-          &:before {
-            width: 100%;
-          }
-        }
+        @include site-button();
+        @include site-button-sweep-anim($sweepColor: $site-purple);
       }
     }
   }

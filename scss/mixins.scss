@@ -1,3 +1,4 @@
+//Product section images
 @mixin product-img($productImg: url(../images/cbd-edibles-1.jpg)) {
   background-image: $productImg;
   background-size: cover;
@@ -8,6 +9,7 @@
   height: 100%;
 }
 
+//Featured section images
 @mixin featured-img($productImg: url(../images/featured-photo-1.jpeg)) {
   background-image: $productImg;
   background-size: cover;
@@ -17,27 +19,92 @@
   height: 100%;
 }
 
+//Pet product images
 @mixin pet-product-img($productImg: url(../images/pet-cbd-1.jpeg)) {
-    background-image: $productImg;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+  background-image: $productImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 248px;
+}
+
+//Standard site button
+@mixin site-button($btnBorderColor: $site-black) {
+  color: $btnBorderColor;
+  width: 150px;
+  height: 40px;
+  font-family: FiraSansLight;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 1px solid $btnBorderColor;
+  margin-top: 20px;
+}
+
+//Site button animation
+@mixin site-button-sweep-anim(
+  $sweepColor: $site-red,
+  $btnBgColor: $site-white,
+  $fontColor: $site-white
+) {
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    margin: 0 auto;
-    height: 248px;
-
+    height: 100%;
+    background-color: $btnBgColor;
+    z-index: -2;
   }
-
-  @mixin pet-cbd-img($productImg: url(../images/pet-cbd-1.jpeg)) {
-    background-image: $productImg;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: lighten($sweepColor, 15%);
+    transition: all 0.3s;
+    z-index: -1;
   }
+  &:hover {
+    cursor: pointer;
+    color: $fontColor;
 
-//Top Seller photo
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+//Add-to-Cart button
+@mixin add-to-cart-btn() {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  height: 30px;
+  font-family: FiraSansRegular;
+  text-transform: uppercase;
+  background: $site-black;
+  opacity: 75%;
+  color: $site-white;
+  transition: 0.2s ease-in, 0.2s ease-out;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 100%;
+    @include linear-gradient-animation();
+  }
+}
+
+//Weekly Deals photo
 @mixin weekly-deals-photo($topSellerImg: url(../images/weekly-deals-1.jpg)) {
   background-image: $topSellerImg;
   background-size: cover;
@@ -110,50 +177,6 @@
   mask-size: $x1 $y1;
   border: $bor;
   color: $col;
-}
-
-//Footer animation hover
-@mixin footer-gradient-animation($animTimer: 60s) {
-  background-image: linear-gradient(75deg, #25c060, #fff453, #45dbd6, #25c060);
-  animation: slidebg $animTimer linear infinite alternate;
-
-  @keyframes slidebg {
-    to {
-      background-position: 80vw;
-    }
-  }
-
-  .follow {
-    margin-top: 40px;
-  }
-
-  .follow a {
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-}
-
-//Navigation animation hover
-@mixin nav-gradient-animation($deg: 45deg, $animTimer: 6s) {
-  background-image: linear-gradient($deg, #e20f71, #45dbd6, #6e57f3, #e20f71);
-  animation: slidebg $animTimer linear infinite alternate;
-
-  @keyframes slidebg {
-    to {
-      background-position: 80vw;
-    }
-  }
-
-  .follow {
-    margin-top: 40px;
-  }
-
-  .follow a {
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
 }
 
 //Weekly Deals mask animation keyframes
