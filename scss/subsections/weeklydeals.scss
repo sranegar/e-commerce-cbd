@@ -64,7 +64,9 @@ position: relative;
           animation: ani 0.9s steps(29) forwards;
         }
       }
-
+      h5 {
+        display: none;
+      }
 
       span {
         font-family: FiraSansExtraCondensedMed;
@@ -98,8 +100,9 @@ position: relative;
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 800px) {
   .weekly-deals {
+    background-image: none;
     h2 {
       white-space: nowrap;
       margin-top: 0px;
@@ -112,7 +115,26 @@ position: relative;
 
       .weekly-deals-photo {
         margin: 50px 0px;
-        h4 {
+        h5 {
+          font-family: FiraSansExtraCondensedMed;
+          font-size: 32px;
+          margin: 74px auto;
+          text-transform: uppercase;
+          position: absolute;
+          color: $site-white;
+          text-align: center;
+          overflow: hidden;
+          width: 101%;
+          font-weight: 300;
+          font-weight: bold;
+          text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.835);
+          display: block;
+        }
+        span {
+          margin: 110px auto;
+        }
+        button {
+          display: none;
         }
       }
     }
