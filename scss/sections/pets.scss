@@ -1,26 +1,29 @@
 .pets {
   height: 100%;
   // background-color: $site-black;
+  padding: 20px;
 
   .pet-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
     max-width: 1077px;
+    height: 100%;
     margin: 0 auto;
 
     .text-content {
-      background-color: mediumpurple;
       max-width: 300px;
-      height: 400px;
-      padding: 10px;
+      height: 95%;
+      padding-top: 110px;
+      padding-left: 10px;
       h2 {
-
+        font-family: SmithenScript;
+        font-size: 75px;
+        line-height: 60px;
       }
 
       p {
-      font-family: FiraSansRegular;
+        font-family: FiraSansRegular;
       }
 
       button {
@@ -35,8 +38,36 @@
         z-index: 1;
         border: 1px solid $site-black;
         margin-top: 20px;
-      }
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: $site-white;
+          z-index: -2;
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0%;
+          height: 100%;
+          background-color: lighten($site-pink, 15%);
+          transition: all 0.3s;
+          z-index: -1;
+        }
+        &:hover {
+          cursor: pointer;
+          color: $site-white;
 
+          &:before {
+            width: 100%;
+          }
+        }
+      }
     }
 
     .pet-product-wrapper {
@@ -44,24 +75,53 @@
       justify-content: space-between;
       align-items: center;
       width: 781px;
-      height: 400px;
-      background-color: pink;
+      height: 60%;
+      margin-top: 10%;
+      padding: 10px;
+      // background-color: pink;
 
       .pet-product-container {
-        width: 300px;
-        background-color: mediumturquoise;
+        max-width: 300px;
 
         .pet-product-img {
-          background-color: rgba(18, 14, 255, 0.719);
-          margin: 0 auto;
-          height: 248px;
-          max-width: 225px;
+          @include pet-product-img();
+          
+          button {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            border: none;
+            height: 30px;
+            font-family: FiraSansRegular;
+            text-transform: uppercase;
+            background: $site-black;
+            opacity: 75%;
+            color: white;
+            transition: 0.2s ease-in, 0.2s ease-out;
+
+            &:hover {
+              cursor: pointer;
+              opacity: 100%;
+              @include linear-gradient-animation();
+            }
+          }
         }
+
+        .pet-cbd-2 {
+          @include pet-product-img(url(../images/pet-cbd-2.jpeg));
+        }
+
+        .pet-cbd-3 {
+          @include pet-product-img(url(../images/pet-cbd-3.jpg));
+        }
+
         .product-description {
           margin: 0 auto;
           text-align: center;
           width: 230px;
           height: 60px;
+          padding-top: 10px;
+          
           h5 {
             font-family: FiraSansRegular;
 
@@ -81,5 +141,4 @@
       }
     }
   }
-  
 }

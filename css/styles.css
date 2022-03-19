@@ -1224,20 +1224,26 @@ nav .nav-wrapper .links span {
 }
 .pets {
   height: 100%;
+  padding: 20px;
 }
 .pets .pet-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: bisque;
   max-width: 1077px;
+  height: 100%;
   margin: 0 auto;
 }
 .pets .pet-container .text-content {
-  background-color: mediumpurple;
   max-width: 300px;
-  height: 400px;
-  padding: 10px;
+  height: 95%;
+  padding-top: 110px;
+  padding-left: 10px;
+}
+.pets .pet-container .text-content h2 {
+  font-family: SmithenScript;
+  font-size: 75px;
+  line-height: 60px;
 }
 .pets .pet-container .text-content p {
   font-family: FiraSansRegular;
@@ -1255,29 +1261,114 @@ nav .nav-wrapper .links span {
   border: 1px solid #121111;
   margin-top: 20px;
 }
+.pets .pet-container .text-content button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -2;
+}
+.pets .pet-container .text-content button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f34a99;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.pets .pet-container .text-content button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.pets .pet-container .text-content button:hover:before {
+  width: 100%;
+}
 .pets .pet-container .pet-product-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 781px;
-  height: 400px;
-  background-color: pink;
+  height: 60%;
+  margin-top: 10%;
+  padding: 10px;
 }
 .pets .pet-container .pet-product-wrapper .pet-product-container {
-  width: 300px;
-  background-color: mediumturquoise;
+  max-width: 300px;
 }
 .pets .pet-container .pet-product-wrapper .pet-product-container .pet-product-img {
-  background-color: rgba(18, 14, 255, 0.719);
+  background-image: url(../images/pet-cbd-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
   margin: 0 auto;
   height: 248px;
-  max-width: 225px;
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .pet-product-img button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  height: 30px;
+  font-family: FiraSansRegular;
+  text-transform: uppercase;
+  background: #121111;
+  opacity: 75%;
+  color: white;
+  transition: 0.2s ease-in, 0.2s ease-out;
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .pet-product-img button:hover {
+  cursor: pointer;
+  opacity: 100%;
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  animation: slidebg 65s linear infinite alternate;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .pet-product-img button:hover .follow {
+  margin-top: 40px;
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .pet-product-img button:hover .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .pet-cbd-2 {
+  background-image: url(../images/pet-cbd-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 248px;
+}
+.pets .pet-container .pet-product-wrapper .pet-product-container .pet-cbd-3 {
+  background-image: url(../images/pet-cbd-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 248px;
 }
 .pets .pet-container .pet-product-wrapper .pet-product-container .product-description {
   margin: 0 auto;
   text-align: center;
   width: 230px;
   height: 60px;
+  padding-top: 10px;
 }
 .pets .pet-container .pet-product-wrapper .pet-product-container .product-description h5 {
   font-family: FiraSansRegular;
