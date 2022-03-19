@@ -703,6 +703,9 @@ nav .nav-wrapper .links span {
     text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.835);
     display: block;
   }
+  .weekly-deals .weekly-deals-wrapper .weekly-deals-photo:hover {
+    cursor: pointer;
+  }
   .weekly-deals .weekly-deals-wrapper .weekly-deals-photo span {
     margin: 110px auto;
   }
@@ -850,22 +853,12 @@ nav .nav-wrapper .links span {
     width: 90%;
   }
   .reviews .reviews-wrapper .reviews-star-rating {
-    width: 90%;
+    max-width: 80%;
+    padding: 10px 30px;
   }
   .reviews .reviews-wrapper .customer-name {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .reviews {
-    width: auto;
-    height: auto;
-  }
-  .reviews .h2 {
-    font-size: 52px;
-  }
-  .reviews .reviews-wrapper .quote-wrapper p {
-    font-size: 15px;
+    max-width: 80%;
+    font-size: 25px;
   }
 }
 .about {
