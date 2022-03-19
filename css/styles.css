@@ -211,8 +211,8 @@ nav .nav-wrapper .links span {
 .home .home-wrapper .square .home-header h1 {
   white-space: nowrap;
   font-family: SmithenScript;
-  font-size: 76px;
-  letter-spacing: 8px;
+  font-size: 92px;
+  letter-spacing: 6px;
   line-height: 110px;
   width: 100%;
   color: #1d1c1c;
@@ -264,8 +264,11 @@ nav .nav-wrapper .links span {
 }
 
 @media screen and (max-width: 700px) {
+  .home .home-wrapper .square .home-header {
+    padding-top: 25px;
+  }
   .home .home-wrapper .square .home-header h1 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 62px;
     white-space: normal;
   }
