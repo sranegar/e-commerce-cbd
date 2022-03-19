@@ -922,13 +922,11 @@ nav .nav-wrapper .links span {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 120px;
-  background-color: pink;
 }
 .featured .featured-container .content-container {
   width: 500px;
   height: 100%;
   text-align: center;
-  background-color: aquamarine;
 }
 .featured .featured-container .content-container h2 {
   font-family: SmithenScript;
@@ -1231,7 +1229,7 @@ nav .nav-wrapper .links span {
   }
 }
 .pets {
-  height: 100%;
+  min-height: 100%;
   padding: 20px;
 }
 .pets .pet-container {
@@ -1303,7 +1301,7 @@ nav .nav-wrapper .links span {
   align-items: center;
   width: 781px;
   height: 60%;
-  margin-top: 10%;
+  margin-top: 25%;
   padding: 10px;
 }
 .pets .pet-container .pet-product-wrapper .pet-product-container {
