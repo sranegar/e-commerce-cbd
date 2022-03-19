@@ -922,11 +922,13 @@ nav .nav-wrapper .links span {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 120px;
+  background-color: pink;
 }
 .featured .featured-container .content-container {
   width: 500px;
   height: 100%;
   text-align: center;
+  background-color: aquamarine;
 }
 .featured .featured-container .content-container h2 {
   font-family: SmithenScript;
@@ -993,6 +995,12 @@ nav .nav-wrapper .links span {
   width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+  .featured .featured-container {
+    flex-direction: column;
+    height: 1600px;
+  }
+}
 .footer {
   min-height: 50%;
   background: linear-gradient(360deg, #131212, #242323);
