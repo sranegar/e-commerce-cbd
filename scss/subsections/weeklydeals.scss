@@ -1,6 +1,5 @@
 .weekly-deals {
   min-height: 50%;
-  // background-color: pink;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.66),
       rgba(255, 255, 255, 0.78)
@@ -41,6 +40,7 @@
       overflow: hidden;
       font-family: FiraSansCondensedItalic;
       border-radius: 50%;
+  
 
       &:hover {
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
@@ -117,10 +117,11 @@
 
       .weekly-deals-photo {
         margin: 50px 0px;
+
         h5 {
           font-family: FiraSansRegular;
-          font-size: 28px;
-          margin: 74px auto;
+          font-size:  24px;
+          margin: 78px auto;
           text-transform: uppercase;
           position: absolute;
           color: $site-white;
@@ -136,7 +137,8 @@
           cursor: pointer;
         }
         span {
-          margin: 110px auto;
+          font-size: 24px;
+          margin: 105px auto;
         }
         button {
           display: none;

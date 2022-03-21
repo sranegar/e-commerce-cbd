@@ -222,7 +222,7 @@ nav .nav-wrapper .links span {
 .home .home-wrapper .square .home-header h1 {
   white-space: nowrap;
   font-family: FiraSansLight;
-  font-size: 72px;
+  font-size: 66px;
   line-height: 110px;
   width: 100%;
   color: #1d1c1c;
@@ -736,8 +736,8 @@ nav .nav-wrapper .links span {
   }
   .weekly-deals .weekly-deals-wrapper .weekly-deals-photo h5 {
     font-family: FiraSansRegular;
-    font-size: 28px;
-    margin: 74px auto;
+    font-size: 24px;
+    margin: 78px auto;
     text-transform: uppercase;
     position: absolute;
     color: #fff;
@@ -753,7 +753,8 @@ nav .nav-wrapper .links span {
     cursor: pointer;
   }
   .weekly-deals .weekly-deals-wrapper .weekly-deals-photo span {
-    margin: 110px auto;
+    font-size: 24px;
+    margin: 105px auto;
   }
   .weekly-deals .weekly-deals-wrapper .weekly-deals-photo button {
     display: none;
@@ -824,6 +825,7 @@ nav .nav-wrapper .links span {
 .reviews {
   min-height: 50%;
   position: relative;
+  margin-bottom: 20px;
 }
 .reviews h2 {
   font-family: SmithenScript;
@@ -836,16 +838,16 @@ nav .nav-wrapper .links span {
   color: #121111;
 }
 .reviews .reviews-wrapper .quote-wrapper {
-  max-width: 750px;
+  max-width: 1000px;
   margin: -30px auto 0px auto;
 }
 .reviews .reviews-wrapper .quote-wrapper p {
   font-family: FiraSansCondensedLightItalic;
   width: 100%;
   margin: 0 auto;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.6;
-  padding: 60px;
+  padding: 30px;
   position: relative;
 }
 .reviews .reviews-wrapper .quote-wrapper p i {
@@ -863,21 +865,20 @@ nav .nav-wrapper .links span {
   right: 15px;
 }
 .reviews .reviews-wrapper .reviews-star-rating {
-  max-width: 680px;
-  margin: -60px auto 0 auto;
-  color: #FDCE1D;
-  padding: 10px 60px 15px 40px;
+  max-width: 980px;
+  margin: -30px auto 0 auto;
+  padding: 10px 60px 15px 30px;
 }
 .reviews .reviews-wrapper .reviews-star-rating i {
   color: #FDCE1D;
   font-size: 14px;
 }
 .reviews .reviews-wrapper .customer-name {
-  max-width: 680px;
+  max-width: 980px;
   margin: -2.5px auto 0 auto;
-  padding: 0 60px 15px 32px;
-  font-family: SmithenScript;
-  font-size: 28px;
+  padding: 0 60px 15px 30px;
+  font-family: FiraSansRegular;
+  font-size: 14px;
   color: #121111;
 }
 .reviews .dots-wrapper {
@@ -894,17 +895,6 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 900px) {
   .reviews h2 {
     text-align: center;
-  }
-  .reviews .reviews-wrapper .quote-wrapper p {
-    width: 90%;
-  }
-  .reviews .reviews-wrapper .reviews-star-rating {
-    max-width: 80%;
-    padding: 10px 30px;
-  }
-  .reviews .reviews-wrapper .customer-name {
-    max-width: 80%;
-    font-size: 25px;
   }
 }
 .featured {

@@ -1,10 +1,8 @@
 .reviews {
   min-height: 50%;
   position: relative;
-  // background-image: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.78)),url(../images/blueberry-img.jpeg);
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
+  // background-color: blue;
+  margin-bottom: 20px;
 
   h2 {
     font-family: SmithenScript;
@@ -18,8 +16,9 @@
   }
 
   .reviews-wrapper {
+
     .quote-wrapper {
-      max-width: 750px;
+      max-width: $content-width;
       margin: -30px auto 0px auto;
       // background-color: aquamarine;
 
@@ -27,9 +26,9 @@
         font-family: FiraSansCondensedLightItalic;
         width: 100%;
         margin: 0 auto;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.6;
-        padding: 60px;
+        padding: 30px;
         position: relative;
         // background-color: rebeccapurple;
 
@@ -52,25 +51,23 @@
       }
     }
     .reviews-star-rating {
-      max-width: 680px;
-      margin: -60px auto 0 auto;
-      color: $site-yellow;
+      max-width: $medium-width;
+      margin: -30px auto 0 auto;
       // background-color: mediumturquoise;
-      padding: 10px 60px 15px 40px;
+      padding: 10px 60px 15px 30px;
 
       i {
-        color: $star-yellow;
+        color: $site-yellow;
         font-size: 14px;
       }
     }
 
     .customer-name {
-      max-width: 680px;
+      max-width: $medium-width;
       margin: -2.5px auto 0 auto;
-      padding: 0 60px 15px 32px;
-      // background-color: pink;
-      font-family: SmithenScript;
-      font-size: 28px;
+      padding: 0 60px 15px 30px;
+      font-family: FiraSansRegular;
+      font-size: 14px;
       color: $site-black;
     }
   }
@@ -84,7 +81,6 @@
 
     .dots {
       width: 100%;
-      
     }
   }
 }
@@ -94,23 +90,5 @@
     h2 {
       text-align: center;
     }
-    .reviews-wrapper {
-      .quote-wrapper {
-        p {
-          width: 90%;
-        }
-      }
-      .reviews-star-rating {
-        max-width: 80%;
-        padding: 10px 30px;
-        
-      }
-      .customer-name {
-      max-width: 80%;
-        font-size: 25px;
-      }
-    }
   }
 }
-
-
