@@ -1,12 +1,19 @@
 .subscriptions {
-    height: 100%;
+    min-height: 100%;
     // background-color: wheat;
 
     .cta-wrapper {
-        max-width: $medium-width;
+        max-width: $average-width;
         // background-color: red;
         margin: 0 auto;
         text-align: center;
+        padding: 0 3px;
+
+        h2 {
+            font-size: 62px;
+            font-family: SmithenScript;
+            line-height: 60px;
+        }
     }
 
     .tiers-wrapper {
@@ -14,13 +21,13 @@
         align-items: center;
         justify-content: space-around;
         max-width: $max-width;
-        // background-color: mediumslateblue;
+        background-color: mediumslateblue;
         margin: 50px auto;
 
         .tier-box {
-            height: 420px;
+            height: 450px;
             width: 300px;
-            // background-color: mediumturquoise;
+            background-color: mediumturquoise;
       
 
             .card {
@@ -35,6 +42,7 @@
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
                 border-radius: 10px;
                 overflow: hidden;
+
                 &:hover {
                     cursor: pointer;
                     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -61,25 +69,32 @@
                     top: 30px;
                     width: 105px;
                     height: 105px;
-                    background: #f5cb22;
+                    background: $site-blue;
                     margin-left: 88.33333px;
                     border-radius: 50%;
 
                     svg {
-                        margin-top: 17px;
+                        margin-top: 18px;
+                        width: 75px;
+                        height: 75px; 
+
                         path {
                            
                             fill: $site-white;
                         }
                     }
+
+                    .rainbow-svg {
+                        margin-top: 13px;
+                    }
                 }
              
                 &:hover .circle-border {
-                    background: #333333;
+                    @include linear-gradient-animation(120s);
                 }
 
                 &:hover .circle-border svg path {
-                    fill:#f5cb22;
+                    fill: $site-white;          
                 }
                 
                 &:hover svg {
@@ -107,14 +122,19 @@
                 }
 
                 p {
-                    font-family: FiraSansRegular;
+                    font-family: FiraSansMedium;
                     color: $product-price;
+                    margin-top: -20px;
                 }
 
                 .price {
                     font-size: 26px;
                     font-family: FiraSansRegular;
                     color: $site-black;
+                    position: absolute;
+                    bottom: 40px;
+                    left: 90px;
+
                 }
 
                 &:hover p {
@@ -127,7 +147,7 @@
                     bottom: 0;
                     left: 0;
                     height: 50px;
-                    background-color: $site-yellow;
+                    background-color: $site-blue;
                     border: none;
                     font-family: FiraSansLight;
                     text-transform: uppercase;
@@ -136,7 +156,7 @@
                 }
 
                 &:hover button {
-                 
+                    background-color: darken($site-blue, 15%);
                 }
             }
          
@@ -144,3 +164,49 @@
 
     }
 }
+
+@media screen and (max-width: 892px) {
+    .subscriptions {
+        .tiers-wrapper {
+            max-width: $average-width;
+        flex-direction: column;
+        margin: 0 10px;
+        height: auto;
+
+        .tier-box {
+            height: 450px;
+            margin: 20px;
+            padding: 0 5px;
+
+            .card {
+                width: 100%;
+                max-height: 100%;
+                padding: 0 40px;
+                margin: 0 auto;
+                display: flex;
+
+               h5 {
+                margin-top: 160px;
+
+            }
+            .circle-border {
+                left: 0;
+         
+            }
+
+            .circle-pic {
+                left: 0;
+       
+            }
+
+            }
+            button {
+              
+            }
+
+          
+        }
+    }
+  }
+}
+  

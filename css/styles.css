@@ -1440,23 +1440,31 @@ nav .nav-wrapper .links span {
   }
 }
 .subscriptions {
-  height: 100%;
+  min-height: 100%;
 }
 .subscriptions .cta-wrapper {
-  max-width: 980px;
+  max-width: 780px;
   margin: 0 auto;
   text-align: center;
+  padding: 0 3px;
+}
+.subscriptions .cta-wrapper h2 {
+  font-size: 62px;
+  font-family: SmithenScript;
+  line-height: 60px;
 }
 .subscriptions .tiers-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
   max-width: 1240px;
+  background-color: mediumslateblue;
   margin: 50px auto;
 }
 .subscriptions .tiers-wrapper .tier-box {
-  height: 420px;
+  height: 450px;
   width: 300px;
+  background-color: mediumturquoise;
 }
 .subscriptions .tiers-wrapper .tier-box .card {
   position: relative;
@@ -1490,21 +1498,40 @@ nav .nav-wrapper .links span {
   top: 30px;
   width: 105px;
   height: 105px;
-  background: #f5cb22;
+  background: #55B8BD;
   margin-left: 88.33333px;
   border-radius: 50%;
 }
 .subscriptions .tiers-wrapper .tier-box .card .circle-border svg {
-  margin-top: 17px;
+  margin-top: 18px;
+  width: 75px;
+  height: 75px;
 }
 .subscriptions .tiers-wrapper .tier-box .card .circle-border svg path {
   fill: #fff;
 }
+.subscriptions .tiers-wrapper .tier-box .card .circle-border .rainbow-svg {
+  margin-top: 13px;
+}
 .subscriptions .tiers-wrapper .tier-box .card:hover .circle-border {
-  background: #333333;
+  background-image: linear-gradient(-90deg, #ce0828, #fff453, #45dbd6, #6e57f3, #ce0828);
+  animation: slidebg 120s linear infinite alternate;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+.subscriptions .tiers-wrapper .tier-box .card:hover .circle-border .follow {
+  margin-top: 40px;
+}
+.subscriptions .tiers-wrapper .tier-box .card:hover .circle-border .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 .subscriptions .tiers-wrapper .tier-box .card:hover .circle-border svg path {
-  fill: #f5cb22;
+  fill: #fff;
 }
 .subscriptions .tiers-wrapper .tier-box .card:hover svg {
   transition: all 0.65s;
@@ -1520,13 +1547,17 @@ nav .nav-wrapper .links span {
   text-align: left;
 }
 .subscriptions .tiers-wrapper .tier-box .card p {
-  font-family: FiraSansRegular;
+  font-family: FiraSansMedium;
   color: #0000006e;
+  margin-top: -20px;
 }
 .subscriptions .tiers-wrapper .tier-box .card .price {
   font-size: 26px;
   font-family: FiraSansRegular;
   color: #121111;
+  position: absolute;
+  bottom: 40px;
+  left: 90px;
 }
 .subscriptions .tiers-wrapper .tier-box .card button {
   width: 100%;
@@ -1534,12 +1565,45 @@ nav .nav-wrapper .links span {
   bottom: 0;
   left: 0;
   height: 50px;
-  background-color: #FDCE1D;
+  background-color: #55B8BD;
   border: none;
   font-family: FiraSansLight;
   text-transform: uppercase;
   font-weight: bolder;
   color: #fff;
+}
+.subscriptions .tiers-wrapper .tier-box .card:hover button {
+  background-color: #378a8e;
+}
+
+@media screen and (max-width: 892px) {
+  .subscriptions .tiers-wrapper {
+    max-width: 780px;
+    flex-direction: column;
+    margin: 0 10px;
+    height: auto;
+  }
+  .subscriptions .tiers-wrapper .tier-box {
+    height: 450px;
+    margin: 20px;
+    padding: 0 5px;
+  }
+  .subscriptions .tiers-wrapper .tier-box .card {
+    width: 100%;
+    max-height: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .subscriptions .tiers-wrapper .tier-box .card h5 {
+    margin-top: 160px;
+  }
+  .subscriptions .tiers-wrapper .tier-box .card .circle-border {
+    left: 0;
+  }
+  .subscriptions .tiers-wrapper .tier-box .card .circle-pic {
+    left: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
