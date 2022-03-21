@@ -1,26 +1,11 @@
 .home {
   height: 100%;
-  // background-image: linear-gradient(rgba(2, 0, 0, 0.05), rgba(0, 0, 0, 0.14)),
-  //   url(../images/home-background.jpeg);
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // position: relative;
   background-color: rgba(0, 0, 0, 0.02);
 
   .home-wrapper {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
 
     .square {
-      text-align: left;
-      height: 520px;
-      max-width: $max-width;
-      padding: 20px;
+      padding: 110px 20px;
       // background-color: mediumturquoise;
 
       .home-header {
@@ -28,7 +13,7 @@
         // background-color: #e20f71b0;
         align-items: center;
         width: 100%;
-        padding: 85px;
+    
 
         h1 {
           white-space: nowrap;
@@ -42,7 +27,7 @@
           span {
             font-family: SmithenScript;
             font-size: 108px;
-            letter-spacing: 3px;
+            letter-spacing: 2px;
             color: $site-yellow;
           }
         }
@@ -60,18 +45,21 @@
   .home {
     .home-wrapper {
       .square {
+        padding: 85px 10px;
         .home-header {
-          padding-top: 25px;
-          padding-left: 20px;
-          padding-right: 20px;
+         
           h1 {
             font-size: 50px;
-            line-height: 75px;
+            line-height: 60px;
             white-space: normal;
+
             span {
               font-family: SmithenScript;
               font-size: 85px;
             }
+          }
+          button {
+            margin-top: 50px;
           }
         }
       }
