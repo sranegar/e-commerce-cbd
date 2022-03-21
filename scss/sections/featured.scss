@@ -13,18 +13,19 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 120px;
-    background-color: pink;
+    // background-color: pink;
 
     .content-container {
       width: 500px;
       height: 100%;
       text-align: center;
-      background-color: aquamarine;
+      // background-color: aquamarine;
       
       h2 {
         font-family: SmithenScript;
-        font-size: 75px;
+        font-size: 62px;
         white-space: nowrap;
+        line-height: 60px;
       }
 
       .featured-photo {
@@ -40,7 +41,7 @@
 
       h4 {
         font-family: FiraSansRegular;
-        padding: 15px;
+        padding-top: 15px;
       }
 
       p {
@@ -60,9 +61,23 @@
   .featured {
     .featured-container {
       flex-direction: column;
-      height: 1600px;
+      height: 1400px;
+      margin: 40px 10px;
+      padding-top: 30px;
+
       .content-container {
-          
+       max-width: 100%;
+           
+      h2 {
+        font-family: SmithenScript;
+        white-space: normal;
+        padding-bottom: 5px;
+      }
+
+      button {
+        width: 200px;
+      }
+
       }
     }
   }
