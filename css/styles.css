@@ -585,7 +585,7 @@ nav .nav-wrapper .links span {
 }
 .weekly-deals .weekly-deals-wrapper {
   max-width: 980px;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -719,6 +719,7 @@ nav .nav-wrapper .links span {
     flex-direction: column;
     height: auto;
     padding-bottom: 40px;
+    margin: 0 auto;
   }
   .weekly-deals .weekly-deals-wrapper .weekly-deals-photo {
     margin: 50px 0px;

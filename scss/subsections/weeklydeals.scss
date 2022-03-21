@@ -26,7 +26,7 @@
 
   .weekly-deals-wrapper {
     max-width: $medium-width;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,6 +114,7 @@
       flex-direction: column;
       height: auto;
       padding-bottom: 40px;
+      margin: 0 auto;
 
       .weekly-deals-photo {
         margin: 50px 0px;
