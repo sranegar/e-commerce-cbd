@@ -1439,5 +1439,28 @@ nav .nav-wrapper .links span {
     font-size: 18px;
   }
 }
+.subscriptions {
+  height: 100%;
+  background-color: cornsilk;
+}
+.subscriptions .cta-wrapper {
+  max-width: 980px;
+  background-color: red;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscriptions .tiers-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1240px;
+  background-color: mediumslateblue;
+  margin: 0 auto;
+}
+.subscriptions .tiers-wrapper .tier-box {
+  height: 400px;
+  width: 300px;
+  background-color: mediumturquoise;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,27 @@
+.subscriptions {
+    height: 100%;
+    background-color: cornsilk;
+
+    .cta-wrapper {
+        max-width: $medium-width;
+        background-color: red;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .tiers-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: $max-width;
+        background-color: mediumslateblue;
+        margin: 0 auto;
+
+        .tier-box {
+            height: 400px;
+            width: 300px;
+            background-color: mediumturquoise;
+        }
+
+    }
+}

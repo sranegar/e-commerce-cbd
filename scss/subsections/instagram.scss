@@ -1,0 +1,94 @@
+// .instagram {
+//     min-height: 50%;
+//     background-color: rgb(189, 104, 189);
+
+//     .content-wrapper {
+//         max-width: $max-width;
+//         background-color: aquamarine;
+//         height: 300px;
+//         margin: 0 auto;
+
+//         .row {
+//             max-width: 100%;
+//             background-color: beige;
+//             height: 150px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+
+//             .left {
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: space-around;
+//                 height: 150px;
+//                 max-width: 40%;
+//                background-color: rgb(78, 49, 14);
+//                 .instagram-photo {
+//                     width: 125px;
+//                     height: 125px;
+//                     background-color: red;
+//                     @include ig-img();
+//                 }
+
+//                 .ig-photo-2 {
+//                     @include ig-img(url(../images/ig-photo-2.jpeg));
+//                 }
+
+//                 .ig-photo-5 {
+//                     @include ig-img(url(../images/ig-photo-5.jpg));
+//                 }
+
+//                 .ig-photo-6 {
+//                     @include ig-img(url(../images/ig-photo-6.jpg));
+//                 }
+//             }
+
+//             .right {
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: space-around;
+//                 height: 150px;
+//                 max-width: 40%;
+//                 background-color: mediumturquoise;
+
+//                 .instagram-photo {
+//                     width: 125px;
+//                     height: 125px;
+//                     background-color: red;
+//                     @include ig-img(url(../images/ig-photo-3.jpeg));
+//                 }
+
+//                 .ig-photo-4 {
+//                     @include ig-img(url(../images/ig-photo-4.jpg));
+//                 }
+//                 .ig-photo-6 { 
+                    
+//                 }
+//                 .ig-photo-7 {
+//                     @include ig-img(url(../images/ig-photo-7.jpg));
+//                 }
+//                 .ig-photo-8 {
+//                     @include ig-img(url(../images/ig-photo-8.jpeg));
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 800px) {
+//     .instagram {
+//         height:
+//         .content-wrapper {
+//             .row {
+             
+//                 .left {
+//                     flex-direction: column;
+//                 }
+
+//                 .right {
+//                     flex-direction: column;
+//                 }
+//             }
+//         }
+//     }
+// }
