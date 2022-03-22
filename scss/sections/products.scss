@@ -5,7 +5,7 @@
 
   .products-divider {
     height: 2.5px;
-    @include linear-gradient-animation(100s);
+    @include rainbow-animation(100s);
     max-width: $medium-width;
     margin: 60px auto 0 auto;
   }

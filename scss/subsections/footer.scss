@@ -58,7 +58,7 @@
 
           &:hover {
             cursor: pointer;
-            @include linear-gradient-animation(120s);
+            @include rainbow-animation(160s);
             transform: scale(1.5);
             background-size: 100%;
             background-repeat: repeat;
@@ -78,13 +78,13 @@
       h2 {
         font-family: SmithenScript;
         font-size: 62px;
-        letter-spacing: 2px;
         color: white;
         margin-top: 10px;
+        margin-left: 6px;
         white-space: nowrap;
         font-weight: bolder;
 
-        @include linear-gradient-animation();
+        @include rainbow-animation();
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
@@ -187,7 +187,7 @@
 
         h3 {
           width: 250px;
-          margin: 15px auto;
+          margin: 15px auto 15px 8px;
           text-align: center;
         }
 

@@ -1,212 +1,201 @@
 .subscriptions {
-    min-height: 100%;
-    // background-color: wheat;
+  min-height: 100%;
+  // background-color: wheat;
+  padding-bottom: 20px;
 
-    .cta-wrapper {
-        max-width: $average-width;
-        // background-color: red;
-        margin: 0 auto;
+  .cta-wrapper {
+    max-width: $average-width;
+    // background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 6px;
+
+    h2 {
+      font-size: 62px;
+      font-family: SmithenScript;
+      line-height: 60px;
+    }
+
+    p {
+        padding: 20px 0;
+        font-family: FiraSansRegular;
+    }
+  }
+
+  .tiers-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: $max-width;
+    // background-color: mediumslateblue;
+    margin: 50px auto;
+
+    .tier-box {
+      height: 450px;
+      width: 300px;
+      // background-color: mediumturquoise;
+
+      .card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        transition: all 0.25s;
+        display: inline-block;
         text-align: center;
-        padding: 0 3px;
+        background-color: $site-white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border-radius: 10px;
+        overflow: hidden;
 
-        h2 {
-            font-size: 62px;
-            font-family: SmithenScript;
-            line-height: 60px;
-        }
-    }
-
-    .tiers-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        max-width: $max-width;
-        background-color: mediumslateblue;
-        margin: 50px auto;
-
-        .tier-box {
-            height: 450px;
-            width: 300px;
-            background-color: mediumturquoise;
-      
-
-            .card {
-                position: relative;
-                width: 100%;
-                height: 100%;
-                padding: 10px;
-                transition: all 0.25s;
-                display: inline-block;
-                text-align: center;
-                background-color: $site-white;
-                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-                border-radius: 10px;
-                overflow: hidden;
-
-                &:hover {
-                    cursor: pointer;
-                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-                }
-
-              
-                .circle-pic {
-                    position:absolute;
-                    top:-10px;
-                    margin-top: 30px;
-                    width: 125px;
-                    height: 125px;
-                    background: $site-black;
-                    margin-left: 78.33333px;
-                    border-radius: 50%;   
-                }
-
-                &:hover .circle-pic {
-                   
-                }
-
-                .circle-border {
-                    position: absolute;
-                    top: 30px;
-                    width: 105px;
-                    height: 105px;
-                    background: $site-blue;
-                    margin-left: 88.33333px;
-                    border-radius: 50%;
-
-                    svg {
-                        margin-top: 18px;
-                        width: 75px;
-                        height: 75px; 
-
-                        path {
-                           
-                            fill: $site-white;
-                        }
-                    }
-
-                    .rainbow-svg {
-                        margin-top: 13px;
-                    }
-                }
-             
-                &:hover .circle-border {
-                    @include linear-gradient-animation(120s);
-                }
-
-                &:hover .circle-border svg path {
-                    fill: $site-white;          
-                }
-                
-                &:hover svg {
-                    transition: all 0.65s;
-                    transform: rotateY(360deg);
-                }
-              
-                h5 {
-                    margin-top: 140px;
-                    font-family: SmithenScript;
-                    font-size: 42px;
-                }
-
-                &:hover h5 {
-                
-                }
-
-                ul {
-                    font-family: FiraSansLight;
-                    text-align: left;
-                }
-
-                &:hover ul {
-                  
-                }
-
-                p {
-                    font-family: FiraSansMedium;
-                    color: $product-price;
-                    margin-top: -20px;
-                }
-
-                .price {
-                    font-size: 26px;
-                    font-family: FiraSansRegular;
-                    color: $site-black;
-                    position: absolute;
-                    bottom: 40px;
-                    left: 90px;
-
-                }
-
-                &:hover p {
-               
-                }
-
-                button {
-                    width: 100%;
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    height: 50px;
-                    background-color: $site-blue;
-                    border: none;
-                    font-family: FiraSansLight;
-                    text-transform: uppercase;
-                    font-weight: bolder;
-                    color: $site-white;
-                }
-
-                &:hover button {
-                    background-color: darken($site-blue, 15%);
-                }
-            }
-         
+        &:hover {
+          cursor: pointer;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
 
-    }
-}
-
-@media screen and (max-width: 892px) {
-    .subscriptions {
-        .tiers-wrapper {
-            max-width: $average-width;
-        flex-direction: column;
-        margin: 0 10px;
-        height: auto;
-
-        .tier-box {
-            height: 450px;
-            margin: 20px;
-            padding: 0 5px;
-
-            .card {
-                width: 100%;
-                max-height: 100%;
-                padding: 0 40px;
-                margin: 0 auto;
-                display: flex;
-
-               h5 {
-                margin-top: 160px;
-
-            }
-            .circle-border {
-                left: 0;
-         
-            }
-
-            .circle-pic {
-                left: 0;
-       
-            }
-
-            }
-            button {
-              
-            }
-
-          
+        .circle-pic {
+          position: absolute;
+          top: -10px;
+          margin-top: 30px;
+          width: 125px;
+          height: 125px;
+          background: $site-black;
+          margin-left: 78.33333px;
+          border-radius: 50%;
         }
+
+        &:hover .circle-pic {
+        }
+
+        .circle-border {
+          position: absolute;
+          top: 30px;
+          width: 105px;
+          height: 105px;
+          background: $site-blue;
+          margin-left: 88.33333px;
+          border-radius: 50%;
+
+          svg {
+            margin-top: 18px;
+            width: 75px;
+            height: 75px;
+
+            path {
+              fill: $site-white;
+            }
+          }
+
+          .rainbow-svg {
+            margin-top: 13px;
+          }
+        }
+
+        &:hover .circle-border {
+          @include rainbow-animation(120s);
+        }
+
+        &:hover .circle-border svg path {
+          fill: $site-white;
+        }
+
+        &:hover svg {
+          transition: all 0.65s;
+          transform: rotateY(360deg);
+        }
+
+        h5 {
+          margin-top: 140px;
+          font-family: SmithenScript;
+          font-size: 42px;
+        }
+
+        &:hover h5 {
+        }
+
+        ul {
+          font-family: FiraSansLight;
+          text-align: left;
+        }
+
+        &:hover ul {
+        }
+
+        p {
+          font-family: FiraSansMedium;
+          color: $product-price;
+          margin-top: -20px;
+        }
+
+        .price {
+          font-size: 26px;
+          font-family: FiraSansRegular;
+          color: $site-black;
+          position: absolute;
+          bottom: 40px;
+          left: 90px;
+        }
+
+        &:hover p {
+        }
+
+        button {
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 50px;
+          background-color: $site-blue;
+          border: none;
+          font-family: FiraSansLight;
+          text-transform: uppercase;
+          font-weight: bolder;
+          color: $site-white;
+        }
+
+        &:hover button {
+            @include rainbow-animation();
+        }
+      }
     }
   }
 }
-  
+
+@media screen and (max-width: 892px) {
+  .subscriptions {
+    .tiers-wrapper {
+      max-width: $average-width;
+      flex-direction: column;
+      margin: 0 10px;
+      height: auto;
+
+      .tier-box {
+        height: 450px;
+        margin: 20px;
+        padding: 0 5px;
+
+        .card {
+          width: 100%;
+          max-height: 100%;
+          padding: 0 40px;
+          margin: 0 auto;
+          display: flex;
+
+          h5 {
+            margin-top: 160px;
+          }
+          .circle-border {
+            left: 0;
+          }
+
+          .circle-pic {
+            left: 0;
+          }
+        }
+        button {
+        }
+      }
+    }
+  }
+}
