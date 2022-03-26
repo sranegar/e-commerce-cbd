@@ -1,7 +1,6 @@
 .reviews {
   min-height: 50%;
   position: relative;
-  // background-color: blue;
   margin-bottom: 20px;
 
   h2 {
@@ -11,82 +10,129 @@
     font-weight: 500;
     max-width: $content-width;
     margin: 20px auto 0 auto;
-    padding: 0 50px;
+    padding: 20px 0px;
     color: $site-black;
   }
 
-  .reviews-wrapper {
+  .arrow-prev {
+    position: absolute;
+    top: 48%;
+    left: 51px;
+    font-size: 16px;
+    color: $site-black;
 
-    .quote-wrapper {
-      max-width: $content-width;
-      margin: -30px auto 0px auto;
-      // background-color: aquamarine;
-
-      p {
-        font-family: FiraSansCondensedLightItalic;
-        width: 100%;
-        margin: 0 auto;
-        font-size: 16px;
-        line-height: 1.6;
-        padding: 30px;
-        position: relative;
-        // background-color: rebeccapurple;
-
-        i {
-          font-size: 25px;
-          padding: 15px;
-          color: black;
-          position: absolute;
-        }
-
-        .left-quote {
-          left: 10px;
-          top: 40px;
-        }
-
-        .right-quote {
-          bottom: 50px;
-          right: 15px;
-        }
-      }
-    }
-    .reviews-star-rating {
-      max-width: $medium-width;
-      margin: -30px auto 0 auto;
-      // background-color: mediumturquoise;
-      padding: 10px 60px 15px 30px;
-
-      i {
-        color: $site-yellow;
-        font-size: 14px;
-      }
-    }
-
-    .customer-name {
-      max-width: $medium-width;
-      margin: -2.5px auto 0 auto;
-      padding: 0 60px 15px 30px;
-      font-family: FiraSansRegular;
-      font-size: 14px;
-      color: $site-black;
+    &:hover {
+      cursor: pointer;
     }
   }
 
-  .dots-wrapper {
-    max-width: 150px;
-    height: auto;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 25px;
+  .arrow-next {
+    position: absolute;
+    top: 48%;
+    right: 51px;
+    font-size: 16px;
 
-    .dots {
-      width: 100%;
+    color: $site-black;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .slick-dots {
+   margin: 0 auto;
+   width: 76px;
+  
+ 
+
+    li {
+      display: inline-block;
+ 
+      button {
+        font-size: 0;
+        height: 8px;
+        width: 8px;
+        background: rgb(189, 189, 189);
+        border-radius: 50%;
+        border: none;
+        margin-right: 5px;
+        
+         
+      }
+    }
+    .slick-active {
+      button {
+        background: gray;
+      }
+    }
+  }
+  ul {
+    list-style: none;
+
+    li {
+      .reviews-wrapper {
+
+        .quote-wrapper {
+          max-width: $medium-width;
+          margin: -30px auto 0px auto;
+          // background-color: aquamarine;
+    
+          p {
+            text-align: center;
+            font-family: FiraSansCondensedLightItalic;
+            width: 100%;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 1.6;
+            padding: 30px;
+            position: relative;
+            // background-color: rebeccapurple;
+    
+            i {
+              font-size: 25px;
+              padding: 15px;
+              color: black;
+              position: absolute;
+            }
+    
+            .left-quote {
+              left: 10px;
+              top: 40px;
+            }
+    
+            .right-quote {
+              bottom: 50px;
+              right: 15px;
+            }
+          }
+        }
+        .reviews-star-rating {
+          max-width: $medium-width;
+          margin: -30px auto 0 auto;
+          // background-color: mediumturquoise;
+          padding: 10px 60px 15px 30px;
+    
+          i {
+            color: $site-yellow;
+            font-size: 14px;
+          }
+        }
+    
+        .customer-name {
+          max-width: $medium-width;
+          margin: -2.5px auto 0 auto;
+          padding: 0 60px 15px 30px;
+          font-family: FiraSansRegular;
+          font-size: 14px;
+          color: $site-black;
+        }
+      }
     }
   }
 }
 
 @media screen and (max-width: 900px) {
   .reviews {
+    margin-bottom: 40px;
     h2 {
       text-align: center;
     }

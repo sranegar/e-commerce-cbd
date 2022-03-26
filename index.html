@@ -14,6 +14,8 @@
     />
     <!--Bootstrap CSS Only-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!--Slick CSS-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <!--CSS-->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -435,23 +437,59 @@
     </section>
         <!-- Reviews subsection -->
         <section class="reviews">
-          <div class="reviews-wrapper">
-          <h2>Reviews</h2>       
-          <div class="quote-wrapper">
-            <p>
-            The sour gummy bears are my favorite! They taste just like candy and relieve my arthritis symptoms better than any other medication. I can't thank this company enough for their high quality CBD!
-            </p>
-            <div class="reviews-star-rating">
-              <i class="fa-solid fa-star star"></i>
-              <i class="fa-solid fa-star star"></i>
-              <i class="fa-solid fa-star star"></i>
-              <i class="fa-solid fa-star star"></i>
-              <i class="fa-solid fa-star star"></i>
-            </div>
-            <div class="customer-name">- Emily K.</div>
-          </div> 
-          </div>
-            <div class="dots-wrapper">
+          <h2>Reviews</h2> 
+          <ul class="slider">      
+            <li> 
+              <div class="reviews-wrapper"> 
+              <div class="quote-wrapper">
+                <p>
+                The sour gummy bears are my favorite! They taste just like candy and relieve my arthritis symptoms better than any other medication. I can't thank this company enough for their high quality CBD!
+                </p>
+                <div class="reviews-star-rating">
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                </div>
+                <div class="customer-name">- Emily K.</div>
+              </div> 
+              </div></li>
+              <li> 
+                <div class="reviews-wrapper">    
+                <div class="quote-wrapper">
+                  <p>
+                  My dog struggles with chronic dermatitis and I've spent hundreds of dollars at the vet trying to find an affordable remedy but nothing worked. After one month of using the pet CBD I've seen results in his condition already. Not only is it effective, but it's affordable. A bottle lasts 3 months. My pup thanks you!
+                  </p>
+                  <div class="reviews-star-rating">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                  </div>
+                  <div class="customer-name">- Lucy</div>
+                </div> 
+                </div></li>
+                <li> 
+                  <div class="reviews-wrapper">    
+                  <div class="quote-wrapper">
+                    <p>
+                    These products work better than anything else I've tried. I'm a fan of the CBD gummies. They help me fall asleep at night and my anxiety during the day. And the bath bombs are a great way to unwind! 
+                    </p>
+                    <div class="reviews-star-rating">
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                    </div>
+                    <div class="customer-name">- Caty Love</div>
+                  </div> 
+                  </div></li>
+          </ul>
+         
+            <!-- <div class="dots-wrapper">
               <svg xmlns="http://www.w3.org/2000/svg" width="72" height="9" viewBox="0 0 72 9">
                 <g id="Group_1900" data-name="Group 1900" transform="translate(-520 -4151.748)">
                   <circle id="Ellipse_3" data-name="Ellipse 3" cx="4.5" cy="4.5" r="4.5" transform="translate(520 4151.748)" fill="#1e1e1e" opacity="0.18"/>
@@ -461,7 +499,7 @@
                 </g>
               </svg>
               
-            </div>      
+            </div>       -->
         </div>   
         </section>
         <!-- Instagram subsection -->
@@ -543,6 +581,11 @@
 </section>
 <!-- JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="js/app.js"></script>
   </body>
 </html>

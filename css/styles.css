@@ -826,14 +826,57 @@ nav .nav-wrapper .links span {
   font-weight: 500;
   max-width: 1000px;
   margin: 20px auto 0 auto;
-  padding: 0 50px;
+  padding: 20px 0px;
   color: #121111;
 }
-.reviews .reviews-wrapper .quote-wrapper {
-  max-width: 1000px;
+.reviews .arrow-prev {
+  position: absolute;
+  top: 48%;
+  left: 51px;
+  font-size: 16px;
+  color: #121111;
+}
+.reviews .arrow-prev:hover {
+  cursor: pointer;
+}
+.reviews .arrow-next {
+  position: absolute;
+  top: 48%;
+  right: 51px;
+  font-size: 16px;
+  color: #121111;
+}
+.reviews .arrow-next:hover {
+  cursor: pointer;
+}
+.reviews .slick-dots {
+  margin: 0 auto;
+  width: 76px;
+}
+.reviews .slick-dots li {
+  display: inline-block;
+}
+.reviews .slick-dots li button {
+  font-size: 0;
+  height: 8px;
+  width: 8px;
+  background: #bdbdbd;
+  border-radius: 50%;
+  border: none;
+  margin-right: 5px;
+}
+.reviews .slick-dots .slick-active button {
+  background: gray;
+}
+.reviews ul {
+  list-style: none;
+}
+.reviews ul li .reviews-wrapper .quote-wrapper {
+  max-width: 980px;
   margin: -30px auto 0px auto;
 }
-.reviews .reviews-wrapper .quote-wrapper p {
+.reviews ul li .reviews-wrapper .quote-wrapper p {
+  text-align: center;
   font-family: FiraSansCondensedLightItalic;
   width: 100%;
   margin: 0 auto;
@@ -842,30 +885,30 @@ nav .nav-wrapper .links span {
   padding: 30px;
   position: relative;
 }
-.reviews .reviews-wrapper .quote-wrapper p i {
+.reviews ul li .reviews-wrapper .quote-wrapper p i {
   font-size: 25px;
   padding: 15px;
   color: black;
   position: absolute;
 }
-.reviews .reviews-wrapper .quote-wrapper p .left-quote {
+.reviews ul li .reviews-wrapper .quote-wrapper p .left-quote {
   left: 10px;
   top: 40px;
 }
-.reviews .reviews-wrapper .quote-wrapper p .right-quote {
+.reviews ul li .reviews-wrapper .quote-wrapper p .right-quote {
   bottom: 50px;
   right: 15px;
 }
-.reviews .reviews-wrapper .reviews-star-rating {
+.reviews ul li .reviews-wrapper .reviews-star-rating {
   max-width: 980px;
   margin: -30px auto 0 auto;
   padding: 10px 60px 15px 30px;
 }
-.reviews .reviews-wrapper .reviews-star-rating i {
+.reviews ul li .reviews-wrapper .reviews-star-rating i {
   color: #FDCE1D;
   font-size: 14px;
 }
-.reviews .reviews-wrapper .customer-name {
+.reviews ul li .reviews-wrapper .customer-name {
   max-width: 980px;
   margin: -2.5px auto 0 auto;
   padding: 0 60px 15px 30px;
@@ -873,18 +916,11 @@ nav .nav-wrapper .links span {
   font-size: 14px;
   color: #121111;
 }
-.reviews .dots-wrapper {
-  max-width: 150px;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 25px;
-}
-.reviews .dots-wrapper .dots {
-  width: 100%;
-}
 
 @media screen and (max-width: 900px) {
+  .reviews {
+    margin-bottom: 40px;
+  }
   .reviews h2 {
     text-align: center;
   }
