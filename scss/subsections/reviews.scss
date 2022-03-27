@@ -61,28 +61,14 @@
             font-family: FiraSansCondensedLightItalic;
             width: 100%;
             margin: 0 auto;
-            font-size: 16px;
-            line-height: 1.6;
+            font-size: 14px;
+            line-height: 26px;
             padding: 15px 30px 25px 30px;
             position: relative;
             // background-color: rebeccapurple;
 
-            i {
-              font-size: 25px;
-              padding: 15px;
-              color: black;
-              position: absolute;
-            }
-
-            .left-quote {
-              left: 10px;
-              top: 40px;
-            }
-
-            .right-quote {
-              bottom: 50px;
-              right: 15px;
-            }
+        
+           
           }
         }
 
@@ -90,7 +76,7 @@
           max-width: $smallest-width;
           margin: -30px auto 0 auto;
           // background-color: mediumturquoise;
-          padding: 15px 60px 8px 30px;
+          padding: 15px 80px 8px 5px;
 
           i {
             color: $site-yellow;
@@ -101,7 +87,7 @@
         .customer-name {
           max-width: $smallest-width;
           margin: -2.5px auto 0 auto;
-          padding: 0 60px 15px 30px;
+          padding: 0 80px 15px 5px;
           font-family: FiraSansRegular;
           font-size: 14px;
           color: $site-black;

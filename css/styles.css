@@ -828,29 +828,15 @@ nav .nav-wrapper .links span {
   font-family: FiraSansCondensedLightItalic;
   width: 100%;
   margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 26px;
   padding: 15px 30px 25px 30px;
   position: relative;
-}
-.reviews ul li .reviews-wrapper .quote-wrapper p i {
-  font-size: 25px;
-  padding: 15px;
-  color: black;
-  position: absolute;
-}
-.reviews ul li .reviews-wrapper .quote-wrapper p .left-quote {
-  left: 10px;
-  top: 40px;
-}
-.reviews ul li .reviews-wrapper .quote-wrapper p .right-quote {
-  bottom: 50px;
-  right: 15px;
 }
 .reviews ul li .reviews-wrapper .reviews-star-rating {
   max-width: 650px;
   margin: -30px auto 0 auto;
-  padding: 15px 60px 8px 30px;
+  padding: 15px 80px 8px 5px;
 }
 .reviews ul li .reviews-wrapper .reviews-star-rating i {
   color: #FDCE1D;
@@ -859,7 +845,7 @@ nav .nav-wrapper .links span {
 .reviews ul li .reviews-wrapper .customer-name {
   max-width: 650px;
   margin: -2.5px auto 0 auto;
-  padding: 0 60px 15px 30px;
+  padding: 0 80px 15px 5px;
   font-family: FiraSansRegular;
   font-size: 14px;
   color: #121111;
@@ -886,7 +872,7 @@ nav .nav-wrapper .links span {
 }
 .featured {
   min-height: 100%;
-  padding: 50px 0 120px 0;
+  padding: 60px 0 230px 0;
 }
 .featured .featured-container {
   width: 100%;
@@ -913,7 +899,7 @@ nav .nav-wrapper .links span {
   font-size: 62px;
   white-space: nowrap;
   line-height: 60px;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 .featured .featured-container .content-container .content-wrapper .featured-photo {
   max-width: 100%;
@@ -931,6 +917,7 @@ nav .nav-wrapper .links span {
   padding: 0 20px;
   font-family: FiraSansLight;
   min-height: 70px;
+  line-height: 30px;
 }
 .featured .featured-container .content-container .content-wrapper .featured-description button {
   color: #121111;
@@ -977,7 +964,7 @@ nav .nav-wrapper .links span {
 
 @media screen and (max-width: 800px) {
   .featured {
-    padding: 20px 0 90px 0;
+    padding: 20px 0 120px 0;
   }
   .featured .featured-container {
     max-height: 1400px;
@@ -1264,6 +1251,8 @@ nav .nav-wrapper .links span {
 }
 .pets {
   min-height: 100%;
+  padding: 10px 0 100px 0;
+  margin-top: 100px;
 }
 .pets .pet-products-container {
   max-width: 1240px;
@@ -1291,13 +1280,13 @@ nav .nav-wrapper .links span {
   font-size: 62px;
   letter-spacing: 1px;
   line-height: 60px;
-  padding-top: 20px;
 }
 .pets .pet-products-container .content-container .text-content p {
   font-family: FiraSansLight;
   padding: 20px;
   width: 80%;
   margin: 0 auto;
+  line-height: 30px;
 }
 .pets .pet-products-container .content-container .text-content button {
   color: #121111;
@@ -1515,14 +1504,15 @@ nav .nav-wrapper .links span {
   font-size: 62px;
   font-family: SmithenScript;
   line-height: 60px;
-  padding: 15px 0;
+  padding: 0 0 25px 0;
 }
 .subscriptions .cta-wrapper p {
-  padding: 25px 0;
+  padding: 5px 0;
   font-family: FiraSansLight;
   max-width: 600px;
   margin: 0 auto;
   margin-top: -15px;
+  line-height: 30px;
 }
 .subscriptions .tiers-wrapper {
   display: flex;
