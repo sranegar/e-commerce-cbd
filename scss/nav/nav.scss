@@ -37,15 +37,19 @@ nav {
         width: 100px;
         text-decoration: none;
         text-transform: lowercase;
-        font-family: FiraSansRegular;
+        font-family: FiraSansLight;
+        font-size: 14px;
         color: $transparent-black;
         position: relative;
         padding: 5px 15px;
+        transition: 0.2s ease-in, 0.2s ease-out;
 
         &:hover {
           cursor: pointer;
-          text-decoration: underline;
-          text-underline-offset: 6px;
+          color: $site-black;
+          transition: 0.2s ease-in, 0.2s ease-out;
+          // text-decoration: underline;
+          // text-underline-offset: 6px;
         }
       }
 

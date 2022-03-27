@@ -1,28 +1,17 @@
 .weekly-deals {
   min-height: 50%;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.66),
-      rgba(255, 255, 255, 0.78)
-    ),
-    url(../images/lemons-img.jpeg);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  position: relative;
+  // background-image: linear-gradient(
+  //     rgba(255, 255, 255, 0.66),
+  //     rgba(255, 255, 255, 0.78)
+  //   ),
+  //   url(../images/lemons-img.jpeg);
+  // background-size: cover;
+  // background-position: top;
+  // background-repeat: no-repeat;
+  // position: relative;
+  clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+  background: $weekly-deals-bg;
 
-  h2 {
-    font-family: FiraSansExtraCondensed;
-    max-width: 600px;
-    height: auto;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 32px;
-    letter-spacing: 5px;
-    color: $site-black;
-    padding: 10px;
-    font-weight: lighter;
-    // background-color: magenta;
-  }
 
   .weekly-deals-wrapper {
     max-width: $medium-width;
@@ -32,6 +21,21 @@
     align-items: center;
     height: 350px;
     // background-color: mediumturquoise;
+
+    h2 {
+      font-family: SmithenScript;
+      max-width: 600px;
+      font-weight: bolder;
+      height: auto;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 66px;
+      color: $site-black;
+      padding: 115px 10px 0 10px;
+      display: none;
+      @include rainbow-animation();
+      @include background-clip();
+    }
 
     .weekly-deals-photo {
       position: relative;
@@ -105,16 +109,21 @@
 @media screen and (max-width: 800px) {
   .weekly-deals {
     background-image: none;
-    h2 {
-      white-space: nowrap;
-      margin-top: 0px;
-      font-size: 52px;
-    }
+    background: $black-gradient;
+    clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%);
+    margin-bottom: 85px;
+    padding-bottom: 80px;
+
     .weekly-deals-wrapper {
       flex-direction: column;
       height: auto;
       padding-bottom: 40px;
-      margin: 0 auto 30px auto;
+      margin: 0 auto;
+
+      h2 {
+        display: block;
+        white-space: nowrap;      
+      }
 
       .weekly-deals-photo {
         margin: 50px 0px;

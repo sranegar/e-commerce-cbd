@@ -5,25 +5,30 @@ $site-pink: #e20f71;
 $site-yellow: #FDCE1D;
 $site-red: #ce0828;
 $site-purple: #6e57f3;
-$product-price: #0000006e;
+$product-price: #00000086;
 $site-black: #121111;
 $site-white: #fff;
 $transparent-black: #0000009a;
-$transparent-white: #ffffffe5;
-
+$semi-white: #ffffffce;
+$transparent-white: #ffffffb9;
+$contact-form-color: #2c2c2c;
+$copyright-color: #626262;
 
 //site dimensions 
 $max-width: 1240px;
 $content-width: 1000px;
 $medium-width: 980px;
 $average-width: 780px;
+$smallest-width: 650px;
 
 //linear-gradient 
 $linear-gradient:  linear-gradient(135deg, $site-pink, $site-yellow, $site-blue, $site-purple);
 
+$weekly-deals-bg: linear-gradient(135deg, #e20f7126, #fdcc1d26, #55B8BD26, #6e57f326);
+
 $pink-gradient: linear-gradient(180deg, $site-red, #e91437);
 
-$reverse-pink-gradient: linear-gradient(360deg, #131212, #242323);
+$black-gradient: linear-gradient(360deg, #131212, #242323);
 
 $lr-pink-gradient: linear-gradient(90deg, $site-red, $site-pink);
 

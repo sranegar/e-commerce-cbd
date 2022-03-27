@@ -5,29 +5,28 @@
   .home-wrapper {
 
     .square {
-      padding: 110px 20px;
+      padding: 110px 0px;
       // background-color: mediumturquoise;
 
       .home-header {
         text-align: center;
-        // background-color: #e20f71b0;
         align-items: center;
         width: 100%;
-    
+ 
 
         h1 {
           white-space: nowrap;
-          font-family: FiraSansLight;
+          font-family: FiraSansCondensedLight;
           font-size: 66px;
-          line-height: 110px;
+          line-height: 120px;
           width: 100%;
           color: rgb(29, 28, 28);
-          font-weight: 600;
+         
 
           span {
             font-family: SmithenScript;
             font-size: 108px;
-            letter-spacing: 2px;
+            line-height: 90px;
             color: $site-yellow;
           }
         }
@@ -45,9 +44,11 @@
   .home {
     .home-wrapper {
       .square {
-        padding: 85px 10px;
+        padding: 90px 0px;
+      
         .home-header {
-         
+          padding: 0 10px;
+
           h1 {
             font-size: 50px;
             line-height: 60px;
@@ -55,11 +56,11 @@
 
             span {
               font-family: SmithenScript;
-              font-size: 85px;
+              font-size: 92px;
             }
           }
           button {
-            margin-top: 50px;
+            margin-top: 25px;
             width: 200px;
           }
         }

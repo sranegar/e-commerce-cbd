@@ -1,13 +1,12 @@
 .footer {
   min-height: 50%;
-  background: $reverse-pink-gradient;
+  background: $black-gradient;
 
   .footer-wrapper {
     max-width: $content-width;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
     padding: 10px 20px;
     // background-color: thistle;
 
@@ -17,7 +16,6 @@
       padding-top: 103px;
       display: flex;
       justify-content: space-around;
-      // background-color: #45dbd6;
 
       .list {
         min-height: 140px;
@@ -25,41 +23,44 @@
         text-align: center;
 
         h5 {
-          font-family: FiraSansCondensedLight;
-          font-size: 17px;
-          font-weight: bolder;
-          color: $site-white;
+          font-family: FiraSansRegular;
+          font-size: 16px;
+          color: $semi-white;
           text-transform: uppercase;
+          text-align: left;
         }
 
         a {
           text-decoration: none;
+          text-transform: lowercase;
 
           p {
-            font-size: 14px;
-            color: $site-white;
+            text-align: left;
+            font-size: 12px;
+            color: $transparent-white;
             font-family: FiraSansLight;
-            transition: .2s ease-in, .2s ease-out;
+            transition: 0.2s ease-in, 0.2s ease-out;
 
             &:hover {
               cursor: pointer;
-              text-decoration: underline;
-              text-underline-offset: 6px;
-              transition: .2s ease-in, .2s ease-out;
+              // text-decoration: underline;
+              // text-underline-offset: 6px;
+              color: $site-white;
+              transition: 0.2s ease-in, 0.2s ease-out;
             }
           }
         }
 
         i {
-          color: white;
-          font-size: 22px;
+          color: $transparent-white;
+          font-size: 20px;
           margin-top: 6px;
-          transition: .2s ease-in, .2s ease-out;
+          transition: 0.2s ease-in, 0.2s ease-out;
 
           &:hover {
             cursor: pointer;
             @include rainbow-animation(160s);
-            transform: scale(1.5);
+            transform: scale(1.2);
             background-size: 100%;
             background-repeat: repeat;
             -webkit-background-clip: text;
@@ -73,7 +74,6 @@
 
     .contact-wrapper {
       max-width: 480px;
-    
 
       h2 {
         font-family: SmithenScript;
@@ -85,39 +85,36 @@
         font-weight: bolder;
 
         @include rainbow-animation();
-        background-size: 100%;
-        background-repeat: repeat;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
+        @include background-clip();
       }
 
       input {
-        font-family: FiraSansLight;
+        font-family: FiraSansRegular;
         font-size: 12px;
-        color: rgb(119, 119, 119);
+        color: $site-white;
+        background-color: $contact-form-color;
         width: 100%;
         margin-top: -5px;
         margin-bottom: 20px;
         height: 40px;
         padding: 10px;
         border: none;
-     
+        border-radius: 0%;
       }
 
       textarea {
         border: none;
-        font-family: FiraSansLight;
+        font-family: FiraSansRegular;
+        color: $site-white;
+        background-color: $contact-form-color;
         font-size: 12px;
-        color: rgb(119, 119, 119);
         padding: 10px;
         height: 80px;
         width: 100%;
         margin-top: -5px;
         animation-name: selectedAnim;
         animation-duration: 0.7s;
-        
+        border-radius: 0%;
       }
 
       button {
@@ -125,23 +122,21 @@
         width: 80px;
         height: 30px;
         font-family: FiraSansRegular;
-        font-weight: 600;
-        letter-spacing: .5px;
-        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        text-transform: lowercase;
         font-size: 12px;
-        color: none;
+        color: $site-white;
         margin-top: 8px;
         margin-bottom: 10px;
         float: right;
-        border-radius: 5px;
+        border-radius: 0%;
         transition: all 0.3s;
         position: relative;
         overflow: hidden;
         z-index: 1;
         border: none;
-        
 
-        @include site-button-sweep-anim();
+        @include site-button-sweep-anim($btnBgColor: $contact-form-color);
       }
     }
   }
@@ -152,8 +147,9 @@
 
     p {
       font-family: FiraSansExtraLight;
-      color: $transparent-white;
-      font-size: 13px;
+      color: $copyright-color;
+      letter-spacing: .3px;
+      font-size: 10px;
       margin-bottom: 0;
       padding-bottom: 15px;
     }
@@ -164,21 +160,34 @@
   .footer {
     .footer-wrapper {
       flex-direction: column-reverse;
-      padding: 20px;
+      padding: 20px 8px;
 
       .links-wrapper {
         text-align: center;
-        border-top: 1px solid $site-white;
         height: auto;
-        padding: 30px 10px;
-        width: 90%;
-        justify-content: space-around;
+        padding: 20px 0px;
+        width: 100%;
+        justify-content: space-between;
         margin: 0 auto;
+        max-width: 420px;
 
         .list {
-          width: 105px;
-          h4 {
+          width: 110px;
+          padding: 0 15px;
+
+          h5 {
             font-size: 14px;
+            text-align: center;
+          }
+
+          a {
+            p {
+              text-align: center;
+            }
+          }
+
+          i {
+            font-size: 18px;
           }
         }
       }
@@ -189,6 +198,23 @@
           width: 250px;
           margin: 15px auto 15px 8px;
           text-align: center;
+        }
+
+        input {
+          width: 100%;
+          margin-top: -5px;
+          margin-bottom: 20px;
+          height: 40px;
+          padding: 10px;
+        }
+
+        textarea {
+          padding: 10px;
+          height: 80px;
+          width: 100%;
+          margin-top: -5px;
+          animation-name: selectedAnim;
+          animation-duration: 0.7s;
         }
 
         button {

@@ -18,7 +18,10 @@
 
     p {
         padding: 20px 0;
-        font-family: FiraSansRegular;
+        font-family: FiraSansLight;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: -15px;
     }
   }
 
@@ -28,7 +31,7 @@
     justify-content: space-around;
     max-width: $max-width;
     // background-color: mediumslateblue;
-    margin: 50px auto;
+    margin: 30px auto 40px auto;
 
     .tier-box {
       height: 450px;
@@ -164,15 +167,22 @@
 
 @media screen and (max-width: 892px) {
   .subscriptions {
+    .cta-wrapper {
+      max-width: 96%;
+      p {
+
+      }
+    }
     .tiers-wrapper {
       max-width: $average-width;
       flex-direction: column;
       margin: 0 10px;
       height: auto;
+      margin-top: -20px;
 
       .tier-box {
         height: 450px;
-        margin: 20px;
+        margin: 40px;
         padding: 0 5px;
 
         .card {

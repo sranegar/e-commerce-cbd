@@ -1,7 +1,7 @@
 .reviews {
   min-height: 50%;
   position: relative;
-  margin-bottom: 20px;
+//  background-color: mediumseagreen;
 
   h2 {
     font-family: SmithenScript;
@@ -9,44 +9,21 @@
     letter-spacing: 2px;
     font-weight: 500;
     max-width: $content-width;
-    margin: 20px auto 0 auto;
-    padding: 20px 0px;
+    margin: 10px auto 0 auto;
+    padding: 0px 25px;
     color: $site-black;
-  }
-
-  .arrow-prev {
-    position: absolute;
-    top: 48%;
-    left: 51px;
-    font-size: 16px;
-    color: $site-black;
-
-    &:hover {
-      cursor: pointer;
-    }
-  }
-
-  .arrow-next {
-    position: absolute;
-    top: 48%;
-    right: 51px;
-    font-size: 16px;
-
-    color: $site-black;
-    &:hover {
-      cursor: pointer;
-    }
+    padding-top: 20px;
   }
 
   .slick-dots {
-   margin: 0 auto;
-   width: 76px;
-  
- 
+    margin: 0 auto;
+    width: 83px;
+    padding-bottom: 40px;
+
 
     li {
       display: inline-block;
- 
+
       button {
         font-size: 0;
         height: 8px;
@@ -54,28 +31,31 @@
         background: rgb(189, 189, 189);
         border-radius: 50%;
         border: none;
-        margin-right: 5px;
-        
-         
+        margin: 4px;
       }
+
     }
+
     .slick-active {
       button {
-        background: gray;
+        background: $site-blue;
+        height: 9px;
+        width: 9px;
       }
     }
   }
+
   ul {
     list-style: none;
+    max-width: $content-width;
+    margin: 0 auto;
+    padding-left: 0px;
 
     li {
       .reviews-wrapper {
+        margin: 0 auto;
 
         .quote-wrapper {
-          max-width: $medium-width;
-          margin: -30px auto 0px auto;
-          // background-color: aquamarine;
-    
           p {
             text-align: center;
             font-family: FiraSansCondensedLightItalic;
@@ -83,47 +63,54 @@
             margin: 0 auto;
             font-size: 16px;
             line-height: 1.6;
-            padding: 30px;
+            padding: 15px 30px 25px 30px;
             position: relative;
             // background-color: rebeccapurple;
-    
+
             i {
               font-size: 25px;
               padding: 15px;
               color: black;
               position: absolute;
             }
-    
+
             .left-quote {
               left: 10px;
               top: 40px;
             }
-    
+
             .right-quote {
               bottom: 50px;
               right: 15px;
             }
           }
         }
+
         .reviews-star-rating {
-          max-width: $medium-width;
+          max-width: $smallest-width;
           margin: -30px auto 0 auto;
           // background-color: mediumturquoise;
-          padding: 10px 60px 15px 30px;
-    
+          padding: 15px 60px 8px 30px;
+
           i {
             color: $site-yellow;
             font-size: 14px;
           }
         }
-    
+
         .customer-name {
-          max-width: $medium-width;
+          max-width: $smallest-width;
           margin: -2.5px auto 0 auto;
           padding: 0 60px 15px 30px;
           font-family: FiraSansRegular;
           font-size: 14px;
           color: $site-black;
+
+          span {
+            font-size: 12px;
+            font-family: FiraSansCondensedLight;
+            color: $product-price;
+          }
         }
       }
     }
@@ -132,9 +119,28 @@
 
 @media screen and (max-width: 900px) {
   .reviews {
-    margin-bottom: 40px;
+ 
     h2 {
       text-align: center;
+    }
+    ul {
+      li {
+        .reviews-wrapper {
+         
+            .reviews-star-rating {
+              text-align: center;
+              padding: 15px 30px 12px 30px;
+              
+            }
+            .customer-name {
+              text-align: center;
+              padding: 0 30px 15px 30px;
+            }
+          
+       
+        }
+      }
+     
     }
   }
 }
