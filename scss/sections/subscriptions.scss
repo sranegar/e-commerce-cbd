@@ -14,10 +14,11 @@
       font-size: 62px;
       font-family: SmithenScript;
       line-height: 60px;
+      padding: 15px 0;
     }
 
     p {
-        padding: 20px 0;
+        padding: 25px 0;
         font-family: FiraSansLight;
         max-width: 600px;
         margin: 0 auto;
@@ -34,9 +35,9 @@
     margin: 30px auto 40px auto;
 
     .tier-box {
-      height: 450px;
+      height: 445px;
       width: 300px;
-      // background-color: mediumturquoise;
+      padding: 6px;
 
       .card {
         position: relative;
@@ -132,12 +133,13 @@
         }
 
         .price {
-          font-size: 26px;
+          font-size: 24px;
           font-family: FiraSansRegular;
           color: $site-black;
           position: absolute;
-          bottom: 40px;
+          bottom: 38px;
           left: 90px;
+
         }
 
         &:hover p {
@@ -176,14 +178,13 @@
     .tiers-wrapper {
       max-width: $average-width;
       flex-direction: column;
-      margin: 0 10px;
+      margin: 0 auto;
       height: auto;
       margin-top: -20px;
 
       .tier-box {
-        height: 450px;
         margin: 40px;
-        padding: 0 5px;
+        height: 435px;
 
         .card {
           width: 100%;
@@ -193,7 +194,7 @@
           display: flex;
 
           h5 {
-            margin-top: 160px;
+            padding-top: 8px;
           }
           .circle-border {
             left: 0;
@@ -201,6 +202,10 @@
 
           .circle-pic {
             left: 0;
+          }
+
+          .price {
+            font-size: 22px;
           }
         }
         button {

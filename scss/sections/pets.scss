@@ -7,7 +7,6 @@
     min-height: 600px;
     padding: 0 10px;
 
-
     .content-container {
       display: flex;
       flex-direction: column;
@@ -20,14 +19,15 @@
       .text-content {
         width: 95%;
         height: 70%;
-        padding: 0 20px 0 5px;
         text-align: center;
+
         h2 {
           font-family: SmithenScript;
           color: $site-black;
           font-size: 62px;
           letter-spacing: 1px;
           line-height: 60px;
+          padding-top: 20px;
         }
 
         p {
@@ -47,16 +47,16 @@
         max-width: 100%;
         height: 50%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         margin-top: 50px;
 
         .pet-product-container {
-          width: 300px;
+          width: 360px;
           height: 280px;
           display: flex;
           flex-direction: column;
-          padding: 0 12px;
+          padding: 0 15px;
 
           .pet-product-img {
             @include pet-product-img();
@@ -78,7 +78,7 @@
             text-align: center;
             width: 96%;
             height: 60px;
-            margin-top: 2px;
+            margin-top: 3px;
 
             h5 {
               font-family: FiraSansRegular;
@@ -90,6 +90,7 @@
               color: $product-price;
               padding: 5px;
             }
+
             span {
               font-family: FiraSansLight;
               color: $product-price;
@@ -104,7 +105,7 @@
 
 @media screen and (max-width: 892px) {
   .pets {
-    padding: 0 20px 0 20px;
+    padding: 0px 0px 20px 0px;
 
     .pet-products-container {
       background: none;
@@ -121,10 +122,11 @@
         .text-content {
           width: 100%;
           padding: 0 15px;
-  
+
           h2 {
             margin-top: 5px;
             text-align: center;
+            padding-top: 0px;
           }
 
           p {
@@ -132,18 +134,18 @@
             margin-top: 0px;
             width: 100%;
           }
-  
+
           .button-wrapper {
             width: 200px;
             height: 40px;
-            margin: 0px auto 40px auto;
-  
+            margin: 0px auto 50px auto;
+
             button {
               width: 200px;
             }
           }
         }
-  
+
         .pet-product-images-wrapper {
           flex-direction: column;
           min-width: 100%;
@@ -153,36 +155,35 @@
             width: 100%;
             height: 380px;
             margin: 20px auto;
-  
+
             // background-color: midnightblue;
-  
+
             .pet-product-img {
               max-height: 75%;
-  
+
               button {
                 height: 50px;
                 font-size: 18px;
                 margin: 0 auto;
               }
             }
-  
+
             .pet-description-content {
               position: relative;
               width: auto;
               bottom: -7px;
-  
+
               h5 {
                 font-size: 26px;
               }
-  
+
               p {
                 font-size: 22px;
               }
             }
           }
         }
-      }  
-     
+      }
     }
   }
 }

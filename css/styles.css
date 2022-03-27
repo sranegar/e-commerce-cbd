@@ -536,7 +536,7 @@ nav .nav-wrapper .links span {
     text-align: center;
     width: auto;
     margin: 0 auto;
-    padding: 45px;
+    padding: 60px 0;
     white-space: nowrap;
   }
   .products .products-container .product-images-wrapper {
@@ -873,6 +873,7 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 900px) {
   .reviews h2 {
     text-align: center;
+    padding: 0;
   }
   .reviews ul li .reviews-wrapper .reviews-star-rating {
     text-align: center;
@@ -885,16 +886,14 @@ nav .nav-wrapper .links span {
 }
 .featured {
   min-height: 100%;
-  padding-top: 1px;
-  padding-bottom: 30px;
+  padding: 50px 0 120px 0;
 }
 .featured .featured-container {
   width: 100%;
   max-height: 650px;
-  margin: 60px 0px;
 }
 .featured .featured-container .content-container {
-  max-width: 1240px;
+  max-width: 980px;
   max-height: 100%;
   text-align: center;
   display: flex;
@@ -914,7 +913,7 @@ nav .nav-wrapper .links span {
   font-size: 62px;
   white-space: nowrap;
   line-height: 60px;
-  padding-bottom: 8px;
+  padding: 20px 0;
 }
 .featured .featured-container .content-container .content-wrapper .featured-photo {
   max-width: 100%;
@@ -931,7 +930,7 @@ nav .nav-wrapper .links span {
 .featured .featured-container .content-container .content-wrapper .featured-description p {
   padding: 0 20px;
   font-family: FiraSansLight;
-  min-height: 90px;
+  min-height: 70px;
 }
 .featured .featured-container .content-container .content-wrapper .featured-description button {
   color: #121111;
@@ -978,7 +977,7 @@ nav .nav-wrapper .links span {
 
 @media screen and (max-width: 800px) {
   .featured {
-    padding: 0;
+    padding: 20px 0 90px 0;
   }
   .featured .featured-container {
     max-height: 1400px;
@@ -989,10 +988,11 @@ nav .nav-wrapper .links span {
   }
   .featured .featured-container .content-container .content-wrapper {
     width: 100%;
-    padding: 10px 5px 50px 5px;
+    padding: 10px 5px 30px 5px;
   }
   .featured .featured-container .content-container .content-wrapper h2 {
     font-size: 66px;
+    padding: 35px 0;
   }
   .featured .featured-container .content-container .content-wrapper .featured-description h4 {
     white-space: normal;
@@ -1000,7 +1000,7 @@ nav .nav-wrapper .links span {
     font-size: 26px;
   }
   .featured .featured-container .content-container .content-wrapper .featured-description p {
-    min-height: 50px;
+    min-height: 40px;
   }
   .featured .featured-container .content-container .content-wrapper .featured-description button {
     width: 200px;
@@ -1283,7 +1283,6 @@ nav .nav-wrapper .links span {
 .pets .pet-products-container .content-container .text-content {
   width: 95%;
   height: 70%;
-  padding: 0 20px 0 5px;
   text-align: center;
 }
 .pets .pet-products-container .content-container .text-content h2 {
@@ -1292,6 +1291,7 @@ nav .nav-wrapper .links span {
   font-size: 62px;
   letter-spacing: 1px;
   line-height: 60px;
+  padding-top: 20px;
 }
 .pets .pet-products-container .content-container .text-content p {
   font-family: FiraSansLight;
@@ -1345,16 +1345,16 @@ nav .nav-wrapper .links span {
   max-width: 100%;
   height: 50%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-top: 50px;
 }
 .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container {
-  width: 300px;
+  width: 360px;
   height: 280px;
   display: flex;
   flex-direction: column;
-  padding: 0 12px;
+  padding: 0 15px;
 }
 .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container .pet-product-img {
   background-image: url(../images/pet-cbd-1.jpeg);
@@ -1416,7 +1416,7 @@ nav .nav-wrapper .links span {
   text-align: center;
   width: 96%;
   height: 60px;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container .pet-description-content h5 {
   font-family: FiraSansRegular;
@@ -1435,7 +1435,7 @@ nav .nav-wrapper .links span {
 
 @media screen and (max-width: 892px) {
   .pets {
-    padding: 0 20px 0 20px;
+    padding: 0px 0px 20px 0px;
   }
   .pets .pet-products-container {
     background: none;
@@ -1456,6 +1456,7 @@ nav .nav-wrapper .links span {
   .pets .pet-products-container .content-container .text-content h2 {
     margin-top: 5px;
     text-align: center;
+    padding-top: 0px;
   }
   .pets .pet-products-container .content-container .text-content p {
     text-align: center;
@@ -1465,7 +1466,7 @@ nav .nav-wrapper .links span {
   .pets .pet-products-container .content-container .text-content .button-wrapper {
     width: 200px;
     height: 40px;
-    margin: 0px auto 40px auto;
+    margin: 0px auto 50px auto;
   }
   .pets .pet-products-container .content-container .text-content .button-wrapper button {
     width: 200px;
@@ -1514,9 +1515,10 @@ nav .nav-wrapper .links span {
   font-size: 62px;
   font-family: SmithenScript;
   line-height: 60px;
+  padding: 15px 0;
 }
 .subscriptions .cta-wrapper p {
-  padding: 20px 0;
+  padding: 25px 0;
   font-family: FiraSansLight;
   max-width: 600px;
   margin: 0 auto;
@@ -1530,8 +1532,9 @@ nav .nav-wrapper .links span {
   margin: 30px auto 40px auto;
 }
 .subscriptions .tiers-wrapper .tier-box {
-  height: 450px;
+  height: 445px;
   width: 300px;
+  padding: 6px;
 }
 .subscriptions .tiers-wrapper .tier-box .card {
   position: relative;
@@ -1619,11 +1622,11 @@ nav .nav-wrapper .links span {
   margin-top: -20px;
 }
 .subscriptions .tiers-wrapper .tier-box .card .price {
-  font-size: 26px;
+  font-size: 24px;
   font-family: FiraSansRegular;
   color: #121111;
   position: absolute;
-  bottom: 40px;
+  bottom: 38px;
   left: 90px;
 }
 .subscriptions .tiers-wrapper .tier-box .card button {
@@ -1664,14 +1667,13 @@ nav .nav-wrapper .links span {
   .subscriptions .tiers-wrapper {
     max-width: 780px;
     flex-direction: column;
-    margin: 0 10px;
+    margin: 0 auto;
     height: auto;
     margin-top: -20px;
   }
   .subscriptions .tiers-wrapper .tier-box {
-    height: 450px;
     margin: 40px;
-    padding: 0 5px;
+    height: 435px;
   }
   .subscriptions .tiers-wrapper .tier-box .card {
     width: 100%;
@@ -1681,13 +1683,16 @@ nav .nav-wrapper .links span {
     display: flex;
   }
   .subscriptions .tiers-wrapper .tier-box .card h5 {
-    margin-top: 160px;
+    padding-top: 8px;
   }
   .subscriptions .tiers-wrapper .tier-box .card .circle-border {
     left: 0;
   }
   .subscriptions .tiers-wrapper .tier-box .card .circle-pic {
     left: 0;
+  }
+  .subscriptions .tiers-wrapper .tier-box .card .price {
+    font-size: 22px;
   }
 }
 

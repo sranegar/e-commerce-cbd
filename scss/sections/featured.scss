@@ -1,22 +1,14 @@
 .featured {
   min-height: 100%;
-  // background-image: url(../images/featured-bg.jpg);
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
-  // background: $weekly-deals-bg;
-  padding-top: 1px;
-  padding-bottom: 30px;
+  padding: 50px 0 120px 0;
 
   .featured-container {
     width: 100%;
     max-height: 650px;
-    // background-color: pink;
-    margin: 60px 0px;
+
 
     .content-container {
-      max-width: $max-width;
+      max-width: $medium-width;
       max-height: 100%;
       text-align: center;
       // background-color: aquamarine;
@@ -38,7 +30,7 @@
           font-size: 62px;
           white-space: nowrap;
           line-height: 60px;
-          padding-bottom: 8px;
+          padding: 20px 0;
         }
 
         .featured-photo {
@@ -61,7 +53,7 @@
           p {
             padding: 0 20px;
             font-family: FiraSansLight;
-             min-height: 90px;
+             min-height: 70px;
           }
 
           button {
@@ -76,8 +68,8 @@
 
 @media screen and (max-width: 800px) {
   .featured {
-    padding: 0;
- 
+    padding: 20px 0 90px 0;
+
     .featured-container {
       max-height: 1400px;
 
@@ -87,10 +79,11 @@
 
         .content-wrapper {
           width: 100%;
-          padding: 10px 5px 50px 5px;
+          padding: 10px 5px 30px 5px;
 
           h2 {
             font-size: 66px;
+            padding: 35px 0;
           }
           
           .featured-description {
@@ -102,7 +95,7 @@
             }
 
             p {
-              min-height: 50px;
+              min-height: 40px;
             }
 
             button {
