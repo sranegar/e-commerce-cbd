@@ -1,4 +1,4 @@
-# CBD.Company E-commerce Website
+# Fully Responsive and Adaptive Front End E-Commerce Website
 
 ## NEWM299 Portfolio Assignment PHASE TWO
 
@@ -19,11 +19,12 @@ There must be a navigation bar that navigates to the full section. <br>
  
 ## Design Understanding and Justification
 
-I focused my design to be user-friendly and responsive + adaptable. I followed many laws of UX to achieve this design layout for a mock CBD company that solves the problem of creating an online platform to sell their products. 
+I focused my design to be user-friendly and responsive + adaptable. I followed many laws of UX to achieve this design layout for a CBD company that solves the problem of creating an online platform to sell their products. 
 
-I followed current conventions, such as a standard navigation at the top of the page and footer at the bottom of the page. The company link is displayed in the top left corner of the home section. The sections and subsections are broken up kindly to keep the user informed and interested. This user-friendly experience can drive sales and increase revenue for the company.
+I followed current conventions, such as a standard navigation at the top of the page and footer at the bottom of the page. The sections and subsections are broken up kindly to keep the user informed and interested. This user-friendly experience can drive sales and increase revenue for the company.
 
-My audience is middle-aged men and women with possible ailments or disabilities. Because of this, I focused on making my website as accessible as possible. This is why I include an h1, h2, h3, and h4 when breaking up the content of the page. This makes it easier for page readers to read the text in order as it is meant to be read. 
+I resized ALL images for FAST loading times and high speed. I created the prototype in Adobe XD for creative guidance. 
 
+Implementing JQuery for the Reviews section makes the page more dynamic. CSS animations were used in buttons, mobile-navigation, and other hover effects.
 
 https://in-info-web4.informatics.iupui.edu/~sranegar/e-commerce-cbd/index.html
