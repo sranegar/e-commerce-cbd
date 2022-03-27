@@ -1,6 +1,14 @@
 # Fully Responsive and Adaptive Front End E-Commerce Website
-### 🌈 Invest in Brighter Days 🌤
  
+## Tools:
+
+- Sass
+- Node.js
+- JQuery - Slick Carousel
+- Adobe Photoshop 
+- Adobe XD
+- Adobe Stock
+
 ## Design Understanding and Justification
 
 📱 I focused my design to be user-friendly and responsive + adaptable. I followed many laws of UX to achieve this design layout for a CBD company that solves the problem of creating an online platform to sell their products. 
