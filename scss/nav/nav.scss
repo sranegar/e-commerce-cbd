@@ -1,60 +1,76 @@
 nav {
   border-bottom: 1px solid $site-black;
-  width: 100%;
   background-color: $site-white;
+  z-index: 99;
+  position: relative;
+  max-width: $medium-width;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
 
-  .nav-wrapper {
-    max-width: $medium-width;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    z-index: 99;
-    margin: 0 auto;
+  label {
+    display: none;
+    position: absolute;
+    right: 20px;
+    font-size: 35px;
+    line-height: 50px;
+    color: $site-black;
+    font-size: 25px;
+    top: 0;
+  }
 
-    .logo {
-      width: 60px;
-      height: 55px;
-    }
+  #toggle {
+    display: none;
+    position: absolute;
+    right: 0;
+  }
 
-    label {
-      display: none;
-      position: absolute;
-      right: 20px;
-      font-size: 35px;
-      line-height: 50px;
-    }
+  .links {
+    a {
+      width: 100px;
+      text-decoration: none;
+      text-transform: lowercase;
+      font-family: FiraSansLight;
+      font-size: 14px;
+      color: $transparent-black;
+      padding: 5px 15px;
+      transition: 0.2s ease-in, 0.2s ease-out;
 
-    #toggle {
-      display: none;
-      position: absolute;
-      right: 0;
-    }
-
-    .links {
-      a {
-        width: 100px;
-        text-decoration: none;
-        text-transform: lowercase;
-        font-family: FiraSansLight;
-        font-size: 14px;
-        color: $transparent-black;
-        position: relative;
-        padding: 5px 15px;
+      &:hover {
+        cursor: pointer;
+        color: $site-black;
         transition: 0.2s ease-in, 0.2s ease-out;
-
-        &:hover {
-          cursor: pointer;
-          color: $site-black;
-          transition: 0.2s ease-in, 0.2s ease-out;
-          // text-decoration: underline;
-          // text-underline-offset: 6px;
-        }
+        // text-decoration: underline;
+        // text-underline-offset: 6px;
       }
+    }
 
-      span {
-        color: $site-pink;
+    span {
+      color: $site-pink;
+    }
+  }
+  .icons {
+    margin-right: 10px;
+
+    i {
+      color: $site-black;
+       padding: 5px;
+       transition: 0.2s ease-in, 0.2s ease-out;
+
+       &:hover {
+        cursor: pointer;
+        @include rainbow-animation(300s);
+            transform: scale(1.2);
+            background-size: 100%;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+        transition: 0.2s ease-in, 0.2s ease-out;
+      
       }
     }
   }
@@ -70,52 +86,66 @@ nav {
 }
 
 @media screen and (max-width: 670px) {
-  .home {
-    nav {
-      height: 50px;
+  nav {
+    height: 50px;
 
-      label {
-        display: block;
-        cursor: pointer;
-        color: $site-black;
-        font-size: 25px;
-        top: 0;
+    label {
+      display: block;
+      cursor: pointer;
+    }
 
-      }
+    #toggle:checked + label {
+      color: $site-white;
+    }
 
-      #toggle:checked + .links {
-        display: block;
+    #toggle:checked + .links {
+      display: block;
+    }
 
-      }
- 
-      
+    .links {
+      margin-top: 552px;
+      margin-right: 0px;
+      text-align: center;
+      display: none;
+      width: 97%;
+      height: 500px;
+      margin: 460px auto 0px auto;
+      background: $site-red;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      overflow: hidden;
 
-      .links {
-        margin-top: 380px;
-        margin-right: 0px;
+      a {
+        vertical-align: middle;
         text-align: center;
-        display: none;
+        font-family: FiraSansLight;
+        display: block;
+        border-bottom: 0.5px solid $transparent-white;
+        line-height: 73px;
+        color: $transparent-white;
         width: 100%;
-        height: 450px;
-        background: $site-red;
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-          rgba(17, 17, 26, 0.05) 0px 8px 32px;
 
-        a {
-          vertical-align: middle;
-          text-align: center;
-          font-family: FiraSansLight;
-          display: block;
-          border-bottom: 0.5px solid $transparent-white;
-          line-height: 63px;
-          color: $transparent-white;
-          width: 100%;
-        }
-
-        span {
-          display: none;
+        &:hover {
+          color: $site-white;
+          transition: 0.2s ease-in, 0.2s ease-out;
+          // text-decoration: underline;
+          // text-underline-offset: 6px;
         }
       }
+
+      span {
+        display: none;
+      }
+    }
+
+    .icons {
+      left: 15px;
+      position: absolute;
+
+      i {
+        padding: 2px;
+        font-size: 15px;
+      }
+      
     }
   }
 }

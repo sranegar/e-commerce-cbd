@@ -77,10 +77,9 @@
 
       h2 {
         font-family: SmithenScript;
-        font-size: 62px;
+        font-size: 52px;
         color: white;
-        margin-top: 10px;
-        margin-left: 6px;
+        margin: 20px 6px;
         white-space: nowrap;
         font-weight: bolder;
 
@@ -160,7 +159,7 @@
   .footer {
     .footer-wrapper {
       flex-direction: column-reverse;
-      padding: 20px 8px;
+      padding: 20px 20px;
 
       .links-wrapper {
         text-align: center;
@@ -194,9 +193,9 @@
       .contact-wrapper {
         margin: 0 auto;
 
-        h3 {
-          width: 250px;
-          margin: 15px auto 15px 8px;
+        h2 {
+          width: 240px;
+          margin: 20px auto;
           text-align: center;
         }
 

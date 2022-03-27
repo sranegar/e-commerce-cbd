@@ -78,53 +78,82 @@ p {
 }
 nav {
   border-bottom: 1px solid #121111;
-  width: 100%;
   background-color: #fff;
-}
-nav .nav-wrapper {
+  z-index: 99;
+  position: relative;
   max-width: 980px;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-  z-index: 99;
   margin: 0 auto;
 }
-nav .nav-wrapper .logo {
-  width: 60px;
-  height: 55px;
-}
-nav .nav-wrapper label {
+nav label {
   display: none;
   position: absolute;
   right: 20px;
   font-size: 35px;
   line-height: 50px;
+  color: #121111;
+  font-size: 25px;
+  top: 0;
 }
-nav .nav-wrapper #toggle {
+nav #toggle {
   display: none;
   position: absolute;
   right: 0;
 }
-nav .nav-wrapper .links a {
+nav .links a {
   width: 100px;
   text-decoration: none;
   text-transform: lowercase;
   font-family: FiraSansLight;
   font-size: 14px;
   color: #0000009a;
-  position: relative;
   padding: 5px 15px;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
-nav .nav-wrapper .links a:hover {
+nav .links a:hover {
   cursor: pointer;
   color: #121111;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
-nav .nav-wrapper .links span {
+nav .links span {
   color: #e20f71;
+}
+nav .icons {
+  margin-right: 10px;
+}
+nav .icons i {
+  color: #121111;
+  padding: 5px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+}
+nav .icons i:hover {
+  cursor: pointer;
+  background-image: linear-gradient(-90deg, #e20f71, #fff453, #45dbd6, #6e57f3, #e20f71);
+  animation: slidebg 300s linear infinite alternate;
+  transform: scale(1.2);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  transition: 0.2s ease-in, 0.2s ease-out;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+nav .icons i:hover .follow {
+  margin-top: 40px;
+}
+nav .icons i:hover .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 990px) {
@@ -133,41 +162,55 @@ nav .nav-wrapper .links span {
   }
 }
 @media screen and (max-width: 670px) {
-  .home nav {
+  nav {
     height: 50px;
   }
-  .home nav label {
+  nav label {
     display: block;
     cursor: pointer;
-    color: #121111;
-    font-size: 25px;
-    top: 0;
   }
-  .home nav #toggle:checked + .links {
+  nav #toggle:checked + label {
+    color: #fff;
+  }
+  nav #toggle:checked + .links {
     display: block;
   }
-  .home nav .links {
-    margin-top: 380px;
+  nav .links {
+    margin-top: 552px;
     margin-right: 0px;
     text-align: center;
     display: none;
-    width: 100%;
-    height: 450px;
+    width: 97%;
+    height: 500px;
+    margin: 460px auto 0px auto;
     background: #ce0828;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    overflow: hidden;
   }
-  .home nav .links a {
+  nav .links a {
     vertical-align: middle;
     text-align: center;
     font-family: FiraSansLight;
     display: block;
     border-bottom: 0.5px solid #ffffffb9;
-    line-height: 63px;
+    line-height: 73px;
     color: #ffffffb9;
     width: 100%;
   }
-  .home nav .links span {
+  nav .links a:hover {
+    color: #fff;
+    transition: 0.2s ease-in, 0.2s ease-out;
+  }
+  nav .links span {
     display: none;
+  }
+  nav .icons {
+    left: 15px;
+    position: absolute;
+  }
+  nav .icons i {
+    padding: 2px;
+    font-size: 15px;
   }
 }
 .shipping-offer {
@@ -199,7 +242,7 @@ nav .nav-wrapper .links span {
 
 .home {
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: #fff;
 }
 .home .home-wrapper .square {
   padding: 110px 0px;
@@ -735,7 +778,7 @@ nav .nav-wrapper .links span {
     background-image: none;
     background: linear-gradient(360deg, #131212, #242323);
     clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%);
-    margin-bottom: 85px;
+    margin-bottom: 20px;
     padding-bottom: 80px;
   }
   .weekly-deals .weekly-deals-wrapper {
@@ -872,7 +915,11 @@ nav .nav-wrapper .links span {
 }
 .featured {
   min-height: 100%;
-  padding: 60px 0 230px 0;
+  padding: 30px 0 200px 0;
+  background-image: url(../images/featured-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .featured .featured-container {
   width: 100%;
@@ -964,7 +1011,12 @@ nav .nav-wrapper .links span {
 
 @media screen and (max-width: 800px) {
   .featured {
-    padding: 20px 0 120px 0;
+    background-image: url(../images/featured-bg.jpg);
+    background-size: 100% 50%;
+    background-position: center top;
+    background-repeat: repeat-y;
+    padding: 20px 0;
+    margin-bottom: 60px;
   }
   .featured .featured-container {
     max-height: 1400px;
@@ -977,13 +1029,20 @@ nav .nav-wrapper .links span {
     width: 100%;
     padding: 10px 5px 30px 5px;
   }
+  .featured .featured-container .content-container .content-wrapper .featured-photo {
+    border-radius: 70% 55% 70% 55%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .featured .featured-container .content-container .content-wrapper .featured-photo img {
+    border-radius: 70% 55% 70% 55%;
+  }
   .featured .featured-container .content-container .content-wrapper h2 {
     font-size: 66px;
     padding: 35px 0;
   }
   .featured .featured-container .content-container .content-wrapper .featured-description h4 {
     white-space: normal;
-    padding-top: 12px;
+    padding-top: 14px;
     font-size: 26px;
   }
   .featured .featured-container .content-container .content-wrapper .featured-description p {
@@ -1075,10 +1134,9 @@ nav .nav-wrapper .links span {
 }
 .footer .footer-wrapper .contact-wrapper h2 {
   font-family: SmithenScript;
-  font-size: 62px;
+  font-size: 52px;
   color: white;
-  margin-top: 10px;
-  margin-left: 6px;
+  margin: 20px 6px;
   white-space: nowrap;
   font-weight: bolder;
   background-image: linear-gradient(-90deg, #e20f71, #fff453, #45dbd6, #6e57f3, #e20f71);
@@ -1195,7 +1253,7 @@ nav .nav-wrapper .links span {
 @media screen and (max-width: 800px) {
   .footer .footer-wrapper {
     flex-direction: column-reverse;
-    padding: 20px 8px;
+    padding: 20px 20px;
   }
   .footer .footer-wrapper .links-wrapper {
     text-align: center;
@@ -1223,9 +1281,9 @@ nav .nav-wrapper .links span {
   .footer .footer-wrapper .contact-wrapper {
     margin: 0 auto;
   }
-  .footer .footer-wrapper .contact-wrapper h3 {
-    width: 250px;
-    margin: 15px auto 15px 8px;
+  .footer .footer-wrapper .contact-wrapper h2 {
+    width: 240px;
+    margin: 20px auto;
     text-align: center;
   }
   .footer .footer-wrapper .contact-wrapper input {
@@ -1252,7 +1310,7 @@ nav .nav-wrapper .links span {
 .pets {
   min-height: 100%;
   padding: 10px 0 100px 0;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .pets .pet-products-container {
   max-width: 1240px;
@@ -1336,7 +1394,7 @@ nav .nav-wrapper .links span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container {
   width: 360px;
@@ -1405,7 +1463,7 @@ nav .nav-wrapper .links span {
   text-align: center;
   width: 96%;
   height: 60px;
-  margin-top: 2px;
+  margin-top: 5px;
 }
 .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container .pet-description-content h5 {
   font-family: FiraSansRegular;
@@ -1481,7 +1539,7 @@ nav .nav-wrapper .links span {
   .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container .pet-description-content {
     position: relative;
     width: auto;
-    bottom: -7px;
+    margin-top: 6px;
   }
   .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container .pet-description-content h5 {
     font-size: 26px;
@@ -1663,7 +1721,7 @@ nav .nav-wrapper .links span {
   }
   .subscriptions .tiers-wrapper .tier-box {
     margin: 40px;
-    height: 435px;
+    height: 440px;
   }
   .subscriptions .tiers-wrapper .tier-box .card {
     width: 100%;
