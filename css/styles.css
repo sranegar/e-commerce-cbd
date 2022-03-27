@@ -1405,7 +1405,7 @@ nav .nav-wrapper .links span {
   text-align: center;
   width: 96%;
   height: 60px;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 .pets .pet-products-container .content-container .pet-product-images-wrapper .pet-product-container .pet-description-content h5 {
   font-family: FiraSansRegular;
@@ -1507,7 +1507,7 @@ nav .nav-wrapper .links span {
   padding: 0 0 25px 0;
 }
 .subscriptions .cta-wrapper p {
-  padding: 5px 0;
+  padding: 5px 0 10px 0;
   font-family: FiraSansLight;
   max-width: 600px;
   margin: 0 auto;
@@ -1659,7 +1659,7 @@ nav .nav-wrapper .links span {
     flex-direction: column;
     margin: 0 auto;
     height: auto;
-    margin-top: -20px;
+    margin-top: -10px;
   }
   .subscriptions .tiers-wrapper .tier-box {
     margin: 40px;
