@@ -697,7 +697,7 @@ nav .icons i:hover .follow a {
   font-family: FiraSansExtraCondensed;
   font-size: 22px;
   text-transform: uppercase;
-  background: radial-gradient(rgba(18, 17, 17, 0.97) 0%, rgba(18, 17, 17, 0.88) 80%, rgba(18, 17, 17, 0.65) 100%);
+  background: radial-gradient(#121111f7 0%, #121111e0 80%, #121111a6 100%);
   -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
   -webkit-mask-size: 3000% 100%;
@@ -1074,7 +1074,7 @@ nav .icons i:hover .follow a {
   }
 }
 .footer {
-  min-height: 50%;
+  max-height: 50%;
   background: linear-gradient(360deg, #131212, #242323);
 }
 .footer .footer-wrapper {
@@ -1082,19 +1082,20 @@ nav .icons i:hover .follow a {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 0 50px;
 }
 .footer .footer-wrapper .links-wrapper {
-  width: 450px;
+  width: 400px;
   height: 100%;
-  padding-top: 103px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 .footer .footer-wrapper .links-wrapper .list {
-  min-height: 140px;
+  height: 200px;
   max-width: 200px;
   text-align: center;
+  line-height: 12px;
 }
 .footer .footer-wrapper .links-wrapper .list h5 {
   font-family: FiraSansRegular;
@@ -1121,8 +1122,7 @@ nav .icons i:hover .follow a {
 }
 .footer .footer-wrapper .links-wrapper .list i {
   color: #ffffffb9;
-  font-size: 20px;
-  margin-top: 6px;
+  font-size: 18px;
   transition: 0.2s ease-in, 0.2s ease-out;
 }
 .footer .footer-wrapper .links-wrapper .list i:hover {
@@ -1151,13 +1151,13 @@ nav .icons i:hover .follow a {
   text-decoration: none;
 }
 .footer .footer-wrapper .contact-wrapper {
-  max-width: 480px;
+  padding-left: 20px;
 }
 .footer .footer-wrapper .contact-wrapper h2 {
   font-family: SmithenScript;
-  font-size: 52px;
+  font-size: 46px;
   color: white;
-  margin: 20px 6px;
+  margin: 10px 6px;
   white-space: nowrap;
   font-weight: bolder;
   background-image: linear-gradient(-90deg, #e20f71, #fff453, #45dbd6, #6e57f3, #e20f71);
@@ -1189,8 +1189,8 @@ nav .icons i:hover .follow a {
   background-color: #2c2c2c;
   width: 100%;
   margin-top: -5px;
-  margin-bottom: 20px;
-  height: 40px;
+  margin-bottom: 12px;
+  height: 35px;
   padding: 10px;
   border: none;
   border-radius: 0%;
@@ -1202,7 +1202,7 @@ nav .icons i:hover .follow a {
   background-color: #2c2c2c;
   font-size: 12px;
   padding: 10px;
-  height: 80px;
+  height: 83px;
   width: 100%;
   margin-top: -5px;
   animation-name: selectedAnim;
@@ -1218,8 +1218,7 @@ nav .icons i:hover .follow a {
   text-transform: lowercase;
   font-size: 12px;
   color: #fff;
-  margin-top: 8px;
-  margin-bottom: 10px;
+  margin-top: 0px;
   float: right;
   border-radius: 0%;
   transition: all 0.3s;
@@ -1268,18 +1267,21 @@ nav .icons i:hover .follow a {
   letter-spacing: 0.3px;
   font-size: 10px;
   margin-bottom: 0;
-  padding-bottom: 15px;
+  padding-bottom: 3px;
 }
 
 @media screen and (max-width: 800px) {
+  .footer {
+    max-height: 100%;
+  }
   .footer .footer-wrapper {
     flex-direction: column-reverse;
-    padding: 20px 20px;
+    padding: 0px 15px;
   }
   .footer .footer-wrapper .links-wrapper {
     text-align: center;
     height: auto;
-    padding: 20px 0px;
+    padding: 0px 0px 15px 0px;
     width: 100%;
     justify-content: space-between;
     margin: 0 auto;
@@ -1296,36 +1298,37 @@ nav .icons i:hover .follow a {
   .footer .footer-wrapper .links-wrapper .list a p {
     text-align: center;
   }
-  .footer .footer-wrapper .links-wrapper .list i {
-    font-size: 18px;
-  }
   .footer .footer-wrapper .contact-wrapper {
     margin: 0 auto;
+    padding-left: 0px;
   }
   .footer .footer-wrapper .contact-wrapper h2 {
+    font-size: 54px;
     width: 240px;
     margin: 20px auto;
     text-align: center;
   }
   .footer .footer-wrapper .contact-wrapper input {
     width: 100%;
-    margin-top: -5px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     height: 40px;
     padding: 10px;
   }
   .footer .footer-wrapper .contact-wrapper textarea {
     padding: 10px;
-    height: 80px;
+    height: 100px;
     width: 100%;
-    margin-top: -5px;
+    margin-bottom: 5px;
     animation-name: selectedAnim;
     animation-duration: 0.7s;
   }
   .footer .footer-wrapper .contact-wrapper button {
     margin-bottom: 30px;
     width: 100%;
-    margin-top: 10px;
+    height: 40px;
+  }
+  .footer .copyright-wrapper p {
+    padding-bottom: 6px;
   }
 }
 .pets {

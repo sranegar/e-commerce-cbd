@@ -1,14 +1,5 @@
 .weekly-deals {
   min-height: 50%;
-  // background-image: linear-gradient(
-  //     rgba(255, 255, 255, 0.66),
-  //     rgba(255, 255, 255, 0.78)
-  //   ),
-  //   url(../images/lemons-img.jpeg);
-  // background-size: cover;
-  // background-position: top;
-  // background-repeat: no-repeat;
-  // position: relative;
   clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
   background: $weekly-deals-bg;
 
