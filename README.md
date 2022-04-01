@@ -1,7 +1,3 @@
-<!-- SVG Header -->
-<img src="svg/readme-img.svg">
-
-
 ## <span style="color: #fff">Front End ☀️ E-Commerce Website</span>
 
 <br>
@@ -15,24 +11,9 @@
 ### <span style="color: #55B8BD">Responsive</span>
 📱 - I used media queries and percentages to make my page responsive and adaptable for all devices. 
 
-<br>
-<br>
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550" height="3" viewBox="0 0 1115 3">
-  <defs>
-    <linearGradient id="linear-gradient" x1="-0.014" y1="0.5" x2="1.385" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e20f71"/>
-      <stop offset="0.213" stop-color="#fff453"/>
-      <stop offset="0.489" stop-color="#45dbd6"/>
-      <stop offset="0.791" stop-color="#6e57f3"/>
-      <stop offset="1" stop-color="#e20f71"/>
-    </linearGradient>
-  </defs>
-  <rect id="Rectangle_3657" data-name="Rectangle 3657" width="1115" height="3" fill="url(#linear-gradient)"/>
-</svg>
+<img src="svg/rainbow-line-break.svg">
 
-
-<br>
 <br>
 
 
@@ -59,17 +40,7 @@ https://in-info-web4.informatics.iupui.edu/~sranegar/e-commerce-cbd/index.html
 
 <br>
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550" height="3" viewBox="0 0 1115 3">
-  <defs>
-    <linearGradient id="linear-gradient" x1="-0.014" y1="0.5" x2="1.385" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e20f71"/>
-      <stop offset="0.213" stop-color="#fff453"/>
-      <stop offset="0.489" stop-color="#45dbd6"/>
-      <stop offset="0.791" stop-color="#6e57f3"/>
-      <stop offset="1" stop-color="#e20f71"/>
-    </linearGradient>
-  </defs>
-  <rect id="Rectangle_3657" data-name="Rectangle 3657" width="1115" height="3" fill="url(#linear-gradient)"/>
-</svg>
+<img src="svg/rainbow-line-break.svg">
+
 
 
