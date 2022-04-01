@@ -35,7 +35,7 @@ I created the design prototype in Adobe XD with several laws of UX in mind for a
 
 <br>
 
-https://in-info-web4.informatics.iupui.edu/~sranegar/e-commerce-cbd/index.html
+⇨ https://in-info-web4.informatics.iupui.edu/~sranegar/e-commerce-cbd/index.html
 
 
 
