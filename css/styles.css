@@ -1091,6 +1091,9 @@ nav .icons i:hover .follow a {
   justify-content: space-between;
   margin-top: 70px;
 }
+.footer .footer-wrapper .links-wrapper .social-list {
+  padding-right: 25px;
+}
 .footer .footer-wrapper .links-wrapper .list {
   height: 200px;
   max-width: 200px;
@@ -1150,9 +1153,6 @@ nav .icons i:hover .follow a {
   padding: 8px 16px;
   text-decoration: none;
 }
-.footer .footer-wrapper .contact-wrapper {
-  padding-left: 20px;
-}
 .footer .footer-wrapper .contact-wrapper h2 {
   font-family: SmithenScript;
   font-size: 46px;
@@ -1194,6 +1194,10 @@ nav .icons i:hover .follow a {
   padding: 10px;
   border: none;
   border-radius: 0%;
+}
+.footer .footer-wrapper .contact-wrapper input:-webkit-autofill, .footer .footer-wrapper .contact-wrapper input:-webkit-autofill:hover, .footer .footer-wrapper .contact-wrapper input:-webkit-autofill:focus, .footer .footer-wrapper .contact-wrapper input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #fff !important;
 }
 .footer .footer-wrapper .contact-wrapper textarea {
   border: none;
@@ -1289,7 +1293,7 @@ nav .icons i:hover .follow a {
   }
   .footer .footer-wrapper .links-wrapper .list {
     width: 110px;
-    padding: 0 15px;
+    padding: 0px;
   }
   .footer .footer-wrapper .links-wrapper .list h5 {
     font-size: 14px;
@@ -1297,6 +1301,9 @@ nav .icons i:hover .follow a {
   }
   .footer .footer-wrapper .links-wrapper .list a p {
     text-align: center;
+  }
+  .footer .footer-wrapper .links-wrapper .social-list {
+    padding-right: 0px;
   }
   .footer .footer-wrapper .contact-wrapper {
     margin: 0 auto;
@@ -1323,12 +1330,12 @@ nav .icons i:hover .follow a {
     animation-duration: 0.7s;
   }
   .footer .footer-wrapper .contact-wrapper button {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     width: 100%;
     height: 40px;
   }
   .footer .copyright-wrapper p {
-    padding-bottom: 6px;
+    padding-bottom: 8px;
   }
 }
 .pets {
