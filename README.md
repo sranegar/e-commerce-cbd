@@ -1,13 +1,13 @@
 # <span style="color: #fff">Front End ☀️ E-Commerce Website</span>
 
-### <span style="color:  #55B8BD">Fast</span>
-⏱ - I've achieved fast loading times by resizing all photos in Adobe Photoshop. 
+### <span style="color:  #55B8BD">Fast ⏱</span>
+I've achieved fast loading times by resizing all photos in Adobe Photoshop. 
 
-### <span style="color:  #55B8BD">Dynamic</span>
-🚀 - I implemented JQuery for the reviews section to make the page more dynamic. I also used CSS animations throughout to make the page come alive upon user interaction. 
+### <span style="color:  #55B8BD">Dynamic 🚀</span>
+I implemented JQuery for the reviews section to make the page more dynamic. I also used CSS animations throughout to make the page come alive upon user interaction. 
 
-### <span style="color: #55B8BD">Responsive</span>
-📱 - I used media queries and percentages to make my page responsive and adaptable for all devices. 
+### <span style="color: #55B8BD">Responsive 📱</span>
+I used media queries and percentages to make my page responsive and adaptable for all devices. 
 
 <br>
 
