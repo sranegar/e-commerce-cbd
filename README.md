@@ -1,6 +1,4 @@
-## <span style="color: #fff">Front End ☀️ E-Commerce Website</span>
-
-<br>
+# <span style="color: #fff">Front End ☀️ E-Commerce Website</span>
 
 ### <span style="color:  #55B8BD">Fast</span>
 ⏱ - I've achieved fast loading times by resizing all photos in Adobe Photoshop. 
