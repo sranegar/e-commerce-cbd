@@ -9,6 +9,7 @@
 ### <span style="color: #55B8BD">Responsive</span>
 📱 - I used media queries and percentages to make my page responsive and adaptable for all devices. 
 
+<br>
 
 <img src="svg/rainbow-line-break.svg">
 
