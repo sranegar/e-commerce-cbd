@@ -190,9 +190,9 @@ nav .icons i:hover .follow a {
   }
   nav #toggle:checked ~ .links a {
     border: 1px solid #333;
-    height: 5.5em;
-    padding: 1.8em;
-    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    height: 6.7em;
+    padding: 2.2em;
+    transition: height 400ms cubic-bezier(0.03, 1, 0.32, 1);
   }
   nav .links {
     position: absolute;
